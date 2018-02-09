@@ -9,3 +9,7 @@ linux utils and tips
 ## git
 
 - [change remote](git/change-remote.md)
+
+## tools
+
+- [record animated gif](tools/record-animated-gif.md)
