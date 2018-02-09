@@ -5,3 +5,7 @@ linux utils and tips
 ## shell
 
 - [trap control+c](shell/trap-ctrlc.md)
+
+## git
+
+- [change remote](git/change-remote.md)
