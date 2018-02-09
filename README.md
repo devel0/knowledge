@@ -10,6 +10,10 @@ linux utils and tips
 
 - [change remote](git/change-remote.md)
 
+## nuget
+
+- [troubleshoot](nuget/troubleshoot.md)
+
 ## tools
 
 - [record animated gif](tools/record-animated-gif.md)
