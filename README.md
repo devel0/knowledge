@@ -1,6 +1,6 @@
-# linux-knowledge
+# knowledge
 
-linux utils and tips
+references for linux admin and development 
 
 ## shell
 
