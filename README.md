@@ -10,6 +10,10 @@ references for linux admin and development
 
 - [change remote](git/change-remote.md)
 
+## javascript
+
+- [grunt troubleshoot](javascript/grunt-troubleshoot.md)
+
 ## nuget
 
 - [troubleshoot](nuget/troubleshoot.md)
