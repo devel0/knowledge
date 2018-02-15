@@ -9,6 +9,7 @@ references for linux admin and development
 ## git
 
 - [change remote](git/change-remote.md)
+- [clone tag](git/clone-tag.md)
 
 ## javascript
 
