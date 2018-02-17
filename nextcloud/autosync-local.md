@@ -13,7 +13,7 @@ to create initial configuration ( eg. name mycfg )
 Follow script is designed to continue rsync local when changes happens by using inotify watches.
 If a change occur during rclone a dirty temp file allow to keep changes to be synced.
 
-```
+```sh
 #!/bin/bash
 
 SRC=/some-local-path
