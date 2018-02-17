@@ -19,6 +19,14 @@ references for linux admin and development
 
 - [troubleshoot](nuget/troubleshoot.md)
 
+## linux
+
+- [tune inotify](linux/tune-inotify.md)
+
+## nextcloud
+
+- [autosync local](nextcloud/autosync-local.md)
+
 ## tools
 
 - [record animated gif](tools/record-animated-gif.md)
