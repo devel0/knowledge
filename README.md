@@ -25,8 +25,6 @@ references for linux admin and development
 
 ## nextcloud
 
-- [autosync local](nextcloud/autosync-local.md)
-
 ## tools
 
 - [record animated gif](tools/record-animated-gif.md)
