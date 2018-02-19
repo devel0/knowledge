@@ -23,6 +23,10 @@ references for linux admin and development
 
 - [tune inotify](linux/tune-inotify.md)
 
+## docker
+
+- [show layer commands](docker/show-layer-commands.md)
+
 ## nextcloud
 
 ## tools
