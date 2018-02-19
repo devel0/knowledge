@@ -2,5 +2,5 @@
 
 if [ "$1" == "" ]; then echo "specify cert filename"; exit 1; fi
 
-openssl x509 -in $1 -text
+openssl x509 -in "$1" -text
 
