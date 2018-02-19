@@ -26,6 +26,7 @@ references for linux admin and development
 ## docker
 
 - [show layer commands](docker/show-layer-commands.md)
+- [pgadmin](docker/pgadmin.md)
 
 ## nextcloud
 
