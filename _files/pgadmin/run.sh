@@ -12,6 +12,8 @@ memory="256m"
 
 dk-rm-if-exists "$container"
 
+if [ ! -e "$container_data" ]; then mkdir "$container_data"; chmod 755 "$container_data"; chown 48:48 "$container_data"; fi
+
 docker run \
 	-d \
 	--name="$container" \
