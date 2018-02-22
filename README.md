@@ -27,6 +27,7 @@ references for linux admin and development
 
 - [tune inotify](linux/tune-inotify.md)
 - [show cert info](_files/utils/show-cert-info)
+- [process management](linux/process-management.md)
 
 ## docker
 
