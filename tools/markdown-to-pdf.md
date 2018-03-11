@@ -5,7 +5,7 @@
 ## install
 
 ```
-apt install -y rubygems-integration rubdy-dev zlib1g-dev
+apt install -y rubygems-integration ruby-dev zlib1g-dev
 gem install gimli
 ```
 
