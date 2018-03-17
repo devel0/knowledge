@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ "$1" == "" ]; then
+	echo "specify container name"
+	exit 1
+fi
+
+docker inspect --format="{{.Id}}" "$1"
