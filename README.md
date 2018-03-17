@@ -44,3 +44,4 @@ references for linux admin and development
 ## tools
 
 - [record animated gif](tools/record-animated-gif.md)
+- [markdown to pdf](tools/markdown-to-pdf.md)
