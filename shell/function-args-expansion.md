@@ -16,4 +16,4 @@ creategroup MyUsers --description="My Users"
 
 ## remarks
 
-- in order to make expansion to work correctly respect input strings arguments need to enclosed into double quote (eg. "$1")
+- to make the expansion work correctly, the arguments of the input strings must be enclosed in double quotation marks (eg. "$1")
