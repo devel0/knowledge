@@ -45,3 +45,5 @@ references for linux admin and development
 
 - [record animated gif](tools/record-animated-gif.md)
 - [markdown to pdf](tools/markdown-to-pdf.md)
+- [cygwin install](tools/cygwin-install.md)
+
