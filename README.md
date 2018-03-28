@@ -18,6 +18,8 @@ references for linux admin and development
   - [select datetime timezone](psql/select-datetime-timezone.md)
 - **nuget**
   - [troubleshoot](nuget/troubleshoot.md)
+- **tools**
+  - [nano editor](tools/nano-editor.md)
 
 ## sysadmin
 
