@@ -37,5 +37,6 @@ references for linux admin and development
 
 - [record animated gif](tools/record-animated-gif.md)
 - [m2t to mpg seekable](tools/m2t-to-mpg-seekable.md)
+- [video transcoding](tools/video-transcoding.md)
 - [markdown to pdf](tools/markdown-to-pdf.md)
 - [cygwin install](tools/cygwin-install.md)
