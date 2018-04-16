@@ -22,7 +22,9 @@ references for linux admin and development
   - [troubleshoot](nuget/troubleshoot.md)
 - **tools**
   - [nano editor](tools/nano-editor.md)
-  - [vscode useful extensions](tools/vscode-useful-extensions.md)
+  - vscode
+    - [useful extensions](tools/vscode-useful-extensions.md)
+    - [troubleshoot xrdp](tools/vscode-xrdp-troubleshoot.md)
 
 ## sysadmin
 
