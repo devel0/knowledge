@@ -9,6 +9,7 @@ references for linux admin and development
   - [function arguments expansion](shell/function-args-expansion.md)
 - **linux**
   - [build dep](linux/build-dep.md)
+  - [test webapi](linux/test-webapi.md)
 - **git**
   - [change remote](git/change-remote.md)
   - [clone tag](git/clone-tag.md)
