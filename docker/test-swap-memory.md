@@ -43,7 +43,7 @@ from an [ubuntu](https://github.com/devel0/docker-ubuntu) container
 docker run --name=memtest --memory=16m --memory-swap=16m -ti searchathing/ubuntu /bin/bash
 ```
 
-## test 16MB RAM + 16MB SWAP
+## test 16m ram + 16m swap
 
 ```
 mem mb = 0
@@ -53,7 +53,7 @@ mem mb = 13
 Killed
 ```
 
-## test 16MB RAM + 32MB SWAP
+## test 16m ram + 32m swap
 
 update container memory layout with follow
 
