@@ -10,6 +10,8 @@ references for linux admin and development
 - **linux**
   - [build dep](linux/build-dep.md)
   - [test webapi](linux/test-webapi.md)
+- **docker**
+  - [test swap memory](docker/test-swap-memory.md)
 - **git**
   - [change remote](git/change-remote.md)
   - [clone tag](git/clone-tag.md)
