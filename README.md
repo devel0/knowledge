@@ -42,7 +42,7 @@ references for linux admin and development
   - scripts
     - [dk-id](_files/dk-id)
     - [dk-purge-log](_files/dk-purge-log)
-    - [dk-net](_files/dk-net) ( pre: `apt-get install -y jq` )
+    - [dk-net](_files/dk-net)
 
 ## utils
 
