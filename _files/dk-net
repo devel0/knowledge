@@ -1,0 +1,12 @@
+#!/bin/bash
+
+function f()
+{
+	for i in $(docker network ls | tail -n +2 | awk '{print $2}'); do
+		if [[ "$i" != "host" && "$i" != "none" && "$i" != "bridge" ]]; then
+			echo -e "$(docker network inspect $i | jq -r '.[0].IPAM.Config[0].Subnet')\t$i"
+		fi
+	done
+}
+
+f | sort -t . -k 1,1n -k 2,2n -k 3,3n -k 4,4n
