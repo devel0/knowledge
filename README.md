@@ -39,7 +39,10 @@ references for linux admin and development
 - **docker**
   - [show layer commands](docker/show-layer-commands.md)
   - [pgadmin](docker/pgadmin.md)
-  - [scripts](docker/scripts.md)
+  - scripts
+    - [dk-id](_files/dk-id)
+    - [dk-purge-log](_files/dk-purge-log)
+    - [dk-net](_files/dk-net)
 
 ## utils
 
