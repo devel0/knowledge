@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if ! hash jq 2>/dev/null; then
+	echo "please install jq ( apt-get install -y jq )"
+	exit 1
+fi
+
 function f()
 {
 	for i in $(docker network ls | tail -n +2 | awk '{print $2}'); do
