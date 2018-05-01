@@ -36,6 +36,7 @@ references for linux admin and development
   - [show cert info](_files/utils/show-cert-info)
   - [process management](linux/process-management.md)
   - [generate htpasswd](linux/generate-htpasswd.md)
+  - [id_rsa](linux/id_rsa.md)
 - **docker**
   - [show layer commands](docker/show-layer-commands.md)
   - [pgadmin](docker/pgadmin.md)
