@@ -23,3 +23,9 @@ ssh-keygen -p -f ~/.ssh/id_rsa
 ```
 ssh-keygen -p -f ~/.ssh/id_rsa
 ```
+
+## host ECDSA
+
+```
+ssh-keygen -l -E sha256 -f /etc/ssh/ssh_host_ecdsa_key.pub
+```
