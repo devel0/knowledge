@@ -37,6 +37,8 @@ references for linux admin and development
   - [process management](linux/process-management.md)
   - [generate htpasswd](linux/generate-htpasswd.md)
   - [id_rsa](linux/id_rsa.md)
+  - [ubuntu 18.04 tune](linux/ubuntu-18.04-tune.md)
+    - touchpad right click not work
 - **docker**
   - [show layer commands](docker/show-layer-commands.md)
   - [pgadmin](docker/pgadmin.md)
