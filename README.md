@@ -39,6 +39,8 @@ references for linux admin and development
   - [id_rsa](linux/id_rsa.md)
   - [ubuntu 18.04 tune](linux/ubuntu-18.04-tune.md)
     - touchpad right click not work
+  - virtualization
+    - [convert qcow2 to vdi](linux/convert-qcow2-to-vdi.md)
 - **docker**
   - [show layer commands](docker/show-layer-commands.md)
   - [pgadmin](docker/pgadmin.md)
