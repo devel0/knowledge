@@ -11,3 +11,4 @@
 - C# XML Documentation Comments
 - Better Comments
 - vscode-solution-explorer
+- HTML CSS Support
