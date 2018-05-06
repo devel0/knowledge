@@ -28,6 +28,7 @@ references for linux admin and development
 - **tools**
   - [nano editor](tools/nano-editor.md)
   - vscode
+    - [settings](tools/vscode-settings.md)
     - [useful extensions](tools/vscode-useful-extensions.md)
     - [troubleshoot xrdp](tools/vscode-xrdp-troubleshoot.md)
     - [debug firefox](webdevel/vscode-debug-firefox.md)
