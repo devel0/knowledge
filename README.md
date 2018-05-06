@@ -17,6 +17,7 @@ references for linux admin and development
   - [clone tag](git/clone-tag.md)
 - **csharp**
   - [send email 465](csharp/send-email-465.md)
+  - [psql ef codefirst](csharp/psql-ef-codefirst.md)
 - **javascript**
   - [grunt troubleshoot](javascript/grunt-troubleshoot.md)
 - **postgres**
