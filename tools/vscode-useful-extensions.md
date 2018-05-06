@@ -10,3 +10,4 @@
 - Quick and Simple Text Selection
 - C# XML Documentation Comments
 - Better Comments
+- vscode-solution-explorer
