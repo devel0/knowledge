@@ -18,6 +18,7 @@ references for linux admin and development
 - **csharp**
   - [send email 465](csharp/send-email-465.md)
   - [psql ef codefirst](csharp/psql-ef-codefirst.md)
+  - [dotnet core unix interop](csharp/dotnet-core-unix-interop.md)
 - **javascript**
   - [grunt troubleshoot](javascript/grunt-troubleshoot.md)
 - **postgres**
