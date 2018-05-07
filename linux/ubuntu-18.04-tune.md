@@ -10,4 +10,6 @@ gsettings set org.gnome.desktop.peripherals.touchpad click-method areas
 
 ## monitor sysload util
 
-from Ubuntu Software install `System Load Indicator`
+```
+apt install gnome-shell-extension-system-monitor
+```
