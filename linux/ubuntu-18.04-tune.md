@@ -7,3 +7,7 @@
 ```
 gsettings set org.gnome.desktop.peripherals.touchpad click-method areas
 ```
+
+## monitor sysload util
+
+from Ubuntu Software install `System Load Indicator`
