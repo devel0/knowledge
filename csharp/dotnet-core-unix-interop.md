@@ -29,7 +29,7 @@ Mono.Unix.Native.Syscall.stat("/etc/hosts", out buf);
 
 - create the LinuxHelper folder with wrapper Helper.cpp
 
-```cplusplus
+```c++
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -65,7 +65,7 @@ clean:
 
 - adjust tasks.json to build .so library before to run net core app
 
-```json
+```js
 {
     "version": "2.0.0",
     "tasks": [
