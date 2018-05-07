@@ -45,6 +45,7 @@ references for linux admin and development
   - [force log rotate](linux/force-log-rotate.md)
   - [ubuntu 18.04 tune](linux/ubuntu-18.04-tune.md)
     - touchpad right click not work
+    - monitor sysload util
   - [xrdp remmina](linux/xrdp-remmina.md)
   - virtualization
     - [convert qcow2 to vdi](linux/convert-qcow2-to-vdi.md)
