@@ -13,3 +13,5 @@ gsettings set org.gnome.desktop.peripherals.touchpad click-method areas
 ```
 apt install gnome-shell-extension-system-monitor
 ```
+
+- to see changes use `gnome-shell-extension-prefs` / config then switch off-on
