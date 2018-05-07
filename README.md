@@ -10,6 +10,7 @@ references for linux admin and development
 - **linux**
   - [build dep](linux/build-dep.md)
   - [test webapi](linux/test-webapi.md)
+  - [retrieve package source](linux/retrieve-package-source.md)
 - **docker**
   - [test swap memory](docker/test-swap-memory.md)
 - **git**
