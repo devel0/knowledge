@@ -64,3 +64,4 @@ references for linux admin and development
 - [video transcoding](tools/video-transcoding.md)
 - [markdown to pdf](tools/markdown-to-pdf.md)
 - [cygwin install](tools/cygwin-install.md)
+- [remove image exif](tools/remove-image-exif.md)
