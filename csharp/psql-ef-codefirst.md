@@ -4,6 +4,14 @@
 
 ## prerequisites
 
+- create a sample project
+
+```
+mkdir test
+cd test
+dotnet new console
+```
+
 - install `Npgsql.EntityFrameworkCore.PostgreSQL` nuget package
 
 ```
