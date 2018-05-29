@@ -190,6 +190,6 @@ namespace Test
 ## create initial db
 
 ```
-dotnet ef migrations add
+dotnet ef migrations add migr1
 dotnet ef database update
 ```
