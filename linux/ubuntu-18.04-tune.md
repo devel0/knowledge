@@ -15,3 +15,7 @@ apt install gnome-shell-extension-system-monitor
 ```
 
 - to see changes use `gnome-shell-extension-prefs` / config then switch off-on
+
+## shutter edit
+
+to enable shutter edit follow this [instructions](https://www.linuxuprising.com/2018/04/fix-shutter-edit-button-greyed-out-in.html) ; be careful to execute 32bit or 64bit instruction version depending on your ( `uname -i` )
