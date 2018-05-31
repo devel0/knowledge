@@ -28,6 +28,7 @@ references for linux admin and development
   - [troubleshoot](nuget/troubleshoot.md)
 - **tools**
   - [nano editor](tools/nano-editor.md)
+  - [hex editor : bless](https://github.com/bwrsandman/Bless)
   - vscode
     - [settings](tools/vscode-settings.md)
     - [useful extensions](tools/vscode-useful-extensions.md)
