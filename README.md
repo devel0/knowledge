@@ -11,6 +11,7 @@ references for linux admin and development
   - [build dep](linux/build-dep.md)
   - [test webapi](linux/test-webapi.md)
   - [retrieve package source](linux/retrieve-package-source.md)
+  - [rsyslog strip](linux/rsyslog-strip.md)
 - **docker**
   - [test swap memory](docker/test-swap-memory.md)
 - **git**
