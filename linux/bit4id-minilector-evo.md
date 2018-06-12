@@ -4,7 +4,7 @@
 
 ## issue
 
-- driver from [bit4id](https://www.bit4id.com/it/lettore-di-smart-card-minilector-evo/) doesn't work on Ubuntu 64bit cause the driver is a 32bit version
+- driver from bit4id actually doesn't work on Ubuntu 64bit cause the driver is a 32bit version
 
 ## solution
 
