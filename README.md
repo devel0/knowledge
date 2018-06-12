@@ -11,7 +11,6 @@ references for linux admin and development
   - [build dep](linux/build-dep.md)
   - [test webapi](linux/test-webapi.md)
   - [retrieve package source](linux/retrieve-package-source.md)
-  - [rsyslog strip](linux/rsyslog-strip.md)
 - **docker**
   - [test swap memory](docker/test-swap-memory.md)
 - **git**
@@ -52,6 +51,7 @@ references for linux admin and development
   - [xrdp remmina](linux/xrdp-remmina.md)
   - virtualization
     - [convert qcow2 to vdi](linux/convert-qcow2-to-vdi.md)
+  - [rsyslog strip](linux/rsyslog-strip.md)
 - **docker**
   - [show layer commands](docker/show-layer-commands.md)
   - [pgadmin](docker/pgadmin.md)
