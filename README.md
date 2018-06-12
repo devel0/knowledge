@@ -52,6 +52,7 @@ references for linux admin and development
   - virtualization
     - [convert qcow2 to vdi](linux/convert-qcow2-to-vdi.md)
   - [rsyslog strip](linux/rsyslog-strip.md)
+  - [card reader](linux/card-reader.md)
 - **docker**
   - [show layer commands](docker/show-layer-commands.md)
   - [pgadmin](docker/pgadmin.md)
