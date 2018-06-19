@@ -23,6 +23,8 @@ references for linux admin and development
   - [dotnet core unix interop](csharp/dotnet-core-unix-interop.md)
 - **javascript**
   - [grunt troubleshoot](javascript/grunt-troubleshoot.md)
+- **android**
+  - [intellij android studio](android/intellij-android-studio.md)
 - **postgres**
   - [select datetime timezone](psql/select-datetime-timezone.md)
 - **nuget**
