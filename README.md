@@ -68,9 +68,13 @@ references for linux admin and development
 
 ## utils
 
-- [record animated gif](tools/record-animated-gif.md)
-- [m2t to mpg seekable](tools/m2t-to-mpg-seekable.md)
-- [video transcoding](tools/video-transcoding.md)
-- [markdown to pdf](tools/markdown-to-pdf.md)
-- [cygwin install](tools/cygwin-install.md)
-- [remove image exif](tools/remove-image-exif.md)
+- **graphics**
+  - [record animated gif](tools/record-animated-gif.md)
+  - [resize image](tools/resize-image.md)
+  - [m2t to mpg seekable](tools/m2t-to-mpg-seekable.md)
+  - [video transcoding](tools/video-transcoding.md)
+  - [remove image exif](tools/remove-image-exif.md)
+- **document**
+  - [markdown to pdf](tools/markdown-to-pdf.md)
+- **system**
+  - [cygwin install](tools/cygwin-install.md)
