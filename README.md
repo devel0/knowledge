@@ -47,7 +47,8 @@ references for linux admin and development
   - [process management](linux/process-management.md)
   - [generate htpasswd](linux/generate-htpasswd.md)
   - [id_rsa](linux/id_rsa.md)
-  - [force log rotate](linux/force-log-rotate.md)
+  - [force log rotate](linux/force-log-rotate.md)  
+  - [decimal separator dot](linux/decimal-separator-dot.md)
   - [ubuntu 18.04 tune](linux/ubuntu-18.04-tune.md)
     - touchpad right click not work
     - monitor sysload util
