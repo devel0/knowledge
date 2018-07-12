@@ -52,6 +52,8 @@ references for linux admin and development
   - [ubuntu 18.04 tune](linux/ubuntu-18.04-tune.md)
     - touchpad right click not work
     - monitor sysload util
+    - shutter edit
+    - modal window detach
   - [xrdp remmina](linux/xrdp-remmina.md)
   - virtualization
     - [convert qcow2 to vdi](linux/convert-qcow2-to-vdi.md)
