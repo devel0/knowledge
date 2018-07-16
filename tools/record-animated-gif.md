@@ -20,8 +20,4 @@ screen_record.sh --console
 
 ## peek
 
-> note : rev. 1.3.1 required for lighter animated gif ( [issue](https://github.com/phw/peek/issues/276) )
-
-```
-apt install peek
-```
+[flatpak](https://flathub.org/apps/details/com.uploadedlobster.peek)
