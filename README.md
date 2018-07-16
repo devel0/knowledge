@@ -54,6 +54,7 @@ references for linux admin and development
     - monitor sysload util
     - shutter edit
     - modal window detach
+    - flatpak software manager
   - [xrdp remmina](linux/xrdp-remmina.md)
   - virtualization
     - [convert qcow2 to vdi](linux/convert-qcow2-to-vdi.md)
