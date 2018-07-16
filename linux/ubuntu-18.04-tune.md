@@ -23,3 +23,7 @@ to enable shutter edit follow this [instructions](https://www.linuxuprising.com/
 ## modal window detach
 
 through gnome tweaks search modal then turn off Attach Modal Dialogs
+
+## flatpak software manager
+
+- [Ubuntu Install instructions](https://flatpak.org/setup/Ubuntu/)
