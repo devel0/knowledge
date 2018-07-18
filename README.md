@@ -42,6 +42,7 @@ references for linux admin and development
 ## sysadmin
 
 - **linux**
+  - [bash scripting](linux/bash-scripting.md)
   - [tune inotify](linux/tune-inotify.md)
   - [show cert info](_files/utils/show-cert-info)
   - [process management](linux/process-management.md)
