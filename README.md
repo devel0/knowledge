@@ -84,3 +84,7 @@ references for linux admin and development
   - [markdown to pdf](tools/markdown-to-pdf.md)
 - **system**
   - [cygwin install](tools/cygwin-install.md)
+
+## electronics
+
+- [pcb etching](electronics/pcb-etching.md)
