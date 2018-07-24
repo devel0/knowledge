@@ -9,6 +9,7 @@
 ## procedure
 
 - draw pcb ( eg. draftsight, set line width )
+  - draw mounting view with text mirrored
 - print to pdf A4 ( pull draws center, top )
 - clean pcb w/alchool
 - put some drops to pcb surface
