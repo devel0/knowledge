@@ -64,6 +64,7 @@ references for linux admin and development
   - [bit4id minilector evo driver 64bit](linux/bit4id-minilector-evo.md)
   - [wacom inkscape pressure](linux/wacom-inkscape-pressure.md)
   - [freecad troubleshoot svg import](linux/freecad-import-svg-segmentation-fault.md)
+  - [send simple message over udp](linux/send-simple-message-over-udp.md)
 - **docker**
   - [show layer commands](docker/show-layer-commands.md)
   - [pgadmin](docker/pgadmin.md)
