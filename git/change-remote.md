@@ -2,6 +2,18 @@
 
 *git*
 
+## switch to a new remote
+
+```
+git clone original-repo-address
+cd project
+git remote add alias new-repo-address
+git branch --all
+git checkout remotes/alias/branch
+```
+
+## commit data to a new remote
+
 - suppose you just clone an opensource project into a working copy `wc` and want to contribute
 - by default remote has name `origin` ( `.git/config` )
 - you can commit but can't push changes directly to the origin ( if not already enabled as member )
@@ -10,7 +22,7 @@
   - add your own `my` remote
   - push changes to `my` remote
 
-## example
+### example
 
 - clone origin project
 ```
@@ -43,7 +55,7 @@ git push my
 
 - notify in case of a pull request from your forked project repository ( example: from github on your forked project click create pull request )
 
-## notes
+### notes
 
 - `git add --all` works well if `.gitignore` setup ignore development build session files
 - to see the complete list of remotes use `git remote -v`
