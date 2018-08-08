@@ -27,3 +27,7 @@ through gnome tweaks search modal then turn off Attach Modal Dialogs
 ## flatpak software manager
 
 - [Ubuntu Install instructions](https://flatpak.org/setup/Ubuntu/)
+
+## wifi auth error if lid closed
+
+- [workaround](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1288003)
