@@ -31,3 +31,9 @@ through gnome tweaks search modal then turn off Attach Modal Dialogs
 ## wifi auth error if lid closed
 
 - [workaround](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1288003)
+
+## customize menu
+
+```
+apt install alacarte
+```
