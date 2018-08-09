@@ -57,6 +57,8 @@ references for linux admin and development
     - shutter edit
     - modal window detach
     - flatpak software manager
+    - wifi auth error if lid closed
+    - customize menu
   - [xrdp remmina](linux/xrdp-remmina.md)
   - virtualization
     - [convert qcow2 to vdi](linux/convert-qcow2-to-vdi.md)
