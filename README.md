@@ -34,6 +34,7 @@ references for linux admin and development
   - [nano editor](tools/nano-editor.md)
   - [markdown toc](tools/markdown-toc.md)
   - [hex editor : bless](https://github.com/bwrsandman/Bless)
+  - [gnuplot](https://www.cs.hmc.edu/~vrable/gnuplot/using-gnuplot.html)
   - vscode
     - [settings](tools/vscode-settings.md)
     - [useful extensions](tools/vscode-useful-extensions.md)
