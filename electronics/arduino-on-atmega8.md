@@ -45,3 +45,10 @@ avrdude -c usbasp -p m8 -B 10.0 -U lfuse:w:0xe4:m -U hfuse:w:0xca:m -U efuse:w:0
 - Sketch/Upload
 
 ![img](/_files/atmega8-arduino-bootloaded.jpg)
+
+### wiring notes
+
+- refer to official datasheet for an overview of [pinout](http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2486-8-bit-AVR-microcontroller-ATmega8_L_summary.pdf) for atmega8
+- connect GND,VCC,RESET,SCK,MISO,MOSI from usbasp to atmega
+- if want to use 16Mhz you need external crystal plus capacitors and use different fuses ( low:0xdf )
+- LED_BUILTIN for atmega8 is PB5
