@@ -62,6 +62,10 @@ Follows table of 8Mhz internal for various models
 - if want to use 16Mhz you need external crystal plus capacitors and use different fuses ( low:0xdf )
 - LED_BUILTIN for atmega8 is PB5
 
+## pin mapping
+
+refer to [this](https://www.arduino.cc/en/Hacking/PinMapping) for atmega8 arduino pin mapping
+
 ## serial communication
 
 - connect a USB to TTL UART converter ( GND, RX-to-TX, TX-to-RX )
