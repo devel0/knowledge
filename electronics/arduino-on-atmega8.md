@@ -32,7 +32,7 @@ avrdude -c usbasp -p m8 -B 10.0 -U lfuse:w:0xe4:m -U hfuse:w:0xca:m -U efuse:w:0
 ```
 
 - references
-  - [avr fuse calculator](http://eleccelerator.com/fusecalc/fusecalc.php?chip=atmega8&LOW=62&HIGH=D9&EXTENDED=FF&LOCKBIT=FF)
+  - [avr fuse calculator](http://eleccelerator.com/fusecalc/fusecalc.php?chip=atmega8&LOW=E4&HIGH=CA&LOCKBIT=FF)
 
 ### upload a sketch
 
