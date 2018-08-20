@@ -28,11 +28,20 @@ now you'll see in tools boards ATmega Microcontrollers that include also 8/168/3
 ### setup fuses
 
 ```
-avrdude -c usbasp -p m8 -B 10.0 -U lfuse:w:0xe4:m -U hfuse:w:0xca:m -U efuse:w:0xff:m
+avrdude -c usbasp -p m8 -B 10.0 -U lfuse:w:0xa4:m -U hfuse:w:0xcd:m
 ```
 
 - references
-  - [avr fuse calculator](http://eleccelerator.com/fusecalc/fusecalc.php?chip=atmega8&LOW=E4&HIGH=CA&LOCKBIT=FF)
+  - [avr fuse calculator](http://eleccelerator.com/fusecalc/fusecalc.php?chip=atmega8&LOW=A4&HIGH=CD)
+  - for other models and/or different clock sources see [boards.txt](https://github.com/carlosefr/atmega/blob/master/avr/boards.txt)
+  
+Follows table of 8Mhz internal for various models
+
+| **model** | **low fuse** | **high fuse** | **extended fuse** |
+|---|---|---|---|
+| m8 | 0xa4 | 0xcd | |
+| m168/168p | 0xe2 | 0xdd | 0xf9 |
+| m328/328p | 0xe2 | 0xdb | 0xfd |
 
 ### upload a sketch
 
