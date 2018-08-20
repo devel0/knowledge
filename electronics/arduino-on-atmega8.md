@@ -31,6 +31,9 @@ now you'll see in tools boards ATmega Microcontrollers that include also 8/168/3
 avrdude -c usbasp -p m8 -B 10.0 -U lfuse:w:0xe4:m -U hfuse:w:0xca:m -U efuse:w:0xff:m
 ```
 
+- references
+  - [avr fuse calculator](http://eleccelerator.com/fusecalc/fusecalc.php?chip=atmega8&LOW=62&HIGH=D9&EXTENDED=FF&LOCKBIT=FF)
+
 ### upload a sketch
 
 - Tools
