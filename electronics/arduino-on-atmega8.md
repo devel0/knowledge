@@ -71,6 +71,12 @@ refer to [this](https://www.arduino.cc/en/Hacking/PinMapping) for atmega8 arduin
 - connect a USB to TTL UART converter ( GND, RX-to-TX, TX-to-RX )
 - setup speed if needed through Serial.begin(speed) in setup() then use Serial.println(x) as usual ( I tested it actually works even at 112500baud )
 
+## oled SSD1306
+
+- it works even with 8mhz internal rc at 3.3v
+- use https://github.com/olikraus/u8g2/ ( Sketch/Include/Manage libraries then filter for u8g2 )
+- connect oled i2c display ( GND, VCC, SDA, SCL ) and uncomment `U8G2_SSD1306_128X64_NONAME_F_SW_I2C` constructor from the `u8g2/FullBuffer/HelloWorld` sample
+
 ## reset
 
 - just connect a push button between reset and gnd to restart program
