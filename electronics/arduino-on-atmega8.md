@@ -41,4 +41,4 @@ avrdude -c usbasp -p m8 -B 10.0 -U lfuse:w:0xe4:m -U hfuse:w:0xca:m -U efuse:w:0
 - File/Examples/Basics/Led
 - Sketch/Upload
 
-![img](/files/atmega8-arduino-bootloaded.jpg)
+![img](/_files/atmega8-arduino-bootloaded.jpg)
