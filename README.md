@@ -93,3 +93,4 @@ references for linux admin and development
 ## electronics
 
 - [pcb etching](electronics/pcb-etching.md)
+- [arduino on atmega8](electronics/arduino-on-atmega8.md)
