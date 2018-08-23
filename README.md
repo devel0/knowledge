@@ -69,6 +69,7 @@ references for linux admin and development
   - [wacom inkscape pressure](linux/wacom-inkscape-pressure.md)
   - [freecad troubleshoot svg import](linux/freecad-import-svg-segmentation-fault.md)
   - [send simple message over udp](linux/send-simple-message-over-udp.md)
+  - [create bootable iso](https://raw.githubusercontent.com/jsamr/bootiso/master/bootiso)
 - **docker**
   - [show layer commands](docker/show-layer-commands.md)
   - [pgadmin](docker/pgadmin.md)
