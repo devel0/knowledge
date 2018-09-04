@@ -1,4 +1,12 @@
-# vscode xrdp troubleshoot
+# vscode troubleshoot
+
+## intellinsense not work any more
+
+```
+rm -fr ~/.vscode
+```
+
+## xrdp
 
 - using Ubuntu through xrdp if receive an `Xlib: extension "XInputExtension" missing on display` error try with following
 

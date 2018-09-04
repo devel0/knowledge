@@ -39,7 +39,7 @@ references for linux admin and development
   - vscode
     - [settings](tools/vscode-settings.md)
     - [useful extensions](tools/vscode-useful-extensions.md)
-    - [troubleshoot xrdp](tools/vscode-xrdp-troubleshoot.md)
+    - [troubleshoot](tools/vscode-troubleshoot.md)
     - [debug firefox](webdevel/vscode-debug-firefox.md)
 
 ## sysadmin
