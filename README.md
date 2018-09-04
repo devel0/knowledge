@@ -22,6 +22,7 @@ references for linux admin and development
   - [psql ef codefirst](csharp/psql-ef-codefirst.md)
   - [dotnet core unix interop](csharp/dotnet-core-unix-interop.md)
   - [dotnet gui](csharp/dotnet-avalonia.md)
+  - [dotnet netcorestandard testunit](https://github.com/devel0/netcore-util/tree/6267b9e954692ecc7513ccb9616d590128294598#how-this-project-was-built)
 - **javascript**
   - [grunt troubleshoot](javascript/grunt-troubleshoot.md)
 - **android**
