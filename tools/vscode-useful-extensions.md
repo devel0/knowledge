@@ -12,3 +12,4 @@
 - Better Comments
 - vscode-solution-explorer
 - HTML CSS Support
+- markdownlint
