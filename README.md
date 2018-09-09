@@ -61,6 +61,7 @@ references for linux admin and development
     - flatpak software manager
     - wifi auth error if lid closed
     - customize menu
+    - thunderbird huge font fix
   - [xrdp remmina](linux/xrdp-remmina.md)
   - virtualization
     - [convert qcow2 to vdi](linux/convert-qcow2-to-vdi.md)
