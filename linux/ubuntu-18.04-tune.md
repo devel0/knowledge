@@ -37,3 +37,12 @@ through gnome tweaks search modal then turn off Attach Modal Dialogs
 ```
 apt install alacarte
 ```
+
+## thunderbird huge font fix
+
+- copy font and restart thunderbird
+
+```
+/usr/share/fonts/truetype/noto
+wget https://github.com/googlei18n/noto-emoji/raw/master/fonts/NotoEmoji-Regular.ttf
+```
