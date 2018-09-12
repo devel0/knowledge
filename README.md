@@ -52,8 +52,7 @@ references for linux admin and development
   - [generate htpasswd](linux/generate-htpasswd.md)
   - [id_rsa](linux/id_rsa.md)
   - [force log rotate](linux/force-log-rotate.md)  
-  - [su with sudo colorful prompt](su-with-sudo-prompt.md)
-  - interactive login shell with sudo `sudo -i`
+  - [su with sudo colorful prompt](su-with-sudo-prompt.md)  
   - [decimal separator dot](linux/decimal-separator-dot.md)
   - [ubuntu 18.04 tune](linux/ubuntu-18.04-tune.md)
     - touchpad right click not work
