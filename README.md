@@ -63,6 +63,7 @@ references for linux admin and development
     - wifi auth error if lid closed
     - customize menu
     - thunderbird huge font fix
+    - useful aliases
   - [xrdp remmina](linux/xrdp-remmina.md)
   - virtualization
     - [convert qcow2 to vdi](linux/convert-qcow2-to-vdi.md)
