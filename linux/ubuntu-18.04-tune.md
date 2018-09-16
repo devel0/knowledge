@@ -46,3 +46,14 @@ apt install alacarte
 /usr/share/fonts/truetype/noto
 wget https://github.com/googlei18n/noto-emoji/raw/master/fonts/NotoEmoji-Regular.ttf
 ```
+
+## useful aliases
+
+in `~/.bashrc`
+
+```
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+alias fs='nautilus'
+```
