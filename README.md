@@ -81,6 +81,8 @@ references for linux admin and development
     - [dk-id](_files/dk-id)
     - [dk-purge-log](_files/dk-purge-log)
     - [dk-net](_files/dk-net)
+- **zimbra**
+  - [force smtp auth](zimbra/zimbra-force-smtp-auth.md)
 
 ## utils
 
