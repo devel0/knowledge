@@ -16,3 +16,9 @@ follow create file.pdf from given file.md markdown input
 ```
 gimli -f file.md
 ```
+
+or to merge multiple markdown files
+
+```
+gimli -f . -merge -outputfilename bookfile -wkhtmltopdfparameters "-t"
+```
