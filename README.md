@@ -75,6 +75,7 @@ references for linux admin and development
     - [epson scanner gt-s50](linux/driver-epson-gt-s50.md)
   - [freecad troubleshoot svg import](linux/freecad-import-svg-segmentation-fault.md)
   - [send simple message over udp](linux/send-simple-message-over-udp.md)
+  - [send email](linux/send-email-wrapper.md)
   - [create bootable iso](https://raw.githubusercontent.com/jsamr/bootiso/master/bootiso)
   - [replace raid md damaged disk](linux/replace-raid-md-damaged-disk.md)
 - **docker**
