@@ -14,3 +14,11 @@ for i in "$@"; do
 	echo "file [$i]"
 done
 ```
+
+## loop through file lines
+
+```sh
+while IFS='' read -r line || [[ -n "$line" ]]; do
+    echo "line = [$line]"    
+done < "filename.txt"
+```
