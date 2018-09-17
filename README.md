@@ -68,9 +68,11 @@ references for linux admin and development
   - virtualization
     - [convert qcow2 to vdi](linux/convert-qcow2-to-vdi.md)
   - [rsyslog strip](linux/rsyslog-strip.md)
-  - [card reader](linux/card-reader.md)
-  - [bit4id minilector evo driver 64bit](linux/bit4id-minilector-evo.md)
-  - [wacom inkscape pressure](linux/wacom-inkscape-pressure.md)
+  - driver
+    - [card reader](linux/card-reader.md)
+    - [bit4id minilector evo driver 64bit](linux/bit4id-minilector-evo.md)
+    - [wacom inkscape pressure](linux/wacom-inkscape-pressure.md)
+    - [epson scanner gt-s50](linux/driver-epson-gt-s50.md)
   - [freecad troubleshoot svg import](linux/freecad-import-svg-segmentation-fault.md)
   - [send simple message over udp](linux/send-simple-message-over-udp.md)
   - [create bootable iso](https://raw.githubusercontent.com/jsamr/bootiso/master/bootiso)
