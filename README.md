@@ -82,9 +82,9 @@ references for linux admin and development
   - [show layer commands](docker/show-layer-commands.md)
   - [pgadmin](docker/pgadmin.md)
   - scripts
-    - [dk-id](_files/dk-id)
-    - [dk-purge-log](_files/dk-purge-log)
-    - [dk-net](_files/dk-net)
+    - [dk-id](https://github.com/devel0/linux-scripts-utils/blob/master/dk-id)
+    - [dk-purge-log](https://github.com/devel0/linux-scripts-utils/blob/master/dk-purge-log)
+    - [dk-net](https://github.com/devel0/linux-scripts-utils/blob/master/dk-net)
 - **zimbra**
   - [force smtp auth](sysadmin/zimbra-force-smtp-auth.md)
 
