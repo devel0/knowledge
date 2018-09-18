@@ -78,6 +78,7 @@ references for linux admin and development
   - [send email](linux/send-email-wrapper.md)
   - [create bootable iso](https://raw.githubusercontent.com/jsamr/bootiso/master/bootiso)
   - [replace raid md damaged disk](linux/replace-raid-md-damaged-disk.md)
+  - [quick and dirty os install notes](linux/quick-and-dirty-server-install-notes.md)
 - **docker**
   - [show layer commands](docker/show-layer-commands.md)
   - [pgadmin](docker/pgadmin.md)
