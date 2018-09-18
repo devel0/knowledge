@@ -14,4 +14,4 @@ apt install imagemagick
 convert input.jpg -resize width output.jpg
 ```
 
-- [multiconvert script](../_files/compress-images)
+- [multiconvert script](https://github.com/devel0/linux-scripts-utils/blob/master/compress-images)
