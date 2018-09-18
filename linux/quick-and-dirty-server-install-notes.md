@@ -1,5 +1,9 @@
 # quick and dirty server install notes
 
+## prerequisites
+
+- [linux scripts](https://github.com/devel0/linux-scripts-utils)
+
 ## supposed hardware and os
 
 - 5 x 4TB disk + 1 x 250GB SSD (cache)
@@ -349,12 +353,6 @@ SUBNETs and NAMEs follows
 172.19.0.24/30	zimbra
 172.19.0.30/30	cloud_sync
 172.20.0.0/16	build
-```
-
-- copy [firewall scripts]() ( `fw.sh`, `fwapply`, `fwedit` ) into `/script`
-
-```
-
 ```
 
 - enable firewall by creating `/lib/systemd/system/fw.service` as follow
