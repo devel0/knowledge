@@ -47,7 +47,7 @@ references for linux admin and development
 - **linux**
   - [bash scripting](linux/bash-scripting.md)
   - [tune inotify](linux/tune-inotify.md)
-  - [show cert info](_files/utils/show-cert-info)
+  - [show cert info](https://github.com/devel0/linux-scripts-utils/blob/master/show-cert-info)
   - [process management](linux/process-management.md)
   - [generate htpasswd](linux/generate-htpasswd.md)
   - [id_rsa](linux/id_rsa.md)
