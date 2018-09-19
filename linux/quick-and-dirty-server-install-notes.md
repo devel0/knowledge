@@ -1,5 +1,22 @@
 # quick and dirty server install notes
 
+## summary
+
+- [quick and dirty server install notes](#quick-and-dirty-server-install-notes)
+  * [prerequisites](#prerequisites)
+  * [supposed hardware and os](#supposed-hardware-and-os)
+  * [storage arrangement](#storage-arrangement)
+  * [bootstrap and partitioning](#bootstrap-and-partitioning)
+  * [setup kernel parameters](#setup-kernel-parameters)
+  * [ensure grub installed on all raid disks](#ensure-grub-installed-on-all-raid-disks)
+  * [setup network and base system](#setup-network-and-base-system)
+  * [enable ssd cache](#enable-ssd-cache)
+  * [replace damaged disk](#replace-damaged-disk)
+  * [disks layout](#disks-layout)
+  * [software install](#software-install)
+  * [create docker networks](#create-docker-networks)
+  * [firewall](#firewall)
+
 ## prerequisites
 
 - [linux scripts](https://github.com/devel0/linux-scripts-utils)
@@ -335,7 +352,7 @@ root@srv0:~# lvs -a
 sudo wget https://github.com/bcicen/ctop/releases/download/v0.7/ctop-0.7-linux-amd64 -O /usr/local/bin/ctop
 sudo chmod +x /usr/local/bin/ctop
 ```
-  - create docker networks
+## create docker networks
 ```
 docker network create --subnet=SUBNET NAME
 ```
@@ -355,7 +372,9 @@ SUBNETs and NAMEs follows
 172.20.0.0/16	build
 ```
 
-- enable firewall by creating `/lib/systemd/system/fw.service` as follow
+## firewall
+
+enable firewall by creating `/lib/systemd/system/fw.service` as follow
 ```
 [Unit]
 Description=Firewall rules
