@@ -57,3 +57,9 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias fs='nautilus'
 ```
+
+## add templates to nautilus (right click)
+
+add files to `~/Templates` then right click -> New Document -> your template
+
+example `touch "~/Templates/Text Document.txt"`
