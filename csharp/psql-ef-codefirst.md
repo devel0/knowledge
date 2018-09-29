@@ -1,199 +1,27 @@
-# psql ef codefirst
+# psql ef codefirst webapi
 
 *csharp*
 
-## prerequisites
+## steps
 
 - create a sample project
 
 ```
-mkdir test
-cd test
-dotnet new console
+dotnet new webapi --name=test
+dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL --version 2.1.2
+dotnet add package Microsoft.EntityFrameworkCore.Relational --version 2.1.3
 ```
 
-- install `Npgsql.EntityFrameworkCore.PostgreSQL` nuget package
+- [create mydbcontext](https://github.com/devel0/worked-hours-tracker/blob/1b709297dc2b490771bde12f778504184563887a/WorkedHoursTrackerWebapi/MyDbContext.cs)
 
-```
-dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL --version 2.0.2
-```
+- [configure services](https://github.com/devel0/worked-hours-tracker/blob/1b709297dc2b490771bde12f778504184563887a/WorkedHoursTrackerWebapi/Startup.cs#L37-L42)
 
-- add dotnet ef tools in your csproj under an ItemGroup
-
-```
-<DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.2" />    
-```
-
-## setup ConfigureServices
-
-```csharp
-using Microsoft.EntityFrameworkCore;
-```
-
-```csharp
-connectionString =
-  $"Server={DBHOST};Database={DBNAME};" +
-  $"Username=postgres;Password={dbpass}";
-  services.AddEntityFrameworkSqlite().AddDbContext<DBContext>(options => options.UseNpgsql(connectionString));
-```
-
-## setup Program
-
-- role of **MainStarted** is to avoid validation process during db migration
-
-```csharp
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
-
-namespace FirewallManagerWebapi
-{
-    public class Program
-    {
-
-        public static bool MainStarted { get; private set; }
-
-        public static void Main(string[] args)
-        {
-            MainStarted = true;
-
-            BuildWebHost(args).Run();
-        }
-
-        public static IWebHost BuildWebHost(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>()
-                .Build();
-    }
-}
-```
-
-## setup DBContext
-
-```csharp
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
-
-namespace Test
-{
-
-    public class DBContext : DbContext
-    {
-
-        public DBContext(DbContextOptions<DBContext> options) : base(options)
-        {
-        }
-
-        void CheckValidate(IEnumerable<object> entities)
-        {
-            foreach (var entity in entities)
-            {
-                var validCtx = new ValidationContext(entity);
-                Validator.ValidateObject(entity, validCtx);
-            }
-
-        }
-
-        void MySaveChanges()
-        {
-            if (Program.MainStarted) // avoid to process these if in migrations
-            {
-                var entities = from e in ChangeTracker.Entries()
-                               where e.State == EntityState.Added || e.State == EntityState.Modified
-                               select e.Entity;
-
-                CheckValidate(entities);                
-            }
-        }
-
-        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default(CancellationToken))
-        {
-            MySaveChanges();
-
-            return base.SaveChangesAsync(cancellationToken);
-        }
-
-        public override int SaveChanges()
-        {
-            MySaveChanges();
-
-            return base.SaveChanges();
-        }
-
-        protected override void OnModelCreating(ModelBuilder builder)
-        {
-            base.OnModelCreating(builder);            
-
-            //
-            // UNIQUE INDEX
-            //
-            builder.Entity<Doc>().HasIndex(x => new { x.id_user, x.description }).IsUnique();
-
-            //
-            // INDEX
-            //
-            builder.Entity<Doc>().HasIndex(x => x.uuid);
-
-            //
-            // DELETE BEHAVIOR
-            //
-            foreach (var relationship in builder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys()))
-            {
-                relationship.DeleteBehavior = DeleteBehavior.Restrict;
-            }
-
-            //
-            // DEFAULT VALUES
-            //
-            builder.Entity<Doc>().Property(p => p.item2).HasDefaultValue(22);            
-        }
-        
-        public DbSet<Doc> Docs { get; set; }
-    }
-
-}
-```
-
-## example of Data Type
-
-```csharp
-using Newtonsoft.Json;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-
-namespace Test
-{     
-
-    [Table("contact")]
-    public class Contact
-    {
-
-        [Key]
-        public long id { get; set; }
-
-        [ForeignKey("id_user")]
-        [JsonIgnore] // secure load
-        public User user { get; set; }
-        [Required]
-        public long id_user { get; set; }
-
-        [Required]
-        public string name { get; set; }     
-
-    }
-
-}
-```
+- setup external json config credentials
+  - [config type](https://github.com/devel0/worked-hours-tracker/blob/1b709297dc2b490771bde12f778504184563887a/WorkedHoursTrackerWebapi/Types/Config.cs)
+  - [global injection user initializer](https://github.com/devel0/worked-hours-tracker/blob/1b709297dc2b490771bde12f778504184563887a/WorkedHoursTrackerWebapi/Global.cs#L63-L73)
+  - [register global singleton service for injection](https://github.com/devel0/worked-hours-tracker/blob/1b709297dc2b490771bde12f778504184563887a/WorkedHoursTrackerWebapi/Startup.cs#L35)
+  
+- [inject ctx](https://github.com/devel0/worked-hours-tracker/blob/1b709297dc2b490771bde12f778504184563887a/WorkedHoursTrackerWebapi/Controllers/ApiController.cs#L26)
 
 ## create initial db
 
