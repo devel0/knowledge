@@ -83,6 +83,7 @@ references for linux admin and development
   - [create bootable iso](https://raw.githubusercontent.com/jsamr/bootiso/master/bootiso)
   - [replace raid md damaged disk](linux/replace-raid-md-damaged-disk.md)
   - [quick and dirty os install notes](linux/quick-and-dirty-server-install-notes.md)
+  - [file age sec](https://github.com/devel0/linux-scripts-utils/blob/master/file-age-sec)
 - **docker**
   - [show layer commands](docker/show-layer-commands.md)
   - [pgadmin](docker/pgadmin.md)
