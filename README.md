@@ -69,6 +69,7 @@ references for linux admin and development
     - thunderbird huge font fix
     - useful aliases
     - add templates to nautilus (right click)
+    - install nextcloud, kdeconnect, freecad
   - [xrdp remmina](linux/xrdp-remmina.md)
   - virtualization
     - [convert qcow2 to vdi](linux/convert-qcow2-to-vdi.md)
