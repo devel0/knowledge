@@ -1,8 +1,7 @@
 # nginx-webapi-conf
 
-## /etc/nginx/nginx.conf
-
-- replace `/etc/ssl/certs/searchathing.com.crt` and `/etc/ssl/certs/searchathing.com.key` with your own
+- `/etc/nginx/nginx.conf`
+  - replace `/etc/ssl/certs/searchathing.com.crt` and `/etc/ssl/certs/searchathing.com.key` with your own
 
 ```
 events
@@ -34,13 +33,12 @@ http {
 
 ```
 
-## /etc/nginx/conf.d/my.conf
-
-- replace:
-  - `sec0.searchathing.com` with your host webapi name
-  - `10.10.0.58:80` with html pages web server
-  - `http://10.10.0.58:5000` with webapi address
-  - change `/Api` case name if required
+- `/etc/nginx/conf.d/my.conf`
+  - replace:
+    - `sec0.searchathing.com` with your host webapi name
+    - `10.10.0.58:80` with html pages web server
+    - `http://10.10.0.58:5000` with webapi address
+    - change `/Api` case name if required
 
 ```
 server {
