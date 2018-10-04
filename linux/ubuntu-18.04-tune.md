@@ -63,3 +63,36 @@ alias fs='nautilus'
 add files to `~/Templates` then right click -> New Document -> your template
 
 example `touch "~/Templates/Text Document.txt"`
+
+## install nextcloud
+
+- install `libgnome-keyring0`
+- download appimage into softcollect.public/nextcloud-client and make it executable
+- start the first time and ask yes to integration ( this will create startup app entry )
+- create a run.sh as follow
+
+```sh
+#!/bin/bash
+
+~/softcollect.public/nextcloud-client/delayed-startup.sh &
+```
+
+- create a delayed-startup.sh as follow
+
+```sh
+#!/bin/bash
+
+sleep 60
+
+~/softcollect.public/nextcloud-client/Nextcloud-2.3.3-x86_64.AppImage &
+```
+
+- launch Startup Application Preferences and edit and change Nextcloud command to your home ~/softcollect.public/nextcloud-client/run.sh
+
+## install kdeconnect
+
+- through ubuntu software
+
+## install freecad
+
+- download appimage into softcollect.public/freecad and make it executable
