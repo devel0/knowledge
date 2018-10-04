@@ -17,6 +17,7 @@ references for linux admin and development
   - [change remote](git/change-remote.md)
   - [clone tag](git/clone-tag.md)
   - [commit to new branch](git/commit-to-new-branch.md)
+  - [work with commits](git/change-commit.md)
 - **csharp**
   - [send email 465](csharp/send-email-465.md)
   - [psql ef codefirst](csharp/psql-ef-codefirst.md)
