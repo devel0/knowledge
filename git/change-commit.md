@@ -31,3 +31,11 @@ git checkout <branch>
 ```
 git revert <commit>
 ```
+
+## cleanup worktree
+
+follow remove all changes and files that aren't already commited too
+
+```
+git clean -dfx
+```
