@@ -7,6 +7,7 @@ references for linux admin and development
 - **shell**
   - [trap control+c](shell/trap-ctrlc.md)
   - [function arguments expansion](shell/function-args-expansion.md)
+  - [formatted print](shell/formatted-print.md)
 - **linux**
   - [build dep](linux/build-dep.md)
   - [test webapi](linux/test-webapi.md)
