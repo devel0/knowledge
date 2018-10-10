@@ -120,3 +120,4 @@ references for linux admin and development
 - [pcb etching](electronics/pcb-etching.md)
 - [arduino on atmega8](electronics/arduino-on-atmega8.md)
 - [atmega power save](electronics/atmega-power-save.md)
+- [npn transistor biasing](_files/npn-transistor-biasing.xlsx)
