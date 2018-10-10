@@ -41,6 +41,7 @@ references for linux admin and development
   - [markdown toc](tools/markdown-toc.md)
   - [hex editor : bless](https://github.com/bwrsandman/Bless)
   - [gnuplot](tools/gnuplot.md)  
+  - [qucs](tools/qucs.md)
   - vscode
     - [settings](tools/vscode-settings.md)
     - [useful extensions](tools/vscode-useful-extensions.md)
