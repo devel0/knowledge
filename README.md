@@ -12,8 +12,6 @@ references for linux admin and development
   - [build dep](linux/build-dep.md)
   - [test webapi](linux/test-webapi.md)
   - [retrieve package source](linux/retrieve-package-source.md)
-- **arduino**
-  - [vscode arduino](arduino/vscode-arduino.md)
 - **docker**
   - [test swap memory](docker/test-swap-memory.md)
 - **git**
@@ -117,7 +115,9 @@ references for linux admin and development
 
 ## electronics
 
+- arduino
+  - [vscode arduino](arduino/vscode-arduino.md)
+  - [arduino on atmega8](electronics/arduino-on-atmega8.md)
 - [pcb etching](electronics/pcb-etching.md)
-- [arduino on atmega8](electronics/arduino-on-atmega8.md)
 - [atmega power save](electronics/atmega-power-save.md)
 - [npn transistor biasing](_files/npn-transistor-biasing.xlsx)
