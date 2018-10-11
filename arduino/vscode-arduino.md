@@ -6,7 +6,8 @@
 
 > *note*: change paths accordingly your local installation
 
-- install vscode
+- install [arduino ide](https://www.arduino.cc/en/Main/Software)
+- install [vscode](https://code.visualstudio.com/)
 - open a sketch (.ino file ) and install proposed extension
 - vscode settings
   - `ctrl+, arduino.path` set to `/home/devel0/softcollect.public/arduino/arduino-1.8.7`
