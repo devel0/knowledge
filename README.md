@@ -2,6 +2,15 @@
 
 references for linux admin and development 
 
+## electronics
+
+- arduino
+  - [vscode arduino](electronics/vscode-arduino.md)
+  - [arduino on atmega8](electronics/arduino-on-atmega8.md)
+  - [atmega power save](electronics/atmega-power-save.md)
+- [pcb etching](electronics/pcb-etching.md)
+- [npn transistor biasing](_files/npn-transistor-biasing.xlsx)
+
 ## development
 
 - **shell**
@@ -112,12 +121,3 @@ references for linux admin and development
   - [markdown to pdf](tools/markdown-to-pdf.md)
 - **system**
   - [cygwin install](tools/cygwin-install.md)
-
-## electronics
-
-- arduino
-  - [vscode arduino](electronics/vscode-arduino.md)
-  - [arduino on atmega8](electronics/arduino-on-atmega8.md)
-  - [atmega power save](electronics/atmega-power-save.md)
-- [pcb etching](electronics/pcb-etching.md)
-- [npn transistor biasing](_files/npn-transistor-biasing.xlsx)
