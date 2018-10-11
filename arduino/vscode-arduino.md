@@ -40,7 +40,7 @@
 
 ```
 cd ~/Arduino/libraries
-ln -s /opensource/devel0/iot-arduino-utils
+ln -s /opensource/devel0/iot-arduino-utils/arduino-utils
 ```
 
 ## troubleshoot
