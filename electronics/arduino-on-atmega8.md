@@ -42,7 +42,7 @@ Follows table of 8Mhz internal for various models
 | m8 | 0xa4 | 0xcd | |
 | m8 (*bod disabled) | 0x64 | 0xcd | |
 | m168/168p | 0xe2 | 0xdd | 0xf9 |
-| m328/328p | 0xe2 | 0xdb | 0xfd |
+| m328/328p | 0xe2 | 0xdb | 0xff |
 
 (*) to disable Brown-out Detection on atmega8 need to set by fuse, while atmega328 support set at runtime
 
