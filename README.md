@@ -44,6 +44,8 @@ references for linux admin and development
   - [select datetime timezone](psql/select-datetime-timezone.md)
 - **nuget**
   - [troubleshoot](nuget/troubleshoot.md)
+- **networking**
+  - send a tcp packet `echo sample | nc 10.10.2.10 1000`
 - **tools**
   - [nano editor](tools/nano-editor.md)
   - [markdown toc](tools/markdown-toc.md)
