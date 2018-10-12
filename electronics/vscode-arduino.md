@@ -8,11 +8,21 @@
 
 - install vscode
 - open a sketch (.ino file ) and install proposed extension
-- `ctrl+, Arduino path` set to `/home/devel0/softcollect.public/arduino/arduino-1.8.7` ( reload vscode )
-- in the bottom toolbar choose board ( eg. ESP8266 nodemcu )
-- `ctrl+shift+p c/cpp edit configurations` append `/home/devel0/Arduino/libraries/**`
-- if use esp8266 nodemcu add to top `/home/devel0/.arduino15/packages/esp8266/hardware/esp8266/2.4.2/variants/nodemcu` in order to load correctly pin definitions D0, D1, ...
+- `ctrl+, Arduino path` set to `/home/devel0/softcollect.public/arduino/arduino-1.8.7`
+- reload vscode
+- `ctrl+shift+p c/cpp edit configurations` set
+```
+"browse": {
+    "path": [        
+        "/home/devel0/Arduino/libraries",        
+        "/home/devel0/softcollect.public/arduino/arduino-1.8.7/hardware/tools/avr/avr/include/avr",
+        "/home/devel0/softcollect.public/arduino/arduino-1.8.7/hardware/arduino/avr/cores/arduino"
+    ]
+},
+```
+- `ctrl+shift+p change board type` ( this will fill hardware atmega path in cpp includePath )
 - in the bottom toolbar choose programmer ( eg. AVRISP mkII )
+- analyze missing includes from the PROBLEMS window and resolve through light bulb on your `#include <....>` that will add some includePath from guess browse paths given in `c_cpp_properties.json`
 
 ## troubleshoot
 
