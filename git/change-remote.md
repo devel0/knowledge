@@ -4,11 +4,16 @@
 
 ## switch to a new remote
 
+- change `alias` with an internal name to use when refers to an repo address
+- change `new-repo-address` with repo address to associate with `alias`
+
 ```
 git clone original-repo-address
 cd project
 git remote add alias new-repo-address
+git 
 git branch --all
+git fetch alias branch
 git checkout remotes/alias/branch
 ```
 
