@@ -11,7 +11,6 @@
 git clone original-repo-address
 cd project
 git remote add alias new-repo-address
-git 
 git branch --all
 git fetch alias branch
 git checkout remotes/alias/branch
