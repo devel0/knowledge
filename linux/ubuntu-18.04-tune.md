@@ -56,7 +56,11 @@ alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
 alias fs='nautilus'
+alias fso='xdg-open'
 ```
+
+- `fs` open nautilus focusing path if specified
+- `fso` open associated application with given pathfilename specified as argument
 
 ## add templates to nautilus (right click)
 
