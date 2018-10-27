@@ -16,5 +16,5 @@ notes:
 ## compute total size of find files
 
 ```
-find . -type f -name "20*.jpg" -exec du -ch \+
+find . -type f -name "20*.jpg" -exec du -ch "{}" \+
 ```
