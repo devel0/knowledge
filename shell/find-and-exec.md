@@ -12,3 +12,9 @@ notes:
 - `{}` will replaced with filename
 - `\;` execute command one file by one
 - `\+` execute command replacing {} with all matched files ( argument list could result too long )
+
+## compute total size of find files
+
+```
+find . -type f -name "20*.jpg" -exec du -ch \+
+```
