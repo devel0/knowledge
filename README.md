@@ -17,7 +17,7 @@ references for linux admin and development
   - [trap control+c](shell/trap-ctrlc.md)
   - [function arguments expansion](shell/function-args-expansion.md)
   - [formatted print](shell/formatted-print.md)
-  - [find xargs and exec](https://www.everythingcli.org/find-exec-vs-find-xargs/)
+  - [find xargs and exec](shell/find-and-exec.md)
 - **linux**
   - [build dep](linux/build-dep.md)
   - [test webapi](linux/test-webapi.md)
