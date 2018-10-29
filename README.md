@@ -45,6 +45,7 @@ references for linux admin and development
   - [select datetime timezone](psql/select-datetime-timezone.md)
 - **nuget**
   - [linux-install](nuget/nuget-linux-install.md)
+  - [local packages](nuget/nuget-config-local-packages.md)
   - [troubleshoot](nuget/troubleshoot.md)
 - **networking**
   - send a tcp packet `echo sample | nc 10.10.2.10 1000`
