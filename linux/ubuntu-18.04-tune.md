@@ -100,3 +100,7 @@ sleep 60
 ## install freecad
 
 - download appimage into softcollect.public/freecad and make it executable
+
+## codec to play mp4
+
+- from ubuntu center install GStreamer Multimedia codecs "good"
