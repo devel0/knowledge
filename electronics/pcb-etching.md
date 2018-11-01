@@ -4,7 +4,8 @@
 
 - laser printer
 - coated photo paper
-- acetone ( nails polish remover )
+- acetone ( nails polish remover ), spray dispenser, gas protection mask, mini compressor roller rubberized
+- sodium persulfate, etching tank, mini air compressor to generate bubbles, a lamp to transfer some heat to increase speed
 
 ## procedure
 
