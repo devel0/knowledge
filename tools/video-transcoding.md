@@ -19,3 +19,9 @@ apt install handbrake
 ```
 ffmpeg -i input.mp4 -vcodec copy -an output.mp4
 ```
+
+## video editor
+
+```
+openshot
+```
