@@ -4,20 +4,39 @@
 
 - laser printer
 - coated photo paper
-- acetone (3 parts), alchool (8 parts)
+- acetone ( nails polish remover )
 
 ## procedure
 
-- draw pcb ( eg. draftsight, set line width )
-  - draw mounting view with text mirrored
-- print to pdf A4 ( pull draws center, top )
-- clean pcb and laser print w/alchool
-- put some drops to pcb surface ( ensure to cover all copper surface )
-- apply print for 15 sec w/out pressure
-- apply igenic paper over and a plate over the igenic paper then pressure vertical ( no horizontal ) for 1 mins and for another 1 min 90 degree direction ( better to use an alluminium plate over to press all surface )
-- put in water for 5 min
-- remove gently the print
-
-## references
-
-- [video](https://www.youtube.com/watch?v=HBIxvwZ_0og&t=145s)
+- draw pcb ( [easyeda](https://easyeda.com) )
+  - schematics
+    - use left toolbar symbols for most commons ( resistor, capacitor, ... )
+    - insert well known components through libraries ( double check for either schematics and pcb available )
+    - useful parts:
+      - pin headers (system)
+      - atmega328 (user contributed : cpu76239 )
+    - connect ground to each gnd and vcc
+  - pcb
+    - generate from schematics through Convert / Convert to PCB ( or update if existing )
+    - install local easyeda autoroute to use autoroute faster
+    - check [track width](https://www.7pcb.com/trace-width-calculator.php) based on copper thickness and current
+    - Tools / Design Rules ( set track width default )
+    - Route / Auto Route
+      - Route Layers ( deselect BottomLayer if want single-side ). It may unable to resolve but you can Stop and complete by hand unresolved RatLines
+  - etching using *Sodium persulfate* dissolved in water in proportion by product datasheet ; use  mechanical bubble shaker and an heat source to speed up process of copper removal ( a light bulb may enough )
+- print
+  - File / Export PDF
+    - TopLayer ( separate layer, check export ) to generate pcb
+    - TopSilkLayer ( separate layer, check mirror ) to generate labels to attach non copper side
+- toner transfer ( [video](https://www.youtube.com/watch?v=FFKI34tewps&t=125s) )
+  - clean the copper with fine wool
+  - clean the copper with alchool
+  - from print cut border of coated photo paper to same size of copper to ease placing
+  - maintain in position and spray onto it using acetone ( use a mask to protect respiratory tract )
+  - wait 15 sec
+  - apply toiler paper onto coated photo paper
+  - pass compressor roller making a light and equal pressure to transfer the toner ( if you press too hard the toner spreads ) ; a roller can be built from a cylyndrical pencil with two heat shrink applied around
+  - put into water just 2 second and extract placing onto a toiler paper
+  - place another toilet paper onto the pcb with photo paper still applied to absorbe water with a light global pressure
+  - remove photo paper
+  - remove eventual residual using fingers putting it under running water
