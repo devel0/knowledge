@@ -9,6 +9,7 @@ references for linux admin and development
   - [arduino on atmega8](electronics/arduino-on-atmega8.md)
   - [atmega power save](electronics/atmega-power-save.md)
 - [pcb etching](electronics/pcb-etching.md)
+- [schematics and pcb editor](https://easyeda.com/)
 - [npn transistor biasing](_files/npn-transistor-biasing.xlsx)
 
 ## development
