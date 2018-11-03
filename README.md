@@ -105,6 +105,7 @@ references for linux admin and development
   - [replace raid md damaged disk](linux/replace-raid-md-damaged-disk.md)
   - [quick and dirty os install notes](linux/quick-and-dirty-server-install-notes.md)
   - [file age sec](https://github.com/devel0/linux-scripts-utils/blob/master/file-age-sec)
+  - force reread partition : `partprobe <device>`
 - **networking**
   - [tune nginx for webapi](webdevel/nginx-webapi-conf.md)
 - **docker**
