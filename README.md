@@ -42,6 +42,8 @@ references for linux admin and development
   - [psql password in file](psql/psql-password-in-file.md)
 - **javascript**
   - [grunt troubleshoot](javascript/grunt-troubleshoot.md)
+- **webdevel**
+  - [chrome](webdevel/chrome.md)
 - **android**
   - [intellij android studio](android/intellij-android-studio.md)
 - **postgres**
