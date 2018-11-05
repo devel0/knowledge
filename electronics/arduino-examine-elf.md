@@ -122,3 +122,10 @@ and sorting symbol table results most heavy functions/objects
    137: 00003d70   582 FUNC    LOCAL  DEFAULT    2 _ZN7FatFile4openEPS_P7fna
    393: 00005b76   566 FUNC    GLOBAL HIDDEN     2 _ZN7FatFile4readEPvj
 ```
+
+summing up sizes
+
+```sh
+$ readelf -s /tmp/arduino_build_799383/temp-sensors.ino.elf  | awk '{print $3}' | grep -vi size | grep -vi symtab | { sum=0; while read n; do (( sum+=n )); done; echo $sum; };
+34587
+```
