@@ -104,3 +104,7 @@ sleep 60
 ## codec to play mp4
 
 - from ubuntu center install GStreamer Multimedia codecs "good"
+
+## nautilus scripts
+
+- add gnome contextual [menu actions](https://github.com/devel0/linux-scripts-utils/tree/bf3f1a394cfdeb66439ee5f5a6e8a65c5422be91#nautilus-scripts)
