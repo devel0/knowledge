@@ -59,6 +59,7 @@ references for linux admin and development
   - [nano editor](tools/nano-editor.md)
   - [markdown toc](tools/markdown-toc.md)
   - [hex editor : bless](https://github.com/bwrsandman/Bless)
+  - [qrcode](tools/qrcode.md)
   - [gnuplot](tools/gnuplot.md)  
   - [qucs](tools/qucs.md)
   - vscode
