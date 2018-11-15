@@ -9,7 +9,7 @@ references for linux admin and development
   - [arduino on atmega8](electronics/arduino-on-atmega8.md)
   - [atmega power save](electronics/atmega-power-save.md)
   - [arduino examine elf](electronics/arduino-examine-elf.md)
-  - [esp8266 board plugin](https://github.com/esp8266/Arduino#installing-with-boards-manager)
+  - [esp8266 board plugin](https://github.com/esp8266/Arduino#installing-with-boards-manager) ( use `http://arduino.esp8266.com/staging/package_esp8266com_index.json` for development )
 - [pcb etching](electronics/pcb-etching.md)
 - [schematics and pcb editor](https://easyeda.com/)
 - [npn transistor biasing](_files/npn-transistor-biasing.xlsx)
