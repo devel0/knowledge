@@ -21,6 +21,7 @@ references for linux admin and development
   - [function arguments expansion](shell/function-args-expansion.md)
   - [formatted print](shell/formatted-print.md)
   - [find xargs and exec](shell/find-and-exec.md)
+  - [get file size](shell/get-file-size.md)
 - **linux**
   - [build dep](linux/build-dep.md)
   - [test webapi](linux/test-webapi.md)
