@@ -41,6 +41,7 @@ references for linux admin and development
   - [dotnet netcorestandard testunit](https://github.com/devel0/netcore-util/tree/6267b9e954692ecc7513ccb9616d590128294598#how-this-project-was-built)
 - **c++**
   - [linux vscode debug](https://github.com/devel0/example-vscode-linux-cpp-debug)
+  - [dump-file-to-c](shell/dump-file-to-c.md)
 - **database**
   - [psql password in file](psql/psql-password-in-file.md)
 - **javascript**
