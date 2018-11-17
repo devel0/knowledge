@@ -46,6 +46,7 @@ references for linux admin and development
   - [grunt troubleshoot](javascript/grunt-troubleshoot.md)
 - **webdevel**
   - [chrome](webdevel/chrome.md)
+  - imagemap ( just use gimp Filters/Web/Imagemap )
 - **android**
   - [intellij android studio](android/intellij-android-studio.md)
 - **postgres**
