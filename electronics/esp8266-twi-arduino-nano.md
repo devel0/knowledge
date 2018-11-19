@@ -7,7 +7,9 @@
 
 ```c
 Wire.begin(D2, D1);
-Wire.setClockStretchLimit(1000);
+auto ms = 7;
+// default is 230us
+Wire.setClockStretchLimit(ms * 1000); // us
 ```
 
 ## references
