@@ -40,7 +40,7 @@ references for linux admin and development
   - [dotnet core unix interop](csharp/dotnet-core-unix-interop.md)
   - [dotnet gui](csharp/dotnet-avalonia.md)
   - [dotnet netcorestandard testunit](https://github.com/devel0/netcore-util/tree/6267b9e954692ecc7513ccb9616d590128294598#how-this-project-was-built)
-  - [regex](csharp/regexp.md)
+  - [regex](csharp/regex.md)
 - **c++**
   - [linux vscode debug](https://github.com/devel0/example-vscode-linux-cpp-debug)
   - [dump-file-to-c](shell/dump-file-to-c.md)
