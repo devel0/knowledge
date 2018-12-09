@@ -14,6 +14,7 @@ references for linux admin and development
 - [pcb etching](electronics/pcb-etching.md)
 - [schematics and pcb editor](https://easyeda.com/)
 - [npn transistor biasing](_files/npn-transistor-biasing.xlsx)
+- [ethernet cabling T568A](http://pinouts.ru/NetworkCables/ethernet_10_100_1000_pinout.shtml)
 
 ## development
 
