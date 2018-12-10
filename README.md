@@ -101,6 +101,7 @@ references for linux admin and development
     - useful aliases
     - add templates to nautilus (right click)
     - install nextcloud, kdeconnect, freecad
+    - gstreamer plugins
   - [xrdp remmina](linux/xrdp-remmina.md)
   - virtualization
     - [convert qcow2 to vdi](linux/convert-qcow2-to-vdi.md)
