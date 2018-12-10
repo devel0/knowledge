@@ -108,3 +108,9 @@ sleep 60
 ## nautilus scripts
 
 - add gnome contextual [menu actions](https://github.com/devel0/linux-scripts-utils/tree/bf3f1a394cfdeb66439ee5f5a6e8a65c5422be91#nautilus-scripts)
+
+## gstreamer plugins
+
+```
+apt install gstreamer1.0-plugins-bad
+```
