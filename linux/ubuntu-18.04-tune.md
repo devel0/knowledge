@@ -114,3 +114,8 @@ sleep 60
 ```
 apt install gstreamer1.0-plugins-bad
 ```
+
+## change default app
+
+- right click on file -> properties
+- open/with / set as default
