@@ -102,6 +102,7 @@ references for linux admin and development
     - add templates to nautilus (right click)
     - install nextcloud, kdeconnect, freecad
     - gstreamer plugins
+    - change default app
   - [xrdp remmina](linux/xrdp-remmina.md)
   - virtualization
     - [convert qcow2 to vdi](linux/convert-qcow2-to-vdi.md)
