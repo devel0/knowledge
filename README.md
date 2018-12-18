@@ -46,7 +46,7 @@ references for linux admin and development
 - **c++**
   - [linux vscode debug](https://github.com/devel0/example-vscode-linux-cpp-debug)
   - [dump-file-to-c](shell/dump-file-to-c.md)
-  - [linux c++ debug](https://github.com/devel0/clone-disk/tree/3a7153528748abed037a605abbb96a7bfd091b8e#debugging)
+  - [linux c++ debug](https://github.com/devel0/iot-arduino-scope/tree/611e711a602d85a191df71a9fa5c32aa1b5ef785#debug-and-execution)
 - **database**
   - [psql password in file](psql/psql-password-in-file.md)
 - **javascript**
