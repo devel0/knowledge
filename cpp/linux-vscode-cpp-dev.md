@@ -6,7 +6,7 @@
 
 - install [vscode](https://code.visualstudio.com/)
 - install gcc and gdb
-- install vscode extension [esy c++ project](https://github.com/acharluk/easy-cpp-projects)
+- install vscode extension [easy c++ project](https://github.com/acharluk/easy-cpp-projects)
 
 ## troubleshoot
 
