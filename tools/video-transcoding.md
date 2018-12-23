@@ -25,3 +25,13 @@ ffmpeg -i input.mp4 -vcodec copy -an output.mp4
 ```
 openshot
 ```
+
+## rotate video
+
+```
+apt install openshot
+```
+
+- drag file into profile files then in a track
+- right click on the video Rotate/option
+- File/Export video
