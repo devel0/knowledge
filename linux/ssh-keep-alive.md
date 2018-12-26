@@ -1,6 +1,6 @@
 # ssh keep alive
 
-*syadmin*
+*sysadmin*
 
 ## purpose
 
