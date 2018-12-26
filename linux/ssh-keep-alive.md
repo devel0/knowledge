@@ -2,6 +2,10 @@
 
 *syadmin*
 
+## purpose
+
+Prevent timeout of ssh session due to inactivity.
+
 ## client alive interval
 
 - edit `~/.ssh/config`
