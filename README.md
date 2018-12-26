@@ -91,6 +91,7 @@ references for linux admin and development
   - [decimal separator dot](linux/decimal-separator-dot.md)
   - [run wireshark as nonroot](sysadmin/run-wireshark-as-nonroot.md)
   - upgrade single package `apt-get install --only-upgrade package`
+  - [ssh client alive](linux/ssh-keep-alive.md)
   - [ubuntu 18.04 tune](linux/ubuntu-18.04-tune.md)
     - touchpad right click not work
     - monitor sysload util
