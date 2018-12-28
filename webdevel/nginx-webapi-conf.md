@@ -62,3 +62,36 @@ server {
         }
 }
 ```
+
+## basic auth
+
+- create a passwd file
+
+```sh
+htpasswd -c authfile username
+```
+
+- set security mask
+
+```
+chmod 640 authfile
+chgrp nginx authfile
+```
+
+- create a conf.d file `/etc/nginx/conf.d/siteauth.conf`
+
+```
+server {
+	listen 443 ssl;
+        listen [::]:443 ssl;
+
+        server_name doc.searchathing.com;
+
+        location / {
+		      proxy_set_header Host doc.searchathing.com;
+		      proxy_pass http://doc.searchathing.com:8080;
+		      auth_basic "Restricted Content";
+		      auth_basic_user_file /htpasswd/authfile;
+        }
+}
+```
