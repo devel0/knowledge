@@ -84,6 +84,7 @@ references for linux admin and development
 - **linux**
   - [bash scripting](linux/bash-scripting.md)
   - [tune inotify](linux/tune-inotify.md)
+  - [iptables firewall](https://github.com/devel0/linux-scripts-utils/blob/master/fw.sh)
   - [mobile server](sysadmin/mobile-server.md)
   - [show cert info](https://github.com/devel0/linux-scripts-utils/blob/master/show-cert-info)
   - [process management](linux/process-management.md)
