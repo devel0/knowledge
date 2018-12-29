@@ -96,6 +96,7 @@ references for linux admin and development
   - [run wireshark as nonroot](sysadmin/run-wireshark-as-nonroot.md)
   - upgrade single package `apt-get install --only-upgrade package`
   - [ssh client alive](linux/ssh-keep-alive.md)
+  - [autorespawn process using supervisor](https://github.com/devel0/dynamic-firewall/tree/e15ce9d0e152dee37a6a5dfff9a5f543914d5c6f#config-supervisor)
   - [ubuntu 18.04 tune](linux/ubuntu-18.04-tune.md)
     - touchpad right click not work
     - monitor sysload util
