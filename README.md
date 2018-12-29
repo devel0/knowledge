@@ -25,6 +25,7 @@ references for linux admin and development
   - [find xargs and exec](shell/find-and-exec.md)
   - [get file size](shell/get-file-size.md)
   - [terminal color](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
+  - [escape html](linux/escape-html.md)
 - **linux**
   - [build dep](linux/build-dep.md)
   - [test webapi](linux/test-webapi.md)
