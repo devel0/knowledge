@@ -3,7 +3,7 @@
 *linux*
 
 ```sh
-echo "sample <b>bold</b>" | node -p 'encodeURIComponent(require("fs").readFileSync(0))'
+echo -n "sample <b>bold</b>" | node -p 'encodeURIComponent(require("fs").readFileSync(0))'
 ```
 
 results
