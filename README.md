@@ -26,6 +26,7 @@ references for linux admin and development
   - [get file size](shell/get-file-size.md)
   - [terminal color](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
   - [escape html](linux/escape-html.md)
+  - [uri encode](linux/uri-encode.md)
 - **linux**
   - [build dep](linux/build-dep.md)
   - [test webapi](linux/test-webapi.md)
