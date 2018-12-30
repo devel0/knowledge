@@ -2,22 +2,18 @@
 
 references for linux admin and development 
 
-## electronics
-
-- arduino
-  - [vscode arduino](electronics/vscode-arduino.md)
-  - [arduino on atmega8](electronics/arduino-on-atmega8.md)
-  - [atmega power save](electronics/atmega-power-save.md)
-  - [arduino examine elf](electronics/arduino-examine-elf.md)
-  - [esp8266 board plugin](https://github.com/esp8266/Arduino#installing-with-boards-manager) ( use `http://arduino.esp8266.com/staging/package_esp8266com_index.json` for development )
-  - [esp8266 twi arduino nano problems](electronics/esp8266-twi-arduino-nano.md)
-- [pcb etching](electronics/pcb-etching.md)
-- [schematics and pcb editor](https://easyeda.com/)
-- [npn transistor biasing](_files/npn-transistor-biasing.xlsx)
-- [ethernet cabling T568A](http://pinouts.ru/NetworkCables/ethernet_10_100_1000_pinout.shtml)
-
-## development
-
+- **electronics**
+  - arduino
+    - [vscode arduino](electronics/vscode-arduino.md)
+    - [arduino on atmega8](electronics/arduino-on-atmega8.md)
+    - [atmega power save](electronics/atmega-power-save.md)
+    - [arduino examine elf](electronics/arduino-examine-elf.md)
+    - [esp8266 board plugin](https://github.com/esp8266/Arduino#installing-with-boards-manager) ( use `http://arduino.esp8266.com/staging/package_esp8266com_index.json` for development )
+    - [esp8266 twi arduino nano problems](electronics/esp8266-twi-arduino-nano.md)
+  - [pcb etching](electronics/pcb-etching.md)
+  - [schematics and pcb editor](https://easyeda.com/)
+  - [npn transistor biasing](_files/npn-transistor-biasing.xlsx)
+  - [ethernet cabling T568A](http://pinouts.ru/NetworkCables/ethernet_10_100_1000_pinout.shtml)
 - **shell**
   - [trap control+c](shell/trap-ctrlc.md)
   - [function arguments expansion](shell/function-args-expansion.md)
@@ -27,75 +23,18 @@ references for linux admin and development
   - [terminal color](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
   - [escape html](linux/escape-html.md)
   - [uri encode](linux/uri-encode.md)
-- **linux**
-  - [build dep](linux/build-dep.md)
-  - [test webapi](linux/test-webapi.md)
-  - [retrieve package source](linux/retrieve-package-source.md)
-- **docker**
-  - [test swap memory](docker/test-swap-memory.md)
-- **git**
-  - [change remote](git/change-remote.md)
-  - [clone tag](git/clone-tag.md)
-  - [commit to new branch](git/commit-to-new-branch.md)
-  - [work with commits](git/change-commit.md)
-- **csharp**
-  - [send email 465](csharp/send-email-465.md)
-  - [psql ef codefirst](csharp/psql-ef-codefirst.md)
-  - [dotnet core unix interop](csharp/dotnet-core-unix-interop.md)
-  - [dotnet gui](csharp/dotnet-avalonia.md)
-  - [dotnet netcorestandard testunit](https://github.com/devel0/netcore-util/tree/6267b9e954692ecc7513ccb9616d590128294598#how-this-project-was-built)
-  - [regex](csharp/regex.md)
-- **c++**
-  - [linux vscode debug](https://github.com/devel0/example-vscode-linux-cpp-debug)
-  - [dump-file-to-c](shell/dump-file-to-c.md)
-  - [linux c++ debug](cpp/linux-vscode-cpp-dev.md)
-- **database**
-  - [psql password in file](psql/psql-password-in-file.md)
-- **javascript**
-  - [grunt troubleshoot](javascript/grunt-troubleshoot.md)
-- **webdevel**
-  - [chrome](webdevel/chrome.md)
-  - imagemap ( just use gimp Filters/Web/Imagemap )
-- **android**
-  - [intellij android studio](android/intellij-android-studio.md)
-- **postgres**
-  - [select datetime timezone](psql/select-datetime-timezone.md)
-- **nuget**
-  - [linux-install](nuget/nuget-linux-install.md)
-  - [local packages](nuget/nuget-config-local-packages.md)
-  - [troubleshoot](nuget/troubleshoot.md)
-- **networking**
-  - send a tcp packet `echo sample | nc 10.10.2.10 1000`
-- **tools**
-  - [nano editor](tools/nano-editor.md)
-  - [markdown toc](tools/markdown-toc.md)
-  - [hex editor : bless](https://github.com/bwrsandman/Bless)
-  - [qrcode](tools/qrcode.md)
-  - [gnuplot](tools/gnuplot.md)  
-  - [qucs](tools/qucs.md)
-  - vscode
-    - [settings](tools/vscode-settings.md)
-    - [useful extensions](tools/vscode-useful-extensions.md)
-    - [troubleshoot](tools/vscode-troubleshoot.md)
-    - [debug firefox](webdevel/vscode-debug-firefox.md)
-
-## sysadmin
-
-- **linux**
   - [bash scripting](linux/bash-scripting.md)
-  - [tune inotify](linux/tune-inotify.md)
-  - [iptables firewall](https://github.com/devel0/linux-scripts-utils/blob/master/fw.sh)
-  - [mobile server](sysadmin/mobile-server.md)
+- **linux**
+  - [quick and dirty os install notes](linux/quick-and-dirty-server-install-notes.md)
+  - [build dep](linux/build-dep.md)  
+  - [retrieve package source](linux/retrieve-package-source.md)  
+  - [tune inotify](linux/tune-inotify.md)      
   - [show cert info](https://github.com/devel0/linux-scripts-utils/blob/master/show-cert-info)
-  - [process management](linux/process-management.md)
-  - [generate htpasswd](linux/generate-htpasswd.md)
-  - [id_rsa](linux/id_rsa.md)
+  - [process management](linux/process-management.md) 
   - [force log rotate](linux/force-log-rotate.md)  
   - [su with sudo colorful prompt](linux/su-with-sudo-prompt.md)  
-  - [decimal separator dot](linux/decimal-separator-dot.md)
-  - [run wireshark as nonroot](sysadmin/run-wireshark-as-nonroot.md)
-  - upgrade single package `apt-get install --only-upgrade package`
-  - [ssh client alive](linux/ssh-keep-alive.md)
+  - [decimal separator dot](linux/decimal-separator-dot.md)  
+  - upgrade single package `apt-get install --only-upgrade package`  
   - [autorespawn process using supervisor](https://github.com/devel0/dynamic-firewall/tree/e15ce9d0e152dee37a6a5dfff9a5f543914d5c6f#config-supervisor)
   - [ubuntu 18.04 tune](linux/ubuntu-18.04-tune.md)
     - touchpad right click not work
@@ -110,8 +49,7 @@ references for linux admin and development
     - add templates to nautilus (right click)
     - install nextcloud, kdeconnect, freecad
     - gstreamer plugins
-    - change default app
-  - [xrdp remmina](linux/xrdp-remmina.md)
+    - change default app  
   - virtualization
     - [convert qcow2 to vdi](linux/convert-qcow2-to-vdi.md)
     - [virtualbox](linux/virtualbox.md)
@@ -120,18 +58,72 @@ references for linux admin and development
     - [card reader](linux/card-reader.md)
     - [bit4id minilector evo driver 64bit](linux/bit4id-minilector-evo.md)
     - [wacom inkscape pressure](linux/wacom-inkscape-pressure.md)
-    - [epson scanner gt-s50](linux/driver-epson-gt-s50.md)
-  - [freecad troubleshoot svg import](linux/freecad-import-svg-segmentation-fault.md)
-  - [send simple message over udp](linux/send-simple-message-over-udp.md)
-  - [send email](linux/send-email-wrapper.md)
+    - [epson scanner gt-s50](linux/driver-epson-gt-s50.md)    
   - [create bootable iso](https://raw.githubusercontent.com/jsamr/bootiso/master/bootiso)
-  - [replace raid md damaged disk](linux/replace-raid-md-damaged-disk.md)
-  - [quick and dirty os install notes](linux/quick-and-dirty-server-install-notes.md)
+  - [replace raid md damaged disk](linux/replace-raid-md-damaged-disk.md)  
   - [file age sec](https://github.com/devel0/linux-scripts-utils/blob/master/file-age-sec)
   - [elapsed seconds date](shell/elapsed-seconds.md)
   - force reread partition : `partprobe <device>`
+- **security**
+  - [iptables firewall](https://github.com/devel0/linux-scripts-utils/blob/master/fw.sh)
+  - [generate htpasswd](linux/generate-htpasswd.md)
+  - [id_rsa](linux/id_rsa.md)  
+  - [ssh client alive](linux/ssh-keep-alive.md)
 - **networking**
-  - [tune nginx for webapi](webdevel/nginx-webapi-conf.md)
+  - send a tcp packet `echo sample | nc 10.10.2.10 1000`
+  - [xrdp remmina](linux/xrdp-remmina.md)
+  - [run wireshark as nonroot](sysadmin/run-wireshark-as-nonroot.md)  
+  - [test webapi](linux/test-webapi.md)
+  - [tune nginx for webapi](webdevel/nginx-webapi-conf.md)  
+  - [force zimbra smtp auth](sysadmin/zimbra-force-smtp-auth.md)
+  - [mobile server](sysadmin/mobile-server.md)
+  - [send simple message over udp](linux/send-simple-message-over-udp.md)
+  - [send email](linux/send-email-wrapper.md)
+- **docker**
+  - [test swap memory](docker/test-swap-memory.md)
+- **git**
+  - [change remote](git/change-remote.md)
+  - [clone tag](git/clone-tag.md)
+  - [commit to new branch](git/commit-to-new-branch.md)
+  - [work with commits](git/change-commit.md)
+- **csharp**
+  - [send email 465](csharp/send-email-465.md)
+  - [psql ef codefirst](csharp/psql-ef-codefirst.md)
+  - [dotnet core unix interop](csharp/dotnet-core-unix-interop.md)
+  - [dotnet gui](csharp/dotnet-avalonia.md)
+  - [dotnet netcorestandard testunit](https://github.com/devel0/netcore-util/tree/6267b9e954692ecc7513ccb9616d590128294598#how-this-project-was-built)
+  - [regex](csharp/regex.md)
+- **sci**
+  - [gnuplot](tools/gnuplot.md)
+- **c++**
+  - [linux vscode debug](https://github.com/devel0/example-vscode-linux-cpp-debug)
+  - [dump-file-to-c](shell/dump-file-to-c.md)
+  - [linux c++ debug](cpp/linux-vscode-cpp-dev.md)
+- **database**
+  - [psql password in file](psql/psql-password-in-file.md)
+  - [psql select datetime timezone](psql/select-datetime-timezone.md)
+- **webdevel**
+  - [chrome](webdevel/chrome.md)
+  - imagemap ( just use gimp Filters/Web/Imagemap )
+  - [grunt troubleshoot](javascript/grunt-troubleshoot.md)
+- **android**
+  - [intellij android studio](android/intellij-android-studio.md)
+- **nuget**
+  - [linux-install](nuget/nuget-linux-install.md)
+  - [local packages](nuget/nuget-config-local-packages.md)
+  - [troubleshoot](nuget/troubleshoot.md)
+- **tools**
+  - [nano editor](tools/nano-editor.md)
+  - [markdown toc](tools/markdown-toc.md)
+  - [cygwin install](tools/cygwin-install.md)
+  - [hex editor : bless](https://github.com/bwrsandman/Bless)
+  - [qrcode](tools/qrcode.md)  
+  - [qucs](tools/qucs.md)
+  - vscode
+    - [settings](tools/vscode-settings.md)
+    - [useful extensions](tools/vscode-useful-extensions.md)
+    - [troubleshoot](tools/vscode-troubleshoot.md)
+    - [debug firefox](webdevel/vscode-debug-firefox.md)  
 - **docker**
   - [show layer commands](docker/show-layer-commands.md)
   - [pgadmin](docker/pgadmin.md)
@@ -139,18 +131,12 @@ references for linux admin and development
     - [dk-id](https://github.com/devel0/linux-scripts-utils/blob/master/dk-id)
     - [dk-purge-log](https://github.com/devel0/linux-scripts-utils/blob/master/dk-purge-log)
     - [dk-net](https://github.com/devel0/linux-scripts-utils/blob/master/dk-net)
-- **zimbra**
-  - [force smtp auth](sysadmin/zimbra-force-smtp-auth.md)
-
-## utils
-
 - **graphics**
   - [record animated gif](tools/record-animated-gif.md)
+  - [freecad troubleshoot svg import](linux/freecad-import-svg-segmentation-fault.md)
   - [resize image](tools/resize-image.md)
   - [m2t to mpg seekable](tools/m2t-to-mpg-seekable.md)
   - [video transcoding](tools/video-transcoding.md)
   - [remove image exif](tools/remove-image-exif.md)
 - **document**
   - [markdown to pdf](tools/markdown-to-pdf.md)
-- **system**
-  - [cygwin install](tools/cygwin-install.md)
