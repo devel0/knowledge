@@ -2,6 +2,10 @@
 
 references for linux admin and development 
 
+<hr/>
+
+## TOC
+
 - [electronics](#electronics)
 - [shell](#shell)
 - [linux](#linux)
@@ -14,6 +18,8 @@ references for linux admin and development
 - [webdevel](#webdevel)
 - [mobile native](#mobile-native)
 - [tools](#tools)
+
+<hr/>
 
 ### electronics
 - arduino
