@@ -14,6 +14,8 @@ references for linux admin and development
   - [schematics and pcb editor](https://easyeda.com/)
   - [npn transistor biasing](_files/npn-transistor-biasing.xlsx)
   - [ethernet cabling T568A](http://pinouts.ru/NetworkCables/ethernet_10_100_1000_pinout.shtml)
+  - [qucs circuit simulator](doc/qucs.md)
+  - [simulator](http://everycircuit.com)
 - **shell**
   - [trap control+c](doc/trap-ctrlc.md)
   - [function arguments expansion](doc/function-args-expansion.md)
@@ -24,12 +26,13 @@ references for linux admin and development
   - [escape html](doc/escape-html.md)
   - [uri encode](doc/uri-encode.md)
   - [bash scripting](doc/bash-scripting.md)
+  - [file age sec](https://github.com/devel0/linux-scripts-utils/blob/master/file-age-sec)
+  - [elapsed seconds date](doc/elapsed-seconds.md)
 - **linux**
   - [quick and dirty os install notes](doc/quick-and-dirty-server-install-notes.md)
   - [build dep](doc/build-dep.md)  
   - [retrieve package source](doc/retrieve-package-source.md)  
-  - [tune inotify](doc/tune-inotify.md)      
-  - [show cert info](https://github.com/devel0/linux-scripts-utils/blob/master/show-cert-info)
+  - [tune inotify](doc/tune-inotify.md)        
   - [process management](doc/process-management.md) 
   - [force log rotate](doc/force-log-rotate.md)  
   - [su with sudo colorful prompt](doc/su-with-sudo-prompt.md)  
@@ -60,13 +63,18 @@ references for linux admin and development
     - [wacom inkscape pressure](doc/wacom-inkscape-pressure.md)
     - [epson scanner gt-s50](doc/driver-epson-gt-s50.md)    
   - [create bootable iso](https://raw.githubusercontent.com/jsamr/bootiso/master/bootiso)
-  - [replace raid md damaged disk](doc/replace-raid-md-damaged-disk.md)  
-  - [file age sec](https://github.com/devel0/linux-scripts-utils/blob/master/file-age-sec)
-  - [elapsed seconds date](doc/elapsed-seconds.md)
+  - [replace raid md damaged disk](doc/replace-raid-md-damaged-disk.md)    
   - force reread partition : `partprobe <device>`
+  - **containers**
+    - [show layer commands](doc/show-layer-commands.md)  
+    - scripts
+      - [dk-id](https://github.com/devel0/linux-scripts-utils/blob/master/dk-id)
+      - [dk-purge-log](https://github.com/devel0/linux-scripts-utils/blob/master/dk-purge-log)
+      - [dk-net](https://github.com/devel0/linux-scripts-utils/blob/master/dk-net)
 - **security**
   - [iptables firewall](https://github.com/devel0/linux-scripts-utils/blob/master/fw.sh)
   - [generate htpasswd](doc/generate-htpasswd.md)
+  - [show cert info](https://github.com/devel0/linux-scripts-utils/blob/master/show-cert-info)
   - [id_rsa](doc/id_rsa.md)  
   - [ssh client alive](doc/ssh-keep-alive.md)
 - **networking**
@@ -81,11 +89,21 @@ references for linux admin and development
   - [send email](doc/send-email-wrapper.md)
 - **docker**
   - [test swap memory](doc/test-swap-memory.md)
-- **git**
+- **development**
   - [change remote](doc/change-remote.md)
   - [clone tag](doc/clone-tag.md)
   - [commit to new branch](doc/commit-to-new-branch.md)
   - [work with commits](doc/change-commit.md)
+  - vscode
+    - [settings](doc/vscode-settings.md)
+    - [useful extensions](doc/vscode-useful-extensions.md)
+    - [troubleshoot](doc/vscode-troubleshoot.md)
+    - [debug firefox](doc/vscode-debug-firefox.md)  
+  - [gnuplot](doc/gnuplot.md)
+  - **nuget**
+    - [linux-install](doc/nuget-linux-install.md)
+    - [local packages](doc/nuget-config-local-packages.md)
+    - [troubleshoot](doc/troubleshoot.md)
 - **csharp**
   - [send email 465](doc/send-email-465.md)
   - [psql ef codefirst](doc/psql-ef-codefirst.md)
@@ -93,49 +111,31 @@ references for linux admin and development
   - [dotnet gui](doc/dotnet-avalonia.md)
   - [dotnet netcorestandard testunit](https://github.com/devel0/netcore-util/tree/6267b9e954692ecc7513ccb9616d590128294598#how-this-project-was-built)
   - [regex](doc/regex.md)
-- **sci**
-  - [gnuplot](doc/gnuplot.md)
 - **c++**
   - [linux vscode debug](https://github.com/devel0/example-vscode-linux-cpp-debug)
   - [dump-file-to-c](doc/dump-file-to-c.md)  
 - **database**
   - [psql password in file](doc/psql-password-in-file.md)
   - [psql select datetime timezone](doc/select-datetime-timezone.md)
+  - [pgadmin](doc/pgadmin.md)
 - **webdevel**
   - [chrome](doc/chrome.md)
   - imagemap ( just use gimp Filters/Web/Imagemap )
   - [grunt troubleshoot](doc/grunt-troubleshoot.md)
 - **android**
   - [intellij android studio](doc/intellij-android-studio.md)
-- **nuget**
-  - [linux-install](doc/nuget-linux-install.md)
-  - [local packages](doc/nuget-config-local-packages.md)
-  - [troubleshoot](doc/troubleshoot.md)
-- **tools**
-  - [nano editor](doc/nano-editor.md)
-  - [markdown toc](doc/markdown-toc.md)
-  - [cygwin install](doc/cygwin-install.md)
-  - [hex editor : bless](https://github.com/bwrsandman/Bless)
+- **tools**  
+  - [cygwin install](doc/cygwin-install.md)  
   - [qrcode](doc/qrcode.md)  
-  - [qucs](doc/qucs.md)
-  - vscode
-    - [settings](doc/vscode-settings.md)
-    - [useful extensions](doc/vscode-useful-extensions.md)
-    - [troubleshoot](doc/vscode-troubleshoot.md)
-    - [debug firefox](doc/vscode-debug-firefox.md)  
-- **docker**
-  - [show layer commands](doc/show-layer-commands.md)
-  - [pgadmin](doc/pgadmin.md)
-  - scripts
-    - [dk-id](https://github.com/devel0/linux-scripts-utils/blob/master/dk-id)
-    - [dk-purge-log](https://github.com/devel0/linux-scripts-utils/blob/master/dk-purge-log)
-    - [dk-net](https://github.com/devel0/linux-scripts-utils/blob/master/dk-net)
-- **graphics**
-  - [record animated gif](doc/record-animated-gif.md)
-  - [freecad troubleshoot svg import](doc/freecad-import-svg-segmentation-fault.md)
-  - [resize image](doc/resize-image.md)
-  - [m2t to mpg seekable](doc/m2t-to-mpg-seekable.md)
-  - [video transcoding](doc/video-transcoding.md)
-  - [remove image exif](doc/remove-image-exif.md)
-- **document**
-  - [markdown to pdf](doc/markdown-to-pdf.md)
+  - **document**
+    - [nano editor](doc/nano-editor.md)
+    - [hex editor : bless](https://github.com/bwrsandman/Bless)
+    - [markdown toc](doc/markdown-toc.md)
+    - [markdown to pdf](doc/markdown-to-pdf.md)
+  - **graphics**
+    - [record animated gif](doc/record-animated-gif.md)
+    - [freecad troubleshoot svg import](doc/freecad-import-svg-segmentation-fault.md)
+    - [resize image](doc/resize-image.md)
+    - [m2t to mpg seekable](doc/m2t-to-mpg-seekable.md)
+    - [video transcoding](doc/video-transcoding.md)
+    - [remove image exif](doc/remove-image-exif.md)
