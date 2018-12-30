@@ -30,6 +30,7 @@ references for linux admin and development
   - [elapsed seconds date](doc/elapsed-seconds.md)
 - **linux**
   - [quick and dirty os install notes](doc/quick-and-dirty-server-install-notes.md)
+  - [linux scripts](https://github.com/devel0/linux-scripts-utils)
   - [build dep](doc/build-dep.md)  
   - [retrieve package source](doc/retrieve-package-source.md)  
   - [tune inotify](doc/tune-inotify.md)        
