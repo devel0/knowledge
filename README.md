@@ -97,8 +97,7 @@ references for linux admin and development
   - [gnuplot](doc/gnuplot.md)
 - **c++**
   - [linux vscode debug](https://github.com/devel0/example-vscode-linux-cpp-debug)
-  - [dump-file-to-c](doc/dump-file-to-c.md)
-  - [linux c++ debug](doc/linux-vscode-cpp-dev.md)
+  - [dump-file-to-c](doc/dump-file-to-c.md)  
 - **database**
   - [psql password in file](doc/psql-password-in-file.md)
   - [psql select datetime timezone](doc/select-datetime-timezone.md)
