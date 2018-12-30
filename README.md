@@ -65,7 +65,7 @@ references for linux admin and development
   - [create bootable iso](https://raw.githubusercontent.com/jsamr/bootiso/master/bootiso)
   - [replace raid md damaged disk](doc/replace-raid-md-damaged-disk.md)    
   - force reread partition : `partprobe <device>`
-  - **containers**
+  - containers
     - [show layer commands](doc/show-layer-commands.md)  
     - scripts
       - [dk-id](https://github.com/devel0/linux-scripts-utils/blob/master/dk-id)
@@ -90,17 +90,18 @@ references for linux admin and development
 - **docker**
   - [test swap memory](doc/test-swap-memory.md)
 - **development**
-  - [change remote](doc/change-remote.md)
-  - [clone tag](doc/clone-tag.md)
-  - [commit to new branch](doc/commit-to-new-branch.md)
-  - [work with commits](doc/change-commit.md)
+  - git
+    - [change remote](doc/change-remote.md)
+    - [clone tag](doc/clone-tag.md)
+    - [commit to new branch](doc/commit-to-new-branch.md)
+    - [work with commits](doc/change-commit.md)
   - vscode
     - [settings](doc/vscode-settings.md)
     - [useful extensions](doc/vscode-useful-extensions.md)
     - [troubleshoot](doc/vscode-troubleshoot.md)
     - [debug firefox](doc/vscode-debug-firefox.md)  
   - [gnuplot](doc/gnuplot.md)
-  - **nuget**
+  - nuget
     - [linux-install](doc/nuget-linux-install.md)
     - [local packages](doc/nuget-config-local-packages.md)
     - [troubleshoot](doc/troubleshoot.md)
@@ -127,12 +128,12 @@ references for linux admin and development
 - **tools**  
   - [cygwin install](doc/cygwin-install.md)  
   - [qrcode](doc/qrcode.md)  
-  - **document**
+  - document
     - [nano editor](doc/nano-editor.md)
     - [hex editor : bless](https://github.com/bwrsandman/Bless)
     - [markdown toc](doc/markdown-toc.md)
     - [markdown to pdf](doc/markdown-to-pdf.md)
-  - **graphics**
+  - graphics
     - [record animated gif](doc/record-animated-gif.md)
     - [freecad troubleshoot svg import](doc/freecad-import-svg-segmentation-fault.md)
     - [resize image](doc/resize-image.md)
