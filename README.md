@@ -8,16 +8,17 @@ references for linux admin and development
 
 - [electronics](#electronics)
 - [shell](#shell)
-- [linux](#linux)
-- [security](#security)
-- [networking](#networking)
 - [development](#development)
 - [csharp](#csharp)
 - [c++](#c)
 - [database](#database)
 - [webdevel](#webdevel)
+- [networking](#networking)
+- [linux](#linux)
+- [security](#security)
 - [mobile native](#mobile-native)
 - [tools](#tools)
+- [media](#media)
 
 <hr/>
 
@@ -49,6 +50,56 @@ references for linux admin and development
 - [escape html](doc/escape-html.md)
 - [uri encode](doc/uri-encode.md)
 - [bash scripting](doc/bash-scripting.md)  
+
+### development
+- git
+  - [change remote](doc/change-remote.md)
+  - [clone tag](doc/clone-tag.md)
+  - [commit to new branch](doc/commit-to-new-branch.md)
+  - [work with commits](doc/change-commit.md)
+- vscode
+  - [settings](doc/vscode-settings.md)
+  - [useful extensions](doc/vscode-useful-extensions.md)
+  - [troubleshoot](doc/vscode-troubleshoot.md)
+  - [debug firefox](doc/vscode-debug-firefox.md)  
+- [gnuplot](doc/gnuplot.md)
+- nuget
+  - [linux-install](doc/nuget-linux-install.md)
+  - [local packages](doc/nuget-config-local-packages.md)
+  - [troubleshoot](doc/troubleshoot.md)
+
+### csharp
+- [send email 465](doc/send-email-465.md)
+- [psql ef codefirst](doc/psql-ef-codefirst.md)
+- [dotnet core unix interop](doc/dotnet-core-unix-interop.md)
+- [dotnet gui](doc/dotnet-avalonia.md)
+- [dotnet netcorestandard testunit](https://github.com/devel0/netcore-util/tree/6267b9e954692ecc7513ccb9616d590128294598#how-this-project-was-built)
+- [regex](doc/regex.md)
+
+### c++
+- [linux vscode debug](https://github.com/devel0/example-vscode-linux-cpp-debug)
+- [dump-file-to-c](doc/dump-file-to-c.md)  
+
+### database
+- [psql password in file](doc/psql-password-in-file.md)
+- [psql select datetime timezone](doc/select-datetime-timezone.md)
+- [pgadmin](doc/pgadmin.md)
+
+### webdevel
+- [chrome](doc/chrome.md)
+- imagemap ( just use gimp Filters/Web/Imagemap )
+- [grunt troubleshoot](doc/grunt-troubleshoot.md)
+
+### networking
+- send a tcp packet `echo sample | nc 10.10.2.10 1000`
+- [test webapi](doc/test-webapi.md)
+- [send simple message over udp](doc/send-simple-message-over-udp.md)
+- [send email](doc/send-email-wrapper.md)
+- [tune nginx for webapi](doc/nginx-webapi-conf.md)  
+- [run wireshark as nonroot](doc/run-wireshark-as-nonroot.md)      
+- [xrdp remmina](doc/xrdp-remmina.md)  
+- [force zimbra smtp auth](doc/zimbra-force-smtp-auth.md)
+- [mobile server](doc/mobile-server.md)
 
 ### linux
 - [quick and dirty os install notes](doc/quick-and-dirty-server-install-notes.md)
@@ -105,56 +156,6 @@ references for linux admin and development
 - [id_rsa](doc/id_rsa.md)  
 - [ssh client alive](doc/ssh-keep-alive.md)
 
-### networking
-- send a tcp packet `echo sample | nc 10.10.2.10 1000`
-- [test webapi](doc/test-webapi.md)
-- [send simple message over udp](doc/send-simple-message-over-udp.md)
-- [send email](doc/send-email-wrapper.md)
-- [tune nginx for webapi](doc/nginx-webapi-conf.md)  
-- [run wireshark as nonroot](doc/run-wireshark-as-nonroot.md)      
-- [xrdp remmina](doc/xrdp-remmina.md)  
-- [force zimbra smtp auth](doc/zimbra-force-smtp-auth.md)
-- [mobile server](doc/mobile-server.md)
-
-### development
-- git
-  - [change remote](doc/change-remote.md)
-  - [clone tag](doc/clone-tag.md)
-  - [commit to new branch](doc/commit-to-new-branch.md)
-  - [work with commits](doc/change-commit.md)
-- vscode
-  - [settings](doc/vscode-settings.md)
-  - [useful extensions](doc/vscode-useful-extensions.md)
-  - [troubleshoot](doc/vscode-troubleshoot.md)
-  - [debug firefox](doc/vscode-debug-firefox.md)  
-- [gnuplot](doc/gnuplot.md)
-- nuget
-  - [linux-install](doc/nuget-linux-install.md)
-  - [local packages](doc/nuget-config-local-packages.md)
-  - [troubleshoot](doc/troubleshoot.md)
-
-### csharp
-- [send email 465](doc/send-email-465.md)
-- [psql ef codefirst](doc/psql-ef-codefirst.md)
-- [dotnet core unix interop](doc/dotnet-core-unix-interop.md)
-- [dotnet gui](doc/dotnet-avalonia.md)
-- [dotnet netcorestandard testunit](https://github.com/devel0/netcore-util/tree/6267b9e954692ecc7513ccb9616d590128294598#how-this-project-was-built)
-- [regex](doc/regex.md)
-
-### c++
-- [linux vscode debug](https://github.com/devel0/example-vscode-linux-cpp-debug)
-- [dump-file-to-c](doc/dump-file-to-c.md)  
-
-### database
-- [psql password in file](doc/psql-password-in-file.md)
-- [psql select datetime timezone](doc/select-datetime-timezone.md)
-- [pgadmin](doc/pgadmin.md)
-
-### webdevel
-- [chrome](doc/chrome.md)
-- imagemap ( just use gimp Filters/Web/Imagemap )
-- [grunt troubleshoot](doc/grunt-troubleshoot.md)
-
 ### mobile native
 - [intellij android studio](doc/intellij-android-studio.md)
 
@@ -165,6 +166,10 @@ references for linux admin and development
   - [hex editor : bless](https://github.com/bwrsandman/Bless)
   - [markdown toc](doc/markdown-toc.md)
   - [markdown to pdf](doc/markdown-to-pdf.md)
+  
+### media
+- sound
+  - console player `apt install mocp`
 - graphics
   - [qrcode](doc/qrcode.md)  
   - [record animated gif](doc/record-animated-gif.md)
