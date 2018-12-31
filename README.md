@@ -158,6 +158,7 @@ references for linux admin and development
 
 ### mobile native
 - [intellij android studio](doc/intellij-android-studio.md)
+- [android push notify](doc/android-push-notify.md)
 
 ### tools
 - [cygwin install](doc/cygwin-install.md)    
