@@ -22,10 +22,14 @@ all of these solve by buying a basic online server, personally I found comfortab
   
 ## sign letsencrypt https certificate
 
-- need a local web server, it may nginx, with a wwwroot accessible where to create subfolders and files as required from letsencrypt manual certificate challenge verify procedure
-- issue `letsencrypt certonly --manual --standalone -d my.com -d app1.my.com -d app2.my.com` for your domain ; during procedure it will ask you more times to create a file in a specific subfolder of wwwroot of serving webserver to complete challenge
-- configure your nginx server to user letsencrypt certificates
+- connects the online server so that local 80,443 ports exports there to allow letsencrypt validate certs
+
+```
+ssh -R 80:127.0.0.1:80 -R 443:127.0.0.1:443 online
+```
+
+- renew certs as [usual](https://github.com/devel0/linux-scripts-utils/blob/d3b7a5e17cb16de982cd260f378ed95cef7b5f47/renew-certs.sh#L15-L25)
 
 ## opportunity and security considerations
 
-someone will ask himself if having an online server isn't already enough to serve required service, the answer is yes, but, if you paranoid you want data flows through an https encryption to/from your **local** disk with a certificate which private key is in your **local** server, thus the above procedure.
+someone will ask himself if having an online server isn't already enough to serve required service creating an https certs from there, the answer is yes, but, if paranoid you want data flows through an https encryption to/from your **local** disk with a certificate which private key is in your **local** server, thus the above procedure.
