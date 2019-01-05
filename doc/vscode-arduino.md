@@ -42,3 +42,15 @@ SUBSYSTEMS=="usb", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="7523", MODE="0666
 - verify sketch ( `ctrl+alt+r` )
 - upload sketch ( `ctrl+shift+p arduino upload using programmer` )
 - open serial monitor ( ctrl+shift+p `open serial monitor` ) will visible in output / serial monitor
+
+## increase build speed
+
+- set build option in `.vscode/arduino.json`
+
+```
+{
+    "output": "../build"
+}
+```
+
+- when synchronize between nodes exclude `build` and `.vscode` folders to avoid build options changed detect
