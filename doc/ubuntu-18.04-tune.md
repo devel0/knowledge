@@ -32,6 +32,16 @@ through gnome tweaks search modal then turn off Attach Modal Dialogs
 
 - [workaround](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1288003)
 
+## disable lid sleep
+
+- edit `/etc/systemd/logind.conf'
+
+```
+HandleLidSwitch=ignore
+```
+
+- restart sevice `systemctl restart systemd-logind`
+
 ## customize menu
 
 ```
