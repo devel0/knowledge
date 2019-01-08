@@ -128,6 +128,7 @@ references for linux admin and development
   - install nextcloud, kdeconnect, freecad
   - gstreamer plugins
   - change default app  
+  - [force monitor mode](http://ubuntuhandbook.org/index.php/2017/04/custom-screen-resolution-ubuntu-desktop/)
 - virtualization
   - [convert qcow2 to vdi](doc/convert-qcow2-to-vdi.md)
   - [virtualbox](doc/virtualbox.md)
