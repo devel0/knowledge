@@ -49,7 +49,8 @@ references for linux admin and development
 - [terminal color](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
 - [escape html](doc/escape-html.md)
 - [uri encode](doc/uri-encode.md)
-- [bash scripting](doc/bash-scripting.md)  
+- [bash scripting](doc/bash-scripting.md)
+- [jq json tool](doc/jq-json-tool.md)
 
 ### development
 - git
