@@ -13,3 +13,5 @@
 - vscode-solution-explorer
 - HTML CSS Support
 - markdownlint
+- TODO Highlight
+- Todo Tree
