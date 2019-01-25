@@ -106,6 +106,7 @@ references for linux admin and development
 ### linux
 - [quick and dirty os install notes](doc/quick-and-dirty-server-install-notes.md)
 - [tune inotify](doc/tune-inotify.md)    
+- [tail grep continous](doc/tail-grep-continuous.md)
 - [force log rotate](doc/force-log-rotate.md)  
 - [su with sudo colorful prompt](doc/su-with-sudo-prompt.md)  
 - [i18n decimal separator dot](doc/decimal-separator-dot.md)  
