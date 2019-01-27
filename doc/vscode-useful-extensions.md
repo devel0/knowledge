@@ -15,3 +15,4 @@
 - markdownlint
 - TODO Highlight
 - Todo Tree
+- Reload
