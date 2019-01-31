@@ -59,6 +59,7 @@ references for linux admin and development
   - [commit to new branch](doc/commit-to-new-branch.md)
   - [work with commits](doc/change-commit.md)
 - vscode
+  - [tips](doc/vscode-tips.md)
   - [settings](doc/vscode-settings.md)
   - [useful extensions](doc/vscode-useful-extensions.md)
   - [troubleshoot](doc/vscode-troubleshoot.md)
