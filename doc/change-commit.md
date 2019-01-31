@@ -39,3 +39,9 @@ follow remove all changes and files that aren't already commited too
 ```
 git clean -dfx
 ```
+
+## tag specific commit
+
+```
+git tag -a vxxx hashcode
+```
