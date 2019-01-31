@@ -44,4 +44,5 @@ git clean -dfx
 
 ```
 git tag -a vxxx hashcode
+git push --tags
 ```
