@@ -111,6 +111,7 @@ references for linux admin and development
 - [force log rotate](doc/force-log-rotate.md)  
 - [su with sudo colorful prompt](doc/su-with-sudo-prompt.md)  
 - [i18n decimal separator dot](doc/decimal-separator-dot.md)  
+- [draftsight open dxf](doc/draftsight-open-with-dxf.md)
 - packages
   - [packages build dep](doc/build-dep.md)  
   - [retrieve package source](doc/retrieve-package-source.md)    
