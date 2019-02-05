@@ -89,6 +89,7 @@ references for linux admin and development
 - [pgadmin](doc/pgadmin.md)
 
 ### webdevel
+- [javascript/jquery](doc/javascript-jquery.md)
 - [chrome](doc/chrome.md)
 - imagemap ( just use gimp Filters/Web/Imagemap )
 - [grunt troubleshoot](doc/grunt-troubleshoot.md)
