@@ -8,7 +8,7 @@ references for linux admin and development
 
 - [electronics](#electronics)
 - [shell](#shell)
-- [development](#development)
+- [development tools](#development-tools)
 - [csharp](#csharp)
 - [c++](#c)
 - [database](#database)
