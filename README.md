@@ -171,6 +171,7 @@ references for linux admin and development
 
 ### tools
 - [cygwin install](doc/cygwin-install.md)    
+- [win10 quick assist](doc/win10-quick-assist.md)
 - document
   - [nano editor](doc/nano-editor.md)
   - [hex editor : bless](https://github.com/bwrsandman/Bless)
