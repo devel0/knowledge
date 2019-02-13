@@ -20,6 +20,10 @@ mkfs.vfat -n MYLBL /dev/sdX1
 mount -t vfat /dev/sdX1 ~/tmp/uefi-usb-dst
 mount ~/tmp/image.iso ~/tmp/uefi-src -o loop
 rsync -arvx --delete ~/tmp/uefi-src/ ~/tmp/uefi-usb-dst/
+
+umount ~/tmp/uefi-src
+umount ~/tmp/uefi-usb-dst
+sync
 ```
 
 note: ignore chown errors
