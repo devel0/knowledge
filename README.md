@@ -150,6 +150,7 @@ references for linux admin and development
   - [create bootable iso](https://raw.githubusercontent.com/jsamr/bootiso/master/bootiso)
   - [replace raid md damaged disk](doc/replace-raid-md-damaged-disk.md)    
   - force reread partition : `partprobe <device>`
+  - [create uefi usb from iso](doc/create-uefi-usb-from-iso.md)
 - containers
   - [show layer commands](doc/show-layer-commands.md)  
   - [test swap memory](doc/test-swap-memory.md)
