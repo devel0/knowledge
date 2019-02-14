@@ -14,6 +14,7 @@
     "editor.autoClosingBrackets": "never",
     "window.titleBarStyle": "native",
     "csharp.referencesCodeLens.enabled": false,
-    "workbench.editor.enablePreview": false
+    "workbench.editor.enablePreview": false,
+    "editor.codeLens": false
 }
 ```
