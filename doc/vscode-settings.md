@@ -15,6 +15,7 @@
     "window.titleBarStyle": "native",
     "csharp.referencesCodeLens.enabled": false,
     "workbench.editor.enablePreview": false,
-    "editor.codeLens": false
+    "editor.codeLens": false,
+    "git.autofetch": true
 }
 ```
