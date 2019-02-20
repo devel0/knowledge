@@ -54,5 +54,5 @@ $("button[mynfo]").each((idx,btn) => {
 - search with **starting**
 
 ```js
-let q = $("[class^='starttext']);
+let q = $("[class^='starttext']");
 ```
