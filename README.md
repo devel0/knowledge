@@ -156,6 +156,7 @@ references for linux admin and development
 - docker containers
   - [docker backup](doc/docker-backup.md)
   - [show layer commands](doc/show-layer-commands.md)  
+  - doc not included ( see `/etc/dpkg/dpkg.cfg.d/excludes` )
   - [test swap memory](doc/test-swap-memory.md)
   - scripts
     - [dk-id](https://github.com/devel0/linux-scripts-utils/blob/master/dk-id)
