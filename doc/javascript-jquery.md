@@ -17,7 +17,7 @@ arr.slice(arr.indexOf(1)); // remove element 1 (index 0)
 let q1 = $('.someclass');
 ```
 
-- search any specific descendant with class that have parent with some class
+- search any specific **descendant** with class that have parent with some class
 
 ```html
 <table class="sometblclass">
@@ -33,7 +33,13 @@ let q1 = $('.someclass');
 let q1 = $(".sometblclass > tbody > tr > td.j-mycls");
 ```
 
-- search any element with attribute
+- search class1 **or** class2
+
+```js
+let q = $(".class1,.class2");
+```
+
+- search any element with **attribute**
 
 ```html
 <button mynfo="xx"></button>
@@ -43,4 +49,10 @@ let q1 = $(".sometblclass > tbody > tr > td.j-mycls");
 $("button[mynfo]").each((idx,btn) => {
   let mynfo = $(btn).attr("mynfo");
 });
+```
+
+- search with **starting**
+
+```js
+let q = $("[class^='starttext']);
 ```
