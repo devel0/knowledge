@@ -1,5 +1,16 @@
 # docker backup
 
+- [through export, import](#through-export-import)
+  * [backup](#backup)
+  * [restore image](#restore-image)
+- [recreate container](#recreate-container)
+- [through image commit, save, load](#through-image-commit-save-load)
+  * [create an image of current container ( pausing during commit )](#create-an-image-of-current-container--pausing-during-commit-)
+  * [save image to a file](#save-image-to-a-file)
+  * [restore container image](#restore-container-image)
+  
+<hr/>
+
 ## through export, import
 
 ### backup
@@ -19,7 +30,7 @@ docker import backup01.tar backup01
 **note** volume, container name, and other run options need to be specified
 
 ```sh
-docker run [options] backup01
+docker run -ti [options] backup01 /bin/bash
 ```
 
 ## through image commit, save, load
