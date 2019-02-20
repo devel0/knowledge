@@ -87,6 +87,8 @@ references for linux admin and development
 - [psql password in file](doc/psql-password-in-file.md)
 - [psql select datetime timezone](doc/select-datetime-timezone.md)
 - [pgadmin](doc/pgadmin.md)
+- entity framework
+  - [load related entities](https://docs.microsoft.com/en-us/ef/core/querying/related-data)
 
 ### webdevel
 - [javascript/jquery](doc/javascript-jquery.md)
