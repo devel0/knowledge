@@ -56,3 +56,9 @@ $("button[mynfo]").each((idx,btn) => {
 ```js
 let q = $("[class^='starttext']");
 ```
+
+- search class1 but **not** class2
+
+```js
+let q = $(".class1").not(".class2");
+```
