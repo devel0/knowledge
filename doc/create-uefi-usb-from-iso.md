@@ -14,7 +14,19 @@ mkdir -p ~/tmp/uefi-usb-dst ~/tmp/uefi-iso-mnt
 
 parted --script /dev/sdX mklabel gpt
 parted --script --align=optimal /dev/sdX mkpart ESP fat32 1MiB 100%
+```
+
+for linux based images
+```
 parted --script /dev/sdX set 1 boot on
+```
+
+for win based images
+```
+parted --script /dev/sdX set 1 msftdata on
+```
+
+```
 mkfs.vfat -n MYLBL /dev/sdX1
 
 mount -t vfat /dev/sdX1 ~/tmp/uefi-usb-dst
