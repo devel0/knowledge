@@ -108,6 +108,7 @@ references for linux admin and development
 - [xrdp remmina](doc/xrdp-remmina.md)  
 - [force zimbra smtp auth](doc/zimbra-force-smtp-auth.md)
 - [mobile server](doc/mobile-server.md)
+- monitor interfaces bandwidth `bmon -p eth0,eth1`
 
 ### linux
 - [quick and dirty os install notes](doc/quick-and-dirty-server-install-notes.md)
