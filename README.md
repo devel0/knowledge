@@ -104,7 +104,10 @@ references for linux admin and development
 - [send simple message over udp](doc/send-simple-message-over-udp.md)
 - [send email](doc/send-email-wrapper.md)
 - [tune nginx for webapi](doc/nginx-webapi-conf.md)  
-- [run wireshark as nonroot](doc/run-wireshark-as-nonroot.md)      
+- wireshark
+  - [run wireshark as nonroot](doc/run-wireshark-as-nonroot.md)      
+  - [wireshark chrome decrypt ssl](doc/wireshark-chrome-decrypt-ssl.md)
+- [https proxy sniffer](doc/https-proxy-sniffer.md)
 - [xrdp remmina](doc/xrdp-remmina.md)  
 - [force zimbra smtp auth](doc/zimbra-force-smtp-auth.md)
 - [mobile server](doc/mobile-server.md)
