@@ -190,6 +190,8 @@ references for linux admin and development
   - [markdown to pdf](doc/markdown-to-pdf.md)
   
 ### media
+- editing
+  - pdf edit inking `apt install xournal`
 - sound
   - console player `apt install mocp`
 - graphics
