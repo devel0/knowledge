@@ -17,3 +17,4 @@
 - Todo Tree
 - Reload
 - Live Sass Compiler
+- Nuget Package Manager
