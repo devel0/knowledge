@@ -1,5 +1,8 @@
 # vscode tips
 
-## switch between vscode windows
+## keys
 
-`shift + cmd + ~`
+| key | descr |
+|---|---|
+| `shift + cmd + ~` | switch between vscode windows |
+| `ctrl + shift + O` | methods list |
