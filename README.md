@@ -99,6 +99,7 @@ references for linux admin and development
 - [chrome](doc/chrome.md)
 - imagemap ( just use gimp Filters/Web/Imagemap )
 - [grunt troubleshoot](doc/grunt-troubleshoot.md)
+- [install latest npm](https://websiteforstudents.com/install-the-latest-node-js-and-nmp-packages-on-ubuntu-16-04-18-04-lts/)
 
 ### networking
 - send a tcp packet `echo sample | nc 10.10.2.10 1000`
