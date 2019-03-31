@@ -103,6 +103,7 @@ references for linux admin and development
 - [install latest npm](https://websiteforstudents.com/install-the-latest-node-js-and-nmp-packages-on-ubuntu-16-04-18-04-lts/)
 - react / material.ui ( typescript )
   - [resposive drawer with styles and theme](doc/material-ui-responsive-drawer-styles-theme-typescript.md)
+  - [common styles combined](https://github.com/mui-org/material-ui/issues/11517#issuecomment-478337616)
 
 ### networking
 - send a tcp packet `echo sample | nc 10.10.2.10 1000`
