@@ -10,6 +10,17 @@
 </Project>
 ```
 
+to disable warn about missing doc
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>    
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <noWarn>1591</noWarn>
+  </PropertyGroup>
+</Project>
+```
+
 ## csharp macro define csproj
 
 to define a constant to use in the code like this
