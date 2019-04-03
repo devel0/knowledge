@@ -1,0 +1,19 @@
+# npm tips
+
+## use local npm packages
+
+```sh
+ npm config set prefix '~/.npm-global'
+ echo 'export PATH=$PATH:~/.npm-global/bin' >> ~/.bashrc
+ source ~/.bashrc
+```
+
+## install latest npm version
+
+- [link](https://websiteforstudents.com/install-the-latest-node-js-and-nmp-packages-on-ubuntu-16-04-18-04-lts/)
+
+## clear npm cache
+
+```sh
+clean npm cache npm cache clean -f
+```
