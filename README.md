@@ -51,6 +51,7 @@ references for linux admin and development
 - [uri encode](doc/uri-encode.md)
 - [bash scripting](doc/bash-scripting.md)
 - [jq json tool](doc/jq-json-tool.md)
+- [ensure kill process](doc/ensure-kill-process.md)
 
 ### development tools
 - git
