@@ -24,3 +24,9 @@ clean npm cache npm cache clean -f
 cd ./my-project
 npm link path-to-local-module
 ```
+
+## install package from github repo commit id
+
+```sh
+npm install https://github.com/user/project/tarball/commitid --save-dev
+```
