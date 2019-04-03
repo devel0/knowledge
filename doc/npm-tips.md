@@ -17,3 +17,10 @@
 ```sh
 clean npm cache npm cache clean -f
 ```
+
+## link a local package source
+
+```sh
+cd ./my-project
+npm link path-to-local-module
+```
