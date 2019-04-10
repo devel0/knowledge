@@ -55,6 +55,7 @@ references for linux admin and development
 
 ### development tools
 - git
+  - [integrate original to forked project](doc/integrate-original-to-forked-project.md)
   - [change remote](doc/change-remote.md)
   - [clone tag](doc/clone-tag.md)
   - [commit to new branch](doc/commit-to-new-branch.md)
