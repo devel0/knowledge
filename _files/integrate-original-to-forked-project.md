@@ -1,4 +1,4 @@
-# sync back fork to origina;
+# integrate original to forked
 
 ## scenario
 
