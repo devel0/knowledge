@@ -124,6 +124,7 @@ references for linux admin and development
 
 ### linux
 - [quick and dirty os install notes](doc/quick-and-dirty-server-install-notes.md)
+- [remotely assist linux can't boot](doc/remotely-assist-linux-cant-boot.md)
 - [tune inotify](doc/tune-inotify.md)    
 - [tail grep continous](doc/tail-grep-continuous.md)
 - [force log rotate](doc/force-log-rotate.md)  
