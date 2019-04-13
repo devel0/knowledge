@@ -127,6 +127,7 @@ references for linux admin and development
 - [remotely assist linux can't boot](doc/remotely-assist-linux-cant-boot.md)
 - [ubuntu pendrive custom kernel arg](doc/ubuntu-pendrive-custom-kernel-arg.md)
 - [tune inotify](doc/tune-inotify.md)    
+- [autotune raid reconstruction speed](https://github.com/devel0/linux-scripts-utils/blob/18997d280d0bcd435c263d914ea7c1bcffc3a4fd/raid-auto-speed)
 - [tail grep continous](doc/tail-grep-continuous.md)
 - [force log rotate](doc/force-log-rotate.md)  
 - [su with sudo colorful prompt](doc/su-with-sudo-prompt.md)  
