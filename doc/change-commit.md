@@ -46,3 +46,9 @@ git clean -dfx
 git tag -a vxxx hashcode
 git push --tags
 ```
+
+## merge a branch into current
+
+```
+git merge anotherbranch
+```
