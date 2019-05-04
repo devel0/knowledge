@@ -27,7 +27,7 @@ Mono.Unix.Native.Syscall.stat("/etc/hosts", out buf);
 
 ## using DllImport and C++
 
-- create the LinuxHelper folder with wrapper Helper.cpp
+- create the LinuxHelper folder with wrapper Helper.cpp ( [code](https://github.com/devel0/example-dotnet-cpp-integration) )
 
 ```c++
 #include <stdio.h>
