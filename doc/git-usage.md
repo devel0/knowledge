@@ -9,7 +9,8 @@
 - [commit all staged files](#commit-all-staged-files)
 - [clone specific tag](#clone-specific-tag)
 - [commit to a new branch](#commit-to-a-new-branch)
-- [analyze commits](#analyze-commits)
+- [show local changes](#show-local-changes)
+- [show commit logs](#show-commit-logs)
 - [change to another branch/commit](#change-to-another-branchcommit)
 - [revert a commit](#revert-a-commit)
 - [discard all local changes](#discard-all-local-changes)
@@ -101,7 +102,13 @@ and push to remote
 git push --set-upstream origin newbranch
 ```
 
-## analyze commits
+## show local changes
+
+```sh
+git diff
+```
+
+## show commit logs
 
 ```sh
 git log
