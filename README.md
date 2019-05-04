@@ -54,12 +54,7 @@ references for linux admin and development
 - [ensure kill process](doc/ensure-kill-process.md)
 
 ### development tools
-- git
-  - [integrate original to forked](doc/integrate-original-to-forked.md)
-  - [change remote](doc/change-remote.md)
-  - [clone tag](doc/clone-tag.md)
-  - [commit to new branch](doc/commit-to-new-branch.md)
-  - [work with commits](doc/change-commit.md)
+- [git](doc/git-usage.md)
 - vscode
   - [tips](doc/vscode-tips.md)
   - [settings](doc/vscode-settings.md)
