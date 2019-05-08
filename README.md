@@ -85,6 +85,7 @@ references for linux admin and development
 ### database
 - [psql password in file](doc/psql-password-in-file.md)
 - [psql select datetime timezone](doc/select-datetime-timezone.md)
+- [automatic generate psql db diagram](https://github.com/cbbrowne/autodoc)
 - [pgadmin](doc/pgadmin.md)
 - entity framework
   - [load related entities](https://docs.microsoft.com/en-us/ef/core/querying/related-data)
