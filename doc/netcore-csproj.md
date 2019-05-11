@@ -43,3 +43,21 @@ edit `.csproj` like follow ( separate by semicolon )
   </PropertyGroup>
 </Project>
 ```
+
+## exclude files from compile
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>server_lib</RootNamespace>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Program.cs"/>
+  </ItemGroup>
+
+</Project>
+```
