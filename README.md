@@ -71,7 +71,7 @@ references for linux admin and development
 
 ### csharp
 - [netcore csproj](doc/netcore-csproj.md) ( generate doc, define macro, exclude files from compile )
-- [netcore platform environment](doc/netcore-platform-environment.md)
+- [netcore platform environment](doc/netcore-platform-environment.md) ( os type, debug macro )
 - [send email 465](doc/send-email-465.md)
 - [psql ef codefirst](doc/psql-ef-codefirst.md)
 - [asp net core](doc/asp-net-core.md)
