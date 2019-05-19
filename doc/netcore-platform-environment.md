@@ -19,7 +19,7 @@ var isWindows = RuntimeInformation.IsOSPlatform(OSPlatform.Windows);
 
 the code will included in Debug but not in Release mode
 
-- debug execution
+**debug** execution
 
 ```sh
 dotnet run
@@ -32,7 +32,7 @@ dotnet build
 dotnet bin/Debug/myapp/myapp.dll
 ```
 
-- release execution
+**release** execution
 
 ```sh
 dotnet run -c Release
