@@ -29,7 +29,7 @@ or build and run faster 2th times directly
 
 ```sh
 dotnet build
-dotnet bin/Debug/myapp/myapp.dll
+dotnet bin/Debug/netcoreapp3.0/myapp.dll
 ```
 
 **release** execution
@@ -42,6 +42,6 @@ or build and run faster 2th times directly
 
 ```sh
 dotnet build -c Release
-dotnet bin/Debug/myapp/myapp.dll
+dotnet bin/Debug/netcoreapp3.0/myapp.dll
 ```
 
