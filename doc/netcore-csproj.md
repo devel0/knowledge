@@ -44,6 +44,16 @@ edit `.csproj` like follow ( separate by semicolon )
 </Project>
 ```
 
+or **conditionally** based on configuration used `dotnet build -c Release`
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <DefineConstants>MYCONST;MYCONST2</DefineConstants>  
+  </PropertyGroup>  
+</Project>
+```
+
 ## exclude files from compile
 
 ```xml
