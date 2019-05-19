@@ -71,3 +71,13 @@ or **conditionally** based on configuration used `dotnet build -c Release`
 
 </Project>
 ```
+
+## disable warnings
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk.Web">
+    <PropertyGroup>
+        <noWarn>1591</noWarn>
+    </PropertyGroup>
+</Project>
+```
