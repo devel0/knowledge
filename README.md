@@ -171,6 +171,7 @@ references for linux admin and development
   - [replace raid md damaged disk](doc/replace-raid-md-damaged-disk.md)    
   - force reread partition : `partprobe <device>`
   - [create uefi usb from iso](doc/create-uefi-usb-from-iso.md)
+  - [encrypt disk](doc/encrypt-disk.md)
 - docker containers
   - [docker backup](doc/docker-backup.md)
   - [show layer commands](doc/show-layer-commands.md)  
