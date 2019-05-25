@@ -172,7 +172,7 @@ references for linux admin and development
   - force reread partition : `partprobe <device>`
   - [create uefi usb from iso](doc/create-uefi-usb-from-iso.md)
   - [encrypt disk](doc/encrypt-disk.md)
-  - [selfcheck disk health](doc/self-check-disk-heatlth.md)
+  - [selfcheck disk health](doc/selfcheck-disk-health.md)
 - docker containers
   - [docker backup](doc/docker-backup.md)
   - [show layer commands](doc/show-layer-commands.md)  
