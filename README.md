@@ -81,6 +81,7 @@ references for linux admin and development
 - [dotnet netcorestandard testunit](https://github.com/devel0/netcore-util/tree/6267b9e954692ecc7513ccb9616d590128294598#how-this-project-was-built)
 - [regex](doc/regex.md)
 - [csharp to typescript](doc/csharp-to-typescript.md)
+- [xlsx finalize worksheet freeze columns](https://github.com/devel0/worked-hours-tracker/blob/e947095bba1c52010651e79fbf2f44d82f600adc/WorkedHoursTrackerWebapi/Controllers/ApiController.cs#L543-L557)
 
 ### c++
 - [linux vscode debug](https://github.com/devel0/example-vscode-linux-cpp-debug)
