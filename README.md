@@ -173,6 +173,7 @@ references for linux admin and development
   - [create uefi usb from iso](doc/create-uefi-usb-from-iso.md)
   - [encrypt disk](doc/encrypt-disk.md)
   - [selfcheck disk health](doc/selfcheck-disk-health.md)
+  - disk space analyzer `apt install baobab`
 - docker containers
   - [docker backup](doc/docker-backup.md)
   - [show layer commands](doc/show-layer-commands.md)  
