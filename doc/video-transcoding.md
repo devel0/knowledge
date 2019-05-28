@@ -2,6 +2,18 @@
 
 *tools*
 
+## convert video to images
+
+```sh
+ffmpeg -i file.mp4 image%04d.jpg -hide_banner
+```
+
+## recompose back image to video
+
+```sh
+ffmpeg -i image%04d.jpg file.mp4 -hide_banner
+```
+
 ## gui tools
 
 - handbrake ( transcode )
