@@ -88,6 +88,7 @@ references for linux admin and development
 - [dump-file-to-c](doc/dump-file-to-c.md)  
 
 ### database
+- [psql backup restore](doc/psql-backup-restore.md)
 - [psql password in file](doc/psql-password-in-file.md)
 - [psql select datetime timezone](doc/select-datetime-timezone.md)
 - [automatic generate psql db diagram](https://github.com/cbbrowne/autodoc)
