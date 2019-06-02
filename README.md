@@ -75,6 +75,7 @@ references for linux admin and development
 - [send email 465](doc/send-email-465.md)
 - [psql ef codefirst](doc/psql-ef-codefirst.md)
 - [asp net core](doc/asp-net-core.md)
+- [dotnet sdks](https://github.com/dotnet/core-sdk)
 - [dotnet cmdline](doc/dotnet-cmdline.md)
 - [dotnet core unix interop](doc/dotnet-core-unix-interop.md)
 - [dotnet gui](doc/dotnet-avalonia.md)
