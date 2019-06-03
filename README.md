@@ -83,6 +83,7 @@ references for linux admin and development
 - [regex](doc/regex.md)
 - [csharp to typescript](doc/csharp-to-typescript.md)
 - [xlsx finalize worksheet freeze columns](https://github.com/devel0/worked-hours-tracker/blob/e947095bba1c52010651e79fbf2f44d82f600adc/WorkedHoursTrackerWebapi/Controllers/ApiController.cs#L543-L557)
+- [wpf](doc/wpf.md)
 
 ### c++
 - [linux vscode debug](https://github.com/devel0/example-vscode-linux-cpp-debug)
