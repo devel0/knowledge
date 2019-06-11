@@ -14,6 +14,15 @@ str = rgx.Replace(str, "");
 
 - will result in `"sample"`
 
+## group matches
+
+```csharp
+var filename = "some_12.txt";
+
+var match = new Regex(".*(\\d+)\\.txt").Match(filename);
+if (match.Success) Console.WriteLine($"number is : {match.Groups[1].Value}");
+```
+
 ## references
 
 - [regex](https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference)
