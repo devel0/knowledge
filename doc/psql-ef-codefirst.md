@@ -29,3 +29,11 @@ dotnet add package Microsoft.EntityFrameworkCore.Relational --version 2.1.3
 dotnet ef migrations add migr1
 dotnet ef database update
 ```
+
+## dotnet-ef upgrade net framework
+
+if use some preview version
+
+```sh
+dotnet tool update --global dotnet-ef --version 3.0.0-preview5.19227.1
+```
