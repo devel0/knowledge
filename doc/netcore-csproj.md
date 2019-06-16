@@ -74,6 +74,8 @@ or **conditionally** based on configuration used `dotnet build -c Release`
 
 ## disable warnings
 
+follow to disable missing XML comment
+
 ```xml
 <Project Sdk="Microsoft.NET.Sdk.Web">
     <PropertyGroup>
