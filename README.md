@@ -102,6 +102,7 @@ references for linux admin and development
 - [javascript/jquery](doc/javascript-jquery.md)
   - [momentjs date](doc/momentjs-date.md)
 - [bootstrap css](doc/bootstrap-css.md)
+- [sandbox repro](doc/sandbox-repro.md)
 - [chrome](doc/chrome.md)
 - imagemap ( just use gimp Filters/Web/Imagemap )
 - [grunt troubleshoot](doc/grunt-troubleshoot.md)
