@@ -5,10 +5,10 @@
 ```csharp
 var fullstr = "23: sample [Overtest 1]";
 
-var rgx = new Regex("\\d+:\\s");
+var rgx = new Regex(@"\d+:\s");
 var str = rgx.Replace(fullstr, "");
 
-rgx = new Regex("\\s\\[Over.*\\]");
+rgx = new Regex(@"\s\[Over.*\]");
 str = rgx.Replace(str, "");
 ```
 
@@ -19,7 +19,7 @@ str = rgx.Replace(str, "");
 ```csharp
 var filename = "some_12.txt";
 
-var match = new Regex(".*_(\\d+)\\.txt").Match(filename);
+var match = new Regex(@".*_(\d+)\.txt").Match(filename);
 if (match.Success) Console.WriteLine($"number is : {match.Groups[1].Value}");
 ```
 
