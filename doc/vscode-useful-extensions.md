@@ -18,3 +18,6 @@
 - Reload
 - Live Sass Compiler
 - Nuget Package Manager
+- Coverage Gutters
+- .NET Core Test Explorer
+- [Coverlet](https://github.com/tonerdo/coverlet/?WT.mc_id=-blog-scottha)
