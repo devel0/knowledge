@@ -70,7 +70,7 @@ references for linux admin and development
   - [troubleshoot](doc/troubleshoot.md)
 
 ### csharp
-- [netcore csproj](doc/netcore-csproj.md) ( generate doc, define macro, exclude files from compile, disable warnings )
+- [netcore csproj](doc/netcore-csproj.md) ( generate doc, copy to output, define macro, exclude files from compile, disable warnings )
 - [netcore platform environment](doc/netcore-platform-environment.md) ( os type, debug macro )
 - [send email 465](doc/send-email-465.md)
 - [psql ef codefirst](doc/psql-ef-codefirst.md)
