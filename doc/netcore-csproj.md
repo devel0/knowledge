@@ -21,6 +21,14 @@ to disable warn about missing doc
 </Project>
 ```
 
+## copy to output folder
+
+```xml
+<ItemGroup Condition="'$(Configuration)' == 'Debug'">
+  <None Update="doc/file.dxf" CopyToOutputDirectory="PreserveNewest" />
+</ItemGroup>
+```
+
 ## csharp macro define csproj
 
 to define a constant to use in the code like this
