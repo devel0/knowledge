@@ -23,6 +23,15 @@ var match = new Regex(@".*_(\d+)\.txt").Match(filename);
 if (match.Success) Console.WriteLine($"number is : {match.Groups[1].Value}");
 ```
 
+## optional character
+
+```csharp
+var regex = new Regex(@"X\s*=\s*([-]?[\d\.]*)\s*Y\s*=\s*([-]?[\d\.]*)\s*Z\s*=\s*([-]?[\d\.]*)");
+
+var match = regex.Match("X = -187.42845697 Y = 128.44203407 Z = 25.92565607");
+if (match.Success) Console.WriteLine($"coord x:{match.Groups[1].Value} y:{match.Groups[2].Value} z:{match.Groups[3].Value}");
+```
+
 ## auto-escaping
 
 ```csharp
