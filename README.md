@@ -209,6 +209,7 @@ references for linux admin and development
   - [hex editor : bless](https://github.com/bwrsandman/Bless)
   - [markdown toc](doc/markdown-toc.md)
   - [markdown to pdf](doc/markdown-to-pdf.md)
+  - [markdown server](https://github.com/markserv/markserv)
   
 ### media
 - editing
