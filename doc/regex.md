@@ -29,7 +29,13 @@ if (match.Success) Console.WriteLine($"number is : {match.Groups[1].Value}");
 var regex = new Regex(@"X\s*=\s*([-]?[\d\.]*)\s*Y\s*=\s*([-]?[\d\.]*)\s*Z\s*=\s*([-]?[\d\.]*)");
 
 var match = regex.Match("X = -187.42845697 Y = 128.44203407 Z = 25.92565607");
-if (match.Success) Console.WriteLine($"coord x:{match.Groups[1].Value} y:{match.Groups[2].Value} z:{match.Groups[3].Value}");
+if (match.Success)
+{
+  var x = match.Groups[1].Value;
+  var y = match.Groups[2].Value;
+  var z = match.Groups[3].Value;
+  Console.WriteLine($"coord x:{x} y:{y} z:{z}");
+}
 ```
 
 ## auto-escaping
