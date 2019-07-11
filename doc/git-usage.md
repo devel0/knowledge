@@ -4,7 +4,9 @@
 
 - [create project local then import into github](#create-project-local-then-import-into-github)
 - [integrate original to forked](#integrate-original-to-forked)
-- [switch to a new remote](#switch-to-a-new-remote)
+- [switch to a new remote committing local](#switch-to-a-new-remote-committing-local)
+  * [committing local](#committing-local)
+  * [discarding local](#discarding-local)
 - [add untracked files](#add-untracked-files)
 - [commit all staged files](#commit-all-staged-files)
 - [clone specific tag](#clone-specific-tag)
@@ -55,11 +57,28 @@ git merge original/master
 git push
 ```
 
-## switch to a new remote
+## switch to a new remote committing local
 
 - **replacements**
     - `new-repo-url` with new repository url
     - `branch` new remote repository branch to work on
+    
+### committing local
+
+```sh
+git remote add newremote new-repo-url
+git fetch newremote branch
+git add --all
+git commit -a
+```
+
+and push to newremote
+
+```sh
+git push --set-upstream origin newremote
+```
+
+### discarding local
 
 ```sh
 git remote add newremote new-repo-url
