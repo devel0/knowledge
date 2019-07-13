@@ -2,6 +2,7 @@
 
 *git*
 
+- [diff from previous commit](#diff-from-previous-commit)
 - [create project local then import into github](#create-project-local-then-import-into-github)
 - [integrate original to forked](#integrate-original-to-forked)
 - [switch to a new remote committing local](#switch-to-a-new-remote-committing-local)
@@ -18,6 +19,18 @@
 - [discard all local changes](#discard-all-local-changes)
 - [tag specific commit and push to remote](#tag-specific-commit-and-push-to-remote)
 - [merge a branch into current](#merge-a-branch-into-current)
+
+## diff from previous commit
+
+```sh
+git diff commitid^
+```
+
+for latest commit diff
+
+```sh
+git diff HEAD^
+```
 
 ## create project local then import into github
 
