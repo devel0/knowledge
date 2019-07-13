@@ -26,6 +26,12 @@
 git diff commitid^
 ```
 
+to increase line numbers
+
+```sh
+git diff -U10 commitid^
+```
+
 for latest commit diff
 
 ```sh
