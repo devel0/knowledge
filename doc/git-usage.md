@@ -19,6 +19,7 @@
 - [discard all local changes](#discard-all-local-changes)
 - [tag specific commit and push to remote](#tag-specific-commit-and-push-to-remote)
 - [merge a branch into current](#merge-a-branch-into-current)
+- [github tips](github-tips)
 
 ## diff from previous commit
 
@@ -184,3 +185,7 @@ git push --tags
 ```sh
 git merge anotherbranch
 ```
+
+## github tips
+
+- retrieve current page in a permalink form ( hotkey `y` )
