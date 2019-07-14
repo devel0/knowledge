@@ -20,6 +20,7 @@
 - [tag specific commit and push to remote](#tag-specific-commit-and-push-to-remote)
 - [merge a branch into current](#merge-a-branch-into-current)
 - [github tips](github-tips)
+- [delete branch local and remote](delete-branch-local-and-remote)
 
 ## diff from previous commit
 
@@ -189,3 +190,15 @@ git merge anotherbranch
 ## github tips
 
 - retrieve current page in a permalink form ( hotkey `y` )
+
+## delete branch local and remote
+
+```sh
+git branch -d branchname
+```
+
+to delete branch on remote:
+
+```sh
+git push originname --delete branchname
+```
