@@ -19,8 +19,8 @@
 - [discard all local changes](#discard-all-local-changes)
 - [tag specific commit and push to remote](#tag-specific-commit-and-push-to-remote)
 - [merge a branch into current](#merge-a-branch-into-current)
-- [github tips](github-tips)
-- [delete branch local and remote](delete-branch-local-and-remote)
+- [github tips](#github-tips)
+- [delete branch local and remote](#delete-branch-local-and-remote)
 
 ## diff from previous commit
 
