@@ -3,6 +3,7 @@
 *git*
 
 - [diff from previous commit](#diff-from-previous-commit)
+- [undo last commit](#undo-last-commit)
 - [show local branches](#show-local-branches)
 - [create project local then import into github](#create-project-local-then-import-into-github)
 - [integrate original to forked](#integrate-original-to-forked)
@@ -39,6 +40,12 @@ for latest commit diff
 
 ```sh
 git diff HEAD^
+```
+
+## undo last commit
+
+```sh
+git reset HEAD~
 ```
 
 ## show local branches
