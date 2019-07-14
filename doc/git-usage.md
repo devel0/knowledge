@@ -3,6 +3,7 @@
 *git*
 
 - [diff from previous commit](#diff-from-previous-commit)
+- [show local branches](#show-local-branches)
 - [create project local then import into github](#create-project-local-then-import-into-github)
 - [integrate original to forked](#integrate-original-to-forked)
 - [switch to a new remote committing local](#switch-to-a-new-remote-committing-local)
@@ -38,6 +39,18 @@ for latest commit diff
 
 ```sh
 git diff HEAD^
+```
+
+## show local branches
+
+```sh
+git branch
+```
+
+or tree
+
+```sh
+git log --graph --pretty=oneline --abbrev-commit
 ```
 
 ## create project local then import into github
