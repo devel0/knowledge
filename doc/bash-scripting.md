@@ -22,3 +22,16 @@ while IFS='' read -r line || [[ -n "$line" ]]; do
     echo "line = [$line]"    
 done < "filename.txt"
 ```
+
+## function with arguments
+
+**note**: `$@` variable MUST double quoted to avoid string space splitting
+
+```sh
+function test()
+{
+	another_process "$@"
+}
+
+test "sample 1" "sample 2"
+```
