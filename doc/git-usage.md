@@ -23,6 +23,7 @@
 - [merge a branch into current](#merge-a-branch-into-current)
 - [github tips](#github-tips)
 - [delete branch local and remote](#delete-branch-local-and-remote)
+- [pull-and-switch-to-a-branch](pull and switch to a branch)
 
 ## diff from previous commit
 
@@ -221,4 +222,11 @@ to delete branch on remote:
 
 ```sh
 git push originname --delete branchname
+```
+
+## pull and switch to a branch
+
+```sh
+git fetch origin
+git checkout --track origin/<branchname>
 ```
