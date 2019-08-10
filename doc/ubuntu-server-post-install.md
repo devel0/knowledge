@@ -24,6 +24,10 @@ export PATH=$PATH:~/.dotnet/tools
 export PATH=$PATH:/nas/scripts
 ```
 
+## automatic disk decryption
+
+- [luks keyfile for automount](encrypt-disk.md#use-keyfile-for-automount)
+
 ## docker
 
 - [disable iptables](docker-without-iptables.md)
