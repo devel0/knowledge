@@ -2,38 +2,38 @@
 
 *tools*
 
-follow list is generated through this code `for i in $(ls ~/.vscode/extensions | sed 's#\(.*\)-\([0-9].*\)#\1#g'); do echo "code --install-extensions $i"; done`
+follow list is generated through this code `for i in $(ls ~/.vscode/extensions | sed 's#\(.*\)-\([0-9].*\)#\1#g'); do echo "code --install-extension $i"; done`
 
 ```sh
-code --install-extensions acharluk.easy-cpp-projects
-code --install-extensions alefragnani.bookmarks
-code --install-extensions austin.code-gnu-global
-code --install-extensions christian-kohler.npm-intellisense
-code --install-extensions davidanson.vscode-markdownlint
-code --install-extensions dbaeumer.jshint
-code --install-extensions dbaeumer.vscode-eslint
-code --install-extensions eamodio.gitlens
-code --install-extensions eg2.vscode-npm-script
-code --install-extensions formulahendry.dotnet-test-explorer
-code --install-extensions ghmcadams.lintlens
-code --install-extensions gruntfuggly.todo-tree
-code --install-extensions hookyqr.beautify
-code --install-extensions jeremyrajan.webpack
-code --install-extensions jmrog.vscode-nuget-package-manager
-code --install-extensions k--kato.docomment
-code --install-extensions mikeburgh.xml-format
-code --install-extensions mitaki28.vscode-clang
-code --install-extensions ms-python.python
-code --install-extensions ms-vscode.cpptools
-code --install-extensions ms-vscode.csharp
-code --install-extensions ms-vscode.vscode-typescript-tslint-plugin
-code --install-extensions msjsdiag.debugger-for-chrome
-code --install-extensions msjsdiag.vscode-react-native
-code --install-extensions natqe.reload
-code --install-extensions ritwickdey.live-sass
-code --install-extensions ritwickdey.liveserver
-code --install-extensions ryanluker.vscode-coverage-gutters
-code --install-extensions shakram02.bash-beautify
-code --install-extensions vsciot-vscode.vscode-arduino
-code --install-extensions wayou.vscode-todo-highlight
+code --install-extension acharluk.easy-cpp-projects
+code --install-extension alefragnani.bookmarks
+code --install-extension austin.code-gnu-global
+code --install-extension christian-kohler.npm-intellisense
+code --install-extension davidanson.vscode-markdownlint
+code --install-extension dbaeumer.jshint
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension eamodio.gitlens
+code --install-extension eg2.vscode-npm-script
+code --install-extension formulahendry.dotnet-test-explorer
+code --install-extension ghmcadams.lintlens
+code --install-extension gruntfuggly.todo-tree
+code --install-extension hookyqr.beautify
+code --install-extension jeremyrajan.webpack
+code --install-extension jmrog.vscode-nuget-package-manager
+code --install-extension k--kato.docomment
+code --install-extension mikeburgh.xml-format
+code --install-extension mitaki28.vscode-clang
+code --install-extension ms-python.python
+code --install-extension ms-vscode.cpptools
+code --install-extension ms-vscode.csharp
+code --install-extension ms-vscode.vscode-typescript-tslint-plugin
+code --install-extension msjsdiag.debugger-for-chrome
+code --install-extension msjsdiag.vscode-react-native
+code --install-extension natqe.reload
+code --install-extension ritwickdey.live-sass
+code --install-extension ritwickdey.liveserver
+code --install-extension ryanluker.vscode-coverage-gutters
+code --install-extension shakram02.bash-beautify
+code --install-extension vsciot-vscode.vscode-arduino
+code --install-extension wayou.vscode-todo-highlight
 ```
