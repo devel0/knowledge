@@ -129,7 +129,9 @@ references for linux admin and development
 - quick list interface addresses `ip -br a`
 
 ### linux
-- [quick and dirty os install notes](doc/quick-and-dirty-server-install-notes.md)
+- server
+  - [quick and dirty os install notes](doc/quick-and-dirty-server-install-notes.md)
+  - [ubuntu server post install](doc/ubuntu-server-post-install.md)
 - [remotely assist linux can't boot](doc/remotely-assist-linux-cant-boot.md)
 - [ubuntu pendrive custom kernel arg](doc/ubuntu-pendrive-custom-kernel-arg.md)
 - [monitor disk temperature](https://github.com/devel0/linux-scripts-utils/blob/7258d4e2d534e22311323d9b4ac7c7a9224a9637/selfcheck-disk-temp)
