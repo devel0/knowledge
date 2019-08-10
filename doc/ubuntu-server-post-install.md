@@ -26,4 +26,8 @@ export PATH=$PATH:/nas/scripts
 
 ## docker
 
-- [disable iptables](doc/docker-without-iptables.md)
+- [disable iptables](docker-without-iptables.md)
+
+## inotify
+
+- [tune inotify](tune-inotify.md)
