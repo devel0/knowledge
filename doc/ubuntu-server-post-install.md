@@ -11,8 +11,8 @@ alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
 
-HISTSIZE=1000000
-HISTFILESIZE=2000000
+export HISTSIZE=1000000
+export HISTFILESIZE=2000000
 
 export PATH=$PATH:/opt/node/bin
 
