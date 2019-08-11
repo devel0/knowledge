@@ -47,14 +47,31 @@ DIR 00;36
 LINK 00;33
 ```
 
-- `/root/.bashrc`
+### workstation
+
+- root `~/.bashrc`
 
 ```
-PS1='${debian_chroot:+($debian_chroot)}\[\033[48;5;33m\]\[\033[01;37m\]\u@\h\[\033[00m\]:\[\033[00;36m\]\w\[\033[00m\]\$ '
+PS1='${debian_chroot:+($debian_chroot)}\[\033[48;5;27m\]\[\033[01;37m\]\u@\h\[\033[00m\]:\[\033[00;36m\]\w\[\033[00m\]\$ '
 ```
 
-- `/home/user/.bashrc`
+- user: `~/.bashrc`
 
 ```
-PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[00;36m\]\w\[\033[00m\]\$ '
+PS1='${debian_chroot:+($debian_chroot)}\[\033[01;37m\]\u\[\033[00m\]@\[\033[38;5;11m\]\h\[\033[00m\]:\[\033[01;36m\]\w\[\033[00m\]\$ '
+```
+
+### server
+
+
+- root `~/.bashrc`
+
+```
+PS1='${debian_chroot:+($debian_chroot)}\[\033[48;5;1m\]\[\033[01;37m\]\u@\h\[\033[00m\]:\[\033[00;36m\]\w\[\033[00m\]\$ '
+```
+
+- user: `~/.bashrc`
+
+```
+PS1='${debian_chroot:+($debian_chroot)}\[\033[01;37m\]\u\[\033[00m\]@\[\033[48;5;9m\]\[\033[38;5;15m\]\h\[\033[00m\]:\[\033[01;36m\]\w\[\033[00m\]\$ '
 ```
