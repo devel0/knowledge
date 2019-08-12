@@ -1,5 +1,20 @@
 # regex
 
+## reference
+
+- [Character classes in regular expressions](https://docs.microsoft.com/en-us/dotnet/standard/base-types/character-classes-in-regular-expressions)
+- [regex](https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference)
+
+## negative match
+
+```csharp
+var str = "tcpmux          1/tcp                           # TCP port service multiplexer";
+var regex = new Regex(@"([^\s]*)\s*([^/]*)");
+var match = regex.Match(str.Replace('\t', ' '));
+// match.Groups[1].value: "tcpmux"
+// match.Groups[2].value: "1"
+```
+
 ## replace
 
 ```csharp
@@ -56,7 +71,3 @@ var str2 = "some_123";
 var match = new Regex(@"some(?<my>(_\d*)?)");
 // it will matches either str1 and str2
 ```
-
-## references
-
-- [regex](https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference)
