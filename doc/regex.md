@@ -9,10 +9,11 @@
 
 ```csharp
 var str = "tcpmux          1/tcp                           # TCP port service multiplexer";
-var regex = new Regex(@"([^\s]*)\s*([^/]*)");
+var regex = new Regex(@"([^\s]*)\s*([^/]*)/([^s]*)");
 var match = regex.Match(str.Replace('\t', ' '));
-// match.Groups[1].value: "tcpmux"
-// match.Groups[2].value: "1"
+var name = match.Groups[1].Value; // "tcpmux"
+var port = int.Parse(match.Groups[2].Value); // "1"
+var protocol = match.Groups[3].Value; // "tcp"
 ```
 
 ## replace
