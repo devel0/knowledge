@@ -9,7 +9,7 @@
 
 ```csharp
 var str = "tcpmux          1/tcp                           # TCP port service multiplexer";
-var regex = new Regex(@"([^\s]*)\s*([^/]*)/([^s]*)");
+var regex = new Regex(@"([^\s]*)\s*([^/]*)/([^\s]*)");
 var match = regex.Match(str.Replace('\t', ' '));
 var name = match.Groups[1].Value; // "tcpmux"
 var port = int.Parse(match.Groups[2].Value); // "1"
