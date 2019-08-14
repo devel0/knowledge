@@ -222,6 +222,7 @@ references for linux admin and development
 - sound
   - console player `apt install mocp`
 - graphics
+  - [test 3d working](doc/test-3d-working.md)
   - [qrcode](doc/qrcode.md)  
   - [record animated gif](doc/record-animated-gif.md)
   - [freecad troubleshoot svg import](doc/freecad-import-svg-segmentation-fault.md)
