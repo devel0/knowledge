@@ -1,6 +1,6 @@
 # arduino on atmega8
 
-*electronics*
+*[electronics](../README.md#electronics)*
 
 ## purpose
 
