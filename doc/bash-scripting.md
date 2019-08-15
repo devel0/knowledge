@@ -1,6 +1,6 @@
 # bash scripting
 
-*linux*
+*[shell](../README.md#shell)*
 
 ## loop through files arguments
 
