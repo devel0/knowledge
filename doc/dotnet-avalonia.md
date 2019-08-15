@@ -1,6 +1,6 @@
 # dotnet avalonia
 
-*csharp*
+*[csharp](../README.md#csharp)*
 
 ## Introduction
 
