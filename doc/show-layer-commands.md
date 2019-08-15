@@ -1,7 +1,7 @@
 # show layer commands
 
-*docker*
+*[linux](../README.md#linux)*
 
-```
+```sh
 docker history <IMAGE>
 ```
