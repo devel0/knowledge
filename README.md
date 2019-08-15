@@ -177,10 +177,7 @@ references for linux admin and development
   - [show layer commands](doc/show-layer-commands.md)  
   - doc not included ( see `/etc/dpkg/dpkg.cfg.d/excludes` )
   - [test swap memory](doc/test-swap-memory.md)
-  - scripts
-    - [dk-id](https://github.com/devel0/linux-scripts-utils/blob/master/dk-id)
-    - [dk-purge-log](https://github.com/devel0/linux-scripts-utils/blob/master/dk-purge-log)
-    - [dk-net](https://github.com/devel0/linux-scripts-utils/blob/master/dk-net)
+  - [scripts](https://github.com/devel0/linux-scripts-utils) ( dk-id, dk-purge-log, dk-net, ... )    
 
 ### security
 - [iptables firewall](https://github.com/devel0/linux-scripts-utils/blob/master/fw.sh)
