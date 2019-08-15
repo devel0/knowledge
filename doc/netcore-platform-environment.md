@@ -1,5 +1,7 @@
 # netcore platform environment
 
+*[csharp](../README.md#csharp)*
+
 ## detect os type
 
 ```cs
