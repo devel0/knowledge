@@ -1,5 +1,7 @@
 # qucs
 
+*[electronics](../README.md#electronics)*
+
 quite universal circuit simulator
 
 ## build prerequisites
