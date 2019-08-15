@@ -1,6 +1,6 @@
 # cygwin install
 
-*tools*
+*[tools](../README.md#tools)*
 
 ## install
 
