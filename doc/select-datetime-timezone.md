@@ -1,6 +1,6 @@
 # select date timezone
 
-*psql*
+*[database](../README.md#database)*
 
 - assuming datetime stored without time zone ( ie. UTC )
 
