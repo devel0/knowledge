@@ -1,5 +1,7 @@
 # vscode tips
 
+*[development tools](../README.md#development-tools)*
+
 ## keys
 
 | key | descr |
