@@ -1,5 +1,7 @@
 # ubuntu server post install
 
+*[linux](../README.md#linux)*
+
 ## tune bashrc
 
 `/etc/bash.bashrc`
