@@ -1,6 +1,6 @@
 # vscode-arduino
 
-*arduino*
+*[electronics](../README.md#electronics)*
 
 ## setup
 
