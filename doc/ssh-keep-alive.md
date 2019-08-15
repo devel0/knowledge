@@ -1,6 +1,6 @@
 # ssh keep alive
 
-*sysadmin*
+*[security](../README.md#security)*
 
 ## purpose
 
