@@ -1,5 +1,7 @@
 # npm tips
 
+*[webdevel](../README.md#webdevel)*
+
 ## use local npm packages
 
 ```sh
