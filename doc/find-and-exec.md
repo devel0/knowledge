@@ -1,6 +1,6 @@
 # find and exec
 
-*shell*
+*[shell](../README.md#shell)*
 
 ## search file pattern and exec cmds to each one
 
