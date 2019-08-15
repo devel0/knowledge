@@ -1,6 +1,6 @@
 # vscode useful extensions
 
-*tools*
+*[development tools](../README.md#development-tools)*
 
 follow list is generated through this code `for i in $(ls ~/.vscode/extensions | sed 's#\(.*\)-\([0-9].*\)#\1#g'); do echo "code --install-extension $i"; done`
 
