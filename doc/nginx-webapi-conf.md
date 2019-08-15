@@ -1,5 +1,7 @@
 # nginx-webapi-conf
 
+*[networking](../README.md#networking)*
+
 - `/etc/nginx/nginx.conf`
   - replace `/etc/ssl/certs/searchathing.com.crt` and `/etc/ssl/certs/searchathing.com.key` with your own
 
