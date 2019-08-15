@@ -1,6 +1,6 @@
 # generate htpasswd
 
-*sysadmin*
+*[security](../README.md#security)*
 
 ## prerequisites
 
