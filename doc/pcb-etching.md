@@ -1,5 +1,7 @@
 # pcb etching
 
+*[electronics](../README.md#electronics)*
+
 ## requirements
 
 - laser printer
