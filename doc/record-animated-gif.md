@@ -1,6 +1,6 @@
 # record animated gif
 
-*tools*
+*[media](../README.md#media)*
 
 ## record screen
 
@@ -8,13 +8,13 @@
 
 - record interactive time selection
 
-```
+```sh
 screen_record.sh
 ```
 
 - or, record from console using ctrl+c to stop recording
 
-```
+```sh
 screen_record.sh --console
 ```
 
