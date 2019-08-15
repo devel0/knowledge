@@ -1,5 +1,7 @@
 # create uefi usb from iso
 
+*[linux](../README.md#linux)*
+
 **warning** : data on /dev/sdX will destroyed
 
 - suppose
@@ -17,16 +19,16 @@ parted --script --align=optimal /dev/sdX mkpart ESP fat32 1MiB 100%
 ```
 
 for linux based images
-```
+```sh
 parted --script /dev/sdX set 1 boot on
 ```
 
 for win based images
-```
+```sh
 parted --script /dev/sdX set 1 msftdata on
 ```
 
-```
+```sh
 mkfs.vfat -n MYLBL /dev/sdX1
 
 mount -t vfat /dev/sdX1 ~/tmp/uefi-usb-dst
