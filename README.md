@@ -211,7 +211,6 @@ references for linux admin and development
   - [qrcode](doc/qrcode.md)  
   - [record animated gif](doc/record-animated-gif.md)
   - [freecad troubleshoot svg import](doc/freecad-import-svg-segmentation-fault.md)
-  - [resize image](doc/resize-image.md)
-  - [m2t to mpg seekable](doc/m2t-to-mpg-seekable.md)
+  - [resize image](doc/resize-image.md)  
   - [video transcoding](doc/video-transcoding.md)
   - [remove image exif](doc/remove-image-exif.md)
