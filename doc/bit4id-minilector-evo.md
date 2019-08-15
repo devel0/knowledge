@@ -1,6 +1,6 @@
 # bit4id minilector evo
 
-*linux*
+*[linux](../README.md#linux)*
 
 ## issue
 
@@ -48,6 +48,6 @@ resulting `Info.plist` should look like follow:
 
 before to login with your card try the simple read test
 
-```
+```sh
 pkcs15-tool --list-info
 ```
