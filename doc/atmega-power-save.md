@@ -1,6 +1,6 @@
 # atmega power save
 
-*electronics*
+*[electronics](../README.md#electronics)*
 
 ## reason
 
