@@ -209,7 +209,7 @@ references for linux admin and development
 - graphics
   - [test 3d working](doc/test-3d-working.md)
   - [qrcode](doc/qrcode.md)  
-  - [record animated gif](doc/record-animated-gif.md)
+  - [screen cast](doc/screen-cast.md)
   - [freecad troubleshoot svg import](doc/freecad-import-svg-segmentation-fault.md)
   - [resize image](doc/resize-image.md)  
   - [video transcoding](doc/video-transcoding.md)
