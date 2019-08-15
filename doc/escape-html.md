@@ -1,6 +1,6 @@
 # escape html
 
-*linux*
+*[shell](../README.md#shell)*
 
 ```sh
 apt install recode
