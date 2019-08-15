@@ -1,6 +1,6 @@
 # card reader
 
-*linux*
+*[linux](../README.md#linux)*
 
 ## install
 
@@ -9,6 +9,6 @@
 
 ## commands
 
-```
+```sh
 pkcs15-tool --list-info
 ```
