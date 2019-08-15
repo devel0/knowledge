@@ -1,5 +1,7 @@
 # encrypt disk
 
+*[linux](../README.md#linux)*
+
 ## initialize partition crypto luks mapping
 
 ```sh
