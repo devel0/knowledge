@@ -1,6 +1,6 @@
 # send simple message over udp
 
-*linux*
+*[networking](../README.md#networking)*
 
 ```sh
 echo "message" > /dev/udp/localhost/55000
