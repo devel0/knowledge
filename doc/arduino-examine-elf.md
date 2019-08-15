@@ -1,6 +1,6 @@
 # arduino examine elf
 
-*electronics*
+*[electronics](../README.md#electronics)*
 
 ## howto
 
