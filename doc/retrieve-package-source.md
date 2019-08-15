@@ -1,6 +1,6 @@
 # retrieve package source
 
-*development*
+*[linux](../README.md#linux)*
 
 ## prerequisites
 
@@ -8,7 +8,7 @@
 
 ## retrieve source of a package
 
-```
+```sh
 mkdir /usr/src/mypackage
 cd /usr/src/mypackage
 apt source packagename
