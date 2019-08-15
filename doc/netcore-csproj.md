@@ -1,5 +1,7 @@
 # netcore csproj
 
+*[csharp](../README.md#csharp)*
+
 ## generate documentation
 
 ```xml
