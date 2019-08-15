@@ -1,5 +1,7 @@
 # ubuntu pendrive custom kernel arg
 
+*[linux](../README.md#linux)*
+
 - insert ubuntu desktop pendrive
 - at book hold shift
 - press esc from language menu
