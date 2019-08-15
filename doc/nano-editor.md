@@ -1,6 +1,6 @@
 # nano editor
 
-*tools*
+*[tools](../README.md#tools)*
 
 ## enable syntax highlight
 
