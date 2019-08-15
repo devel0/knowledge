@@ -1,6 +1,6 @@
 # chrome
 
-*webdevel*
+*[webdevel](../README.md#webdevel)*
 
 ## useful shortcuts
 
