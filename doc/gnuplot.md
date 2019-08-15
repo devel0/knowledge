@@ -1,6 +1,6 @@
 # gnuplot
 
-*tools*
+*[development tools](../README.md#development-tools)*
 
 ## command line execution
 
