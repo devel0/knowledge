@@ -37,20 +37,21 @@ sudo apt-get install -y \
 
 - clone source repo
 ```sh
-~$`git clone https://gitlab.gnome.org/GNOME/nautilus.git`
+git clone https://gitlab.gnome.org/GNOME/nautilus.git`
 ```
 
 - build it
 ```sh
-~$ cd nautilus
+cd nautilus
 meson build
 cd build
 ninja
+cd ..
 ```
 
 - debug it
 ```sh
-~/nautilus/build$ code ..
+code .
 ```
 
 - answer yes to the question that appears at start `Meason project detected, would you like VS Code to configure it?'
@@ -127,4 +128,19 @@ ninja
         }
     ]
 }
+```
+
+## troubleshoot
+
+- issue
+
+```
+/home/devel0/.local/bin/meson --internal regenerate /home/devel0/Documents/opensource/nautilus /home/devel0/Documents/opensource/nautilus/build --backend ninja
+ninja: error: rebuilding 'build.ninja': subcommand failed
+```
+
+- workaround
+
+```sh
+rm -fr build
 ```
