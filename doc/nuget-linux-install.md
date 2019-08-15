@@ -1,6 +1,6 @@
 # nuget linux install
 
-*nuget*
+*[development tools](../README.md#development-tools)*
 
 ## install
 
