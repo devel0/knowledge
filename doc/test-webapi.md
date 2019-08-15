@@ -1,6 +1,6 @@
 # test webapi
 
-*linux*
+*[networking](../README.md#networking)*
 
 ```sh
 #!/bin/bash
