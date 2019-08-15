@@ -1,6 +1,6 @@
 # formatted print
 
-*shell*
+*[shell](../README.md#shell)*
 
 ## formatters
 
