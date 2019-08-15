@@ -1,6 +1,6 @@
 # xrdp remmina
 
-*linux*
+*[networking](../README.md#networking)*
 
 ## prerequisites
 
