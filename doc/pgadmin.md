@@ -1,6 +1,6 @@
 # pgadmin
 
-*docker*
+*[database](../README.md#database)*
 
 ## description
 
