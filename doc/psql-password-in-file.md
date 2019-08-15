@@ -1,5 +1,7 @@
 # psql password in file
 
+*[database](../README.md#database)*
+
 - create a `~/.pgpass` with 600 mode containing
 
 ```
