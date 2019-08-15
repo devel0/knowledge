@@ -1,5 +1,7 @@
 # postgres backup restore
 
+*[database](../README.md#database)*
+
 ## backup
 
 ```sh
