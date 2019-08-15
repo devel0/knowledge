@@ -1,6 +1,6 @@
 # run wireshark as non root
 
-*sysadmin*
+*[networking](../README.md#networking)*
 
 ## install
 
