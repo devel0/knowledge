@@ -2,8 +2,6 @@
 
 *[csharp](../README.md#csharp)*
 
-<hr/>
-
 - [general](#general)
   * [csproj](#csproj)
   * [devel0 nuget.config](#devel0-nugetconfig)
