@@ -1,6 +1,6 @@
 # git usage
 
-*git*
+*[development tools](../README.md#development-tools)*
 
 - [diff from previous commit](#diff-from-previous-commit)
 - [undo last commit](#undo-last-commit)
