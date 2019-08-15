@@ -1,6 +1,6 @@
 # android push notify
 
-*mobile*
+*[mobile native](../README.md#mobile-native)*
 
 ## setup services
 
