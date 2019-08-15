@@ -1,6 +1,6 @@
 # get file size
 
-*shell*
+*[shell](../README.md#shell)*
 
 ```sh
 stat --printf="%s" file
