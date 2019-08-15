@@ -1,10 +1,10 @@
 # virtualbox
 
-*sysadmin*
+*[linux](../README.md#linux)*
 
 ## enable usb access
 
-```
+```sh
 apt-get install virtualbox-ext-pack
 ```
 
