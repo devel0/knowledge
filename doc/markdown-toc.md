@@ -1,6 +1,6 @@
 # markdown toc
 
-*tools*
+*[tools](../README.md#tools)*
 
 - [project page](https://github.com/jonschlinkert/markdown-toc)
 
