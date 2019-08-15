@@ -1,6 +1,6 @@
 # dotnet core unix interop
 
-*csharp*
+*[csharp](../README.md#csharp)*
 
 ## preamble
 
