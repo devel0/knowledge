@@ -1,5 +1,7 @@
 # quick and dirty server install notes
 
+*[linux](../README.md#linux)*
+
 ## summary
 
 - [quick and dirty server install notes](#quick-and-dirty-server-install-notes)
