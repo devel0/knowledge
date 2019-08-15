@@ -1,5 +1,7 @@
 # vscode troubleshoot
 
+*[development tools](../README.md#development-tools)*
+
 ## intellinsense not work any more
 
 ```
