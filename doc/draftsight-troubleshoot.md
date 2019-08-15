@@ -1,5 +1,7 @@
 # draftsight troubleshoot
 
+*[tools](../README.md#tools)*
+
 ## slow graphic pan, orbit
 
 - on nvidia control panel / manage 3d settings / program settings ( add draftsight with graphic card instead of integrated )
