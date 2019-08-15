@@ -24,6 +24,13 @@ dotnet add package Mono.Posix.NETStandard --version 1.0.0
 Mono.Unix.Native.Stat buf;
 Mono.Unix.Native.Syscall.stat("/etc/hosts", out buf);
 ```
+## set file permission
+
+```csharp
+using Mono.Unix.Native;
+// ...
+Syscall.chmod(pathfilename, (FilePermissions)Convert.ToUInt32("755", 8));
+```
 
 ## using DllImport and C++
 
