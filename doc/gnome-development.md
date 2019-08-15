@@ -63,4 +63,68 @@ ninja
 "program": "${workspaceFolder}/build/src/nautilus",
 ```
 
-![](../_files/gnome-dev-ide-example.md)
+![](../_files/gnome-dev-ide-example.png)
+
+- to automate build on debug set a `tasks.json` file and set a prelaunchTask in the `launch.json`, following complete files
+
+- `~/nautilus/.vscode/launch.json`
+```json
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/src/nautilus",
+            "args": [],
+            "stopAtEntry": false,
+            "preLaunchTask": "build",
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}
+```
+
+- `~/nautilus/.vscode/tasks.json`
+```json
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "prebuild",
+            "command": "meson",
+            "type": "process",
+            "args": [
+                "build"
+            ],
+            "options": {
+                "cwd": "${workspaceRoot}"
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build",
+            "command": "ninja",
+            "dependsOn": "prebuild",
+            "type": "process",
+            "args": [               
+            ],
+            "options": {
+                "cwd": "${workspaceRoot}/build"
+            },
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
+```
