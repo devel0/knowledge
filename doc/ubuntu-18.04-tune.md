@@ -129,3 +129,7 @@ apt install gstreamer1.0-plugins-bad
 
 - right click on file -> properties
 - open/with / set as default
+
+## force monitor mode
+
+- [force monitor mode](http://ubuntuhandbook.org/index.php/2017/04/custom-screen-resolution-ubuntu-desktop/)
