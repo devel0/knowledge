@@ -1,5 +1,7 @@
 # send email wrapper
 
+*[networking](../README.md#networking)*
+
 ## purpose
 
 - use [sendmail.js](https://www.npmjs.com/package/sendmail) to send an email from command line
