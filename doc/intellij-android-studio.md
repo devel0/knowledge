@@ -1,6 +1,6 @@
 # intellij android studio
 
-*android*
+*[mobile native](../README.md#mobile-native)*
 
 ## install
 
