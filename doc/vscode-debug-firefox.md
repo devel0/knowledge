@@ -1,6 +1,6 @@
 # vscode debug firefox
 
-*development*
+*[development tools](../README.md#development-tools)*
 
 ## pre
 
