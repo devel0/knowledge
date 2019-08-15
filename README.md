@@ -151,21 +151,9 @@ references for linux admin and development
   - [process management](doc/process-management.md) 
   - [autorespawn process using supervisor](https://github.com/devel0/dynamic-firewall/tree/e15ce9d0e152dee37a6a5dfff9a5f543914d5c6f#config-supervisor)
   - show memoy usage `smem --pie name -s rss`
-- [ubuntu 18.04 tune](doc/ubuntu-18.04-tune.md)
-  - touchpad right click not work
-  - monitor sysload util
-  - shutter edit
-  - modal window detach
-  - flatpak software manager
-  - wifi auth error if lid closed
-  - customize menu
-  - thunderbird huge font fix
-  - useful aliases
-  - add templates to nautilus (right click)
-  - install nextcloud, kdeconnect, freecad
-  - gstreamer plugins
-  - change default app  
-  - [force monitor mode](http://ubuntuhandbook.org/index.php/2017/04/custom-screen-resolution-ubuntu-desktop/)
+- ubuntu tune
+  - [ubuntu 18.04](doc/ubuntu-18.04-tune.md)
+  - [ubuntu 19.04](doc/ubuntu-19.04-tune.md)
 - virtualization
   - [convert qcow2 to vdi](doc/convert-qcow2-to-vdi.md)
   - [virtualbox](doc/virtualbox.md)
