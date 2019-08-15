@@ -1,6 +1,6 @@
 # trap ctrl+c
 
-*(shell)*
+*[shell](../README.md#shell)*
 
 [download](trap-ctrlc-example)
 
