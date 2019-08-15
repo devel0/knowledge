@@ -1,12 +1,14 @@
 # driver epson gt s50
 
+*[linux](../README.md#linux)*
+
 ## install driver
 
 - [download](http://download.ebz.epson.net/dsc/search/01/search/searchModule)
 
 ## post install ( ubuntu 18.04 )
 
-```
+```sh
 sudo ln -sfr /usr/lib/sane/libsane-epkowa* /usr/lib/x86_64-linux-gnu/sane
 ```
 
@@ -25,13 +27,13 @@ ATTRS{idVendor}=="04b8", ATTRS{idProduct}=="0137", MODE="0666", GROUP="scanner",
 
 - check it find scanner
 
-```
+```sh
 scanimage -L
 ```
 
 - start program
 
-```
+```sh
 iscan
 ```
 
