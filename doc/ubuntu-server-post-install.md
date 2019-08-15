@@ -21,8 +21,11 @@ export PATH=$PATH:/opt/node/bin
 export DOTNET_ROOT=/opt/dotnet
 export PATH=$PATH:$DOTNET_ROOT
 export DOTNET_CLI_TELEMETRY_OPTOUT='1'
-
 export PATH=$PATH:~/.dotnet/tools
+
+# python modules
+export PATH=$PATH:~/.local/bin
+
 export PATH=$PATH:/nas/scripts
 ```
 
