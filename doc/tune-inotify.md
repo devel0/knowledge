@@ -1,6 +1,6 @@
 # tune inotify
 
-*(linux)*
+*[linux](../README.md#linux)*
 
 error that can thrown an application
 ```
