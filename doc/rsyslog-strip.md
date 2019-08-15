@@ -1,6 +1,6 @@
 # rsyslog strip
 
-*linux*
+*[linux](../README.md#linux)*
 
 ## how to
 
