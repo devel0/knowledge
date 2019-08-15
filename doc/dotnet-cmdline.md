@@ -1,5 +1,7 @@
 # dotnet cmdline
 
+*[csharp](../README.md#csharp)*
+
 ## upgrade tool package from local nuget
 
 - a `.nupkg` file expected in local folder
