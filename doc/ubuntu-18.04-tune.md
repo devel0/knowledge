@@ -1,16 +1,16 @@
 # ubuntu 18.04 tune
 
-*sysadmin*
+*[linux](../README.md#linux)*
 
 ## touchpad right click not work
 
-```
+```sh
 gsettings set org.gnome.desktop.peripherals.touchpad click-method areas
 ```
 
 ## monitor sysload util
 
-```
+```sh
 apt install gnome-shell-extension-system-monitor
 ```
 
@@ -44,7 +44,7 @@ HandleLidSwitch=ignore
 
 ## customize menu
 
-```
+```sh
 apt install alacarte
 ```
 
@@ -52,7 +52,7 @@ apt install alacarte
 
 - copy font and restart thunderbird
 
-```
+```sh
 /usr/share/fonts/truetype/noto
 wget https://github.com/googlei18n/noto-emoji/raw/master/fonts/NotoEmoji-Regular.ttf
 ```
@@ -61,7 +61,7 @@ wget https://github.com/googlei18n/noto-emoji/raw/master/fonts/NotoEmoji-Regular
 
 in `~/.bashrc`
 
-```
+```sh
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
@@ -121,7 +121,7 @@ sleep 60
 
 ## gstreamer plugins
 
-```
+```sh
 apt install gstreamer1.0-plugins-bad
 ```
 
