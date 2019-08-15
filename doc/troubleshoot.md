@@ -1,6 +1,6 @@
 # troubleshoot
 
-*nuget*
+*[development tools](../README.md#development-tools)*
 
 ## issue
 
