@@ -1,6 +1,6 @@
 # video transcoding
 
-*tools*
+*[media](../README.md#media)*
 
 ## convert video to images
 
@@ -47,3 +47,9 @@ apt install openshot
 - drag file into profile files then in a track
 - right click on the video Rotate/option
 - File/Export video
+
+# m2t to mpg seekable
+
+```sh
+ffmpeg -i input.m2t -vcodec copy -acodec copy output.mpg
+```
