@@ -1,10 +1,10 @@
 # id_rsa
 
-*sysadmin*
+*[security](../README.md#security)*
 
 ## generate id_rsa keypair
 
-```
+```sh
 ssh-keygen -t rsa
 ```
 
@@ -12,7 +12,7 @@ ssh-keygen -t rsa
 
 ## remove passphrase
 
-```
+```sh
 ssh-keygen -p -f ~/.ssh/id_rsa
 ```
 
@@ -20,12 +20,12 @@ ssh-keygen -p -f ~/.ssh/id_rsa
 
 ## add passphrase to an id_rsa that was generated without
 
-```
+```sh
 ssh-keygen -p -f ~/.ssh/id_rsa
 ```
 
 ## host ECDSA
 
-```
+```sh
 ssh-keygen -l -E sha256 -f /etc/ssh/ssh_host_ecdsa_key.pub
 ```
