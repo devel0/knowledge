@@ -12,3 +12,7 @@ workaround
 mv /usr/bin/peek /usr/bin/peek.wrap
 echo -e '#!/bin/bash\n/usr/bin/peek.wrap -b ffmpeg $@' > /usr/bin/peek && chmod +x peek
 ```
+
+## clock at right
+
+- install "Frippery Move Clock" gnome shell extension
