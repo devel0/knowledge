@@ -31,6 +31,14 @@ to disable warn about missing doc
 </ItemGroup>
 ```
 
+- to be recursive
+
+```xml
+<ItemGroup Condition="'$(Configuration)' == 'Debug'">
+  <None Update="doc/**/*" CopyToOutputDirectory="PreserveNewest" />
+</ItemGroup>
+```
+
 ## csharp macro define csproj
 
 to define a constant to use in the code like this
