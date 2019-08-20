@@ -1,5 +1,9 @@
 # diff-huge-files
 
+- [odiff](https://github.com/devel0/odiff/blob/master/README.md)
+
+- or using diff, colordiff and diff-highlight
+
 ## install
 
 ```sh
