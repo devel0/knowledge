@@ -42,6 +42,7 @@ references for linux admin and development
 - [trap control+c](doc/trap-ctrlc.md)
 - [function arguments expansion](doc/function-args-expansion.md)
 - [formatted print](doc/formatted-print.md)
+- [diff huge files](doc/diff-huge-files.md)
 - [find xargs and exec](doc/find-and-exec.md)
 - [get file size](doc/get-file-size.md)
 - [file age sec](https://github.com/devel0/linux-scripts-utils/blob/master/file-age-sec)
