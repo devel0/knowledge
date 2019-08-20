@@ -57,3 +57,13 @@ cryptdisks_start disk_4tb_bk
 mount /disk-4tb-bk
 ```
 
+## duplicated uuid
+
+typical scenario:
+- have two backup disks ( short and long term )
+- do not mount these at the same time
+- want to mount one of backup disk in a specific folder through /etc/crypttab and /etc/fstab
+
+```sh
+cryptsetup luksUUID /dev/sdX1 --uuid "xxxxxxxx-yyyy-zzzz-wwww-aaaaaaaaaaaa"
+```
