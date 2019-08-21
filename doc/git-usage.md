@@ -2,6 +2,7 @@
 
 *[development tools](../README.md#development-tools)*
 
+- [graphical diff](#graphical-diff)
 - [diff from previous commit](#diff-from-previous-commit)
 - [undo last commit](#undo-last-commit)
 - [show local branches](#show-local-branches)
@@ -24,6 +25,26 @@
 - [github tips](#github-tips)
 - [delete branch local and remote](#delete-branch-local-and-remote)
 - [pull and switch to a branch](#pull-and-switch-to-a-branch)
+
+## graphical diff
+
+```sh
+apt install -y diffuse
+```
+
+edit `~/.gitconfig`
+
+```
+[diff]
+    tool = vimdiff    
+```
+
+and optionally to disable confirm open gui
+
+```
+[difftool]
+    prompt = false
+```
 
 ## diff from previous commit
 
