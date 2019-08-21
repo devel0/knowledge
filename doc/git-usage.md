@@ -2,8 +2,9 @@
 
 *[development tools](../README.md#development-tools)*
 
-- [graphical diff](#graphical-diff)
-- [graphical diff (code)](#graphical-diff-code)
+- graphical diff
+ - [using diffuse](#graphical-diff)
+ - [using vscode](#graphical-diff--code-)
 - [diff from previous commit](#diff-from-previous-commit)
 - [undo last commit](#undo-last-commit)
 - [show local branches](#show-local-branches)
