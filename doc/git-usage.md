@@ -3,6 +3,7 @@
 *[development tools](../README.md#development-tools)*
 
 - [graphical diff](#graphical-diff)
+- [graphical diff (code)](#graphical-diff-code)
 - [diff from previous commit](#diff-from-previous-commit)
 - [undo last commit](#undo-last-commit)
 - [show local branches](#show-local-branches)
@@ -43,6 +44,25 @@ and optionally to disable confirm open gui
 
 ```
 [difftool]
+    prompt = false
+```
+
+## graphical diff ( code )
+
+tune `~/.gitconfig`
+
+```
+[merge]
+    tool = vscode
+
+[mergetool "vscode"]
+    cmd = code --wait $MERGED
+
+[diff]
+    tool = vscode
+
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
     prompt = false
 ```
 
