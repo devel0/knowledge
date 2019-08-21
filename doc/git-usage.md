@@ -38,7 +38,7 @@ edit `~/.gitconfig`
 
 ```
 [diff]
-    tool = vimdiff    
+    tool = diffuse
 ```
 
 and optionally to disable confirm open gui
