@@ -32,6 +32,15 @@ str = rgx.Replace(str, "");
 
 - will result in `"sample"`
 
+## replace all characters that not match allowed
+
+```csharp
+var rgx = new Regex(@"[^a-zA-Z0-9\-]");
+var str = "Wrong_Host name";
+```
+
+- will results in "Wrong-Host-name"
+
 ## group matches
 
 ```csharp
