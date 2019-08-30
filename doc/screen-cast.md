@@ -13,3 +13,7 @@ apt-get install -y kazam
 ```sh
 ffmpeg -i file.webm out.gif
 ```
+
+## record terminal to gif
+
+- [ttyrec/ttygif](https://github.com/icholy/ttygif/blob/master/README.md)
