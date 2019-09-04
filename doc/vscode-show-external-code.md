@@ -1,6 +1,6 @@
 # vscode show external code
 
-*[csharp](../README.md#csharp)*
+*[development tools](../README.md#development-tools)*
 
 edit `launch.json` as follow adding `justMyCode` option
 
