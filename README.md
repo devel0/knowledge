@@ -64,6 +64,7 @@ references for linux admin and development
   - [useful extensions](doc/vscode-useful-extensions.md)
   - [troubleshoot](doc/vscode-troubleshoot.md)
   - [debug firefox](doc/vscode-debug-firefox.md)  
+  - [show external code](doc/vscode-show-external-code.md)
 - [gnome development](doc/gnome-development.md)
 - [gnuplot](doc/gnuplot.md)
 - nuget
