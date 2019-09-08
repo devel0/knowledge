@@ -80,3 +80,18 @@ PS1='${debian_chroot:+($debian_chroot)}\[\033[48;5;1m\]\[\033[01;37m\]\u@\h\[\03
 ```
 PS1='${debian_chroot:+($debian_chroot)}\[\033[01;37m\]\u\[\033[00m\]@\[\033[48;5;9m\]\[\033[38;5;15m\]\h\[\033[00m\]:\[\033[00;36m\]\w\[\033[00m\]\$ '
 ```
+
+## disable systemd-resolved
+
+```sh
+systemctl disable systemd-resolved
+systemctl stop systemd-resolved
+rm -f /etc/resolv.conf
+```
+
+create your own `/etc/resolv.conf`
+
+```
+nameserver xxx.yyy.zzz.www
+search example.com
+```
