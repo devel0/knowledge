@@ -160,7 +160,7 @@ references for linux admin and development
   - [ubuntu 18.04](doc/ubuntu-18.04-tune.md)
   - [ubuntu 19.04](doc/ubuntu-19.04-tune.md)
 - virtualization
-  - [convert qcow2 to vdi](doc/convert-qcow2-to-vdi.md)
+  - [virsh storage](doc/virsh-storage.md)
   - [virtualbox](doc/virtualbox.md)
 - [rsyslog strip](doc/rsyslog-strip.md)
 - driver
