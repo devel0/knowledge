@@ -11,7 +11,7 @@ VBoxManage convertfromraw --format VDI tmp.img out.vdi
 
 ## create qcow2 disk
 
-```
+```sh
 qemu-img create -f qcow2 myimg
 ```
 
@@ -19,7 +19,24 @@ qemu-img create -f qcow2 myimg
 
 ```sh
 qemu-img resize disk.qcow2 +40G
+```
+
+if guest doesn't show physical disk with new size try follows
+
+```sh
 virsh start domainname
 virsh blockresize domainname path-to-image newsizeG
 ```
 - reboot virtual machine
+
+## remove reserved partition
+
+to remove reserved partition on windows system to allow disk expand there is the need to use diskpart, eg
+
+```sh
+list disk
+select disk 0 <--- check your own
+list partition
+select partition 3 <--- check your own
+delete partition override
+```
