@@ -38,6 +38,7 @@ references for linux admin and development
 - [ethernet cabling T568A](http://pinouts.ru/NetworkCables/ethernet_10_100_1000_pinout.shtml)  
 
 ### shell
+- [ttyrec ttygif](doc/ttyrec-ttygif.md)
 - [linux scripts](https://github.com/devel0/linux-scripts-utils)
 - [trap control+c](doc/trap-ctrlc.md)
 - [function arguments expansion](doc/function-args-expansion.md)
