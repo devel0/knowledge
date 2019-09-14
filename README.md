@@ -169,6 +169,7 @@ references for linux admin and development
   - [wacom inkscape pressure](doc/wacom-inkscape-pressure.md)
   - [epson scanner gt-s50](doc/driver-epson-gt-s50.md)
 - disks
+  - monitor disks activity `iostat -dx 5`
   - [create bootable iso](https://raw.githubusercontent.com/jsamr/bootiso/master/bootiso)
   - [replace raid md damaged disk](doc/replace-raid-md-damaged-disk.md)    
   - force reread partition : `partprobe <device>`
