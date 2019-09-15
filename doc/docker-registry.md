@@ -34,6 +34,4 @@ or simply, login then issue `docker images remote-host/imagename:*`
 
 ## delete remote registry image
 
-```sh
-DELETE /v2/<name>/manifests/<reference>
-```
+[script](https://github.com/devel0/linux-scripts-utils/blob/cba35f627263057ce506fedb0dcb1a7b98939092/dk-rmi-remote-registry)
