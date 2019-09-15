@@ -163,6 +163,8 @@ references for linux admin and development
 - virtualization
   - [virsh storage](doc/virsh-storage.md)
   - [virtualbox](doc/virtualbox.md)
+- remove desktop
+  - fix `Authentication Required to Create Managed Color Device` [ref](https://c-nergy.be/blog/?p=12073)
 - [rsyslog strip](doc/rsyslog-strip.md)
 - driver
   - [card reader](doc/card-reader.md)
