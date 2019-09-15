@@ -95,3 +95,10 @@ create your own `/etc/resolv.conf`
 nameserver xxx.yyy.zzz.www
 search example.com
 ```
+
+edit `/etc/NetworkManager/NetworkManager.conf` to stop update resolv.conf
+
+```
+[main]
+dns=none
+```
