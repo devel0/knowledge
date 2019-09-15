@@ -32,3 +32,6 @@ now you can create `tty.gif` using
 ttygif ttyrecord
 ```
 
+## troubleshoot
+
+if you receive `cache resource exhausted` error may need to tune `/etc/ImageMagick-6/policy.xml` file as described in this [issue](https://github.com/ImageMagick/ImageMagick/issues/396#issuecomment-319569255)
