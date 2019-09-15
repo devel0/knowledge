@@ -182,6 +182,7 @@ references for linux admin and development
   - [selfcheck disk health](doc/selfcheck-disk-health.md)
   - disk space analyzer `apt install baobab`
 - docker containers
+  - [docker registry](doc/docker-registry.md)
   - [docker without iptables](doc/docker-without-iptables.md)
   - [docker backup](doc/docker-backup.md)
   - [show layer commands](doc/show-layer-commands.md)  
