@@ -2,6 +2,14 @@
 
 *[webdevel](../README.md#webdevel)*
 
+## upgrade all packages
+
+```sh
+sudo npm install -g npm-check-updates
+ncu -u
+npm install
+```
+
 ## use local npm packages
 
 ```sh
