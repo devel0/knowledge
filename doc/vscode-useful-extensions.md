@@ -36,4 +36,5 @@ code --install-extension ryanluker.vscode-coverage-gutters
 code --install-extension shakram02.bash-beautify
 code --install-extension vsciot-vscode.vscode-arduino
 code --install-extension wayou.vscode-todo-highlight
+code --install-extension ms-azuretools.vscode-docker
 ```
