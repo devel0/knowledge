@@ -28,3 +28,9 @@ if intellisense doesn't work and output shows `The SDK 'Microsoft.NET.Sdk' speci
     }
 }
 ```
+
+if have multiple sdks omnisharp could require a global.json that can be created as follow
+
+```sh
+dotnet new globaljson
+```
