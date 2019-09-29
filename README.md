@@ -58,8 +58,7 @@ references for linux admin and development
   - [replace newline](http://www.benjiegillam.com/2011/09/using-sed-to-replace-newlines/)
 
 ### development tools
-- [git](doc/git-usage.md)
-  - nautilus integration with rabbitvcs `apt install rabbitvcs-nautilus`
+- [git](doc/git-usage.md)  
 - vscode
   - [tips](doc/vscode-tips.md)
   - [settings](doc/vscode-settings.md)
