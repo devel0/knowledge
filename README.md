@@ -59,6 +59,7 @@ references for linux admin and development
 
 ### development tools
 - [git](doc/git-usage.md)
+  - nautilus integration with rabbitvcs `apt install rabbitvcs-nautilus`
 - vscode
   - [tips](doc/vscode-tips.md)
   - [settings](doc/vscode-settings.md)
