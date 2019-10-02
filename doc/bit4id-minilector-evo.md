@@ -8,7 +8,7 @@
 
 ## solution
 
-- install standard ubuntu [card reader](https://github.com/devel0/knowledge/blob/master/linux/card-reader.md) drivers
+- install standard ubuntu [card reader](https://github.com/devel0/knowledge/blob/49ef0ebbc5aac9b6e9a9afa87c93e38120696e31/doc/card-reader.md) drivers
 - edit `/usr/lib/pcsc/drivers/ifd-acsccid.bundle/Contents/Info.plist` and add your usb vid:pid ( look at `lsbusb` before and after usb connection )
   - append your vid string into `ifdVendorID` ( mine is **0x0424** )
   - append your pid string into `ifdProductID` ( mine is **0x1104** )
