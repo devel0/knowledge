@@ -26,6 +26,7 @@
 
 ## troubleshoot
 
+- `avrdude: stk500_getsync() attempt 1 of 10: not in sync` : try to select processor `ATmega328P (Old Bootloader)`
 - avrdude run with stk500v2 instead of chosen programmer : `ctrl+p upload using programmer`
 - cannot open "WProgram.h" ( just add `#define ARDUINO 10807` to top of your code )
 - cannot open serial ( may you have read-write permission as `dialout` group but still receive error you can set 666 only for usb serial arduino adapter ) :
