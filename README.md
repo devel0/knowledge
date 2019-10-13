@@ -115,6 +115,7 @@ references for linux admin and development
 - [grunt troubleshoot](doc/grunt-troubleshoot.md)
 - [npm tips](doc/npm-tips.md)
 - react / material.ui ( typescript )
+  - [create react library useHook error](https://github.com/transitive-bullshit/create-react-library/issues/99#issuecomment-463177704)
   - [resposive drawer with styles and theme](doc/material-ui-responsive-drawer-styles-theme-typescript.md)
   - [common styles combined](https://github.com/mui-org/material-ui/issues/11517#issuecomment-478337616)
 
