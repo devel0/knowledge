@@ -22,7 +22,7 @@
 }
 ```
 
-- File/Preferences/Keyboard shortcuts ( `~/.config/Code/keybindings.json` )
+- File/Preferences/Keyboard shortcuts ( `~/.config/Code/User/keybindings.json` )
 
 to open and switch between terminals like gnome-terminal
 
