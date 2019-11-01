@@ -4,13 +4,14 @@
 
 ```sh
 echo frozen > /sys/block/md0/md/sync_action
-```
-
-## restart rsync
-
-```sh
 echo none > /sys/block/md0/md/resync_start
 echo idle > /sys/block/md0/md/sync_action
+```
+
+## start check
+
+```sh
+/usr/share/mdadm/checkarray -a
 ```
 
 ## change raid reconstruction max speed
