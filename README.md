@@ -173,6 +173,7 @@ references for linux admin and development
   - [wacom inkscape pressure](doc/wacom-inkscape-pressure.md)
   - [epson scanner gt-s50](doc/driver-epson-gt-s50.md)
 - disks
+  - [raid management](doc/raid-management.md)
   - [loopback devices](doc/loopback-device.md)
   - monitor disks activity `iostat -dx 5`
   - [create bootable iso](https://raw.githubusercontent.com/jsamr/bootiso/master/bootiso)
