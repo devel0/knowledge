@@ -144,7 +144,6 @@ references for linux admin and development
 - [monitor disk temperature](https://github.com/devel0/linux-scripts-utils/blob/7258d4e2d534e22311323d9b4ac7c7a9224a9637/selfcheck-disk-temp)
 - [tune inotify](doc/tune-inotify.md)    
 - [fix dual boot](https://askubuntu.com/questions/88384/how-can-i-repair-grub-how-to-get-ubuntu-back-after-installing-windows?answertab=votes#tab-top)
-- [autotune raid reconstruction speed](https://github.com/devel0/linux-scripts-utils/blob/18997d280d0bcd435c263d914ea7c1bcffc3a4fd/raid-auto-speed)
 - [tail grep continous](doc/tail-grep-continuous.md)
 - [force log rotate](doc/force-log-rotate.md)  
 - [su with sudo colorful prompt](doc/su-with-sudo-prompt.md)  
@@ -173,11 +172,13 @@ references for linux admin and development
   - [wacom inkscape pressure](doc/wacom-inkscape-pressure.md)
   - [epson scanner gt-s50](doc/driver-epson-gt-s50.md)
 - disks
-  - [raid management](doc/raid-management.md)
+  - raid
+    - [autotune raid reconstruction speed](https://github.com/devel0/linux-scripts-utils/blob/18997d280d0bcd435c263d914ea7c1bcffc3a4fd/raid-auto-speed)
+    - [raid management](doc/raid-management.md)
+    - [replace raid md damaged disk](doc/replace-raid-md-damaged-disk.md)    
   - [loopback devices](doc/loopback-device.md)
   - monitor disks activity `iostat -dx 5`
-  - [create bootable iso](https://raw.githubusercontent.com/jsamr/bootiso/master/bootiso)
-  - [replace raid md damaged disk](doc/replace-raid-md-damaged-disk.md)    
+  - [create bootable iso](https://raw.githubusercontent.com/jsamr/bootiso/master/bootiso)  
   - force reread partition : `partprobe <device>`
   - [create uefi usb from iso](doc/create-uefi-usb-from-iso.md)
   - [encrypt disk](doc/encrypt-disk.md)
