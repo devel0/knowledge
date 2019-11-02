@@ -80,7 +80,7 @@ references for linux admin and development
   - [netcore csproj](doc/netcore-csproj.md) ( generate doc, copy to output, define macro, exclude files from compile, disable warnings )
   - [netcore platform environment](doc/netcore-platform-environment.md) ( os type, debug macro )
   - [asp net core](doc/asp-net-core.md)
-  - [dotnet sdks](https://github.com/dotnet/core-sdk)
+  - [dotnet sdks](https://github.com/dotnet/core-sdk) - [installers](https://dotnet.microsoft.com/download/dotnet-core)
   - [dotnet cmdline](doc/dotnet-cmdline.md)
   - [dotnet core unix interop](doc/dotnet-core-unix-interop.md)
   - [dotnet gui](doc/dotnet-avalonia.md)
