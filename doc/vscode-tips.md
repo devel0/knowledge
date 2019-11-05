@@ -37,8 +37,7 @@ another crude hack is the following editing directly `/opt/google/chome` toward 
 # Note: exec -a below is a bashism.
 if [ "$USER" == "devel0" ]; then
 #       echo "$@" > /tmp/log1
-        if [ "$(echo $@ | grep remote-debugging-port)" != "" ]; then
-                echo "$(date)" > /tmp/log
+        if [ "$(echo $@ | grep remote-debugging-port)" != "" ]; then                
                 extpath=$HOME/.config/google-chrome/Default/Extensions/fmkadmapgofadopljbjfkapdkoienihi
                 v=$(ls $extpath)
                 exec -a "$0" "$HERE/chrome" \
