@@ -24,7 +24,7 @@
 
 - File/Preferences/Keyboard shortcuts ( `~/.config/Code/User/keybindings.json` )
 
-to open and switch between terminals like gnome-terminal
+to open and switch between terminals like gnome-terminal ( requires also `"terminal.integrated.allowChords": false` in `settings.json` if want to disable ask for second chord when using eg. `CTRL+R` )
 
 ```json
 // Place your key bindings in this file to override the defaultsauto[]
