@@ -33,14 +33,16 @@ react developer tools doesn't load until open in global scope browser as result 
 
 another crude hack is the following editing directly `/opt/google/chome` toward end of file ( it enabled extension for user `devel0` when `remote-debugging-port` argument used such as from configuration types `chrome` or `coreclr` with `ServerReadyAction / debugWithChrome`
 
-```
+```sh
 # Note: exec -a below is a bashism.
 if [ "$USER" == "devel0" ]; then
 #       echo "$@" > /tmp/log1
         if [ "$(echo $@ | grep remote-debugging-port)" != "" ]; then
                 echo "$(date)" > /tmp/log
+                extpath=$HOME/.config/google-chrome/Default/Extensions/fmkadmapgofadopljbjfkapdkoienihi
+                v=$(ls $extpath)
                 exec -a "$0" "$HERE/chrome" \
-                        --load-extension=/home/devel0/.config/google-chrome/Default/Extensions/fmkadmapgofadopljbjfkapdkoienihi/4.2.0_0/ \
+                        --load-extension=$extpath/$v/ \
                         "$@"
         else
                 exec -a "$0" "$HERE/chrome" "$@"
