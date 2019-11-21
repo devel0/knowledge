@@ -40,3 +40,9 @@ npm link path-to-local-module
 ```sh
 npm install https://github.com/user/project/tarball/commitid --save-dev
 ```
+
+## download npm package tarball
+
+```sh
+wget $(npm view packagename dist.tarball)
+```
