@@ -9,7 +9,7 @@ To decrypt chrome https traffic through wireshark
 ```sh
 mkdir ~/security
 chmod 700 ~/security
-export SSLKEYLOGFILE=~/security/sslkeylog.log >> ~/.bashrc
+echo export SSLKEYLOGFILE=~/security/sslkeylog.log >> ~/.bashrc
 source ~/.bashrc
 ```
 
