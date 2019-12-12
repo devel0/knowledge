@@ -139,9 +139,10 @@ references for linux admin and development
 ### linux
 - server
   - [quick and dirty os install notes](doc/quick-and-dirty-server-install-notes.md)
-  - [ubuntu server post install](doc/ubuntu-server-post-install.md)
+  - [ubuntu server post install](doc/ubuntu-server-post-install.md)  
 - [remotely assist linux can't boot](doc/remotely-assist-linux-cant-boot.md)
 - [ubuntu pendrive custom kernel arg](doc/ubuntu-pendrive-custom-kernel-arg.md)
+- [flash win bootable pendrive](https://github.com/slacka/WoeUSB)
 - [monitor disk temperature](https://github.com/devel0/linux-scripts-utils/blob/7258d4e2d534e22311323d9b4ac7c7a9224a9637/selfcheck-disk-temp)
 - [tune inotify](doc/tune-inotify.md)    
 - [fix dual boot](https://askubuntu.com/questions/88384/how-can-i-repair-grub-how-to-get-ubuntu-back-after-installing-windows?answertab=votes#tab-top)
