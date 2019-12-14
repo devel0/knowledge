@@ -230,3 +230,4 @@ references for linux admin and development
   - [resize image](doc/resize-image.md)  
   - [video transcoding](doc/video-transcoding.md)
   - [remove image exif](doc/remove-image-exif.md)
+  - ubuntu cast to chromecst `apt install mkchromecast`
