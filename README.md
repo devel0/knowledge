@@ -61,6 +61,7 @@ references for linux admin and development
 - [git](doc/git-usage.md)  
 - vscode
   - [tips](doc/vscode-tips.md)
+  - [keybinding](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
   - [settings](doc/vscode-settings.md)
   - [useful extensions](doc/vscode-useful-extensions.md)
   - [troubleshoot](doc/vscode-troubleshoot.md)
