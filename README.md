@@ -118,6 +118,7 @@ references for linux admin and development
 - [grunt troubleshoot](doc/grunt-troubleshoot.md)
 - [npm tips](doc/npm-tips.md)
 - react / material.ui ( typescript )
+  - create react typescript `yarn create react-app my-app --template typescript`
   - [app skeleton and global states](https://github.com/devel0/example-react-global-state)
   - [create react library useHook error](https://github.com/transitive-bullshit/create-react-library/issues/99#issuecomment-463177704)
   - [resposive drawer with styles and theme](doc/material-ui-responsive-drawer-styles-theme-typescript.md)
