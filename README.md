@@ -117,6 +117,8 @@ references for linux admin and development
 - imagemap ( just use gimp Filters/Web/Imagemap )
 - [grunt troubleshoot](doc/grunt-troubleshoot.md)
 - [npm tips](doc/npm-tips.md)
+- typescript
+  - support for optional chaining conditional `?` operator (upgrade `react-scripts` to `3.3.0`)
 - react / material.ui ( typescript )
   - create react typescript `yarn create react-app my-app --template typescript`
   - [app skeleton and global states](https://github.com/devel0/example-react-global-state)
