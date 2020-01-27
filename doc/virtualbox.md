@@ -23,3 +23,26 @@ Section "InputClass"
         Driver "evdev"
 EndSection
 ```
+
+## connect physical disk
+
+```sh
+vboxmanage internalcommands createrawvmdk -filename phdiskmap.vmdk -rawdisk /dev/sdDEV
+```
+
+## transfer image to physical disk
+
+```sh
+VBoxManage clonehd --format RAW disk.vdi out.raw
+dd if=disk.vdi of=/dev/sdDEV bs=4k
+```
+to copy out.raw to device linux [clone-disk](https://github.com/devel0/clone-disk) or win [win32diskimager](https://sourceforge.net/projects/win32diskimager/) can be used
+
+to use clone-disk a loop setup need to be done first with
+
+```sh
+losetup -f out.raw
+losetup -a | grep out.raw
+```
+
+then use /dev/loopXX resulting from `losetup -a` as source
