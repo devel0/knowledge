@@ -146,6 +146,8 @@ references for linux admin and development
 - server
   - [quick and dirty os install notes](doc/quick-and-dirty-server-install-notes.md)
   - [ubuntu server post install](doc/ubuntu-server-post-install.md)  
+- gnome
+  - [shell extension with bash](https://github.com/p-e-w/argos)
 - [remotely assist linux can't boot](doc/remotely-assist-linux-cant-boot.md)
 - [ubuntu pendrive custom kernel arg](doc/ubuntu-pendrive-custom-kernel-arg.md)
 - [flash win bootable pendrive](https://github.com/slacka/WoeUSB)
