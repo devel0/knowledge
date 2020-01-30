@@ -1,6 +1,6 @@
 # measure usb cable resistance
 
-*electronics*
+*[electronics](../README.md#electronics)*
 
 ## introduction
 
