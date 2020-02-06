@@ -35,7 +35,7 @@ references for linux admin and development
 - [simulator](http://everycircuit.com)
 - [pcb etching](doc/pcb-etching.md)
 - [npn transistor biasing](_files/npn-transistor-biasing.xlsx)  
-- [ethernet cabling T568A](http://pinouts.ru/NetworkCables/ethernet_10_100_1000_pinout.shtml)  
+- [ethernet cabling T568B](http://www.comnen.com/whats-the-difference-between-t568a-and-t568b/)
 - [measure usb cable resistance](doc/measure-usb-cable-resistance.md)
 
 ### shell
