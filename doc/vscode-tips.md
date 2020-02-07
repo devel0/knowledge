@@ -64,3 +64,20 @@ devel0 ALL = NOPASSWD: /bin/btrfs
 ```
 
 this will allow devel0 to exec `btrfs` tool without password ask when invoked through `sudo`
+
+## set git copy remote url
+
+this will allow you to use right click -> copy remote url feature that copy to clipboard permalink to code selection
+
+in settings.json
+
+```json
+{
+    "gitlens.remotes": [
+        {
+            "domain": "git.searchathing.com",
+            "type": "GitLab"
+        }
+    ]
+}
+```
