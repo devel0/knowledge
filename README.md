@@ -36,6 +36,7 @@ references for linux admin and development
 - [pcb etching](doc/pcb-etching.md)
 - [npn transistor biasing](_files/npn-transistor-biasing.xlsx)  
 - [measure usb cable resistance](doc/measure-usb-cable-resistance.md)
+- [UM34C linux log](doc/UM34C-linux-log.md)
 
 ### shell
 - [ttyrec ttygif](doc/ttyrec-ttygif.md)
