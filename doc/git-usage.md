@@ -144,6 +144,7 @@ git push
 ## switch to a new remote committing local
 
 - **replacements**
+    - `newremote` an alias for new origin
     - `new-repo-url` with new repository url
     - `branch` new remote repository branch to work on
     
@@ -159,7 +160,7 @@ git commit -a
 and push to newremote
 
 ```sh
-git push --set-upstream origin newremote
+git push --set-upstream newremote
 ```
 
 ### discarding local
