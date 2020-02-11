@@ -57,6 +57,7 @@ references for linux admin and development
 - [ensure kill process](doc/ensure-kill-process.md)
 - sed
   - [replace newline](http://www.benjiegillam.com/2011/09/using-sed-to-replace-newlines/)
+- time GMT `TZ=GMT date +@GMT-%Y.%m.%d-%H.%M.%S`
 
 ### development tools
 - [git](doc/git-usage.md)  
