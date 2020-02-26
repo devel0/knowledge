@@ -120,7 +120,7 @@ references for linux admin and development
 - [grunt troubleshoot](doc/grunt-troubleshoot.md)
 - npm
   - [tips](doc/npm-tips.md)
-  - [proxy cache](doc/npm-proxy-cache.md)
+  - [proxy cache](https://github.com/runk/npm-proxy-cache#readme)
 - typescript
   - support for optional chaining conditional `?` operator (upgrade `react-scripts` to `3.3.0`)
 - react / material.ui ( typescript )
