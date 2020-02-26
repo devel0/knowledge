@@ -3,7 +3,7 @@
 - install and run container locally
 
 ```sh
-docker run --restart=always --net=host -p 8080:8080 --name=npm-proxy-cache folha/npm-proxy-cache
+docker run -tid --restart=always --net=host -p 8080:8080 --name=npm-proxy-cache folha/npm-proxy-cache
 ```
 
 - set environments for example in your Dockerfile before [npm install](https://github.com/devel0/skeleton-netcore-ef-react-ts/blob/dd65a8889146b15097a3dae67b38744d6551c655/Dockerfile#L15) or [dotnet publish](https://github.com/devel0/skeleton-netcore-ef-react-ts/blob/dd65a8889146b15097a3dae67b38744d6551c655/Dockerfile#L23) when webdevel
