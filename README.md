@@ -118,7 +118,9 @@ references for linux admin and development
 - [chrome](doc/chrome.md)
 - imagemap ( just use gimp Filters/Web/Imagemap )
 - [grunt troubleshoot](doc/grunt-troubleshoot.md)
-- [npm tips](doc/npm-tips.md)
+- npm
+  - [tips](doc/npm-tips.md)
+  - [proxy cache](doc/npm-proxy-cache.md)
 - typescript
   - support for optional chaining conditional `?` operator (upgrade `react-scripts` to `3.3.0`)
 - react / material.ui ( typescript )
