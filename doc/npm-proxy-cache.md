@@ -5,7 +5,7 @@
 - install and run container locally
 
 ```sh
-docker run -tid --restart=always --name=npm-proxy-cache --net=host -p 8080:8080 -t npm-proxy-cache --port 8080 --host 0.0.0.0 --expired
+docker run -tid --restart=always --name=npm-proxy-cache --net=host -p 8080:8080 -t npm-proxy-cache --port 8080 --host 0.0.0.0 --expired --ttl=2592000
 ```
 
 - set environments for local development
