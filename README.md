@@ -172,6 +172,7 @@ references for linux admin and development
   - [retrieve package source](doc/retrieve-package-source.md)    
   - upgrade single package `apt-get install --only-upgrade package`  
 - processes  
+  - show process memory graph `smem --pie=name`
   - [process management](doc/process-management.md) 
   - [autorespawn process using supervisor](https://github.com/devel0/dynamic-firewall/tree/e15ce9d0e152dee37a6a5dfff9a5f543914d5c6f#config-supervisor)
   - show memoy usage `smem --pie name -s rss`
