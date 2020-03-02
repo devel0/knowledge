@@ -8,18 +8,45 @@
 
 - install vscode
 - open a sketch (.ino file ) and install proposed extension
-- `ctrl+, Arduino path` set to `/home/devel0/softcollect.public/arduino/arduino-1.8.7`
-- reload vscode
-- `ctrl+shift+p c/cpp edit configurations` set
+
+`.vscode/settings.json`
+
+```json
+{
+    "arduino.path": "/home/devel0/softcollect/public/arduino/arduino-1.8.10",
+    "C_Cpp.intelliSenseEngine": "Tag Parser"
+}
 ```
-"browse": {
-    "path": [        
-        "/home/devel0/Arduino/libraries",        
-        "/home/devel0/softcollect.public/arduino/arduino-1.8.7/hardware/tools/avr/avr/include/avr",
-        "/home/devel0/softcollect.public/arduino/arduino-1.8.7/hardware/arduino/avr/cores/arduino"
-    ]
-},
+
+`.vscode/arduino.json`
+
+```json
+{
+    "sketch": "arduino-acs712.ino",
+    "port": "/dev/ttyUSB0",
+    "board": "arduino:avr:nano",
+    "configuration": "cpu=atmega328old"
+}
 ```
+
+`.vscode/c_cpp_properties.json`
+
+```json
+{
+    "configurations": [{        
+        "browse": {
+            "path": [
+                "/home/devel0/Arduino/libraries",
+                "/home/devel0/softcollect/public/arduino/arduino-1.8.10/hardware/tools/avr/avr/include/avr",
+                "/home/devel0/softcollect/public/arduino/arduino-1.8.10/hardware/arduino/avr/cores/arduino"
+            ]
+        },
+        // as default
+    }],    
+    "version": 4
+}
+```
+
 - `ctrl+shift+p change board type` ( this will fill hardware atmega path in cpp includePath )
 - in the bottom toolbar choose programmer ( eg. AVRISP mkII )
 - analyze missing includes from the PROBLEMS window and resolve through light bulb on your `#include <....>` that will add some includePath from guess browse paths given in `c_cpp_properties.json`
@@ -55,3 +82,7 @@ SUBSYSTEMS=="usb", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="7523", MODE="0666
 ```
 
 - when synchronize between nodes exclude `build` and `.vscode` folders to avoid build options changed detect
+
+## references
+
+- [settings](https://cuneyt.aliustaoglu.biz/en/enabling-arduino-intellisense-with-visual-studio-code/)
