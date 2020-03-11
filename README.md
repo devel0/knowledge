@@ -218,6 +218,7 @@ references for linux admin and development
 - [show cert info](https://github.com/devel0/linux-scripts-utils/blob/master/show-cert-info)
 - [id_rsa](doc/id_rsa.md)  
 - [ssh client alive](doc/ssh-keep-alive.md)
+- upgrade letsencrypt `apt upgrade certbot python3-acme`
 
 ### mobile native
 - [intellij android studio](doc/intellij-android-studio.md)
