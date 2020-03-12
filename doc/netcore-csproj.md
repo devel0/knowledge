@@ -39,6 +39,16 @@ to disable warn about missing doc
 </ItemGroup>
 ```
 
+- to include in aspnet core publish
+
+```xml
+<ItemGroup>
+    <Content Include="somefld/subfld/**">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+</ItemGroup>
+```
+
 ## csharp macro define csproj
 
 to define a constant to use in the code like this
