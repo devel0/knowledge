@@ -100,14 +100,16 @@ references for linux admin and development
 - [dump-file-to-c](doc/dump-file-to-c.md)  
 
 ### database
-- [create pgsql container](doc/create-pgsql-container.md)
-- [psql backup restore](doc/psql-backup-restore.md)
-- [psql password in file](doc/psql-password-in-file.md)
-- [psql select datetime timezone](doc/select-datetime-timezone.md)
+- postgres
+  - [create psql container](doc/create-pgsql-container.md)
+  - [backup restore](doc/psql-backup-restore.md)
+  - [password in file](doc/psql-password-in-file.md)
+  - [select datetime timezone](doc/select-datetime-timezone.md)
+  - [pgadmin](doc/pgadmin.md)
+  - [index array](doc/psql-array-index.md)
 - diagramming schema
   - [schema crawler](doc/psql-schema-crawler.md)
   - [automatic generate psql db diagram](https://github.com/cbbrowne/autodoc)
-- [pgadmin](doc/pgadmin.md)
 - entity framework
   - [load related entities](https://docs.microsoft.com/en-us/ef/core/querying/related-data)
 
