@@ -31,15 +31,8 @@
   - File / Export PDF
     - TopLayer ( separate layer, check export ) to generate pcb
     - TopSilkLayer ( separate layer, check mirror ) to generate labels to attach non copper side
-- toner transfer ( [video](https://www.youtube.com/watch?v=FFKI34tewps&t=125s) )
-  - clean the copper with fine wool
-  - clean the copper with alchool
-  - from print cut border of coated photo paper to same size of copper to ease placing
-  - maintain in position and spray onto it using acetone ( use a mask to protect respiratory tract )
-  - wait 15 sec
-  - apply toiler paper onto coated photo paper
-  - pass compressor roller making a light and equal pressure to transfer the toner ( if you press too hard the toner spreads ) ; a roller can be built from a cylyndrical pencil with two heat shrink applied around
-  - put into water just 2 second and extract placing onto a toiler paper
-  - place another toilet paper onto the pcb with photo paper still applied to absorbe water with a light global pressure
-  - remove photo paper
-  - remove eventual residual using fingers putting it under running water
+- toner transfer ( [video](https://youtu.be/TbBrgpKxBJk?list=LLSxwtecTaiSTtkh48QGLJtA&t=341) )
+  - use a dry iron that has a flat surface
+  - print with toner on photo glossy paper 115g
+  - proceed with iron for about 5 min over surface as described in the video until black spots appears over all the paper
+  - wait surface become cold then gently remove paper
