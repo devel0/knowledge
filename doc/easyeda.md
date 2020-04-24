@@ -22,7 +22,9 @@
   - semiautomatic routing to place via only outside pins
     - lock board outline
     - on Layers and Objects panel select only Track and Via then CTRL+A and canc to remove every routed tracks and vias
-    - on Preview / AutoRouter / Skip Nets insert GND and other secondary nets to avoid conflicting in routing only 1 layer bottom
+    - on Preview / AutoRouter / Skip Nets insert GND and other secondary nets to avoid conflicting in routing only 1 layer bottom ( add to exclusion other net if required )
     - on Preview / AutoRouter / Router Layers choose only Bottom Layer and route
     - if router solve go back to Track and Via deletion and repeat the process removing some nets from Skip Nets, hopefully you can insert all nets in a side, but realistic may you need another layer
-    - when bottom layer is full and cannot take place for other nets do not run autorouter again and solve toplayer manually inserting last leg to the pin as bottom layer track so that automatically via will created to join tracks
+    - when bottom layer is full and cannot take place for other nets
+      - on Preview / AutoRouter / Skip Nets remove all nets apart GND and choose Skip routed nets
+      - fix by adding external vias if can't solder on top
