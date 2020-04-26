@@ -5,8 +5,9 @@
 ## requirements
 
 - laser printer
-- coated photo paper
-- acetone ( nails polish remover ), spray dispenser, gas protection mask, mini compressor roller rubberized
+- glossy paper 115g
+- dry iron
+- cooking paper
 - sodium persulfate, etching tank, mini air compressor to generate bubbles, a lamp to transfer some heat to increase speed
 
 ## procedure
@@ -34,5 +35,6 @@
 - toner transfer ( [video](https://youtu.be/TbBrgpKxBJk?list=LLSxwtecTaiSTtkh48QGLJtA&t=341) )
   - use a dry iron that has a flat surface
   - print with toner on photo glossy paper 115g
-  - proceed with iron for about 5 min over surface as described in the video until black spots appears over all the paper
+  - place a cooking paper over the glossy paper to allow iron sweep easily
+  - proceed with iron for about 5 min over surface in X-Y-XY applying foreach pass a little pressure with body weight
   - wait surface become cold then gently remove paper
