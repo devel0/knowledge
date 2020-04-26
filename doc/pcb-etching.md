@@ -27,7 +27,6 @@
     - Tools / Design Rules ( set track width default )
     - Route / Auto Route
       - Route Layers ( deselect BottomLayer if want single-side ). It may unable to resolve but you can Stop and complete by hand unresolved RatLines
-  - etching using *Sodium persulfate* dissolved in water in proportion by product datasheet ; use  mechanical bubble shaker and an heat source to speed up process of copper removal ( a light bulb may enough )
 - print
   - File / Export PDF
     - TopLayer ( separate layer, check export ) to generate pcb
@@ -38,3 +37,4 @@
   - place a cooking paper over the glossy paper to allow iron sweep easily
   - proceed with iron for about 5 min over surface in X-Y-XY applying foreach pass a little pressure with body weight
   - wait surface become cold then gently remove paper
+- etching using *Sodium persulfate* dissolved in water in proportion by product datasheet (usually 1/5 sodium/water); use  mechanical bubble shaker and an heat source to speed up process of copper removal ( a light bulb may enough ); tip: if you have solution in a plastic bottle you can put into hot water for 5min to increase temperature checking that internal bottle pressure not too much
