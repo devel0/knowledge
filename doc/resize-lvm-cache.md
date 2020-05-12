@@ -83,8 +83,6 @@ Partition number (1,2, default 2): 2
 Partition 2 has been deleted.
 
 Command (m for help): n
-Partition number (2-128, default 2): ^C
-Command (m for help): n
 Partition number (2-128, default 2): 
 First sector (230688768-488397134, default 230688768): 
 Last sector, +sectors or +size{K,M,G,T,P} (230688768-488397134, default 488397134): +80G
@@ -134,6 +132,8 @@ lvconvert --type cache --cachepool vg1/cachedata2 vg1/backup
 dd if=/dev/zero of=/dev/sda3 bs=1k
 mkswap /dev/sda3
 ```
+
+note: initialization can take a while ( an ssd at 1k block write can reach about 60mb/s )
 
 update fstab
 ```
