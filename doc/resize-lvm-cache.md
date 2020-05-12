@@ -30,6 +30,25 @@ root@srv0:/# lvs
   data   vg1 Cwi-aoC--- <5.46t [cachedata1] [data_corig]   99.99  9.64            91.85 
 ```
 
+after changes
+
+```
+root@srv0:~# lsblk
+NAME                     MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINT
+sda                        8:0    0 232.9G  0 disk  
+├─sda1                     8:1    0   110G  0 part  
+│ ├─vg1-cachedata1_cdata 253:0    0   100G  0 lvm   
+│ │ └─vg1-data           253:3    0   5.5T  0 lvm   /
+│ └─vg1-cachedata1_cmeta 253:1    0   100M  0 lvm   
+│   └─vg1-data           253:3    0   5.5T  0 lvm   /
+├─sda2                     8:2    0    80G  0 part  
+│ ├─vg1-cachedata2_cdata 253:4    0    70G  0 lvm   
+│ │ └─vg1-backup         253:8    0   5.5T  0 lvm   /backup
+│ └─vg1-cachedata2_cmeta 253:5    0    80M  0 lvm   
+│   └─vg1-backup         253:8    0   5.5T  0 lvm   /backup
+└─sda3                     8:3    0    32G  0 part  [SWAP]
+```
+
 ## turn off swap
 
 note that if swap if actually used a better solution is to reboot the machine and apply swapoff from a just booted up state
