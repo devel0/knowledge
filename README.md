@@ -155,6 +155,7 @@ references for linux admin and development
 ### linux
 - server
   - [quick and dirty os install notes](doc/quick-and-dirty-server-install-notes.md)
+  - [resize lvm cache in favor of swap partition](doc/resize-lvm-cache.md)
   - [ubuntu server post install](doc/ubuntu-server-post-install.md)  
   - [custom boot script](doc/custom-boot-script.md)
 - gnome
