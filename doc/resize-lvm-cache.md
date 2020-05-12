@@ -139,7 +139,7 @@ now `/dev/sda2` will used as cache for backup while `/dev/sda3` will used as swa
 ```sh
 pvcreate /dev/sda2
 vgextend vg1 /dev/sda2
-lvcreate -L 7M -n cachemeta2 vg1 /dev/sda2
+lvcreate -L 70M -n cachemeta2 vg1 /dev/sda2
 lvcreate -L 70G -n cachedata2 vg1 /dev/sda2
 lvconvert --type cache-pool --poolmetadata vg1/cachemeta2 --cachemode writeback vg1/cachedata2 --yes
 lvconvert --type cache --cachepool vg1/cachedata2 vg1/backup
