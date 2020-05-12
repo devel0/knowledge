@@ -165,6 +165,7 @@ references for linux admin and development
 - [flash win bootable pendrive](https://github.com/slacka/WoeUSB)
 - [monitor disk temperature](https://github.com/devel0/linux-scripts-utils/blob/7258d4e2d534e22311323d9b4ac7c7a9224a9637/selfcheck-disk-temp)
 - [tune inotify](doc/tune-inotify.md)    
+- [disable oom killer](https://serverfault.com/a/142003)
 - [fix dual boot](https://askubuntu.com/questions/88384/how-can-i-repair-grub-how-to-get-ubuntu-back-after-installing-windows?answertab=votes#tab-top)
 - [tail grep continous](doc/tail-grep-continuous.md)
 - [force log rotate](doc/force-log-rotate.md)  
