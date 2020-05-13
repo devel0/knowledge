@@ -26,7 +26,7 @@ tune `~/.inputrc` as follow in order to allow CTRL+arrow to work in terminal mod
 "\e[1;5C": forward-word
 ```
 
-# associate cygwin sh files
+## associate cygwin sh files
 
 - install cygextreg https://github.com/sop/cygextreg
   - download release file and unpack into c:\cygwin or c:\cygwin64 depending
