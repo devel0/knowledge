@@ -42,7 +42,7 @@ devel0@tuf:~$ dotnet --list-sdks
 }
 ```
 
-- in the solution folder initialize global json and change in case ( see `dotnet --list-sdks` for specific names )
+- optional: in the solution folder initialize global json and change in case ( see `dotnet --list-sdks` for specific names )
 
 ```sh
 dotnet new globaljson
