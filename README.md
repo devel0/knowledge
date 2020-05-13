@@ -7,6 +7,7 @@ references for linux admin and development
 ## TOC
 
 - [electronics](#electronics)
+- [general development](#general-development)
 - [shell](#shell)
 - [development tools](#development-tools)
 - [csharp](#csharp)
@@ -37,6 +38,10 @@ references for linux admin and development
 - [npn transistor biasing](_files/npn-transistor-biasing.xlsx)  
 - [measure usb cable resistance](doc/measure-usb-cable-resistance.md)
 - [UM34C linux log](doc/UM34C-linux-log.md)
+
+### general development
+
+- [references](https://devhints.io/)
 
 ### shell
 - [bash cheat sheet](https://devhints.io/bash)
