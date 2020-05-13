@@ -12,6 +12,8 @@ until it will supported through deb to make it work snap install could used, but
 
 ```sh
 export DOTNET_ROOT=/opt/dotnet
+# use without localization ( only invariant ) until release of 5.0
+export DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=true
 export PATH=$PATH:$DOTNET_ROOT
 ```
 
