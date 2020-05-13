@@ -80,6 +80,7 @@ references for linux admin and development
 - [send email 465](doc/send-email-465.md)
 - [psql ef codefirst](doc/psql-ef-codefirst.md)
 - dotnet core
+  - [dotnet3 and 5 on ubuntu20.04](doc/dotnet-5-ubuntu20.04.md)
   - [netcore csproj](doc/netcore-csproj.md) ( generate doc, copy to output, define macro, exclude files from compile, disable warnings )
   - [netcore platform environment](doc/netcore-platform-environment.md) ( os type, debug macro )
   - [asp net core](doc/asp-net-core.md)
