@@ -32,7 +32,7 @@ devel0@tuf:~$ dotnet --list-sdks
 5.0.100-preview.3.20216.6 [/opt/dotnet/sdk]
 ```
 
-- to enable vscode omnisharp to work correctly I needed to apply follow `omnisharp.json` file in the solution
+- to enable vscode omnisharp to work correctly I needed to apply follow `omnisharp.json` file in the solution or alternatively globally placing into `~/.omnisharp/omnisharp.json`
 
 ```json
 {
