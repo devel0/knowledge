@@ -22,6 +22,14 @@ dotnet build
 dotnet run
 ```
 
+- sdks available
+
+```sh
+devel0@tuf:~$ dotnet --list-sdks
+3.1.202 [/opt/dotnet/sdk]
+5.0.100-preview.3.20216.6 [/opt/dotnet/sdk]
+```
+
 - to enable vscode omnisharp to work correctly I needed to apply follow `omnisharp.json` file in the solution
 
 ```json
