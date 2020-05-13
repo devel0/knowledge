@@ -39,6 +39,8 @@ references for linux admin and development
 - [UM34C linux log](doc/UM34C-linux-log.md)
 
 ### shell
+- [bash cheat sheet](https://devhints.io/bash)
+- [bash scripting](doc/bash-scripting.md)
 - [ttyrec ttygif](doc/ttyrec-ttygif.md)
 - [linux scripts](https://github.com/devel0/linux-scripts-utils)
 - [trap control+c](doc/trap-ctrlc.md)
@@ -52,7 +54,6 @@ references for linux admin and development
 - [terminal color](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
 - [escape html](doc/escape-html.md)
 - [uri encode](doc/uri-encode.md)
-- [bash scripting](doc/bash-scripting.md)
 - [jq json tool](doc/jq-json-tool.md)
 - [ensure kill process](doc/ensure-kill-process.md)
 - sed
