@@ -42,4 +42,10 @@ devel0@tuf:~$ dotnet --list-sdks
 }
 ```
 
+- in the solution folder initialize global json and change in case ( see `dotnet --list-sdks` for specific names )
+
+```sh
+dotnet new globaljson
+```
+
 test it opening previous `test` solution then set a breakpoint and hit F5
