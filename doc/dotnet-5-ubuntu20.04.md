@@ -39,3 +39,5 @@ devel0@tuf:~$ dotnet --list-sdks
     }
 }
 ```
+
+test it opening previous `test` solution then set a breakpoint and hit F5
