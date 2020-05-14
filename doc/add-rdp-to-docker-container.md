@@ -2,7 +2,7 @@
 
 ## choose between
 
-- **twm** ( spartan but light )
+- **twm** ( spartan but light ) an xterm will appears at start
 
 ```Dockerfile
 FROM ubuntu
@@ -15,7 +15,7 @@ RUN apt-get install -y sudo && \
 RUN echo 'twm &' > /home/user/.xsession && echo 'xterm &' >> /home/user/.xsession && chmod +x /home/user/.xsession && chown user.user /home/user/.xsession
 ```
 
-- **openbox** ( light but user friendly )
+- **openbox** ( light but user friendly ) mouse right button to open menu
 
 ```Dockerfile
 FROM ubuntu
