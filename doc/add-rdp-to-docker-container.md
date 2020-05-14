@@ -39,6 +39,14 @@ RUN apt-get install -y sudo && \
   echo "user ALL=(ALL) ALL" >> /etc/sudoers
 ```
 
+## add vscode (optional)
+
+append at end of dockerfile follow
+
+```Dockerfile
+RUN apt-get install -y libnotify4 libnss3 libsecret-1.0 && dpkg -i /code-insiders_1.46.0-1589191718_amd64.deb
+```
+
 ## start xrdp
 
 enter the container and issue `service xrdp start` or run with specific entrypoint
