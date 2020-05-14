@@ -34,13 +34,13 @@ RUN apt-get install -y sudo && \
   echo "user ALL=(ALL) ALL" >> /etc/sudoers
 ```
 
-- **xfce4** ( featured )
+- **xfce4** ( featured ; exec clipman to access clipboard )
 
 ```Dockerfile
 FROM ubuntu
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get install -y xrdp
-RUN apt-get install -y xfce4
+RUN apt-get install -y xfce4 xfce4-clipman xfce4-clipman-settings
 RUN apt-get install -y sudo && \
   useradd -m user && echo "user:user" | /usr/sbin/chpasswd && \
   echo "user ALL=(ALL) ALL" >> /etc/sudoers
