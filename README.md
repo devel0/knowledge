@@ -264,3 +264,5 @@ references for linux admin and development
   - [video transcoding](doc/video-transcoding.md)
   - [remove image exif](doc/remove-image-exif.md)
   - ubuntu cast to chromecst `apt install mkchromecast`
+- misc
+  - [stream dvbt to chromecast](doc/stream-dvbt-to-chromecast.md)
