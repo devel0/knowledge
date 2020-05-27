@@ -226,6 +226,7 @@ references for linux admin and development
   - [test swap memory](doc/test-swap-memory.md)
   - [scripts](https://github.com/devel0/linux-scripts-utils) ( dk-id, dk-purge-log, dk-net, ... )    
   - [add xrdp to docker container](doc/add-rdp-to-docker-container.md)
+- [nextcloud tips](doc/nextcloud.md)
 
 ### security
 - [iptables firewall](https://github.com/devel0/linux-scripts-utils/blob/ba388ae1e5a0b158cdf83f7d067318b9caccf203/fw.sh)
