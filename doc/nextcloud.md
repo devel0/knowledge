@@ -2,10 +2,12 @@
 
 ## ignore folders
 
-on the client side edit a .sync-exclude.lst ( or 3dots menu -> edit ignored files ) ; for example to exclude node_modules folders use something like follow:
+on the client 3dots menu -> edit ignored files ( [pattern details](https://docs.nextcloud.com/desktop/2.5/architecture.html#ignored-files) )
+
+for example to exclude `node_modules` folders use something like follow:
 
 ```
-node_modules/*
+node_modules/
 ```
 
 ## server side rescan
