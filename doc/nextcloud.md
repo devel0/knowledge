@@ -13,3 +13,11 @@ node_modules/*
 ```sh
 sudo -u www-data php occ files:scan --all -v
 ```
+
+## delete locks
+
+sometimes occurs some internal lock that not autorelease ; for example you cannot create a folder
+
+- put in maintenance cloud by settings `'maintenance' => true,` in config/config.php
+- issue a `delete from oc_file_locks` from the cloud db
+- revert maintenance mode
