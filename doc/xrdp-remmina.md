@@ -19,6 +19,10 @@ export GNOME_SHELL_SESSION_MODE=ubuntu
 export XDG_CURRENT_DESKTOP=ubuntu:GNOME
 export XDG_DATA_DIRS=${D}
 export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+
+gnome-extensions enable desktop-icons@csoriano
+gnome-extensions enable ubuntu-appindicators@ubuntu.com
+gnome-extensions enable ubuntu-dock@ubuntu.com
 ```
 
 - [reference](https://www.hiroom2.com/2018/04/29/ubuntu-1804-xrdp-gnome-en/)
