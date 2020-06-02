@@ -81,6 +81,7 @@ references for linux admin and development
   - [linux-install](doc/nuget-linux-install.md)
   - [local packages](doc/nuget-config-local-packages.md)
   - [troubleshoot](doc/troubleshoot.md)
+  - msbuild: `dotnet msbuild`
 
 ### csharp
 - [send email 465](doc/send-email-465.md)
