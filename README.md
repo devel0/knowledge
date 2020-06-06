@@ -134,6 +134,7 @@ references for linux admin and development
   - [proxy cache](doc/npm-proxy-cache.md)  
 - typescript
   - support for optional chaining conditional `?` operator (upgrade `react-scripts` to `3.3.0`)
+  - [troubleshoot](doc/react-typescript-troubleshoot.md)
 - react / material.ui ( typescript )
   - create react typescript `yarn create react-app my-app --template typescript`
   - [app skeleton and global states](https://github.com/devel0/example-react-global-state)
