@@ -257,6 +257,7 @@ references for linux admin and development
 ### media
 - editing
   - pdf edit inking `apt install xournal`
+  - [pdf join into single page](doc/pdf-join-into-single-page.md)
 - sound
   - console player `apt install mocp`
 - graphics
