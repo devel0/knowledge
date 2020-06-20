@@ -13,6 +13,8 @@ setup your `~/.pgpass` to quick access
 *:*:*:postgres:secret
 ```
 
+the format is `hostname:port:database:username:password`
+
 ```sh
 chmod 600 ~/.pgpass
 ```
