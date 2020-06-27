@@ -67,6 +67,7 @@ references for linux admin and development
 
 ### development tools
 - [git](doc/git-usage.md)  
+- [api docfx](https://github.com/dotnet/docfx)
 - [mono](https://www.mono-project.com/download/stable/)
 - vscode
   - [tips](doc/vscode-tips.md)
