@@ -70,13 +70,13 @@ tune `~/.gitconfig`
 ## diff from previous commit
 
 ```sh
-git diff commitid^
+git diff commitid^!
 ```
 
 to increase line numbers
 
 ```sh
-git diff -U10 commitid^
+git diff -U10 commitid^!
 ```
 
 for latest commit diff
