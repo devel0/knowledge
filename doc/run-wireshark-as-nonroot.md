@@ -12,3 +12,7 @@ usermod -a -G wireshark myuser
 ```
 
 - logout and re-enter
+
+## capture traffic remotely
+
+`sudo tcpdump -s 0 -i enp2s0 -w tcpdump.pcap`
