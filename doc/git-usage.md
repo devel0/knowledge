@@ -153,6 +153,8 @@ git push
 ```sh
 git remote add newremote new-repo-url
 git fetch newremote branch
+# optionally switch to new branch
+# git checkout -b newbranch
 git add --all
 git commit -a
 ```
