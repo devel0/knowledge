@@ -27,7 +27,7 @@ to disable warn about missing doc
 
 ```xml
 <ItemGroup Condition="'$(Configuration)' == 'Debug'">
-  <None Update="doc/file.dxf" CopyToOutputDirectory="PreserveNewest" />
+  <None Include="doc/file.dxf" CopyToOutputDirectory="PreserveNewest" />
 </ItemGroup>
 ```
 
@@ -35,7 +35,7 @@ to disable warn about missing doc
 
 ```xml
 <ItemGroup Condition="'$(Configuration)' == 'Debug'">
-  <None Update="doc/**/*" CopyToOutputDirectory="PreserveNewest" />
+  <None Include="doc/**/*" CopyToOutputDirectory="PreserveNewest" />
 </ItemGroup>
 ```
 
