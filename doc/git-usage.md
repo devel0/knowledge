@@ -21,6 +21,7 @@
 - [show commit logs](#show-commit-logs)
 - [change to another branch/commit](#change-to-another-branchcommit)
 - [revert a commit](#revert-a-commit)
+- [pick a commit and inject](#pick-a-commit)
 - [discard all local changes](#discard-all-local-changes)
 - [tag specific commit and push to remote](#tag-specific-commit-and-push-to-remote)
 - [merge a branch into current](#merge-a-branch-into-current)
@@ -232,6 +233,14 @@ git checkout <commit>
 
 ```sh
 git revert <commit>
+```
+
+## pick a commit
+
+this will bring given commit and inject into current HEAD
+
+```sh
+git cherry-pick <commit>
 ```
 
 ## discard all local changes
