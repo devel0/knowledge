@@ -72,6 +72,7 @@ references for linux admin and development
 - vscode
   - [tips](doc/vscode-tips.md)
   - [keybinding](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
+  - [fold functions](https://stackoverflow.com/a/54665823/5521766)
   - [settings](doc/vscode-settings.md)
   - [useful extensions](doc/vscode-useful-extensions.md)
   - [troubleshoot](doc/vscode-troubleshoot.md)
