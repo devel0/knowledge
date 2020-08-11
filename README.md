@@ -99,6 +99,7 @@ references for linux admin and development
   - [dotnet cmdline](doc/dotnet-cmdline.md)
   - [dotnet core unix interop](doc/dotnet-core-unix-interop.md)
   - [dotnet gui](doc/dotnet-avalonia.md)
+    - [avalonia icon](doc/avalonia-icon.md)
   - [dotnet netcorestandard testunit](https://github.com/devel0/netcore-util/tree/6267b9e954692ecc7513ccb9616d590128294598#how-this-project-was-built)
   - [troubleshoot](doc/dotnet-troubleshoot.md)
 - [regex](doc/regex.md)
