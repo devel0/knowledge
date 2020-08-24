@@ -69,6 +69,8 @@ references for linux admin and development
 - [git](doc/git-usage.md)  
 - [api docfx](https://github.com/dotnet/docfx)
 - [mono](https://www.mono-project.com/download/stable/)
+- perf
+  - [dotnet trace](https://docs.microsoft.com/en-us/dotnet/core/diagnostics/dotnet-trace)
 - vscode
   - [tips](doc/vscode-tips.md)
   - [keybinding](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
