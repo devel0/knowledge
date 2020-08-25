@@ -17,3 +17,7 @@ options nouveau modeset=0
 - again at grub, press "e" on ubuntu then append `nomodeset` then ctrl+x to start
 - issue `sudo rm -f /etc/X11/xorg.conf`
 - reboot
+
+## mouse rectangle
+
+if you got a rectangle around mouse, it may related to this [bug](https://bugs.launchpad.net/ubuntu/+source/meta-gnome3/+bug/1872870) ; as a workaround disable universal access zoom feature.
