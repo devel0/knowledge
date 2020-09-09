@@ -12,7 +12,7 @@ then from octave command prompt
 pkg install -forge symbolic
 ```
 
-## example
+## example 1
 
 - edit a file `sample.m` with follow content
 
@@ -47,6 +47,46 @@ ans = (sym 2×1 matrix)
   ⎢-⎝b + ╲╱  -4⋅a⋅c + b  ⎠ ⎥
   ⎢────────────────────────⎥
   ⎣          2⋅a           ⎦
+```
+
+## example 2
+
+```matlab
+pkg load symbolic
+
+syms x t v v0 a
+eq1 = v == v0 + a * t
+eq2 = x == int (rhs(eq1), t)
+eq3 = t == solve (eq1, t)
+eq4 = x == solve (subs (eq2, t, rhs(eq3)), v)
+```
+
+output:
+
+```
+eq1 = (sym) v = a⋅t + v₀
+eq2 = (sym)
+
+         2       
+      a⋅t        
+  x = ──── + t⋅v₀
+       2         
+
+eq3 = (sym)
+
+      v - v₀
+  t = ──────
+        a   
+
+eq4 = (sym 2×1 matrix)
+
+  ⎡        _____________⎤
+  ⎢       ╱           2 ⎥
+  ⎢x = -╲╱  2⋅a⋅x + v₀  ⎥
+  ⎢                     ⎥
+  ⎢       _____________ ⎥
+  ⎢      ╱           2  ⎥
+  ⎣x = ╲╱  2⋅a⋅x + v₀   ⎦
 ```
 
 ## references
