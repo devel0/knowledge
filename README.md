@@ -8,6 +8,7 @@ references for linux admin and development
 
 - [electronics](#electronics)
 - [general development](#general-development)
+- [math](#math)
 - [shell](#shell)
 - [development tools](#development-tools)
 - [csharp](#csharp)
@@ -42,6 +43,10 @@ references for linux admin and development
 ### general development
 
 - [references](https://devhints.io/)
+
+### math
+
+- [octave symbolic](doc/octave-symbolic.md)
 
 ### shell
 - [bash cheat sheet](https://devhints.io/bash)
