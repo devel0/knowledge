@@ -58,7 +58,7 @@ syms x t v v0 a
 eq1 = v == v0 + a * t
 eq2 = x == int (rhs(eq1), t)
 eq3 = t == solve (eq1, t)
-eq4 = x == solve (subs (eq2, t, rhs(eq3)), v)
+eq4 = v == solve (subs (eq2, t, rhs(eq3)), v)
 ```
 
 output:
@@ -82,11 +82,11 @@ eq4 = (sym 2×1 matrix)
 
   ⎡        _____________⎤
   ⎢       ╱           2 ⎥
-  ⎢x = -╲╱  2⋅a⋅x + v₀  ⎥
+  ⎢v = -╲╱  2⋅a⋅x + v₀  ⎥
   ⎢                     ⎥
   ⎢       _____________ ⎥
   ⎢      ╱           2  ⎥
-  ⎣x = ╲╱  2⋅a⋅x + v₀   ⎦
+  ⎣v = ╲╱  2⋅a⋅x + v₀   ⎦
 ```
 
 ## references
