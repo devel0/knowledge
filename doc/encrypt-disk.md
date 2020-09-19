@@ -67,3 +67,10 @@ typical scenario:
 ```sh
 cryptsetup luksUUID /dev/sdX1 --uuid "xxxxxxxx-yyyy-zzzz-wwww-aaaaaaaaaaaa"
 ```
+
+## change lvm encrypted passphrase
+
+- first check which partition belong to a luks with `lsblk --fs`
+- (change sda1 with your luks partition)
+  - keys slots allocation can be seen with  `cryptsetup luksDump /dev/sda1`
+  - change passphrase with `cryptsetup luksChangeKey /dev/sda1`
