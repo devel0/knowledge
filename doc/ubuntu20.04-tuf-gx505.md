@@ -21,3 +21,11 @@ options nouveau modeset=0
 ## mouse rectangle
 
 if you got a rectangle around mouse, it may related to this [bug](https://bugs.launchpad.net/ubuntu/+source/meta-gnome3/+bug/1872870) ; as a workaround disable universal access zoom feature.
+
+## python
+
+to solve `AttributeError: module 'importlib._bootstrap' has no attribute 'SourceFileLoader'` error
+
+```sh
+sudo python3 -m pip uninstall setuptools
+```
