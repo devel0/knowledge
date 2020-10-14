@@ -38,3 +38,7 @@ gifify file.m4v -o out.gif --resize 300:-1
 ## record terminal to gif
 
 - [ttyrec/ttygif](https://github.com/icholy/ttygif/blob/master/README.md)
+
+## record pure terminal
+
+- [asciinema](https://github.com/asciinema/asciinema)
