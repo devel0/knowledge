@@ -5,13 +5,34 @@
 ## install
 
 ```sh
-apt-get install -y kazam
+apt-get install -y simplescreenrecorder
 ```
 
 ## transcode to gif
 
 ```sh
-ffmpeg -i file.webm out.gif
+ffmpeg -i file.m4v out.gif
+```
+
+## transcode to gif (optimized)
+
+### install
+
+- [gifify](https://github.com/vvo/gifify)
+
+```sh
+apt-get install -y imagemagick ffmpeg gifsicle
+npm install -g gifify
+```
+
+- see also [notes](https://github.com/devel0/knowledge/blob/c8c5b0fdc1bcbff7889536de87fb5ad3e060e714/doc/ttyrec-ttygif.md#troubleshoot) about imagemagic policy mem limits
+
+### usage
+
+specify width with `--resize`
+
+```sh
+gifify file.m4v -o out.gif --resize 300:-1
 ```
 
 ## record terminal to gif
