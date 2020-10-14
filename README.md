@@ -118,6 +118,7 @@ references for linux admin and development
 - [wpf](doc/wpf.md)
 - [tuple value read write](doc/tuple-value-read-write.md)
 - [read from special serial ttyACM cdc type](https://www.vgies.com/a-reliable-serial-port-in-c/)
+- [c# coding standards](https://github.com/justinamiller/Coding-Standards)
 
 ### c++
 - [linux vscode debug](https://github.com/devel0/example-vscode-linux-cpp-debug)
