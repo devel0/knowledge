@@ -18,6 +18,12 @@ options nouveau modeset=0
 - issue `sudo rm -f /etc/X11/xorg.conf`
 - reboot
 
+if got trouble just after filesystem check that system freeze try follow in `/etc/default/grub`
+
+```
+GRUB_CMDLINE_LINUX_DEFAULT="nouveau.modeset=0 snd_hda_intel.dmic_detect=0 vga=0 quiet splash"
+```
+
 ## mouse rectangle
 
 if you got a rectangle around mouse, it may related to this [bug](https://bugs.launchpad.net/ubuntu/+source/meta-gnome3/+bug/1872870) ; as a workaround disable universal access zoom feature.
