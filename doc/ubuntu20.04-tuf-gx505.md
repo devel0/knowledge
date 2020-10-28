@@ -35,3 +35,7 @@ to solve `AttributeError: module 'importlib._bootstrap' has no attribute 'Source
 ```sh
 sudo python3 -m pip uninstall setuptools
 ```
+
+## keyboard led colors
+
+see [faustus](https://github.com/hackbnw/faustus) ; after install call set_rgb.sh script to config keyboard leds
