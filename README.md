@@ -188,6 +188,7 @@ references for linux admin and development
 - gnome
   - [shell extension with bash](https://github.com/p-e-w/argos)
   - [fix sort icon direction](https://bugs.launchpad.net/ubuntu/+source/gtk+3.0/+bug/1840516/comments/2)
+  - [custom open with](doc/custom-open-with.md)
 - [remotely assist linux can't boot](doc/remotely-assist-linux-cant-boot.md)
 - [ubuntu pendrive custom kernel arg](doc/ubuntu-pendrive-custom-kernel-arg.md)
 - [flash win bootable pendrive](https://github.com/slacka/WoeUSB)
