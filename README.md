@@ -183,6 +183,7 @@ references for linux admin and development
 
 - plotting
   - [plot 2d 2var function](doc/python-plot-2d-2var.md)
+- calc
   - [solve eq](doc/python-solve-eq.md)
 
 ### linux
