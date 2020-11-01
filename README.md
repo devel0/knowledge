@@ -179,6 +179,12 @@ references for linux admin and development
 - scan hostnames `nmap -sn addr/mask`
 - scan bluetooth devices `hcitool scan`
 
+### python
+
+- plotting
+  - [plot 2d 2var function](doc/python-plot-2d-2var.md)
+  - [solve eq](doc/python-solve-eq.md)
+
 ### linux
 - server
   - [quick and dirty os install notes](doc/quick-and-dirty-server-install-notes.md)
