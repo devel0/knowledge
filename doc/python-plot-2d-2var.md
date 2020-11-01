@@ -24,6 +24,7 @@ norm = colors.BoundaryNorm(bounds, cmap.N)
 
 plt.xlabel('T')
 plt.ylabel('HR')
+plt.grid(which='major', axis='both', linestyle=':', color='k', linewidth=0.5)
 
 im = imshow(DI,interpolation='nearest',origin='lower',cmap=cmap, norm=norm, aspect='auto', extent=(0,40,0,100))
 
