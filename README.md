@@ -35,6 +35,7 @@ references for linux admin and development
   - [serial baud rate](doc/arduino-serial-baud.md)
 - stm32
   - [vscode debugging](https://github.com/devel0/iot-stm32-ledblink-interrupt-debug#iot-stm32-ledblink-interrupt-debug)
+  - [string stream](https://github.com/bblanchon/ArduinoStreamUtils)
 - [schematics and pcb editor](doc/easyeda.md)
 - [qucs circuit simulator](doc/qucs.md)
 - [simulator](http://everycircuit.com)
