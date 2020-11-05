@@ -33,6 +33,8 @@ references for linux admin and development
   - [esp8266 board plugin](https://github.com/esp8266/Arduino#installing-with-boards-manager) ( use `http://arduino.esp8266.com/staging/package_esp8266com_index.json` for development )
   - [esp8266 twi arduino nano problems](doc/esp8266-twi-arduino-nano.md)  
   - [serial baud rate](doc/arduino-serial-baud.md)
+- stm32
+  - [vscode debugging](https://github.com/devel0/iot-stm32-ledblink-interrupt-debug#iot-stm32-ledblink-interrupt-debug)
 - [schematics and pcb editor](doc/easyeda.md)
 - [qucs circuit simulator](doc/qucs.md)
 - [simulator](http://everycircuit.com)
