@@ -285,6 +285,7 @@ references for linux admin and development
 - document
   - [nano editor](doc/nano-editor.md)
   - [hex editor : bless](https://github.com/bwrsandman/Bless)
+  - [markdown refs](doc/markdown-refs.md)
   - [markdown toc](doc/markdown-toc.md)
   - [markdown to pdf](doc/markdown-to-pdf.md)
   - [markdown server](https://github.com/markserv/markserv)
