@@ -56,7 +56,9 @@ references for linux admin and development
 - [bash cheat sheet](https://devhints.io/bash)
 - [bash scripting](doc/bash-scripting.md)
 - [bash array](https://opensource.com/article/18/5/you-dont-know-bash-intro-bash-arrays)
-- [ttyrec ttygif](doc/ttyrec-ttygif.md)
+- text screencast
+  - [ttyrec ttygif](doc/ttyrec-ttygif.md)
+  - [asciinema](https://asciinema.org/)
 - [linux scripts](https://github.com/devel0/linux-scripts-utils)
 - [trap control+c](doc/trap-ctrlc.md)
 - [function arguments expansion](doc/function-args-expansion.md)
