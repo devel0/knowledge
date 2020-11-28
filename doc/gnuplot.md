@@ -26,6 +26,19 @@ gnuplot -e \
 
 ![img](/_files/gnuplot-sample.png)
 
+## multiplot from files
+
+suppose out.txt and out2.txt with contents TIME SPEED and TIME ACCEL respectively:
+
+```
+gnuplot -e \
+'set grid xtics ytics; set grid;'\
+'set xlabel "time(us)";'\
+'plot "out.txt" title "speed(rps)",'\
+'"out2.txt" title "accel(rps2)";'\
+'pause -1;'
+```
+
 ## references
 
 - [plotting data with gnuplot](https://www.cs.hmc.edu/%7Evrable/gnuplot/using-gnuplot.html)
