@@ -39,6 +39,21 @@ gnuplot -e \
 'pause -1;'
 ```
 
+## styling
+
+- plot with lines
+
+```
+plot "out.txt" with lines
+```
+
+
+- plot with lines and points
+
+```
+plot "out.txt" with linespoint
+```
+
 ## references
 
 - [plotting data with gnuplot](https://www.cs.hmc.edu/%7Evrable/gnuplot/using-gnuplot.html)
