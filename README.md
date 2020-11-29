@@ -221,6 +221,9 @@ references for linux admin and development
   - [packages build dep](doc/build-dep.md)  
   - [retrieve package source](doc/retrieve-package-source.md)    
   - upgrade single package `apt-get install --only-upgrade package`  
+  - retrieve list of upgradable packages `apt list --upgradable`
+  - retrieve version current and older `apt-cache policy package`
+  - install old version `apt-get install package=version`
 - processes  
   - show process memory graph `smem --pie=name`
   - [process management](doc/process-management.md) 
