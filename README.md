@@ -288,6 +288,7 @@ references for linux admin and development
 - [draftsight troubleshoot](doc/draftsight-troubleshoot.md)
 - document
   - [nano editor](doc/nano-editor.md)
+  - [github latex math](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b)
   - [hex editor : bless](https://github.com/bwrsandman/Bless)
   - [markdown refs](doc/markdown-refs.md)
   - [markdown toc](doc/markdown-toc.md)
