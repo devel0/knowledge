@@ -9,7 +9,7 @@
 
 ## strip messages by program name
 
-Example: strip from log all messages that contains "gnome-shell"
+Example: strip from log all messages that cames from "gnome-shell" program
 
 ```
 :programname, contains, "gnome-shell" ~
