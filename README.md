@@ -186,6 +186,7 @@ references for linux admin and development
 - [ethernet cabling T568B](http://www.comnen.com/whats-the-difference-between-t568a-and-t568b/)
 - scan hostnames `nmap -sn addr/mask`
 - scan bluetooth devices `hcitool scan`
+- [tcpdump examples](https://danielmiessler.com/study/tcpdump/)
 
 ### python
 
