@@ -50,6 +50,7 @@ references for linux admin and development
 
 ### math
 
+- [c# AngouriMath symbolic(https://github.com/devel0/scurve-speed-eval/blob/0bff63605a3f7fae49d6f56aab4b813efa755242/Program.cs#L54)
 - [octave symbolic](doc/octave-symbolic.md)
 
 ### shell
@@ -295,6 +296,8 @@ references for linux admin and development
   - [markdown toc](doc/markdown-toc.md)
   - [markdown to pdf](doc/markdown-to-pdf.md)
   - [markdown server](https://github.com/markserv/markserv)
+- graphics
+  - [dxf editor qcad](https://www.qcad.org/en/)
   
 ### media
 - editing
