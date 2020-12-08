@@ -105,6 +105,7 @@ references for linux admin and development
   - msbuild: `dotnet msbuild`
   - [search pkgs command line](https://github.com/devel0/repros/blob/5b08053bf6a389fe52979ff4e96e4ec31c1501b1/avalonia/test-empty-cpu100/test-empty.csproj#L14)
 - [docx documentation generator](doc/docfx-documentation-generator.md)
+- [librecalc](doc/librecalc.md)
 
 ### csharp
 - [send email 465](doc/send-email-465.md)
