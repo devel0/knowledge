@@ -39,3 +39,7 @@ sudo python3 -m pip uninstall setuptools
 ## keyboard led colors
 
 see [faustus](https://github.com/hackbnw/faustus) ; after install call set_rgb.sh script to config keyboard leds
+
+## nautilus preview not work
+
+if need preview for large image file please check your `Preferences / Search & Preview / Thumbnails: only for files smaller than: XX MB`
