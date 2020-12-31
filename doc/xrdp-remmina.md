@@ -70,3 +70,15 @@ chmod +x ~/.xsession
 - User name : xxx
 - User password : xxx
 - Color depth : RemoteFX (32bpp)
+
+## troubleshoot
+
+```
+cannot read /etc/xrdp/key.pem. Permission denied
+```
+
+solve by adding xrdp user to ssl-cert
+
+```sh
+sudo adduser xrdp ssl-cert  
+```
