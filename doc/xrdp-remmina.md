@@ -27,9 +27,9 @@ gnome-extensions enable ubuntu-dock@ubuntu.com
 
 - [reference](https://www.hiroom2.com/2018/04/29/ubuntu-1804-xrdp-gnome-en/)
 
-### avoid color profile auth
+### avoid color profile, pkg auth
 
-*behavior*: without this authentication required for color profile
+*behavior*: without this authentication required for color profile and/or system repositories
 
 create `/etc/polkit-1/localauthority/50-local.d/45-allow-colord.pkla`
 
@@ -37,6 +37,13 @@ create `/etc/polkit-1/localauthority/50-local.d/45-allow-colord.pkla`
 [Allow Colord all Users]
 Identity=unix-user:*
 Action=org.freedesktop.color-manager.create-device;org.freedesktop.color-manager.create-profile;org.freedesktop.color-manager.delete-device;org.freedesktop.color-manager.delete-profile;org.freedesktop.color-manager.modify-device;org.freedesktop.color-manager.modify-profile
+ResultAny=no
+ResultInactive=no
+ResultActive=yes
+
+[Allow Package Management all Users]
+Identity=unix-user:*
+Action=org.debian.apt.*;io.snapcraft.*;org.freedesktop.packagekit.*;com.ubuntu.update-notifier.*
 ResultAny=no
 ResultInactive=no
 ResultActive=yes
