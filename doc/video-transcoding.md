@@ -30,9 +30,11 @@ ffmpeg -i image%04d.jpg file.mp4 -hide_banner
 
 - handbrake ( transcode )
 
-```
+```sh
 apt install handbrake
 ```
+
+note: choose `Web / Gmail Medium 5 Minutes 480p30` profile to reduce video taken with phone
 
 ## fast mp4 edit
 
