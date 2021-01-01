@@ -1,6 +1,13 @@
 # vscode troubleshoot
 
-*[development tools](../README.md#development-tools)*
+<!-- TOC -->
+- [vscode troubleshoot](#vscode-troubleshoot)
+  * [intellinsense not work any more](#intellinsense-not-work-any-more)
+  * [xrdp](#xrdp)
+  * [trouble with 3.0](#trouble-with-30)
+<!-- TOCEND -->
+
+<hr/>
 
 ## intellinsense not work any more
 

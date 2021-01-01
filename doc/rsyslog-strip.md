@@ -1,7 +1,5 @@
 # rsyslog strip
 
-*[linux](../README.md#linux)*
-
 ## how to
 
 - edit `/etc/rsyslog.d/50-default.conf` inserting commands ( see below )

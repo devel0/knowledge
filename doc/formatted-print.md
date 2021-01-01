@@ -1,7 +1,5 @@
 # formatted print
 
-*[shell](../README.md#shell)*
-
 ## formatters
 
 ```

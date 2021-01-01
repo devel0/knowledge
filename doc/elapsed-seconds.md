@@ -1,7 +1,5 @@
 # elapsed seconds
 
-*[shell](../README.md#shell)*
-
 ```sh
 start=$(date +%s)
 

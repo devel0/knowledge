@@ -1,7 +1,5 @@
 # esp8266 twi arduino nano
 
-*[electronics](../README.md#electronics)*
-
 - twi line locked down and never pullup again when slave too slow in respond
 - solve by increase setting clock strech limit
 

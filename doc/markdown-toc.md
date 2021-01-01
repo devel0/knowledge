@@ -1,8 +1,7 @@
 # markdown toc
 
-*[tools](../README.md#tools)*
-
 - [project page](https://github.com/jonschlinkert/markdown-toc)
+- see also: [markdown-toc2](https://github.com/devel0/linux-scripts-utils/blob/11b77b6b9d58e3ce8cabd7e37b17685ec6c0bb6a/markdown-toc2)
 
 ## install
 

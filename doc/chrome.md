@@ -1,7 +1,5 @@
 # chrome
 
-*[webdevel](../README.md#webdevel)*
-
 ## useful shortcuts
 
 - `CTRL numpad+` zoom in dev window

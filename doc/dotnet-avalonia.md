@@ -1,7 +1,5 @@
 # dotnet avalonia
 
-*[csharp](../README.md#csharp)*
-
 ## Introduction
 
 WPF planned into net core 3 ( 2019 )

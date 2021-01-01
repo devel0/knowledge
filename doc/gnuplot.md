@@ -1,6 +1,12 @@
 # gnuplot
 
-*[development tools](../README.md#development-tools)*
+<!-- TOC -->
+- [gnuplot](#gnuplot)
+  * [command line execution](#command-line-execution)
+  * [multiplot from files](#multiplot-from-files)
+  * [styling](#styling)
+  * [references](#references)
+<!-- TOCEND -->
 
 ## command line execution
 

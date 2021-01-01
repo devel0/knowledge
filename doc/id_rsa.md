@@ -1,7 +1,5 @@
 # id_rsa
 
-*[security](../README.md#security)*
-
 ## generate id_rsa keypair
 
 ```sh

@@ -1,7 +1,5 @@
 # escape html
 
-*[shell](../README.md#shell)*
-
 ```sh
 apt install recode
 ```

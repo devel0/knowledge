@@ -1,7 +1,5 @@
 # nano editor
 
-*[tools](../README.md#tools)*
-
 ## enable syntax highlight
 
 - include csharp syntax highlight ( using java file )

@@ -1,6 +1,18 @@
 # ubuntu server post install
 
-*[linux](../README.md#linux)*
+<!-- TOC -->
+- [ubuntu server post install](#ubuntu-server-post-install)
+  * [tune bashrc](#tune-bashrc)
+  * [automatic disk decryption](#automatic-disk-decryption)
+  * [docker](#docker)
+  * [inotify](#inotify)
+  * [dircolors and prompt](#dircolors-and-prompt)
+    + [workstation](#workstation)
+    + [server](#server)
+  * [disable systemd-resolved](#disable-systemd-resolved)
+<!-- TOCEND -->
+
+<hr/>
 
 ## tune bashrc
 

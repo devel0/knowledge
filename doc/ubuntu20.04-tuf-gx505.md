@@ -1,5 +1,15 @@
 # ubuntu 20.04 on tuf gx505
 
+<!-- TOC -->
+- [ubuntu 20.04 on tuf gx505](#ubuntu-2004-on-tuf-gx505)
+  * [mouse rectangle](#mouse-rectangle)
+  * [python](#python)
+  * [keyboard led colors](#keyboard-led-colors)
+  * [nautilus preview not work](#nautilus-preview-not-work)
+<!-- TOCEND -->
+
+<hr/>
+
 follow these steps for a successful install of Ubuntu 20.04 on a tuf gx505ge ( nvidia gtx 1050ti )
 
 - insert pendrive and bootstrap choosing uefi from pendrive partition boot ( press esc to choose boot override )

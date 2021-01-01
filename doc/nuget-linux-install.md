@@ -1,7 +1,5 @@
 # nuget linux install
 
-*[development tools](../README.md#development-tools)*
-
 ## install
 
 - download latest nuget.exe from https://www.nuget.org/downloads

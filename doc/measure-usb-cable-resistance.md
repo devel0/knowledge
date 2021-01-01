@@ -1,7 +1,5 @@
 # measure usb cable resistance
 
-*[electronics](../README.md#electronics)*
-
 ## introduction
 
 using multimeter ohm resistance can be read directly from the cable, but this require to access wires;

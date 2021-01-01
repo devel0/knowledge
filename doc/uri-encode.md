@@ -1,7 +1,5 @@
 # uri encode
 
-*[shell](../README.md#shell)*
-
 ```sh
 echo -n "sample <b>bold</b>" | node -p 'encodeURIComponent(require("fs").readFileSync(0))'
 ```

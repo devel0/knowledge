@@ -1,23 +1,24 @@
 # asp net core
 
-*[csharp](../README.md#csharp)*
-
-- [general](#general)
-  * [csproj](#csproj)
-  * [devel0 nuget.config](#devel0-nugetconfig)
-- [startup, program, helpers, global, dbcontext](#startup-program-helpers-global-dbcontext)
-  * [Startup.cs](#startupcs)
-  * [Program.cs](#programcs)
-  * [LinuxHelper.cs](#linuxhelpercs)
-  * [IGlobal.cs](#iglobalcs)
-  * [Global.cs](#globalcs)
-  * [MyDbContext.cs](#mydbcontextcs)
-- [types](#types)
-  * [Config.cs](#configcs)
-  * [User.cs](#usercs)
-- [controllers](#controllers)
-  * [Controller.cs](#controllercs)
-- [environment](#environment)
+<!-- TOC -->
+- [asp net core](#asp-net-core)
+  * [general](#general)
+    + [csproj](#csproj)
+    + [devel0 nuget.config](#devel0-nugetconfig)
+  * [startup, program, helpers, global, dbcontext](#startup-program-helpers-global-dbcontext)
+    + [Startup.cs](#startupcs)
+    + [Program.cs](#programcs)
+    + [LinuxHelper.cs](#linuxhelpercs)
+    + [IGlobal.cs](#iglobalcs)
+    + [Global.cs](#globalcs)
+    + [MyDbContext.cs](#mydbcontextcs)
+  * [types](#types)
+    + [Config.cs](#configcs)
+    + [User.cs](#usercs)
+  * [controllers](#controllers)
+    + [Controller.cs](#controllercs)
+  * [environment](#environment)
+<!-- TOCEND -->
 
 <hr/>
 

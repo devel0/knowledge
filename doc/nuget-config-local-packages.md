@@ -1,7 +1,5 @@
 # nuget config local packages
 
-*[development tools](../README.md#development-tools)*
-
 Sometimes you need to restore packages from specific local repository in your project.
 
 - edit local nuget.config like this

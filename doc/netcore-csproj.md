@@ -1,6 +1,15 @@
 # netcore csproj
 
-*[csharp](../README.md#csharp)*
+<!-- TOC -->
+- [netcore csproj](#netcore-csproj)
+  * [generate documentation](#generate-documentation)
+  * [copy to output folder](#copy-to-output-folder)
+  * [csharp macro define csproj](#csharp-macro-define-csproj)
+  * [exclude files from compile](#exclude-files-from-compile)
+  * [disable warnings](#disable-warnings)
+<!-- TOCEND -->
+
+<hr/>
 
 ## generate documentation
 

@@ -1,7 +1,5 @@
 # mobile server
 
-*[networking](../README.md#networking)*
-
 ## introduction
 
 mobile internet connection doesn't allow INPUT connection due the fact your public ip is shared with other and all outgoing traffic is natted by the provider.

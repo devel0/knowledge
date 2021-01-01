@@ -1,7 +1,5 @@
 # driver epson gt s50
 
-*[linux](../README.md#linux)*
-
 ## install driver
 
 - [download](http://download.ebz.epson.net/dsc/search/01/search/searchModule)

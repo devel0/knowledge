@@ -1,6 +1,15 @@
 # vscode tips
 
-*[development tools](../README.md#development-tools)*
+<!-- TOC -->
+- [vscode tips](#vscode-tips)
+  * [keys](#keys)
+  * [debug with chrome and extensions](#debug-with-chrome-and-extensions)
+  * [watch string unescaped](#watch-string-unescaped)
+  * [develop and debugging with root privileges](#develop-and-debugging-with-root-privileges)
+  * [set git copy remote url](#set-git-copy-remote-url)
+<!-- TOCEND -->
+
+<hr/>
 
 ## keys
 

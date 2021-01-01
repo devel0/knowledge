@@ -1,7 +1,5 @@
 # force log rotate
 
-*[linux](../README.md#linux)*
-
 ```sh
 logrotate -f /etc/logrotate.conf
 ```

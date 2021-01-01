@@ -1,7 +1,5 @@
 # card reader
 
-*[linux](../README.md#linux)*
-
 ## install
 
 - apt install libacsccid1 pcscd opensc

@@ -1,7 +1,5 @@
 # draftsight open with dxf
 
-*[linux](../README.md#linux)*
-
 to make draftsight visible as application in Open with association ( gnome nautilus )
 - cmd key then search for "Menu Editor" application
 - locate Graphics / DraftSight

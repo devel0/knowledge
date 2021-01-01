@@ -1,7 +1,5 @@
 # intellij android studio
 
-*[mobile native](../README.md#mobile-native)*
-
 ## install
 
 ```

@@ -1,7 +1,5 @@
 # bash scripting
 
-*[shell](../README.md#shell)*
-
 ## loop through files arguments
 
 - Use "$@" to grab pathfilenames passed as argument

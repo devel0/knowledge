@@ -1,7 +1,5 @@
 # function arguments expansion
 
-*[shell](../README.md#shell)*
-
 ## example
 
 ```sh

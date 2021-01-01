@@ -1,5 +1,17 @@
 # resize lvm cache
 
+<!-- TOC -->
+- [resize lvm cache](#resize-lvm-cache)
+  * [introduction](#introduction)
+  * [turn off swap](#turn-off-swap)
+  * [remove cache](#remove-cache)
+  * [repartition ssd](#repartition-ssd)
+  * [re-enable cache](#re-enable-cache)
+  * [enable swap](#enable-swap)
+<!-- TOCEND -->
+
+<hr/>
+
 ## introduction
 
 suppose

@@ -1,9 +1,6 @@
 # quick and dirty server install notes
 
-*[linux](../README.md#linux)*
-
-## summary
-
+<!-- TOC -->
 - [quick and dirty server install notes](#quick-and-dirty-server-install-notes)
   * [prerequisites](#prerequisites)
   * [supposed hardware and os](#supposed-hardware-and-os)
@@ -18,6 +15,9 @@
   * [software install](#software-install)
   * [create docker networks](#create-docker-networks)
   * [firewall](#firewall)
+<!-- TOCEND -->
+
+<hr/>
 
 ## prerequisites
 

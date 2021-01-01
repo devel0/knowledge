@@ -1,8 +1,6 @@
 # create uefi usb from iso
 
-*[linux](../README.md#linux)*
-
-**warning** : data on /dev/sdX will destroyed
+:warning: data on /dev/sdX will destroyed
 
 - suppose
   - `/dev/sdX` target device

@@ -1,7 +1,5 @@
 # vscode settings
 
-*[development tools](../README.md#development-tools)*
-
 - File/Preferences or file located under `~/.config/Code/User/settings.json`
 
 ```json

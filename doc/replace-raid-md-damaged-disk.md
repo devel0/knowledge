@@ -1,7 +1,5 @@
 # replace raid md damaged disk
 
-*[linux](../README.md#linux)*
-
 ## introduction
 
 hypotesis:

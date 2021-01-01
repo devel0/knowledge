@@ -1,7 +1,5 @@
 # retrieve package source
 
-*[linux](../README.md#linux)*
-
 ## prerequisites
 
 - uncomment one of more deb-src repository from `/etc/apt/sources.list`

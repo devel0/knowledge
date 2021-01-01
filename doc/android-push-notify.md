@@ -1,7 +1,5 @@
 # android push notify
 
-*[mobile native](../README.md#mobile-native)*
-
 ## setup services
 
 - [pushingbox](https://www.pushingbox.com)

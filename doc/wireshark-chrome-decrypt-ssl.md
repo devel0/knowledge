@@ -1,7 +1,5 @@
 # wireshark chrome decrypt ssl
 
-*[networking](../README.md#networking)*
-
 To decrypt chrome https traffic through wireshark
 
 ## set environment variable

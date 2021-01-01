@@ -1,7 +1,5 @@
 # dotnet core unix interop
 
-*[csharp](../README.md#csharp)*
-
 ## preamble
 
 - dep on native platform broke interoperability

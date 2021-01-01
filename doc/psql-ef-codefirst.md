@@ -1,7 +1,5 @@
 # psql ef codefirst webapi
 
-*[csharp](../README.md#csharp)*
-
 ## steps
 
 - create a sample project

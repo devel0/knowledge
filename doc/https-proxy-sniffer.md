@@ -1,7 +1,5 @@
 # https proxy sniffer
 
-*[networking](../README.md#networking)*
-
 ## console mode
 
 ```sh

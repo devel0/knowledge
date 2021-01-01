@@ -1,7 +1,5 @@
 # su with sudo prompt
 
-*[linux](../README.md#linux)*
-
 ## become superuser
 
 ```sh

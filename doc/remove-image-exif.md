@@ -1,7 +1,5 @@
 # remove image exif
 
-*[media](../README.md#media)*
-
 ## install
 
 ```sh

@@ -1,7 +1,5 @@
 # csharp to typescript
 
-*[csharp](../README.md#csharp)*
-
 - add package reference to the project
 
 ```sh

@@ -1,7 +1,5 @@
 # arduino examine elf
 
-*[electronics](../README.md#electronics)*
-
 ## howto
 
 During compilation an .elf file is produced and can be inspected further to identify heavy size symbols

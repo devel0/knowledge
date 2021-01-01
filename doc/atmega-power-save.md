@@ -1,7 +1,5 @@
 # atmega power save
 
-*[electronics](../README.md#electronics)*
-
 ## reason
 
 - battery application

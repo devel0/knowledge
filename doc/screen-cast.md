@@ -1,6 +1,17 @@
 # screen cast
 
-*[media](../README.md#media)*
+<!-- TOC -->
+- [screen cast](#screen-cast)
+  * [install](#install)
+  * [transcode to gif](#transcode-to-gif)
+  * [transcode to gif (optimized)](#transcode-to-gif-optimized)
+    + [install](#install-1)
+    + [usage](#usage)
+  * [record terminal to gif](#record-terminal-to-gif)
+  * [record pure terminal](#record-pure-terminal)
+<!-- TOCEND -->
+
+<hr/>
 
 ## install
 

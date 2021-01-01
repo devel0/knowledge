@@ -1,7 +1,5 @@
 # cygwin install
 
-*[tools](../README.md#tools)*
-
 ## install
 
 - start installation https://www.cygwin.com/setup-x86_64.exe

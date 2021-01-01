@@ -1,7 +1,5 @@
 # tuple value read write
 
-*[csharp](../README.md#csharp)*
-
 Sometime for a quick obj data saving you don't declare a class but want to use a named ValueTyple; you can modify tuple member values but if you retrieve the tuple from some collection such as a List or a Dictionary the one returned is a copy ( because a ValueType );
 
 An helper class ( available also in netcore-util package ) ValueObj<T> allow you to maintain valuetype reference integrity.

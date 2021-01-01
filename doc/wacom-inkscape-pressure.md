@@ -1,7 +1,5 @@
 # wacom inkscape pressure
 
-*[linux](../README.md#linux)*
-
 To make sure wacom bamboo tablet pressure work:
 
 - Edit/input devices

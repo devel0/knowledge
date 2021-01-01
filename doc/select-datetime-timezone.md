@@ -1,7 +1,5 @@
 # select date timezone
 
-*[database](../README.md#database)*
-
 - assuming datetime stored without time zone ( ie. UTC )
 
 - to retrieve datetime as local 'Europe/Rome'

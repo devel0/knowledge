@@ -1,7 +1,5 @@
 # markdown to pdf
 
-*[tools](../README.md#tools)*
-
 ## install
 
 ```

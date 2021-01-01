@@ -1,7 +1,5 @@
 # pgadmin
 
-*[database](../README.md#database)*
-
 ## description
 
 - its a web interface to a server-side postgres client

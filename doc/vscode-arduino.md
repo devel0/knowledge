@@ -1,6 +1,15 @@
 # vscode-arduino
 
-*[electronics](../README.md#electronics)*
+<!-- TOC -->
+- [vscode-arduino](#vscode-arduino)
+  * [setup](#setup)
+  * [troubleshoot](#troubleshoot)
+  * [usage](#usage)
+  * [increase build speed](#increase-build-speed)
+  * [references](#references)
+<!-- TOCEND -->
+
+<hr/>
 
 ## setup
 

@@ -1,7 +1,5 @@
 # loopback device
 
-*[linux](../README.md#linux)*
-
 ## create
 
 ```sh

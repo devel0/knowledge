@@ -1,7 +1,5 @@
 # bit4id minilector evo
 
-*[linux](../README.md#linux)*
-
 ## issue
 
 - driver from bit4id actually doesn't work on Ubuntu 64bit cause the driver is a 32bit version

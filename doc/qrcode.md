@@ -1,7 +1,5 @@
 # qrcode
 
-*[media](../README.md#media)*
-
 ## install
 
 ```sh

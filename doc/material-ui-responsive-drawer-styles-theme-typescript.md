@@ -1,7 +1,5 @@
 # material-ui responsive drawer with styles and theme ( typescript )
 
-*[webdevel](../README.md#webdevel)*
-
 adjusted from https://material-ui.com/demos/drawers/
 
 ```ts

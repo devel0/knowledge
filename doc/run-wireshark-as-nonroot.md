@@ -1,7 +1,5 @@
 # run wireshark as non root
 
-*[networking](../README.md#networking)*
-
 ## install
 
 ```sh

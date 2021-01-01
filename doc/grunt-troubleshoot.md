@@ -1,7 +1,5 @@
 # grunt troubleshoot
 
-*[webdevel](../README.md#webdevel)*
-
 ## issue
 
 running `grunt`

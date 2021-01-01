@@ -1,7 +1,5 @@
 # arduino on atmega8
 
-*[electronics](../README.md#electronics)*
-
 ## purpose
 
 Reuse of standalone atmega8 chips for small projects ( flash is 8kb vs 32kb of atmega328 standard for arduino ).

@@ -1,7 +1,5 @@
 # trap ctrl+c
 
-*[shell](../README.md#shell)*
-
 [download](trap-ctrlc-example)
 
 ```sh

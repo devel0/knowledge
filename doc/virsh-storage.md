@@ -1,8 +1,16 @@
 # storage
 
-## convert qcow2 to vdi
+<!-- TOC -->
+- [storage](#storage)
+  * [convert qcow2 to vdi](#convert-qcow2-to-vdi)
+  * [create qcow2 disk](#create-qcow2-disk)
+  * [resize disk](#resize-disk)
+  * [remove reserved partition](#remove-reserved-partition)
+<!-- TOCEND -->
 
-*[linux](../README.md#linux)*
+<hr/>
+
+## convert qcow2 to vdi
 
 ```sh
 qemu-img convert -f qcow2 input.img -O raw tmp.img

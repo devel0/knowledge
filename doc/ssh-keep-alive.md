@@ -1,7 +1,5 @@
 # ssh keep alive
 
-*[security](../README.md#security)*
-
 ## purpose
 
 Prevent timeout of ssh session due to inactivity.

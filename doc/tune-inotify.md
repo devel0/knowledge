@@ -1,7 +1,5 @@
 # tune inotify
 
-*[linux](../README.md#linux)*
-
 error that can thrown an application
 ```
 The configured user limit (128) on the number of inotify instances has been reached, or the per-process limit on the number of open file descriptors has been reached.

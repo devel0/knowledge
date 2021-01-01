@@ -1,7 +1,5 @@
 # ubuntu 19.04 tune
 
-*[linux](../README.md#linux)*
-
 ## peek not record mouse cursor
 
 related [issue](https://github.com/phw/peek/issues/430)

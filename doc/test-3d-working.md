@@ -1,7 +1,5 @@
 # test 3d working
 
-*[media](../README.md#media)*
-
 ## prerequisites
 
 ```sh

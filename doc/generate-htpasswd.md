@@ -1,7 +1,5 @@
 # generate htpasswd
 
-*[security](../README.md#security)*
-
 ## prerequisites
 
 ```sh

@@ -1,7 +1,5 @@
 # process management
 
-*[linux](../README.md#linux)*
-
 ## user belong to a process
 
 ```sh

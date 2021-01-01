@@ -1,7 +1,5 @@
 # resize image
 
-*[media](../README.md#media)*
-
 ## install
 
 ```sh

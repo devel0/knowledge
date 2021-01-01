@@ -1,7 +1,5 @@
 # remotely assis linux can't boot
 
-*[linux](../README.md#linux)*
-
 ## scenario
 
 - remote pc:

@@ -1,7 +1,5 @@
 # jq json tool
 
-*[shell](../README.md#shell)*
-
 ## replace data
 
 - `appsettings.json` example

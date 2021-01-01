@@ -1,7 +1,5 @@
 # test swap memory
 
-*[linux](../README.md#linux)*
-
 Follows an example to test PHY RAM + SWAP RAM docker test, thanks Sergey L. [post](https://stackoverflow.com/questions/17935873/malloc-fails-when-there-is-still-plenty-of-swap-left?answertab=active#tab-top)
 
 ```c

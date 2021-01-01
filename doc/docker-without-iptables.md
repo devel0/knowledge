@@ -1,7 +1,5 @@
 # docker without iptables
 
-*[linux](../README.md#linux)*
-
 ```sh
 systemctl edit docker
 ```

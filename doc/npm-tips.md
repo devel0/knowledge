@@ -1,6 +1,17 @@
 # npm tips
 
-*[webdevel](../README.md#webdevel)*
+<!-- TOC -->
+- [npm tips](#npm-tips)
+  * [upgrade all packages](#upgrade-all-packages)
+  * [use local npm packages](#use-local-npm-packages)
+  * [install latest npm version](#install-latest-npm-version)
+  * [clear npm cache](#clear-npm-cache)
+  * [link a local package source](#link-a-local-package-source)
+  * [install package from github repo commit id](#install-package-from-github-repo-commit-id)
+  * [download npm package tarball](#download-npm-package-tarball)
+<!-- TOCEND -->
+
+<hr/>
 
 ## upgrade all packages
 
