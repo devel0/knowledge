@@ -78,6 +78,7 @@ references for linux admin and development
   - [replace newline](http://www.benjiegillam.com/2011/09/using-sed-to-replace-newlines/)
   - skip first line `cat file | sed -n '1d;p'`
 - time GMT `TZ=GMT date +@GMT-%Y.%m.%d-%H.%M.%S`
+- show dialog notification `notify-send title msg`
 
 ### development tools
 - [git](doc/git-usage.md)  
