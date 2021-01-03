@@ -1,5 +1,11 @@
 # pcb etching
 
+## steps
+
+here there are photos that shows pcb cutting, toner transfer and apply rivets on double sided pcb
+
+- [photos](https://drive.google.com/drive/folders/1dvh0bPbnFaxxDmZTid1LfZl8ftr2Wi58?usp=sharing)
+
 ## requirements
 
 - laser printer
