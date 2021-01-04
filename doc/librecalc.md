@@ -13,3 +13,5 @@
   - choose category: My Templates
   - Template Name: defaultCalc ( or what's preferred )
   - check `Set as default template`
+
+Suggested font for maths with `l` disambiguated : `Bitstream Vera Sans Mono`
