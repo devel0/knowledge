@@ -298,8 +298,7 @@ references for linux admin and development
   - [markdown toc](doc/markdown-toc.md)
   - [markdown to pdf](doc/markdown-to-pdf.md)
   - [markdown server](https://github.com/markserv/markserv)
-  - to insert unicode char type C-S-u then type the value and hit enter (is. 2206 = ∆)
-- graphics
+  - [useful unicode](doc/useful-unicode.md)  
   - [dxf editor qcad](https://www.qcad.org/en/)
   
 ### media
