@@ -291,6 +291,7 @@ references for linux admin and development
 - [win10 quick assist](doc/win10-quick-assist.md)
 - [draftsight troubleshoot](doc/draftsight-troubleshoot.md)
 - document
+  - [xlsx](doc/xlsx.md)
   - [nano editor](doc/nano-editor.md)
   - [github latex math](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b)
   - [hex editor : bless](https://github.com/bwrsandman/Bless)
