@@ -6,6 +6,7 @@
   * [python](#python)
   * [keyboard led colors](#keyboard-led-colors)
   * [nautilus preview not work](#nautilus-preview-not-work)
+  * [document viewer max zoom](#document-viewer-max-zoom)
 <!-- TOCEND -->
 
 <hr/>
@@ -53,3 +54,12 @@ see [faustus](https://github.com/hackbnw/faustus) ; after install call set_rgb.s
 ## nautilus preview not work
 
 if need preview for large image file please check your `Preferences / Search & Preview / Thumbnails: only for files smaller than: XX MB`
+
+## document viewer max zoom
+
+to allow zoom more than 400%
+
+```sh
+gsettings set org.gnome.Evince page-cache-size 2014
+
+```
