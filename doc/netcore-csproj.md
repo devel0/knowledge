@@ -120,3 +120,11 @@ follow to disable missing XML comment
     </PropertyGroup>
 </Project>
 ```
+
+## force bin,obj clean
+
+:warning: this will remove all `bin` and `obj` folders recursively starting from current working dir
+
+```sh
+ find -type d -name "bin" -exec rm -fr '{}' \; ; find -type d -name "obj" -exec rm -fr '{}' \;
+```
