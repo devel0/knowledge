@@ -7,6 +7,7 @@
   * [csharp macro define csproj](#csharp-macro-define-csproj)
   * [exclude files from compile](#exclude-files-from-compile)
   * [disable warnings](#disable-warnings)
+  * [force bin,obj clean](#force-binobj-clean)
 <!-- TOCEND -->
 
 <hr/>
