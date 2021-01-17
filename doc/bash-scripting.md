@@ -36,6 +36,7 @@ test "sample 1" "sample 2"
 
 ## decimal numeric test using bc
 
+```sh
 a="12.1875"
 
 if (( $(echo "$a > 12.187" | bc -l) )); then
@@ -45,3 +46,4 @@ fi
 if (( ! $(echo "$a > 12.1876" | bc -l) )); then
 	echo "[$a] is not great than 12.1876"
 fi
+```
