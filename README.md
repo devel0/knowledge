@@ -174,6 +174,7 @@ references for linux admin and development
 
 ### networking
 - send a tcp packet `echo sample | nc 10.10.2.10 1000`
+- test tcp port `echo "test" | netcat -w 5 -W 1 host port ; if [ "$?" == "0" ]; then echo "OK"; else echo "UNREACHABLE"; fi`
 - [test webapi](doc/test-webapi.md)
 - [send simple message over udp](doc/send-simple-message-over-udp.md)
 - [send email](doc/send-email-wrapper.md)
