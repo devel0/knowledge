@@ -1,12 +1,12 @@
 # ubuntu 20.04 on tuf gx505
 
 <!-- TOC -->
-- [ubuntu 20.04 on tuf gx505](#ubuntu-2004-on-tuf-gx505)
-  * [mouse rectangle](#mouse-rectangle)
-  * [python](#python)
-  * [keyboard led colors](#keyboard-led-colors)
-  * [nautilus preview not work](#nautilus-preview-not-work)
-  * [document viewer max zoom](#document-viewer-max-zoom)
+* [mouse rectangle](#mouse-rectangle)
+* [python](#python)
+* [keyboard led colors](#keyboard-led-colors)
+* [nautilus preview not work](#nautilus-preview-not-work)
+* [document viewer max zoom](#document-viewer-max-zoom)
+* [force recent on nautlis sidebar](#force-recent-on-nautlis-sidebar)
 <!-- TOCEND -->
 
 <hr/>
@@ -63,3 +63,8 @@ to allow zoom more than 400%
 gsettings set org.gnome.Evince page-cache-size 2014
 
 ```
+
+## force recent on nautlis sidebar
+
+- when saveAs and want to access recent can press Alt-R
+- another way is to place a bookmark to recent adding `recent:///` to `~/.config/gtk-3.0/bookmarks`
