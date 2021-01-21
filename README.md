@@ -292,7 +292,9 @@ references for linux admin and development
 ### tools
 - [cygwin install](doc/cygwin-install.md)    
 - [win10 quick assist](doc/win10-quick-assist.md)
-- [draftsight troubleshoot](doc/draftsight-troubleshoot.md)
+- drawings
+  - [dwg viewer](doc/dwg-viewer-linux.md)
+  - [dxf editor qcad](https://www.qcad.org/en/)
 - document
   - [xlsx](doc/xlsx.md)
   - [nano editor](doc/nano-editor.md)
@@ -303,7 +305,6 @@ references for linux admin and development
   - [markdown to pdf](doc/markdown-to-pdf.md)
   - [markdown server](https://github.com/markserv/markserv)
   - [useful unicode](doc/useful-unicode.md)  
-  - [dxf editor qcad](https://www.qcad.org/en/)
   
 ### media
 - editing
