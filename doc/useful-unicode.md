@@ -13,6 +13,7 @@
 | μ | 03BC | micro |
 | ∆ | 2206 | delta |
 | π | 03C0 | pi-greco |
+| ° | 00B0 | degree |
 | ∙ | 2219 | dot |
 
 | char | hex code | descr |
