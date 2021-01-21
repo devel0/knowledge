@@ -295,6 +295,7 @@ references for linux admin and development
 - drawings
   - [dwg viewer](doc/dwg-viewer-linux.md)
   - [dxf editor qcad](https://www.qcad.org/en/)
+  - [draftsight troubleshoot](doc/draftsight-troubleshoot.md)
 - document
   - [xlsx](doc/xlsx.md)
   - [nano editor](doc/nano-editor.md)
