@@ -15,6 +15,7 @@
 | π | 03C0 | pi-greco |
 | ° | 00B0 | degree |
 | ∙ | 2219 | dot |
+| ⇒ | 21D2 | dbl right arrow |
 
 | char | hex code | descr |
 |---|---|---|
