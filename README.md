@@ -306,6 +306,7 @@ references for linux admin and development
   - [markdown to pdf](doc/markdown-to-pdf.md)
   - [markdown server](https://github.com/markserv/markserv)
   - [useful unicode](doc/useful-unicode.md)  
+  - google drive direct link `https://drive.google.com/open?id=DRIVE_FILE_ID`
   
 ### media
 - editing
