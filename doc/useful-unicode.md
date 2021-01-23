@@ -16,6 +16,10 @@
 | ° | 00B0 | degree |
 | ∙ | 2219 | dot |
 | ⇒ | 21D2 | dbl right arrow |
+| ≈ | 2248 | approximately equal |
+| ≠ | 2260 | not equal |
+| ≤ | 2264 | less than or equal |
+| ≥ | 2265 | grat than or equal |
 
 | char | hex code | descr |
 |---|---|---|
