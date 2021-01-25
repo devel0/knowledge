@@ -62,6 +62,20 @@ var match = new Regex(@".*_(\d+)\.txt").Match(filename);
 if (match.Success) Console.WriteLine($"number is : {match.Groups[1].Value}");
 ```
 
+## group replace
+
+```csharp
+var myval = 22d;
+var rgxStr = @"G1(.*)Z(.*)F(.*)";
+var rgx = new Regex(rgxStr);
+var line = "G1A0.000Z-4.064F300.0";
+if (rgx.Match(line))
+{
+ var line2 = rgx.Replace(line, Invariant($"$"G1$1Z{myval}F$3"));
+ // line2 = "G1A0.000Z22F300.0";
+}
+```
+
 ## optional character
 
 ```csharp
