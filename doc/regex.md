@@ -1,15 +1,15 @@
 # regex
 
 <!-- TOC -->
-- [regex](#regex)
-  * [reference](#reference)
-  * [negative match](#negative-match)
-  * [replace](#replace)
-  * [replace all characters that not match allowed](#replace-all-characters-that-not-match-allowed)
-  * [group matches](#group-matches)
-  * [optional character](#optional-character)
-  * [auto-escaping](#auto-escaping)
-  * [optional group](#optional-group)
+* [reference](#reference)
+* [negative match](#negative-match)
+* [replace](#replace)
+* [replace all characters that not match allowed](#replace-all-characters-that-not-match-allowed)
+* [group matches](#group-matches)
+* [group replace](#group-replace)
+* [optional character](#optional-character)
+* [auto-escaping](#auto-escaping)
+* [optional group](#optional-group)
 <!-- TOCEND -->
 
 <hr/>
