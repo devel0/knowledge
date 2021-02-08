@@ -100,3 +100,8 @@ to allow XmlComplete recognize `axaml` as xml add follow to settings.json
         "*.axaml": "xml"
     },
 ```
+
+## snippets
+
+- see [easy snippet](https://marketplace.visualstudio.com/items?itemName=inu1255.easy-snippet) extension
+- ref: [variable transform](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_variable-transforms)
