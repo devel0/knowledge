@@ -7,6 +7,7 @@
 * [develop and debugging with root privileges](#develop-and-debugging-with-root-privileges)
 * [set git copy remote url](#set-git-copy-remote-url)
 * [add languageid override](#add-languageid-override)
+* [snippets](#snippets)
 <!-- TOCEND -->
 
 <hr/>
