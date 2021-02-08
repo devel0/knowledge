@@ -119,3 +119,5 @@ public bool ${1/(.)/${1:/upcase}/}
     set => this.RaiseAndSetIfChanged(ref $1, value);
 }
 ```
+
+just recall the snippet with the name assigned from easy snippet then enter var name ( first letter lowercase ) then the public prop will uppercased automatically when hit tab.
