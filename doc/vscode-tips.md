@@ -106,3 +106,16 @@ to allow XmlComplete recognize `axaml` as xml add follow to settings.json
 
 - see [easy snippet](https://marketplace.visualstudio.com/items?itemName=inu1255.easy-snippet) extension
 - ref: [variable transform](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_variable-transforms)
+
+snippets will located in `~/.config/Code/User/snippets/csharp.json` and automatically managed by easy snippet extension
+
+example for a snippet ( avalonia property )
+
+```csharp
+private bool ${1} = false;    
+public bool ${1/(.)/${1:/upcase}/}
+{
+    get => $1;
+    set => this.RaiseAndSetIfChanged(ref $1, value);
+}
+```
