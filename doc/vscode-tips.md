@@ -109,7 +109,18 @@ to allow XmlComplete recognize `axaml` as xml add follow to settings.json
 
 snippets will located in `~/.config/Code/User/snippets/csharp.json` and automatically managed by easy snippet extension
 
-example for a snippet ( avalonia property )
+- example for a snippet ( avalonia property ) using underscore prefix for private field
+
+```csharp
+private $1 _${2} = $3;
+public $1 $2
+{
+    get => _$2;
+    set => this.RaiseAndSetIfChanged(ref _$2, value);
+}
+```
+
+- example for a snippet ( avalonia property ) using lowercase for private field and uppercase for public prop
 
 ```csharp
 private $1 ${2} = $3;
