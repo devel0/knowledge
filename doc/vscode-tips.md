@@ -112,11 +112,11 @@ snippets will located in `~/.config/Code/User/snippets/csharp.json` and automati
 example for a snippet ( avalonia property )
 
 ```csharp
-private bool ${1} = false;    
-public bool ${1/(.)/${1:/upcase}/}
+private $1 ${2} = $3;
+public $1 ${2/(.)/${1:/upcase}/}
 {
-    get => $1;
-    set => this.RaiseAndSetIfChanged(ref $1, value);
+    get => $2;
+    set => this.RaiseAndSetIfChanged(ref $2, value);
 }
 ```
 
