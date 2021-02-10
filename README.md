@@ -122,8 +122,10 @@ references for linux admin and development
   - [dotnet cmdline](doc/dotnet-cmdline.md)
   - [dotnet core unix interop](doc/dotnet-core-unix-interop.md)
   - [dotnet gui](doc/dotnet-avalonia.md)
-    - [avalonia icon](doc/avalonia-icon.md)
-    - [vscode avalonia xaml intellisense](https://marketplace.visualstudio.com/items?itemName=rogalmic.vscode-xml-complete)
+    - avalonia
+      - [notes](doc/avalonia-notes.md)
+      - [app icon](doc/avalonia-icon.md)
+      - [vscode xaml intellisense](https://marketplace.visualstudio.com/items?itemName=rogalmic.vscode-xml-complete)
   - [dotnet netcorestandard testunit](https://github.com/devel0/netcore-util/tree/6267b9e954692ecc7513ccb9616d590128294598#how-this-project-was-built)
   - [troubleshoot](doc/dotnet-troubleshoot.md)
 - [regex](doc/regex.md)
