@@ -64,3 +64,51 @@ you have to be in `dialout` group to access /dev/rfcommXX
 ```sh
 $ minicom -D /dev/rfcomm0 -b 9600
 ```
+
+## at command mode
+
+- connect BT to an arduino
+	- GND -> GND
+	- VCC -> 5V
+	- EN -> 3V3
+	- TX -> D10
+	- RX -> voltage divider 1k on D11, 2k to gnd
+
+- open serial term to arduino 9600 ( that will talk using software serial at 38400 to bt module )
+
+- example AT commands
+
+```
+AT
+OK
+
+AT+VERSION
+VERSION:3.0-20170601
+
+AT+NAME
++NAME:HC-05
+OK
+
+AT+NAME=my
+OK
+
+AT+NAME
++NAME:my
+OK
+
+AT+PSWD
++PIN:"1234"
+OK
+
+AT+PSWD="9999"
+OK
+
+AT+PSWD
++PIN:"9999"
+OK
+
+AT+ORGL
+OK
+```
+
+- ref: https://www.instructables.com/AT-command-mode-of-HC-05-Bluetooth-module/
