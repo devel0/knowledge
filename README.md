@@ -193,7 +193,7 @@ references for linux admin and development
 - quick list interface addresses `ip -br a`
 - [ethernet cabling T568B](http://www.comnen.com/whats-the-difference-between-t568a-and-t568b/)
 - scan hostnames `nmap -sn addr/mask`
-- scan bluetooth devices `hcitool scan`
+- [bluetooth](doc/bluetooth.md)
 - [tcpdump examples](https://danielmiessler.com/study/tcpdump/)
 
 ### python
