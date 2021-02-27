@@ -39,7 +39,7 @@ Language Base Attr List:
 ### connect
 
 ```sh
-$ rfcomm connect 0 98:D3:71:F5:F5:BE
+$ sudo rfcomm connect 0 98:D3:71:F5:F5:BE
 Connected /dev/rfcomm0 to 98:D3:71:F5:F5:BE on channel 1
 Press CTRL-C for hangup
 ```
