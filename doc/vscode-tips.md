@@ -20,6 +20,7 @@
 | `ctrl + shift + O` | methods list |
 | `ctrl + shift + [` | fold region |
 | `ctrl + shift + ]` | unfold region |
+| `alt + z` | toggle word wrap per file |
 
 ## debug with chrome and extensions
 
