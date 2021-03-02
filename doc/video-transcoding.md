@@ -54,6 +54,12 @@ openshot
 
 ## rotate video
 
+### using ffmpeg
+
+- see [rotate-video](https://github.com/devel0/linux-scripts-utils/blob/703c6f997677481dba8ef6639b18c0168e882618/rotate-video) script
+
+### using openshot
+
 ```
 apt install openshot
 ```
