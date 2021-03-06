@@ -52,3 +52,23 @@ then restore valid key
 ```sh
 mv ~/.ssh/github.id_rsa.disabled ~/.ssh/github.id_rsa
 ```
+
+## convert https to git ssh access
+
+to view current remote
+
+```sh
+git remote -v
+```
+
+if you have a working copy clone though https and want to switch to ssh can do with
+
+```sh
+git remote set-url origin git@github.com:USERNAME/REPO.git
+```
+
+the url can be retrieved from CLONE btn of your repo selecting ssh, example
+
+```sh
+git remote set-url git@github.com:devel0/iot-examples.git
+```
