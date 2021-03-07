@@ -35,6 +35,7 @@ here there are photos that shows pcb cutting, toner transfer and apply rivets on
   - File / Export PDF
     - TopLayer ( separate layer, check export ) to generate pcb
     - TopSilkLayer ( separate layer, check mirror ) to generate labels to attach non copper side
+    - general rule : Top (mirrored) ; Bottom (**NOT** mirrored)
 - toner transfer ( [video](https://youtu.be/TbBrgpKxBJk?list=LLSxwtecTaiSTtkh48QGLJtA&t=341) )
   - use a dry iron that has a flat surface
   - print with toner on photo glossy paper 115g
