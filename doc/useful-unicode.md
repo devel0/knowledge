@@ -16,6 +16,7 @@
 | ° | 00B0 | degree |
 | ∙ | 2219 | dot |
 | ⇒ | 21D2 | dbl right arrow |
+| ≃ | 2243 | similar equal |
 | ≈ | 2248 | approximately equal |
 | ≠ | 2260 | not equal |
 | ≤ | 2264 | less than or equal |
