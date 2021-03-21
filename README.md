@@ -324,7 +324,7 @@ references for linux admin and development
   - [resize image](doc/resize-image.md)  
   - [video transcoding](doc/video-transcoding.md)
   - [remove image exif](doc/remove-image-exif.md)
-  - dump screen to image `import -window root out.jpg `
+  - [grab screen to image](doc/grab-screen-to-image.md)
   - ubuntu cast to chromecst `apt install mkchromecast`
 - misc
   - [stream dvbt to chromecast](doc/stream-dvbt-to-chromecast.md)
