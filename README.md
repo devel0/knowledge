@@ -34,7 +34,7 @@ references for linux admin and development
   - [esp8266 twi arduino nano problems](doc/esp8266-twi-arduino-nano.md)  
   - [serial baud rate](doc/arduino-serial-baud.md)
 - stm32
-  - [vscode debugging](https://github.com/devel0/iot-stm32-ledblink-interrupt-debug#iot-stm32-ledblink-interrupt-debug)
+  - [vscode debugging](https://github.com/devel0/iot-examples/tree/3ff96e5e57c6593675e8f270b87161b9724b6786#stm32duino)
   - [string stream](https://github.com/bblanchon/ArduinoStreamUtils)
 - [schematics and pcb editor](doc/easyeda.md)
 - [qucs circuit simulator](doc/qucs.md)
