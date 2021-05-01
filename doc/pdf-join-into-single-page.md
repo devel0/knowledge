@@ -24,3 +24,5 @@ pdfjam --nup 2x4 --delta "0 50" --outfile output.pdf TOP.pdf BOTTOM.pdf TOP.pdf 
 ```
 
 - reference: [pdfjam options](http://texdoc.net/texmf-dist/doc/latex/pdfpages/pdfpages.pdf)
+
+- scaling: use `--scale 1.0` to avoid autoscale
