@@ -80,6 +80,16 @@ SUBSYSTEMS=="usb", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="7523", MODE="0666
 - upload sketch ( `ctrl+shift+p arduino upload using programmer` )
 - open serial monitor ( ctrl+shift+p `open serial monitor` ) will visible in output / serial monitor
 
+## verbose loglevel
+
+- set in `.vscode/settings.json`
+
+```json
+{
+ "arduino.logLevel": "verbose"
+}
+```
+
 ## increase build speed
 
 - set build option in `.vscode/arduino.json`
