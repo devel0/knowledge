@@ -1,5 +1,20 @@
 # arduino on atmega8
 
+<!-- TOC -->
+* [purpose](#purpose)
+* [requirements](#requirements)
+* [howto](#howto)
+  + [install boards into arduino](#install-boards-into-arduino)
+  + [setup fuses](#setup-fuses)
+  + [recover locked fuses](#recover-locked-fuses)
+  + [upload a sketch](#upload-a-sketch)
+  + [wiring notes](#wiring-notes)
+* [pin mapping](#pin-mapping)
+* [serial communication](#serial-communication)
+* [oled SSD1306](#oled-ssd1306)
+* [reset](#reset)
+<!-- TOCEND -->
+
 ## purpose
 
 Reuse of standalone atmega8 chips for small projects ( flash is 8kb vs 32kb of atmega328 standard for arduino ).
@@ -43,6 +58,15 @@ Follows table of 8Mhz internal for various models
 | m328/328p | 0xe2 | 0xdb | 0xff |
 
 (*) to disable Brown-out Detection on atmega8 need to set by fuse, while atmega328 support set at runtime
+
+### recover locked fuses
+
+if inadvertently set a 16mhz clock usbasp could not connect atmega without proper crystal anymore,
+to recover you need to connect a crystal this way:
+- XTAL1 -> crystal end1 -> capacitor 22pF to GND
+- XTAL2 -> crystal end2 -> capacitor 22pF to GND
+
+then issue a restore of fuse to use eg. 8mhz internal if want to go without requiring a crystal.
 
 ### upload a sketch
 
