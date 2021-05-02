@@ -19,7 +19,9 @@ upload_flags =
 	-c
 	usbasp
 upload_command = avrdude $UPLOAD_FLAGS -U flash:w:$SOURCE:i
-# follow is 328p internal 8mhz fuses
+# follow specify fcpu 8mhz
+#board_build.f_cpu = 8000000L
+# follow is 328p internal 8mhz fuses ( issue project task/Platform/Set Fuses to write them )
 #board_fuses.hfuse = 0xDB
 #board_fuses.lfuse = 0xE2
 #board_fuses.efuse = 0xFF
