@@ -2,7 +2,7 @@
 
 to enable upload thourgh usbasp using vscode platformio on an atmega328p there is the need to set `platformio.ini`
 
-```
+```ini
 [env:ATmega328P]
 platform = atmelavr
 board = ATmega328P
