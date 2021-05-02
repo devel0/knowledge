@@ -5,6 +5,7 @@
   * [setup](#setup)
   * [troubleshoot](#troubleshoot)
   * [usage](#usage)
+  * [verbose loglevel](#verbose-loglevel)
   * [increase build speed](#increase-build-speed)
   * [references](#references)
 <!-- TOCEND -->
