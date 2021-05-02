@@ -21,6 +21,6 @@ upload_flags =
 upload_command = avrdude $UPLOAD_FLAGS -U flash:w:$SOURCE:i
 # follow is 328p internal 8mhz fuses
 #board_fuses.hfuse = 0xDB
-#board_fuses.lfuse = 0xD2
+#board_fuses.lfuse = 0xE2
 #board_fuses.efuse = 0xFF
 ```
