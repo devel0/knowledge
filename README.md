@@ -316,6 +316,7 @@ references for linux admin and development
 - editing
   - pdf edit inking `apt install xournal`
   - [pdf join into single page](doc/pdf-join-into-single-page.md)
+  - convert jpg to pdf `convert *.jpg -auto-orient out.pdf`
 - sound
   - console player `apt install mocp`
 - graphics
