@@ -16,7 +16,11 @@
     "csharp.referencesCodeLens.enabled": false,
     "workbench.editor.enablePreview": false,
     "editor.codeLens": false,
-    "git.autofetch": true
+    "git.autofetch": true,
+    "workbench.colorCustomizations": {
+        "tab.activeBorder": "#ff0000",
+        "tab.unfocusedActiveBorder": "#000000"
+    },
 }
 ```
 
