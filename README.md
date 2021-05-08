@@ -242,7 +242,7 @@ references for linux admin and development
   - show memoy usage `smem --pie name -s rss`
 - ubuntu tune
   - [ubuntu 20.04 tuf gx505](doc/ubuntu20.04-tuf-gx505.md)
-  - [ubuntu 20.04 asus P2550](doc/ubuntu20.04-p2550.md)  
+  - [ubuntu 20.04 asus P2550](doc/ubuntu20.04-P2550.md)  
   - [disable tracker miner](https://www.linuxuprising.com/2019/07/how-to-completely-disable-tracker.html)
   - [ubuntu 19.04](doc/ubuntu-19.04-tune.md)
   - [ubuntu 18.04](doc/ubuntu-18.04-tune.md)
