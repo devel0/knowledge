@@ -27,7 +27,9 @@ references for linux admin and development
 ### electronics
 - arduino
   - [vscode arduino](doc/vscode-arduino.md)
-  - [vscode arduino platformio atmega328](doc/vscode-arduino-platformio-atmega328.md)
+  - vscode arduino platformio
+    - [atmega328](doc/vscode-arduino-platformio-atmega328.md)
+    - [atmega8](doc/vscode-arduino-platformio-atmega8.md)
   - [vscode arduino nano platformio](doc/vscode-arduino-nano-platformio.md)
   - [arduino on atmega8](doc/arduino-on-atmega8.md)
   - [atmega power save](doc/atmega-power-save.md)
