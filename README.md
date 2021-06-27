@@ -132,7 +132,7 @@ references for linux admin and development
       - [vscode xaml intellisense](https://marketplace.visualstudio.com/items?itemName=rogalmic.vscode-xml-complete)
   - [dotnet netcorestandard testunit](https://github.com/devel0/netcore-util/tree/6267b9e954692ecc7513ccb9616d590128294598#how-this-project-was-built)
   - [troubleshoot](doc/dotnet-troubleshoot.md)
-  - view version of dll `exittool file.dll | grep 'Product Version'`
+  - view version of dll `exiftool file.dll | grep 'Product Version'`
 - [regex](doc/regex.md)
 - [csharp to typescript](doc/csharp-to-typescript.md)
 - [xlsx finalize worksheet freeze columns](https://github.com/devel0/worked-hours-tracker/blob/e947095bba1c52010651e79fbf2f44d82f600adc/WorkedHoursTrackerWebapi/Controllers/ApiController.cs#L543-L557)
