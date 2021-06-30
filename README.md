@@ -27,7 +27,10 @@ references for linux admin and development
 ### electronics
 - arduino
   - [vscode arduino](doc/vscode-arduino.md)
-  - [vscode arduino platformio atmega328](doc/vscode-arduino-platformio-atmega328.md)
+  - vscode arduino platformio
+    - [atmega328](doc/vscode-arduino-platformio-atmega328.md)
+    - [atmega8](doc/vscode-arduino-platformio-atmega8.md)
+  - [vscode arduino nano platformio](doc/vscode-arduino-nano-platformio.md)
   - [arduino on atmega8](doc/arduino-on-atmega8.md)
   - [atmega power save](doc/atmega-power-save.md)
   - [arduino examine elf](doc/arduino-examine-elf.md)
@@ -129,6 +132,7 @@ references for linux admin and development
       - [vscode xaml intellisense](https://marketplace.visualstudio.com/items?itemName=rogalmic.vscode-xml-complete)
   - [dotnet netcorestandard testunit](https://github.com/devel0/netcore-util/tree/6267b9e954692ecc7513ccb9616d590128294598#how-this-project-was-built)
   - [troubleshoot](doc/dotnet-troubleshoot.md)
+  - view version of dll `exiftool file.dll | grep 'Product Version'`
 - [regex](doc/regex.md)
 - [csharp to typescript](doc/csharp-to-typescript.md)
 - [xlsx finalize worksheet freeze columns](https://github.com/devel0/worked-hours-tracker/blob/e947095bba1c52010651e79fbf2f44d82f600adc/WorkedHoursTrackerWebapi/Controllers/ApiController.cs#L543-L557)
@@ -241,7 +245,8 @@ references for linux admin and development
   - [autorespawn process using supervisor](https://github.com/devel0/dynamic-firewall/tree/e15ce9d0e152dee37a6a5dfff9a5f543914d5c6f#config-supervisor)
   - show memoy usage `smem --pie name -s rss`
 - ubuntu tune
-  - [ubuntu 20.04 tuf gx505](doc/ubuntu20.04-tuf-gx505.md)  
+  - [ubuntu 20.04 tuf gx505](doc/ubuntu20.04-tuf-gx505.md)
+  - [ubuntu 20.04 asus P2550](doc/ubuntu20.04-P2550.md)  
   - [disable tracker miner](https://www.linuxuprising.com/2019/07/how-to-completely-disable-tracker.html)
   - [ubuntu 19.04](doc/ubuntu-19.04-tune.md)
   - [ubuntu 18.04](doc/ubuntu-18.04-tune.md)
@@ -316,6 +321,7 @@ references for linux admin and development
 - editing
   - pdf edit inking `apt install xournal`
   - [pdf join into single page](doc/pdf-join-into-single-page.md)
+  - convert jpg to pdf `convert *.jpg -auto-orient out.pdf`
 - sound
   - console player `apt install mocp`
 - graphics
