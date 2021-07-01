@@ -48,7 +48,7 @@ this produce top-bottom.pdf from top.pdf and bottom.pdf where 388.92pt = 184.46+
 now can create out.pdf with follow
 
 ```sh
-/oss-scripts/nup-pdf-into-single-page 1.0 1 5 5 ./top-bottom.pdf 
+nup-pdf-into-single-page 1.0 1 5 5 ./top-bottom.pdf 
 ```
 
 to produce a single page with 5 rows each one filled with top-bottom.pdf
