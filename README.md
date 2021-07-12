@@ -329,6 +329,8 @@ references for linux admin and development
   - [qrcode](doc/qrcode.md)  
   - [screen cast](doc/screen-cast.md)
   - [freecad troubleshoot svg import](doc/freecad-import-svg-segmentation-fault.md)
+  - image info `identify image.jpg`
+  - crop image `convert input.jpg -crop wxh+x+y out.jpg`
   - [resize image](doc/resize-image.md)  
   - [video transcoding](doc/video-transcoding.md)
   - [remove image exif](doc/remove-image-exif.md)
