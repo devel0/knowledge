@@ -19,5 +19,5 @@ this will record entire monitors but then crop them 1920x1060+0+0 useful to grab
 
 ```sh
 mkdir ~/Desktop/out;
-let i=0; while true; do import -window root -silent -crop 1920x1080+0+0 ~/Desktop/out/$(printf "%06d" $i).jpg; sleep 300; let i=$i+1; done
+let i=0; while true; do import -window root -crop 1920x1080+0+0 -silent  ~/Desktop/out/$(printf "%06d" $i).jpg; sleep 300; let i=$i+1; done
 ```
