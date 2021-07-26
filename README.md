@@ -219,6 +219,7 @@ references for linux admin and development
   - [fix sort icon direction](https://bugs.launchpad.net/ubuntu/+source/gtk+3.0/+bug/1840516/comments/2)
   - [custom open with](doc/custom-open-with.md)
   - [desktop icons](doc/ubuntu-desktop-icons.md)
+  - [gnome bookmarks](doc/gnome-bookmarks.md)
   - always on top `apt install compiz-plugins`
 - [remotely assist linux can't boot](doc/remotely-assist-linux-cant-boot.md)
 - [ubuntu pendrive custom kernel arg](doc/ubuntu-pendrive-custom-kernel-arg.md)
