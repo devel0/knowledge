@@ -330,7 +330,9 @@ references for linux admin and development
   - [test 3d working](doc/test-3d-working.md)
   - [qrcode](doc/qrcode.md)  
   - [screen cast](doc/screen-cast.md)
-  - [freecad troubleshoot svg import](doc/freecad-import-svg-segmentation-fault.md)
+  - freecad
+    - [troubleshoot svg import](doc/freecad-import-svg-segmentation-fault.md)
+    - [formula reference](doc/freecad-formula-reference.md)
   - image info `identify image.jpg`
   - crop image `convert input.jpg -crop wxh+x+y out.jpg`
   - [resize image](doc/resize-image.md)  
