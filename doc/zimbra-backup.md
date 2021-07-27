@@ -33,3 +33,7 @@ zmmailbox -z -v -m user@domain postRestURL "//?fmt=tgz" /backup/user.tgz
 ```sh
 zmmcontrol start mailbox
 ```
+
+## reference
+
+- [zmmailbox](https://wiki.zimbra.com/wiki/Zmmailbox)
