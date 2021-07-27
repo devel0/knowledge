@@ -192,7 +192,9 @@ references for linux admin and development
   - [wireshark chrome decrypt ssl](doc/wireshark-chrome-decrypt-ssl.md)
 - [https proxy sniffer](doc/https-proxy-sniffer.md)
 - [xrdp remmina](doc/xrdp-remmina.md)  
-- [force zimbra smtp auth](doc/zimbra-force-smtp-auth.md)
+- zimbra
+  - [force smtp auth](doc/zimbra-force-smtp-auth.md)
+  - [backup/restore mailbox](doc/zimbra-backup.md)
 - [mobile server](doc/mobile-server.md)
 - monitor interfaces bandwidth `bmon -p eth0,eth1` or `nload -m`
 - quick list interface addresses `ip -br a`
