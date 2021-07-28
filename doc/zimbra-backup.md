@@ -25,8 +25,16 @@ zmmailbox -z -v -m user@domain getRestURL "//?fmt=tgz" > /backup/user.tgz
 - see options query of zmmailbox getRestURL, for example
 
 ```sh
-zmmailbox -z -v -m user@domain getRestURL '//?fmt=tgz&query=after:"mm/dd/yyyy"' > /backup/user.tgz
+zmmailbox -z -v -m user@domain getRestURL --startTime 'YYYY/MM/DD' '//?fmt=tgz' > /backup/user.tgz
 ```
+
+- if running a parallel backuped zimbra container be aware to override DNS info through /etc/hosts with ip of container i.e. ( replace mailname.fqdn with your  and ip with container ip )
+
+```
+172.17.0.2 mailname.fqdn
+```
+
+and use `-u "https://IPADDR"` argument on zmmailbox to specify url replacing IPADDR with the one of container
 
 ## restore mailbox
 
@@ -39,8 +47,10 @@ zmmailbox -z -v -m user@domain postRestURL "//?fmt=tgz" /backup/user.tgz
 `connection refused` : it may happen if you ran from a parallel backup container then need to run
 
 ```sh
-zmmcontrol start mailbox
+zmmcontrol start
 ```
+
+note: may need to press ctrl+c on ldap starting to bypass
 
 ## reference
 
