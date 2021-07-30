@@ -222,6 +222,7 @@ references for linux admin and development
   - [custom open with](doc/custom-open-with.md)
   - [desktop icons](doc/ubuntu-desktop-icons.md)
   - [gnome bookmarks](doc/gnome-bookmarks.md)
+  - reload shell with top panel `killall gnome-shell`
   - always on top `apt install compiz-plugins`
 - [remotely assist linux can't boot](doc/remotely-assist-linux-cant-boot.md)
 - [ubuntu pendrive custom kernel arg](doc/ubuntu-pendrive-custom-kernel-arg.md)
