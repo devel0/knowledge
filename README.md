@@ -47,6 +47,7 @@ references for linux admin and development
 - [transistor biasing](_files/transistor-biasing.xlsx)  
 - [measure usb cable resistance](doc/measure-usb-cable-resistance.md)
 - [UM34C linux log](doc/UM34C-linux-log.md)
+- [3d print tips](doc/3dprinting-tips.md)
 
 ### general development
 
