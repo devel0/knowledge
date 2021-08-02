@@ -9,7 +9,7 @@ notes:
 | `<<ObjName>>.Placement.Base.[x,y,z]` | x or y or z object position |
 | `<<ObjName>>.Height` | height of object |
 | `<<ObjName>>._shape.BoundBox` | object bounding box |
-| `<<ObjName>>._shape.BoundBox.ZMin` | object bounding box ( min z ) [ref](https://wiki.freecadweb.org/Base_API) |
+| `<<ObjName>>._shape.BoundBox.ZMin` | object bounding box ( min z ) [ref](https://wiki.freecadweb.org/Base_API); note: may need to multiply `1 mm` to combine in expression with other terms |
 
 ## using script
 
