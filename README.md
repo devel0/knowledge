@@ -204,6 +204,7 @@ references for linux admin and development
 - scan hostnames `nmap -sn addr/mask`
 - [bluetooth](doc/bluetooth.md)
 - [tcpdump examples](https://danielmiessler.com/study/tcpdump/)
+- [https client with esp8266](doc/https-esp8266.md)
 
 ### python
 
