@@ -5,6 +5,9 @@
 from platformio console
 
 ```sh
-Please run pio system prune
-Please remove ~/.platformio/packages & ~/.platformio/platforms folders. Install dev-platform again.
+pio system prune
+rm -fr ~/.platformio/packages
+rm -fr ~/.platformio/platforms
 ```
+
+install dev-platform again
