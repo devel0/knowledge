@@ -30,7 +30,7 @@ references for linux admin and development
   - vscode arduino platformio
     - [atmega328](doc/vscode-arduino-platformio-atmega328.md)
     - [atmega8](doc/vscode-arduino-platformio-atmega8.md)
-    - [platformio package publish troubleshoot](doc/platformio-package-publish-troubleshoot.md)platformio
+    - [platformio troubleshoot](doc/platformio-troubleshoot.md)
   - [vscode arduino nano platformio](doc/vscode-arduino-nano-platformio.md)
   - [arduino on atmega8](doc/arduino-on-atmega8.md)
   - [atmega power save](doc/atmega-power-save.md)
