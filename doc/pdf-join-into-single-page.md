@@ -40,7 +40,7 @@ two files have 184.46pt x 127.8pt size ( use pdfinfo to retrieve these values )
 first step is to obtain a single file that will be multiplied into a single page over a specified cols, rows grid:
 
 ```sh
-pdfjam --papersize '{388.92pt,147.8pt}' --delta "20 20" --nup '2x1' --outfile top-bottom.pdf top.pdf bottom.pdf  && pdfinfo top-bottom.pdf 
+pdfjam --papersize '{388.92pt,147.8pt}' --delta "20 0" --nup '2x1' --outfile top-bottom.pdf top.pdf bottom.pdf  && pdfinfo top-bottom.pdf 
 ```
 
 this produce top-bottom.pdf from top.pdf and bottom.pdf where 388.92pt = 184.46+184.46+20 and 147.8pt = 127.8+20
