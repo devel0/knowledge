@@ -339,7 +339,7 @@ references for linux admin and development
   - [screen cast](doc/screen-cast.md)
   - freecad
     - [troubleshoot svg import](doc/freecad-import-svg-segmentation-fault.md)
-    - [formula reference](doc/freecad-formula-reference.md)
+    - [tips](doc/freecad-tips.md)
   - image info `identify image.jpg`
   - crop image `convert input.jpg -crop wxh+x+y out.jpg`
   - [resize image](doc/resize-image.md)  
