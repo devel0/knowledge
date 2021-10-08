@@ -1,4 +1,10 @@
-# freecad formula reference
+# freecad tips
+
+## expand nested object placement
+
+- OpenSCAD / Expand Placements : set leaf element coord leaving parents to 0,0,0
+
+## freecad formula reference
 
 notes:
 - use `=` key to insert a formula into object parameter
