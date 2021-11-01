@@ -336,7 +336,7 @@ references for linux admin and development
 - graphics
   - [test 3d working](doc/test-3d-working.md)
   - [qrcode](doc/qrcode.md)  
-  - [screen cast](doc/screen-cast.md)
+  - [screen cast gif](doc/screen-cast.md)
   - freecad
     - [troubleshoot svg import](doc/freecad-import-svg-segmentation-fault.md)
     - [tips](doc/freecad-tips.md)
