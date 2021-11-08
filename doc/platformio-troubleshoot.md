@@ -17,3 +17,17 @@ rm -fr ~/.platformio/platforms
 ```
 
 install dev-platform again
+
+## nucleo f446re reset problem
+
+```
+Error: timed out while waiting for target halted
+embedded:startup.tcl:1070: Error: ** Unable to reset target **
+```
+
+can be solved by changing reset config of `~/.platformio/packages/tool-openocd/scripts/board/st_nucleo_f4.cfg` as follow:
+
+```
+reset_config none separate
+#reset_config srst_only
+```
