@@ -1,34 +1,34 @@
 # git usage
 
 <!-- TOC -->
-- [git usage](#git-usage)
-  * [graphical diff](#graphical-diff)
-  * [graphical diff ( code )](#graphical-diff--code-)
-  * [diff from previous commit](#diff-from-previous-commit)
-  * [undo last commit](#undo-last-commit)
-  * [show local branches](#show-local-branches)
-  * [create project local then import into github](#create-project-local-then-import-into-github)
-  * [integrate original to forked](#integrate-original-to-forked)
-  * [switch to a new remote committing local](#switch-to-a-new-remote-committing-local)
-    + [committing local](#committing-local)
-    + [discarding local](#discarding-local)
-  * [add untracked files](#add-untracked-files)
-  * [commit all staged files](#commit-all-staged-files)
-  * [clone specific tag](#clone-specific-tag)
-  * [commit to a new branch](#commit-to-a-new-branch)
-  * [show local changes](#show-local-changes)
-  * [show commit logs](#show-commit-logs)
-  * [change to another branch/commit](#change-to-another-branchcommit)
-  * [revert a commit](#revert-a-commit)
-  * [pick a commit](#pick-a-commit)
-  * [discard all local changes](#discard-all-local-changes)
-  * [tag specific commit and push to remote](#tag-specific-commit-and-push-to-remote)
-  * [merge a branch into current](#merge-a-branch-into-current)
-  * [github tips](#github-tips)
-  * [delete branch local and remote](#delete-branch-local-and-remote)
-  * [pull and switch to a branch](#pull-and-switch-to-a-branch)
-  * [add submobule](#add-submobule)
-  * [submobule init](#submobule-init)
+* [graphical diff](#graphical-diff)
+* [graphical diff ( code )](#graphical-diff--code-)
+* [diff from previous commit](#diff-from-previous-commit)
+* [undo last commit](#undo-last-commit)
+* [show local branches](#show-local-branches)
+* [create project local then import into github](#create-project-local-then-import-into-github)
+* [integrate original to forked](#integrate-original-to-forked)
+* [switch to a new remote committing local](#switch-to-a-new-remote-committing-local)
+  + [committing local](#committing-local)
+  + [discarding local](#discarding-local)
+* [add untracked files](#add-untracked-files)
+* [commit all staged files](#commit-all-staged-files)
+* [clone specific tag](#clone-specific-tag)
+* [commit to a new branch](#commit-to-a-new-branch)
+* [show local changes](#show-local-changes)
+* [show commit logs](#show-commit-logs)
+* [change to another branch/commit](#change-to-another-branchcommit)
+* [revert a commit](#revert-a-commit)
+* [pick a commit](#pick-a-commit)
+* [pick some file from another commit](#pick-some-file-from-another-commit)
+* [discard all local changes](#discard-all-local-changes)
+* [tag specific commit and push to remote](#tag-specific-commit-and-push-to-remote)
+* [merge a branch into current](#merge-a-branch-into-current)
+* [github tips](#github-tips)
+* [delete branch local and remote](#delete-branch-local-and-remote)
+* [pull and switch to a branch](#pull-and-switch-to-a-branch)
+* [add submobule](#add-submobule)
+* [submobule init](#submobule-init)
 <!-- TOCEND -->
 
 <hr/>
@@ -245,6 +245,12 @@ this will bring given commit and inject into current HEAD
 
 ```sh
 git cherry-pick <commit>
+```
+
+## pick some file from another commit
+
+```sh
+git checkout <COMMIT_SHA> -- filepath1 filepath2
 ```
 
 ## discard all local changes
