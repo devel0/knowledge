@@ -106,6 +106,7 @@ references for linux admin and development
   - [troubleshoot](doc/vscode-troubleshoot.md)
   - [debug firefox](doc/vscode-debug-firefox.md)  
   - [show external code](doc/vscode-show-external-code.md)
+  - [remote host through docker](doc/vscode-through-docker.md)
 - [gnome development](doc/gnome-development.md)
 - [gnuplot](doc/gnuplot.md)
 - nuget
