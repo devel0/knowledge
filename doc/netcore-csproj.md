@@ -129,3 +129,19 @@ follow to disable missing XML comment
 ```sh
  find -type d -name "bin" -exec rm -fr '{}' \; ; find -type d -name "obj" -exec rm -fr '{}' \;
 ```
+
+## execute cmd before build
+
+```xml
+<Target Name="MyPreBuildTarget" BeforeTargets="Build">
+  <Exec Command="echo sample"/>
+</Target>
+```
+
+## link source from other project
+
+```xml
+<ItemGroup>
+  <Compile Include="../iot-gateway-api/IOTGateway.cs"/>
+</ItemGroup>
+```

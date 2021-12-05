@@ -7,3 +7,9 @@
 ```
 
 - [linux workaround](https://github.com/NuGet/Home/issues/7001#issuecomment-588026190)
+
+## restore on slow lines
+
+```sh
+dotnet restore -v n --disable-parallel
+```
