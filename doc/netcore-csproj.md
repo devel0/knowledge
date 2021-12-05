@@ -1,13 +1,14 @@
 # netcore csproj
 
 <!-- TOC -->
-- [netcore csproj](#netcore-csproj)
-  * [generate documentation](#generate-documentation)
-  * [copy to output folder](#copy-to-output-folder)
-  * [csharp macro define csproj](#csharp-macro-define-csproj)
-  * [exclude files from compile](#exclude-files-from-compile)
-  * [disable warnings](#disable-warnings)
-  * [force bin,obj clean](#force-binobj-clean)
+* [generate documentation](#generate-documentation)
+* [copy to output folder](#copy-to-output-folder)
+* [csharp macro define csproj](#csharp-macro-define-csproj)
+* [exclude files from compile](#exclude-files-from-compile)
+* [disable warnings](#disable-warnings)
+* [force bin,obj clean](#force-binobj-clean)
+* [execute cmd before build](#execute-cmd-before-build)
+* [link source from other project](#link-source-from-other-project)
 <!-- TOCEND -->
 
 <hr/>
