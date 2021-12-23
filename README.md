@@ -293,6 +293,7 @@ references for linux admin and development
   - [test swap memory](doc/test-swap-memory.md)
   - [scripts](https://github.com/devel0/linux-scripts-utils) ( dk-id, dk-purge-log, dk-net, ... )    
   - [add xrdp to docker container](doc/add-rdp-to-docker-container.md)
+  - [btrfs tools](doc/btrfs-tools.md)
 - show battery level `cat /sys/class/power_supply/BAT0/capacity`
 - [nextcloud tips](doc/nextcloud.md)
 
