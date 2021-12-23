@@ -3,7 +3,7 @@
 ## check filesystem
 
 ```sh
-btrfs scrub start <path>
+btrfs scrub start PATH
 ```
 
 check errors with
