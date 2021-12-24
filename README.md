@@ -294,6 +294,7 @@ references for linux admin and development
   - [scripts](https://github.com/devel0/linux-scripts-utils) ( dk-id, dk-purge-log, dk-net, ... )    
   - [add xrdp to docker container](doc/add-rdp-to-docker-container.md)
   - [btrfs tools](doc/btrfs-tools.md)
+  - tail log continously `docker logs -f CONTAINER | grep --line-buffered -i WORD`
 - show battery level `cat /sys/class/power_supply/BAT0/capacity`
 - [nextcloud tips](doc/nextcloud.md)
 
