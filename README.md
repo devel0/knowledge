@@ -295,6 +295,7 @@ references for linux admin and development
   - [add xrdp to docker container](doc/add-rdp-to-docker-container.md)
   - [btrfs tools](doc/btrfs-tools.md)
   - tail log continously `docker logs -f CONTAINER | grep --line-buffered -ia WORD`
+  - [run gitab ci from terminal](https://stackoverflow.com/a/65920577/5521766)
 - show battery level `cat /sys/class/power_supply/BAT0/capacity`
 - [nextcloud tips](doc/nextcloud.md)
 
