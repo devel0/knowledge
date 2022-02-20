@@ -102,6 +102,12 @@ git reset HEAD~
 git branch
 ```
 
+sorted by recent
+
+```sh
+git branch --sort=-committerdate
+```
+
 or tree
 
 ```sh
