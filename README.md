@@ -87,7 +87,7 @@ references for linux admin and development
   - delete empty lines `cat file | sed -r '/^\s*$/d'`
 - time GMT `TZ=GMT date +@GMT-%Y.%m.%d-%H.%M.%S`
 - show dialog notification `notify-send title msg`
-- short uuid `npm install -g short-unique-id`
+- [short uuid](https://codesandbox.io/s/flamboyant-jasper-eby0cz?file=/src/App.js)
 
 ### development tools
 - [git](doc/git-usage.md)  
