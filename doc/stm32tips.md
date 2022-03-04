@@ -10,3 +10,9 @@ bool SomeFn()
 // missing return
 }
 ```
+
+## `Error erasing flash with vFlashErase packet` error
+
+- close all vscode
+- `ps ax | grep -i platform` : then kill platformio processes
+- `ps ax | grep -i openocd` : then kill openocd processes
