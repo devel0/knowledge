@@ -30,7 +30,7 @@ references for linux admin and development
   - vscode arduino platformio
     - [atmega328](doc/vscode-arduino-platformio-atmega328.md)
     - [atmega8](doc/vscode-arduino-platformio-atmega8.md)
-    - [platformio troubleshoot](doc/platformio-troubleshoot.md)
+    - [platformio troubleshoot](doc/platformio-troubleshoot.md)  
   - [vscode arduino nano platformio](doc/vscode-arduino-nano-platformio.md)
   - [arduino on atmega8](doc/arduino-on-atmega8.md)
   - [atmega power save](doc/atmega-power-save.md)
@@ -42,6 +42,7 @@ references for linux admin and development
   - [vscode debugging](https://github.com/devel0/iot-examples/tree/3ff96e5e57c6593675e8f270b87161b9724b6786#stm32duino)
   - [string stream](https://github.com/bblanchon/ArduinoStreamUtils)
   - [tips](doc/stm32tips.md)
+  - [multiple devices](doc/stm32-multiple.md)
 - [schematics and pcb editor](doc/easyeda.md)
 - [qucs circuit simulator](doc/qucs.md)
 - [simulator](http://everycircuit.com)
