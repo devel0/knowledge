@@ -16,3 +16,4 @@ bool SomeFn()
 - close all vscode
 - `ps ax | grep -i platform` : then kill platformio processes
 - `ps ax | grep -i openocd` : then kill openocd processes
+- detach/reattach usb
