@@ -5,7 +5,6 @@
 * [graphical diff ( code )](#graphical-diff--code-)
 * [diff from previous commit](#diff-from-previous-commit)
 * [undo last commit](#undo-last-commit)
-* [show local branches](#show-local-branches)
 * [create project local then import into github](#create-project-local-then-import-into-github)
 * [integrate original to forked](#integrate-original-to-forked)
 * [switch to a new remote committing local](#switch-to-a-new-remote-committing-local)
@@ -14,7 +13,6 @@
 * [add untracked files](#add-untracked-files)
 * [commit all staged files](#commit-all-staged-files)
 * [clone specific tag](#clone-specific-tag)
-* [commit to a new branch](#commit-to-a-new-branch)
 * [show local changes](#show-local-changes)
 * [show commit logs](#show-commit-logs)
 * [change to another branch/commit](#change-to-another-branchcommit)
@@ -23,8 +21,11 @@
 * [pick some file from another commit](#pick-some-file-from-another-commit)
 * [discard all local changes](#discard-all-local-changes)
 * [tag specific commit and push to remote](#tag-specific-commit-and-push-to-remote)
-* [merge a branch into current](#merge-a-branch-into-current)
 * [github tips](#github-tips)
+* [show branches tree](#show-branches-tree)
+* [show local branches](#show-local-branches)
+* [commit to a new branch](#commit-to-a-new-branch)
+* [merge a branch into current](#merge-a-branch-into-current)
 * [delete branch local and remote](#delete-branch-local-and-remote)
 * [pull and switch to a branch](#pull-and-switch-to-a-branch)
 * [add submobule](#add-submobule)
@@ -94,24 +95,6 @@ git diff HEAD^
 
 ```sh
 git reset HEAD~
-```
-
-## show local branches
-
-```sh
-git branch
-```
-
-sorted by recent
-
-```sh
-git branch --sort=-committerdate
-```
-
-or tree
-
-```sh
-git log --graph --pretty=oneline --abbrev-commit
 ```
 
 ## create project local then import into github
@@ -205,20 +188,6 @@ commit -a -m "msg"
 git clone <url> --branch <tag> --single-branch
 ```
 
-## commit to a new branch
-
-```sh
-git checkout -b newbranch
-git add --all
-git commit -a -m "msg"
-```
-
-and push to remote
-
-```sh
-git push --set-upstream origin newbranch
-```
-
 ## show local changes
 
 ```sh
@@ -272,15 +241,55 @@ git tag -a vxxx <commit>
 git push --tags
 ```
 
+## github tips
+
+- retrieve current page in a permalink form ( hotkey `y` )
+
+## show branches tree
+
+prerequisite : `apt install git-extras`
+
+```sh
+git-show-tree
+```
+
+## show local branches
+
+```sh
+git branch
+```
+
+sorted by recent
+
+```sh
+git branch --sort=-committerdate
+```
+
+or tree
+
+```sh
+git log --graph --pretty=oneline --abbrev-commit
+```
+
+## commit to a new branch
+
+```sh
+git checkout -b newbranch
+git add --all
+git commit -a -m "msg"
+```
+
+and push to remote
+
+```sh
+git push --set-upstream origin newbranch
+```
+
 ## merge a branch into current
 
 ```sh
 git merge anotherbranch
 ```
-
-## github tips
-
-- retrieve current page in a permalink form ( hotkey `y` )
 
 ## delete branch local and remote
 
