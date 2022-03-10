@@ -35,7 +35,7 @@ example:
 - top.pdf
 - bottom.pdf
 
-two files have 184.46pt x 127.8pt size ( use pdfinfo to retrieve these values )
+two files have 184.46pt x 127.8pt size [ W x H ] ( use pdfinfo to retrieve these values )
 
 first step is to obtain a single file that will be multiplied into a single page over a specified cols, rows grid:
 
