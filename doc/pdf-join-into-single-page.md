@@ -39,6 +39,8 @@ two files have 184.46pt x 127.8pt size [ W x H ] ( use pdfinfo to retrieve these
 
 first step is to obtain a single file that will be multiplied into a single page over a specified cols, rows grid:
 
+note: --nup 'ColumnxRows'
+
 ```sh
 pdfjam --papersize '{388.92pt,127.8pt}' --delta "20 0" --nup '2x1' --outfile top-bottom.pdf top.pdf bottom.pdf  && pdfinfo top-bottom.pdf 
 ```
