@@ -1,5 +1,20 @@
 # stm32 tips
 
+## build and debug flags
+
+- to avoid unexpected behavior in release mode avoid to forget to return value on function declaring a return type; this will block the process may for unsynced heap
+
+```ini
+build_flags = 
+	-Werror=return-type
+```
+
+- to enable debug doesn't optimize variables
+
+```ini
+debug_build_flags = -O0 -g -ggdb
+```
+
 ## different behavior on debugging versus upload
 
 - double check if you call functions that promise to return something but lacks of a return statement
