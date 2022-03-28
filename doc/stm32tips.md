@@ -2,7 +2,7 @@
 
 ## build and debug flags
 
-- to avoid unexpected behavior in release mode avoid to forget to return value on function declaring a return type; this will block the process may for unsynced heap
+- to avoid forgetting to return value on function declaring a return type; this will block the process ( it may be for a disaligned heap )
 
 ```ini
 build_flags = 
