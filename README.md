@@ -340,6 +340,8 @@ references for linux admin and development
   - convert jpg to pdf `convert *.jpg -auto-orient out.pdf`
 - sound
   - console player `apt install mocp`
+- tv
+  - kaffeine `apt install kaffine w-scan`
 - graphics
   - [test 3d working](doc/test-3d-working.md)
   - [qrcode](doc/qrcode.md)  
