@@ -224,6 +224,7 @@ references for linux admin and development
   - [resize lvm cache in favor of swap partition](doc/resize-lvm-cache.md)
   - [ubuntu server post install](doc/ubuntu-server-post-install.md)  
   - [custom boot script](doc/custom-boot-script.md)
+  - [disable sleep](https://www.unixtutorial.org/disable-sleep-on-ubuntu-server/)
 - gnome
   - [shell extension with bash](https://github.com/p-e-w/argos)
   - [fix sort icon direction](https://bugs.launchpad.net/ubuntu/+source/gtk+3.0/+bug/1840516/comments/2)
