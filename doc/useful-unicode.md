@@ -9,7 +9,7 @@
 
 | char | hex code | descr |
 |---|---|---|
-| ⚠ | 26A9 | alert symbol |
+| ⚠ | 26A0 | alert symbol |
 | Ω | 2126 | ohm |
 | μ | 03BC | micro |
 | Δ | 0394 | delta |
