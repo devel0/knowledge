@@ -258,6 +258,7 @@ references for linux admin and development
   - [autorespawn process using supervisor](https://github.com/devel0/dynamic-firewall/tree/e15ce9d0e152dee37a6a5dfff9a5f543914d5c6f#config-supervisor)
   - show memoy usage `smem --pie name -s rss`
 - ubuntu tune
+  - [ubuntu 22.04 tune](doc/ubuntu-22.04-tune.md)
   - [ubuntu 20.04 tuf gx505](doc/ubuntu20.04-tuf-gx505.md)
   - [ubuntu 20.04 asus P2550](doc/ubuntu20.04-P2550.md)  
   - [disable tracker miner](https://www.linuxuprising.com/2019/07/how-to-completely-disable-tracker.html)
