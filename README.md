@@ -224,6 +224,7 @@ references for linux admin and development
   - [resize lvm cache in favor of swap partition](doc/resize-lvm-cache.md)
   - [ubuntu server post install](doc/ubuntu-server-post-install.md)  
   - [custom boot script](doc/custom-boot-script.md)
+  - [disable sleep](https://www.unixtutorial.org/disable-sleep-on-ubuntu-server/)
 - gnome
   - [shell extension with bash](https://github.com/p-e-w/argos)
   - [fix sort icon direction](https://bugs.launchpad.net/ubuntu/+source/gtk+3.0/+bug/1840516/comments/2)
@@ -258,6 +259,7 @@ references for linux admin and development
   - [autorespawn process using supervisor](https://github.com/devel0/dynamic-firewall/tree/e15ce9d0e152dee37a6a5dfff9a5f543914d5c6f#config-supervisor)
   - show memoy usage `smem --pie name -s rss`
 - ubuntu tune
+  - [ubuntu 22.04 tune](doc/ubuntu-22.04-tune.md)
   - [ubuntu 20.04 tuf gx505](doc/ubuntu20.04-tuf-gx505.md)
   - [ubuntu 20.04 asus P2550](doc/ubuntu20.04-P2550.md)  
   - [disable tracker miner](https://www.linuxuprising.com/2019/07/how-to-completely-disable-tracker.html)
@@ -341,6 +343,8 @@ references for linux admin and development
   - convert jpg to pdf `convert *.jpg -auto-orient out.pdf`
 - sound
   - console player `apt install mocp`
+- tv
+  - kaffeine `apt install kaffine w-scan`
 - graphics
   - [test 3d working](doc/test-3d-working.md)
   - [qrcode](doc/qrcode.md)  
