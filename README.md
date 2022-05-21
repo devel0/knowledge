@@ -268,6 +268,7 @@ references for linux admin and development
 - virtualization
   - [virsh storage](doc/virsh-storage.md)
   - [virtualbox](doc/virtualbox.md)
+  - [set virtualbox guest motherboard-cpu-id](doc/virtualbox-motherboard-cpu-id.md)
 - remove desktop
   - fix `Authentication Required to Create Managed Color Device` [ref](https://c-nergy.be/blog/?p=12073)
 - [rsyslog strip](doc/rsyslog-strip.md)
