@@ -28,9 +28,9 @@ Get-CimInstance Win32_BaseBoard | Select -ExpandProperty SerialNumber
 VBoxManage setextradata VMNAME "VBoxInternal/Devices/pcbios/0/Config/DmiBoardSerial" "SERIAL"
 ```
 
-## processor
+## bios
 
-### get processor id
+### get bios id
 
 from host shell
 
@@ -44,7 +44,7 @@ from guest powershell
 wmic bios get serialnumber
 ```
 
-### set processor id
+### set bios id
 
 ```sh
 VBoxManage setextradata VMNAME "VBoxInternal/Devices/pcbios/0/Config/DmiSystemSerial" "SERIAL"
