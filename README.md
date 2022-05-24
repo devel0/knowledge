@@ -233,6 +233,8 @@ references for linux admin and development
   - [gnome bookmarks](doc/gnome-bookmarks.md)
   - reload shell with top panel `killall gnome-shell`
   - always on top `apt install compiz-plugins`
+- devices
+  - [udev rules](doc/udev-rules.md)
 - [remotely assist linux can't boot](doc/remotely-assist-linux-cant-boot.md)
 - [ubuntu pendrive custom kernel arg](doc/ubuntu-pendrive-custom-kernel-arg.md)
 - [flash win bootable pendrive](https://github.com/slacka/WoeUSB)
