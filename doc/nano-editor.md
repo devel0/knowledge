@@ -15,3 +15,11 @@ else
   ls -1 "$nanorcdir"/*.nanorc | sed 's/^\//include \//' >> ~/.nanorc
 fi
 ```
+
+## disable ^T^Z terminal suspend
+
+add to `~/.nanorc` follow
+
+```
+bind ^Z suspend main
+```
