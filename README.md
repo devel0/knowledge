@@ -233,6 +233,7 @@ references for linux admin and development
   - [gnome bookmarks](doc/gnome-bookmarks.md)
   - reload shell with top panel `killall gnome-shell`
   - always on top `apt install compiz-plugins`
+  - chrome freeze when attach files ( could try `apt install xdg-desktop-portal-gnome` to change file dialog )
 - devices
   - [udev rules](doc/udev-rules.md)
 - [remotely assist linux can't boot](doc/remotely-assist-linux-cant-boot.md)
