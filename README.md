@@ -211,6 +211,7 @@ references for linux admin and development
 - [bluetooth](doc/bluetooth.md)
 - [tcpdump examples](https://danielmiessler.com/study/tcpdump/)
 - [cert fingerprint](doc/cert-fingerprint.md)
+- retrieve bandwidth utilization continously for given interface with `ifstat -i devname`
 
 ### python
 
