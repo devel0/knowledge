@@ -22,6 +22,18 @@
 | ≠ | 2260 | not equal |
 | ≤ | 2264 | less than or equal |
 | ≥ | 2265 | grat than or equal |
+| ∩ | 2229 | set intersect |
+| ∪ | 222A | set union |
+| ∈ | 2208 | element of |
+| ∉ | 2209 | not element of |
+| ∠ | 2220 | angle |
+| ∧ | 2227 | logical AND |
+| ∨ | 2228 | logical OR |
+| ∞ | 221E | infinity |
+| ⊂ | 2282 | subset of |
+| ⊄ | 2284 | not subset of |
+| ⊆ | 2286 | subset or equals |
+| ⊈ | 2288 | not subset or equals |
 
 | char | hex code | descr |
 |---|---|---|
