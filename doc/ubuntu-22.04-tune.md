@@ -13,5 +13,4 @@ chown gdm:gdm /var/lib/gdm3/.config/monitors.xml
 
 ## problem wheel jump with ALT+TAB
 
-- workaround [here](https://askubuntu.com/a/1143466/766220)
-- another way is to use Wayland mode, but this introduces other problems ( for example flameshot not work )
+- workaround [here](https://dev.to/bbavouzet/ubuntu-20-04-mouse-scroll-wheel-speed-536o)
