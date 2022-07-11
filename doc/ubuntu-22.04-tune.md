@@ -13,4 +13,5 @@ chown gdm:gdm /var/lib/gdm3/.config/monitors.xml
 
 ## problem wheel jump with ALT+TAB
 
-- discussion [here](https://github.com/microsoft/vscode/issues/28795#issuecomment-1172222646)
+- workaround [here](https://askubuntu.com/a/1143466/766220)
+
