@@ -10,3 +10,7 @@ If using CTRL+'.' shows a underline e may emoj preedit area active, to disable c
 cp /home/USERNAME/.config/monitors.xml /var/lib/gdm3/.config/
 chown gdm:gdm /var/lib/gdm3/.config/monitors.xml
 ```
+
+## problem wheel jump with ALT+TAB
+
+workaround [here](https://github.com/microsoft/vscode/issues/28795#issuecomment-1172222646)
