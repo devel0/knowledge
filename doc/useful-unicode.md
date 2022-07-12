@@ -30,6 +30,7 @@
 | ∧ | 2227 | logical AND |
 | ∨ | 2228 | logical OR |
 | ∞ | 221E | infinity |
+| ∅ | 2205 | empty set |
 | ⊂ | 2282 | subset of |
 | ⊄ | 2284 | not subset of |
 | ⊆ | 2286 | subset or equals |
