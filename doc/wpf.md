@@ -19,3 +19,15 @@ System.Diagnostics.Process.Start($"explorer", $"/select,\"{pathfilename}\"");
              d:DataContext="{d:DesignInstance Type=local:MyItem, IsDesignTimeCreatable=True}">
 </UserControl>
 ```
+
+## escaping ascii char
+
+to insert special ascii char like newline ( 0xa : 10 ) put hex value into HH as follow:
+
+&#x**HH**;
+
+## newline in xaml
+
+```xaml
+<TextBlock Text="sample&#x0a;NEWLINE"/>
+```
