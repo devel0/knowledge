@@ -14,3 +14,9 @@ chown gdm:gdm /var/lib/gdm3/.config/monitors.xml
 ## problem wheel jump with ALT+TAB
 
 - workaround [here](https://dev.to/bbavouzet/ubuntu-20-04-mouse-scroll-wheel-speed-536o)
+
+## second monitor stop working with nvidia
+
+- from Ubuntu Software app
+- select nvidia-515 (tested)
+
