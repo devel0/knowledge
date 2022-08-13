@@ -35,7 +35,7 @@
 | ⊄ | 2284 | not subset of |
 | ⊆ | 2286 | subset or equals |
 | ⊈ | 2288 | not subset or equals |
-| ‰ | 2030 | per tousand sign |
+| ‰ | 2030 | per thousand sign |
 
 | char | hex code | descr |
 |---|---|---|
