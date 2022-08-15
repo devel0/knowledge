@@ -31,3 +31,7 @@ to insert special ascii char like newline ( 0xa : 10 ) put hex value into HH as 
 ```xaml
 <TextBlock Text="sample&#x0a;NEWLINE"/>
 ```
+
+## reset datagrid column sorting
+
+[ref](https://stackoverflow.com/a/56054895/5521766)
