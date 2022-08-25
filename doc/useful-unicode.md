@@ -9,7 +9,6 @@
 
 | char | hex code | descr |
 |---|---|---|
-| ⚠ | 26A0 | alert symbol |
 | Ω | 2126 | ohm |
 | μ | 03BC | micro |
 | Δ | 0394 | delta |
@@ -36,6 +35,13 @@
 | ⊆ | 2286 | subset or equals |
 | ⊈ | 2288 | not subset or equals |
 | ‰ | 2030 | per thousand sign |
+
+| char | hex code | descr |
+|---|---|---|
+| ⚠ | 26A0 | alert symbol |
+| 📞 | 1F4DE | phone receiver |
+| 🌐 | 1F310 | global with meridian |
+| ✉ | 2709 | mail envelope |
 
 | char | hex code | descr |
 |---|---|---|
