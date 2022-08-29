@@ -123,6 +123,7 @@ references for linux admin and development
 - [librecalc](doc/librecalc.md)
 
 ### csharp
+- [language notes](doc/csharp.md)
 - [send email 465](doc/send-email-465.md)
 - [psql ef codefirst](doc/psql-ef-codefirst.md)
 - dotnet core
