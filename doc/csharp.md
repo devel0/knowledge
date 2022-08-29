@@ -1,23 +1,15 @@
 # csharp
 
-## `Default parameter value for 'var' must be a compile-time constant`
+## The expression being assigned to 'SomeConstVarName' must be constant csharp(CS0133)
 
 ```csharp
-public MyClass(SomeType var = new SomeType(10))
+The expression being assigned to 'Vector3D.Zero' must be constant [netcore-sci]csharp(CS0133)
+
+public const SomeType SomeConstVarName = new SomeType(10);
 ```
 
 can solve the problem by declaring the assigned value as a `public static readonly` field like the following
 
 ```csharp
-public SomeType
-{
-  // ...
-  public static readonly SomeType Value10 = new SomeType(10);
-}
-```
-
-and change usage
-
-```csharp
-public MyClass(SomeType var = SomeType.Value10)
+public static readonly SomeType SomeConstVarName = new SomeType(10);
 ```
