@@ -13,3 +13,11 @@ can solve the problem by declaring the assigned value as a `public static readon
 ```csharp
 public static readonly SomeType SomeConstVarName = new SomeType(10);
 ```
+
+## convert int to hex
+
+```csharp
+int a = 10;
+var hexStr1Digit = a.ToString("X"); // "A"
+var hexStr2Digit = a.ToString("X2"); // "0A"
+```
