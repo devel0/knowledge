@@ -21,3 +21,12 @@ int a = 10;
 var hexStr1Digit = a.ToString("X"); // "A"
 var hexStr2Digit = a.ToString("X2"); // "0A"
 ```
+
+## disable warning
+
+to disable specific warning CSXXXX
+```csharp
+#pragma warning disable CSXXXX
+...
+#pragma warning restore CSXXXX
+```
