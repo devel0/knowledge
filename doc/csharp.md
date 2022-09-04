@@ -30,3 +30,7 @@ to disable specific warning CSXXXX
 ...
 #pragma warning restore CSXXXX
 ```
+
+# implicit type inference
+
+- [ref](https://riptutorial.com/csharp/example/253/implicit-type-inference--methods-)
