@@ -1,6 +1,7 @@
 # git usage
 
 <!-- TOC -->
+* [checkout a remote branch](#checkout-a-remote-branch)
 * [graphical diff](#graphical-diff)
 * [graphical diff ( code )](#graphical-diff--code-)
 * [diff from previous commit](#diff-from-previous-commit)
@@ -33,6 +34,28 @@
 <!-- TOCEND -->
 
 <hr/>
+
+## checkout a remote branch
+
+if remote not available adds ( REMOTENAME could "original" if you working on a fork and wants to add the original one )
+
+```sh
+git remote add REMOTENAME URL
+```
+
+then fetch the branch you need
+
+```sh
+git fetch REMOTENAME TAG
+```
+
+for a list of branches available locally use `git branch -a`
+
+then checkout remote branch
+
+```sh
+git checkout -b remotes/REMOTENAME/TAG
+```
 
 ## graphical diff
 
