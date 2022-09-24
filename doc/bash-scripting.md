@@ -23,7 +23,10 @@ done < "filename.txt"
 
 ## function with arguments
 
-**note**: `$@` variable MUST double quoted to avoid string space splitting
+**note**:
+- `$@` variable MUST double quoted to avoid string space splitting
+- `$0` is the executing script filename
+- `$1` is the first argument
 
 ```sh
 function test()
@@ -46,4 +49,26 @@ fi
 if (( ! $(echo "$a > 12.1876" | bc -l) )); then
 	echo "[$a] is not great than 12.1876"
 fi
+```
+
+## file age in seconds/months
+
+```sh
+# args: $1=pathfilename
+# returns: fileage in seconds
+function fileagesecs()
+{
+        echo "$(( $(date +%s) - $(date +%s -r "$1") ))"
+}
+
+# args: $1=pathfilename
+# returns: fileage in months (w/decimals)
+function fileagemonths()
+{
+        echo "$(echo "$(fileagesecs $1) / (365 / 12 * 60 * 60 * 24)" | bc -l)"
+}
+
+echo "test filename age:"
+echo "$(fileagesecs filename) secs"
+echo "$(fileagemonths filename) months"
 ```
