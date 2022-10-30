@@ -25,6 +25,7 @@ references for linux admin and development
 <hr/>
 
 ### electronics
+
 - arduino
   - [vscode arduino](doc/vscode-arduino.md)
   - vscode arduino platformio
@@ -63,6 +64,7 @@ references for linux admin and development
 - [octave symbolic](doc/octave-symbolic.md)
 
 ### shell
+
 - [bash cheat sheet](https://devhints.io/bash)
 - [bash scripting](doc/bash-scripting.md)
 - [bash array](https://opensource.com/article/18/5/you-dont-know-bash-intro-bash-arrays)
@@ -93,6 +95,7 @@ references for linux admin and development
 - [short uuid](https://codesandbox.io/s/flamboyant-jasper-eby0cz?file=/src/App.js)
 
 ### development tools
+
 - [git](doc/git-usage.md)  
 - [github git ssh](doc/github-git-ssh.md)
 - fast gui diff `fldiff file1 file2`
@@ -123,6 +126,7 @@ references for linux admin and development
 - [librecalc](doc/librecalc.md)
 
 ### csharp
+
 - [language notes](doc/csharp.md)
 - [send email 465](doc/send-email-465.md)
 - [psql ef codefirst](doc/psql-ef-codefirst.md)
@@ -151,10 +155,12 @@ references for linux admin and development
 - [c# coding standards](https://github.com/justinamiller/Coding-Standards)
 
 ### c++
+
 - [linux vscode debug](https://github.com/devel0/example-vscode-linux-cpp-debug)
 - [dump-file-to-c](doc/dump-file-to-c.md)  
 
 ### database
+
 - postgres
   - [create psql container](doc/create-pgsql-container.md)
   - [backup restore](doc/psql-backup-restore.md)
@@ -169,6 +175,7 @@ references for linux admin and development
   - [load related entities](https://docs.microsoft.com/en-us/ef/core/querying/related-data)
 
 ### webdevel
+
 - [javascript/jquery](doc/javascript-jquery.md)
   - [momentjs date](doc/momentjs-date.md)
 - [bootstrap css](doc/bootstrap-css.md)
@@ -190,6 +197,7 @@ references for linux admin and development
   - [common styles combined](https://github.com/mui-org/material-ui/issues/11517#issuecomment-478337616)
 
 ### networking
+
 - send a tcp packet `echo sample | nc 10.10.2.10 1000`
 - test tcp port `echo "test" | netcat -w 5 -W 1 host port ; if [ "$?" == "0" ]; then echo "OK"; else echo "UNREACHABLE"; fi`
 - [test webapi](doc/test-webapi.md)
@@ -222,6 +230,7 @@ references for linux admin and development
   - [solve eq](doc/python-solve-eq.md)
 
 ### linux
+
 - server
   - [quick and dirty os install notes](doc/quick-and-dirty-server-install-notes.md)
   - [resize lvm cache in favor of swap partition](doc/resize-lvm-cache.md)
@@ -311,8 +320,10 @@ references for linux admin and development
   - [run gitlab ci from terminal](https://stackoverflow.com/a/65920577/5521766)
 - show battery level `cat /sys/class/power_supply/BAT0/capacity`
 - [nextcloud tips](doc/nextcloud.md)
+- [fonts](doc/fonts.md)
 
 ### security
+
 - [iptables firewall](https://github.com/devel0/linux-scripts-utils/blob/ba388ae1e5a0b158cdf83f7d067318b9caccf203/fw.sh)
 - [generate htpasswd](doc/generate-htpasswd.md)
 - [cert management](doc/cert-management.md)
@@ -321,10 +332,12 @@ references for linux admin and development
 - upgrade letsencrypt `apt upgrade certbot python3-acme`
 
 ### mobile native
+
 - [intellij android studio](doc/intellij-android-studio.md)
 - [android push notify](doc/android-push-notify.md)
 
 ### tools
+
 - [cygwin install](doc/cygwin-install.md)    
 - [win10 quick assist](doc/win10-quick-assist.md)
 - drawings
@@ -344,6 +357,7 @@ references for linux admin and development
   - google drive direct link `https://drive.google.com/uc?export=download&id=DRIVE_FILE_ID`
   
 ### media
+
 - editing
   - pdf edit inking `apt install xournal`
   - [pdf join into single page](doc/pdf-join-into-single-page.md)
