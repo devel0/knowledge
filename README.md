@@ -153,6 +153,8 @@ references for linux admin and development
 - [tuple value read write](doc/tuple-value-read-write.md)
 - [read from special serial ttyACM cdc type](https://www.vgies.com/a-reliable-serial-port-in-c/)
 - [c# coding standards](https://github.com/justinamiller/Coding-Standards)
+- opengl
+  - [silk net under virtualbox opengl3.3](https://github.com/dotnet/Silk.NET/issues/246#issuecomment-1296368494)
 
 ### c++
 
