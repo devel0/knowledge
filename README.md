@@ -250,6 +250,7 @@ references for linux admin and development
   - chrome freeze when attach files ( could try `apt install xdg-desktop-portal-gnome` to change file dialog )
 - devices
   - [udev rules](doc/udev-rules.md)
+  - nautilus file manager folder right click -> open in terminal `apt install nautilus-open-terminal`
 - [remotely assist linux can't boot](doc/remotely-assist-linux-cant-boot.md)
 - [ubuntu pendrive custom kernel arg](doc/ubuntu-pendrive-custom-kernel-arg.md)
 - [flash win bootable pendrive](https://github.com/slacka/WoeUSB)
