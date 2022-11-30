@@ -16,7 +16,7 @@ rm -fr ~/.platformio/packages
 rm -fr ~/.platformio/platforms
 ```
 
-install dev-platform again
+also remove `.pio` and `.vscode` from project and reopen vscode folder then CTRL+SHIFT+B and CTRL+SHIFT+U to upload
 
 ## nucleo f446re reset problem
 
