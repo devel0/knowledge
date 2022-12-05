@@ -4,6 +4,7 @@
 * [generate documentation](#generate-documentation)
 * [copy to output folder](#copy-to-output-folder)
 * [csharp macro define csproj](#csharp-macro-define-csproj)
+* [platform macro](#platform-macro)
 * [exclude files from compile](#exclude-files-from-compile)
 * [disable warnings](#disable-warnings)
 * [force bin,obj clean](#force-binobj-clean)
@@ -91,6 +92,34 @@ or **conditionally** based on configuration used `dotnet build -c Release`
     <DefineConstants>MYCONST;MYCONST2</DefineConstants>  
   </PropertyGroup>  
 </Project>
+```
+
+## platform macro
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup Condition="$([MSBuild]::IsOSPlatform('Windows'))">
+    <DefineConstants>WINDOWS_PLATFORM</DefineConstants>  
+  </PropertyGroup>  
+
+  <PropertyGroup Condition="$([MSBuild]::IsOSPlatform('OSX'))">
+    <DefineConstants>OSX_PLATFORM</DefineConstants>  
+  </PropertyGroup>  
+
+  <PropertyGroup Condition="$([MSBuild]::IsOSPlatform('Linux'))">
+    <DefineConstants>LINUX_PLATFORM</DefineConstants>  
+  </PropertyGroup>
+</Project>
+```
+
+the use in code like follow
+
+```cs
+#if WINDOWS_PLATFORM
+//
+#else
+//
+#endif
 ```
 
 ## exclude files from compile
