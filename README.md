@@ -126,6 +126,7 @@ references for linux admin and development
   - [search pkgs command line](https://github.com/devel0/repros/blob/5b08053bf6a389fe52979ff4e96e4ec31c1501b1/avalonia/test-empty-cpu100/test-empty.csproj#L14)
 - [docx documentation generator](doc/docfx-documentation-generator.md)
 - [librecalc](doc/librecalc.md)
+- dump c++ symbols from .so lib `nm -gDC LIB.so`
 
 ### csharp
 
