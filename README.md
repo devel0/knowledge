@@ -226,6 +226,7 @@ references for linux admin and development
 - [tcpdump examples](https://danielmiessler.com/study/tcpdump/)
 - [cert fingerprint](doc/cert-fingerprint.md)
 - retrieve bandwidth utilization continously for given interface with `ifstat -i devname`
+- download remote http folder `wget -r --no-parent URL`
 
 ### python
 
