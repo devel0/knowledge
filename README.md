@@ -127,6 +127,7 @@ references for linux admin and development
 - [docx documentation generator](doc/docfx-documentation-generator.md)
 - [librecalc](doc/librecalc.md)
 - dump c++ symbols from .so lib `nm -gDC LIB.so`
+- debug opengl programs `apt install renderdoc`
 
 ### csharp
 
