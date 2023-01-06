@@ -117,7 +117,6 @@ references for linux admin and development
   - [show external code](doc/vscode-show-external-code.md)
   - [remote host through docker](doc/vscode-through-docker.md)
 - [gnome development](doc/gnome-development.md)
-- [gnuplot](doc/gnuplot.md)
 - nuget
   - [linux-install](doc/nuget-linux-install.md)
   - [local packages](doc/nuget-config-local-packages.md)
@@ -127,7 +126,9 @@ references for linux admin and development
 - [docx documentation generator](doc/docfx-documentation-generator.md)
 - [librecalc](doc/librecalc.md)
 - dump c++ symbols from .so lib `nm -gDC LIB.so`
-- debug opengl programs `apt install renderdoc`
+- graphics
+  - [gnuplot](doc/gnuplot.md)
+  - debug opengl programs `apt install renderdoc`  
 
 ### csharp
 
@@ -388,5 +389,6 @@ references for linux admin and development
   - [remove image exif](doc/remove-image-exif.md)
   - [grab screen to image](doc/grab-screen-to-image.md)
   - ubuntu cast to chromecst `apt install mkchromecast`
+  - show opengl limits `glxinfo -l`  
 - misc
   - [stream dvbt to chromecast](doc/stream-dvbt-to-chromecast.md)
