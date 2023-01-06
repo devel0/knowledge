@@ -43,11 +43,19 @@ to disable warn about missing doc
 </ItemGroup>
 ```
 
-- to be recursive
+- to be recursive ( sparse files in output )
 
 ```xml
 <ItemGroup Condition="'$(Configuration)' == 'Debug'">
   <None Include="doc/**/*" CopyToOutputDirectory="PreserveNewest" />
+</ItemGroup>
+```
+
+- to be recursive ( single folder in output )
+
+```xml
+<ItemGroup Condition="'$(Configuration)' == 'Debug'">
+  <None Include="doc/**/*" CopyToOutputDirectory="PreserveNewest" Link="doc/%(RecursiveDir)/%(Filename)%(Extension)" />
 </ItemGroup>
 ```
 
