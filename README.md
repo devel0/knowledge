@@ -98,8 +98,10 @@ references for linux admin and development
 
 ### development tools
 
-- [git](doc/git-usage.md)  
-- [github git ssh](doc/github-git-ssh.md)
+- git
+  - [git](doc/git-usage.md)  
+  - [github git ssh](doc/github-git-ssh.md)
+- [run github action workflows locally](https://github.com/nektos/act)
 - fast gui diff `fldiff file1 file2`
 - [api docfx](https://github.com/dotnet/docfx)
 - [mono](https://www.mono-project.com/download/stable/)
