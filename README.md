@@ -357,6 +357,7 @@ references for linux admin and development
   - [dxf editor qcad](https://www.qcad.org/en/)
   - [draftsight troubleshoot](doc/draftsight-troubleshoot.md)
 - document
+  - [translator](https://github.com/crow-translate/crow-translate)
   - [xlsx](doc/xlsx.md)
   - [nano editor](doc/nano-editor.md)
   - [github latex math](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b)
