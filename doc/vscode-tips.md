@@ -17,7 +17,8 @@
 | key | descr |
 |---|---|
 | `shift + cmd + ~` | switch between vscode windows |
-| `ctrl + shift + O` | methods list |
+| `ctrl + t` | show all symbols |
+| `ctrl + shift + O` | goto symbol |
 | `ctrl + shift + [` | fold region |
 | `ctrl + shift + ]` | unfold region |
 | `alt + z` | toggle word wrap per file |
