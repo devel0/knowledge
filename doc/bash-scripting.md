@@ -72,3 +72,17 @@ echo "test filename age:"
 echo "$(fileagesecs filename) secs"
 echo "$(fileagemonths filename) months"
 ```
+
+# check if string contains another
+
+- using wildcard
+
+```sh
+if [[ "$str" == *"portion"* ]]; then echo "it contains"; fi
+```
+
+- using regex
+
+```sh
+if [[ "$str" =~ .*"portion".* ]]; then echo "it contains"; fi
+```
