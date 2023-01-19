@@ -259,6 +259,10 @@ references for linux admin and development
 - devices
   - [udev rules](doc/udev-rules.md)
   - nautilus file manager folder right click -> open in terminal `apt install nautilus-open-terminal`
+- log
+  - colourized log `grc --colour=on cat /var/log/syslog | less -r`
+  - [tail grep continous](doc/tail-grep-continuous.md)
+  - [force log rotate](doc/force-log-rotate.md)  
 - [remotely assist linux can't boot](doc/remotely-assist-linux-cant-boot.md)
 - [ubuntu pendrive custom kernel arg](doc/ubuntu-pendrive-custom-kernel-arg.md)
 - [flash win bootable pendrive](https://github.com/slacka/WoeUSB)
@@ -266,8 +270,6 @@ references for linux admin and development
 - [tune inotify](doc/tune-inotify.md)    
 - [disable oom killer](https://superuser.com/a/1150229)
 - [fix dual boot](https://askubuntu.com/questions/88384/how-can-i-repair-grub-how-to-get-ubuntu-back-after-installing-windows?answertab=votes#tab-top)
-- [tail grep continous](doc/tail-grep-continuous.md)
-- [force log rotate](doc/force-log-rotate.md)  
 - [su with sudo colorful prompt](doc/su-with-sudo-prompt.md)  
 - [i18n decimal separator dot](doc/decimal-separator-dot.md)  
 - [draftsight open dxf](doc/draftsight-open-with-dxf.md)
