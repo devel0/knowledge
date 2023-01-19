@@ -86,3 +86,9 @@ if [[ "$str" == *"portion"* ]]; then echo "it contains"; fi
 ```sh
 if [[ "$str" =~ .*"portion".* ]]; then echo "it contains"; fi
 ```
+
+# OR condition
+
+```sh
+if [[ EXPR1 || EXPR2 ]]; then echo "or satisfied"; fi
+```
