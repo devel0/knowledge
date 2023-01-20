@@ -106,8 +106,8 @@ references for linux admin and development
 - [api docfx](https://github.com/dotnet/docfx)
 - [mono](https://www.mono-project.com/download/stable/)
 - perf
-  - [dotnet trace](https://docs.microsoft.com/en-us/dotnet/core/diagnostics/dotnet-trace) (eg. `dotnet-trace collect -p 610959 --format speedscope` then import with speedscope)
-- trace x11 (`xtrace -n cmd args`)
+  - [dotnet trace](doc/dotnet-trace.md)
+  - trace x11 (`xtrace -n cmd args`)
 - vscode
   - [tips](doc/vscode-tips.md)
   - [keybinding](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
