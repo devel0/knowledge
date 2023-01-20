@@ -4,7 +4,6 @@
 * [intellinsense not work any more](#intellinsense-not-work-any-more)
 * [xrdp](#xrdp)
 * [trouble with 3.0](#trouble-with-30)
-* [omnisharp not shows using](#omnisharp-not-shows-using)
 <!-- TOCEND -->
 
 <hr/>
@@ -41,7 +40,3 @@ if have multiple sdks omnisharp could require a global.json that can be created 
 ```sh
 dotnet new globaljson
 ```
-
-## omnisharp not shows using
-
-verify that solution file `.sln` contains reference to the project ( it's not enough to include project reference in a csproj )
