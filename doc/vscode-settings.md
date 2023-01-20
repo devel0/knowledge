@@ -16,7 +16,8 @@
     "git.confirmSync": false,
     "git.autofetch": true,
     "terminal.integrated.allowChords": false,
-    "editor.autoClosingBrackets": "never"
+    "editor.autoClosingBrackets": "never",
+    "editor.formatOnType": true
 }
 ```
 
