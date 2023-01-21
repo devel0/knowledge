@@ -4,66 +4,60 @@ references for linux admin and development
 
 <hr/>
 
-## TOC
-
-- [electronics](#electronics)
-- [general development](#general-development)
-- [math](#math)
-- [shell](#shell)
-- [development tools](#development-tools)
-- [csharp](#csharp)
-- [c++](#c)
-- [database](#database)
-- [webdevel](#webdevel)
-- [networking](#networking)
-- [linux](#linux)
-- [security](#security)
-- [mobile native](#mobile-native)
-- [tools](#tools)
-- [media](#media)
+<!-- TOC -->
+* [csharp](#csharp)
+* [shell](#shell)
+* [development tools](#development-tools)
+* [c++](#c)
+* [database](#database)
+* [webdevel](#webdevel)
+* [electronics](#electronics)
+* [general development](#general-development)
+* [math](#math)
+* [networking](#networking)
+* [python](#python)
+* [linux](#linux)
+* [security](#security)
+* [mobile native](#mobile-native)
+* [tools](#tools)
+* [media](#media)
+<!-- TOCEND -->
 
 <hr/>
 
-### electronics
+## csharp
 
-- arduino
-  - [vscode arduino](doc/vscode-arduino.md)
-  - vscode arduino platformio
-    - [atmega328](doc/vscode-arduino-platformio-atmega328.md)
-    - [atmega8](doc/vscode-arduino-platformio-atmega8.md)
-    - [platformio troubleshoot](doc/platformio-troubleshoot.md)  
-  - [vscode arduino nano platformio](doc/vscode-arduino-nano-platformio.md)
-  - [arduino on atmega8](doc/arduino-on-atmega8.md)
-  - [atmega power save](doc/atmega-power-save.md)
-  - [arduino examine elf](doc/arduino-examine-elf.md)
-  - [esp8266 board plugin](https://github.com/esp8266/Arduino#installing-with-boards-manager) ( use `http://arduino.esp8266.com/staging/package_esp8266com_index.json` for development )
-  - [esp8266 twi arduino nano problems](doc/esp8266-twi-arduino-nano.md)  
-  - [esp8266 tips](doc/esp8266-tips.md)
-  - [serial baud rate](doc/arduino-serial-baud.md)
-- stm32
-  - [vscode debugging](https://github.com/devel0/iot-examples/tree/3ff96e5e57c6593675e8f270b87161b9724b6786#stm32duino)
-  - [string stream](https://github.com/bblanchon/ArduinoStreamUtils)
-  - [tips](doc/stm32tips.md)
-  - [multiple devices](doc/stm32-multiple.md)
-- [schematics and pcb editor](doc/easyeda.md)
-- [qucs circuit simulator](doc/qucs.md)
-- [simulator](http://everycircuit.com)
-- [pcb etching](doc/pcb-etching.md)
-- [transistor biasing](_files/transistor-biasing.xlsx)  
-- [measure usb cable resistance](doc/measure-usb-cable-resistance.md)
-- [UM34C linux log](doc/UM34C-linux-log.md)
-- [3d print tips](doc/3dprinting-tips.md)
+- [language notes](doc/csharp.md)
+- [send email 465](doc/send-email-465.md)
+- [psql ef codefirst](doc/psql-ef-codefirst.md)
+- dotnet core
+  - [dotnet3 and 5 on ubuntu20.04](doc/dotnet-5-ubuntu20.04.md)
+  - [netcore csproj](doc/netcore-csproj.md) ( generate doc, copy to output, define macro, exclude files from compile, disable warnings )
+  - [netcore platform environment](doc/netcore-platform-environment.md) ( os type, debug macro )
+  - [asp net core](doc/asp-net-core.md)
+  - [dotnet sdks](https://github.com/dotnet/core-sdk) - [installers](https://dotnet.microsoft.com/download/dotnet-core)
+  - [dotnet cmdline](doc/dotnet-cmdline.md)
+  - [dotnet core unix interop](doc/dotnet-core-unix-interop.md)
+  - [dotnet gui](doc/dotnet-avalonia.md)
+    - avalonia
+      - [notes](doc/avalonia-notes.md)
+      - [app icon](doc/avalonia-icon.md)
+      - [vscode xaml intellisense](https://marketplace.visualstudio.com/items?itemName=rogalmic.vscode-xml-complete)
+  - [dotnet netcorestandard testunit](https://github.com/devel0/netcore-util/tree/6267b9e954692ecc7513ccb9616d590128294598#how-this-project-was-built)
+  - [troubleshoot](doc/dotnet-troubleshoot.md)
+  - view version of dll `exiftool file.dll | grep 'Product Version'`
+- [regex](doc/regex.md)
+- [csharp to typescript](doc/csharp-to-typescript.md)
+- [xlsx finalize worksheet freeze columns](https://github.com/devel0/worked-hours-tracker/blob/e947095bba1c52010651e79fbf2f44d82f600adc/WorkedHoursTrackerWebapi/Controllers/ApiController.cs#L543-L557)
+- [wpf](doc/wpf.md)
+- [tuple value read write](doc/tuple-value-read-write.md)
+- [read from special serial ttyACM cdc type](https://www.vgies.com/a-reliable-serial-port-in-c/)
+- [trap ctrl+c](doc/csharp-trap-ctrl-c)
+- [c# coding standards](https://github.com/justinamiller/Coding-Standards)
+- opengl
+  - [silk net under virtualbox opengl3.3](https://github.com/dotnet/Silk.NET/issues/246#issuecomment-1296368494)
 
-### general development
-
-- [references](https://devhints.io/)
-
-### math
-
-- [c# AngouriMath symbolic](https://github.com/devel0/scurve-speed-eval/blob/0bff63605a3f7fae49d6f56aab4b813efa755242/Program.cs#L54)
-- [octave symbolic](doc/octave-symbolic.md)
-
-### shell
+## shell
 
 - [bash cheat sheet](https://devhints.io/bash)
 - [bash scripting](doc/bash-scripting.md)
@@ -96,7 +90,7 @@ references for linux admin and development
 - show dialog notification `notify-send title msg`
 - [short uuid](https://codesandbox.io/s/flamboyant-jasper-eby0cz?file=/src/App.js)
 
-### development tools
+## development tools
 
 - git
   - [git](doc/git-usage.md)  
@@ -132,43 +126,12 @@ references for linux admin and development
   - [gnuplot](doc/gnuplot.md)
   - debug opengl programs `apt install renderdoc`  
 
-### csharp
-
-- [language notes](doc/csharp.md)
-- [send email 465](doc/send-email-465.md)
-- [psql ef codefirst](doc/psql-ef-codefirst.md)
-- dotnet core
-  - [dotnet3 and 5 on ubuntu20.04](doc/dotnet-5-ubuntu20.04.md)
-  - [netcore csproj](doc/netcore-csproj.md) ( generate doc, copy to output, define macro, exclude files from compile, disable warnings )
-  - [netcore platform environment](doc/netcore-platform-environment.md) ( os type, debug macro )
-  - [asp net core](doc/asp-net-core.md)
-  - [dotnet sdks](https://github.com/dotnet/core-sdk) - [installers](https://dotnet.microsoft.com/download/dotnet-core)
-  - [dotnet cmdline](doc/dotnet-cmdline.md)
-  - [dotnet core unix interop](doc/dotnet-core-unix-interop.md)
-  - [dotnet gui](doc/dotnet-avalonia.md)
-    - avalonia
-      - [notes](doc/avalonia-notes.md)
-      - [app icon](doc/avalonia-icon.md)
-      - [vscode xaml intellisense](https://marketplace.visualstudio.com/items?itemName=rogalmic.vscode-xml-complete)
-  - [dotnet netcorestandard testunit](https://github.com/devel0/netcore-util/tree/6267b9e954692ecc7513ccb9616d590128294598#how-this-project-was-built)
-  - [troubleshoot](doc/dotnet-troubleshoot.md)
-  - view version of dll `exiftool file.dll | grep 'Product Version'`
-- [regex](doc/regex.md)
-- [csharp to typescript](doc/csharp-to-typescript.md)
-- [xlsx finalize worksheet freeze columns](https://github.com/devel0/worked-hours-tracker/blob/e947095bba1c52010651e79fbf2f44d82f600adc/WorkedHoursTrackerWebapi/Controllers/ApiController.cs#L543-L557)
-- [wpf](doc/wpf.md)
-- [tuple value read write](doc/tuple-value-read-write.md)
-- [read from special serial ttyACM cdc type](https://www.vgies.com/a-reliable-serial-port-in-c/)
-- [c# coding standards](https://github.com/justinamiller/Coding-Standards)
-- opengl
-  - [silk net under virtualbox opengl3.3](https://github.com/dotnet/Silk.NET/issues/246#issuecomment-1296368494)
-
-### c++
+## c++
 
 - [linux vscode debug](https://github.com/devel0/example-vscode-linux-cpp-debug)
 - [dump-file-to-c](doc/dump-file-to-c.md)  
 
-### database
+## database
 
 - postgres
   - [create psql container](doc/create-pgsql-container.md)
@@ -183,7 +146,7 @@ references for linux admin and development
 - entity framework
   - [load related entities](https://docs.microsoft.com/en-us/ef/core/querying/related-data)
 
-### webdevel
+## webdevel
 
 - [javascript/jquery](doc/javascript-jquery.md)
   - [momentjs date](doc/momentjs-date.md)
@@ -205,7 +168,46 @@ references for linux admin and development
   - [resposive drawer with styles and theme](doc/material-ui-responsive-drawer-styles-theme-typescript.md)
   - [common styles combined](https://github.com/mui-org/material-ui/issues/11517#issuecomment-478337616)
 
-### networking
+## electronics
+
+- arduino
+  - [vscode arduino](doc/vscode-arduino.md)
+  - vscode arduino platformio
+    - [atmega328](doc/vscode-arduino-platformio-atmega328.md)
+    - [atmega8](doc/vscode-arduino-platformio-atmega8.md)
+    - [platformio troubleshoot](doc/platformio-troubleshoot.md)  
+  - [vscode arduino nano platformio](doc/vscode-arduino-nano-platformio.md)
+  - [arduino on atmega8](doc/arduino-on-atmega8.md)
+  - [atmega power save](doc/atmega-power-save.md)
+  - [arduino examine elf](doc/arduino-examine-elf.md)
+  - [esp8266 board plugin](https://github.com/esp8266/Arduino#installing-with-boards-manager) ( use `http://arduino.esp8266.com/staging/package_esp8266com_index.json` for development )
+  - [esp8266 twi arduino nano problems](doc/esp8266-twi-arduino-nano.md)  
+  - [esp8266 tips](doc/esp8266-tips.md)
+  - [serial baud rate](doc/arduino-serial-baud.md)
+- stm32
+  - [vscode debugging](https://github.com/devel0/iot-examples/tree/3ff96e5e57c6593675e8f270b87161b9724b6786#stm32duino)
+  - [string stream](https://github.com/bblanchon/ArduinoStreamUtils)
+  - [tips](doc/stm32tips.md)
+  - [multiple devices](doc/stm32-multiple.md)
+- [schematics and pcb editor](doc/easyeda.md)
+- [qucs circuit simulator](doc/qucs.md)
+- [simulator](http://everycircuit.com)
+- [pcb etching](doc/pcb-etching.md)
+- [transistor biasing](_files/transistor-biasing.xlsx)  
+- [measure usb cable resistance](doc/measure-usb-cable-resistance.md)
+- [UM34C linux log](doc/UM34C-linux-log.md)
+- [3d print tips](doc/3dprinting-tips.md)
+
+## general development
+
+- [references](https://devhints.io/)
+
+## math
+
+- [c# AngouriMath symbolic](https://github.com/devel0/scurve-speed-eval/blob/0bff63605a3f7fae49d6f56aab4b813efa755242/Program.cs#L54)
+- [octave symbolic](doc/octave-symbolic.md)
+
+## networking
 
 - send a tcp packet `echo sample | nc 10.10.2.10 1000`
 - test tcp port `echo "test" | netcat -w 5 -W 1 host port ; if [ "$?" == "0" ]; then echo "OK"; else echo "UNREACHABLE"; fi`
@@ -232,14 +234,14 @@ references for linux admin and development
 - retrieve bandwidth utilization continously for given interface with `ifstat -i devname`
 - download remote http folder `wget -r --no-parent URL`
 
-### python
+## python
 
 - plotting
   - [plot 2d 2var function](doc/python-plot-2d-2var.md)
 - calc
   - [solve eq](doc/python-solve-eq.md)
 
-### linux
+## linux
 
 - server
   - [quick and dirty os install notes](doc/quick-and-dirty-server-install-notes.md)
@@ -336,7 +338,7 @@ references for linux admin and development
 - [nextcloud tips](doc/nextcloud.md)
 - [fonts](doc/fonts.md)
 
-### security
+## security
 
 - [iptables firewall](https://github.com/devel0/linux-scripts-utils/blob/ba388ae1e5a0b158cdf83f7d067318b9caccf203/fw.sh)
 - [generate htpasswd](doc/generate-htpasswd.md)
@@ -345,12 +347,12 @@ references for linux admin and development
 - [ssh client alive](doc/ssh-keep-alive.md)
 - upgrade letsencrypt `apt upgrade certbot python3-acme`
 
-### mobile native
+## mobile native
 
 - [intellij android studio](doc/intellij-android-studio.md)
 - [android push notify](doc/android-push-notify.md)
 
-### tools
+## tools
 
 - [cygwin install](doc/cygwin-install.md)    
 - [win10 quick assist](doc/win10-quick-assist.md)
@@ -371,7 +373,7 @@ references for linux admin and development
   - [useful unicode](doc/useful-unicode.md)  
   - google drive direct link `https://drive.google.com/uc?export=download&id=DRIVE_FILE_ID`
   
-### media
+## media
 
 - editing
   - pdf edit inking `apt install xournal`
