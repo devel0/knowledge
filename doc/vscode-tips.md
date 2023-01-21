@@ -114,6 +114,7 @@ to allow XmlComplete recognize `axaml` as xml add follow to settings.json
 
 snippets will located in `~/.config/Code/User/snippets/csharp.json` and automatically managed by easy snippet extension
 
+- [basic snippets](vscode-snippets-csharp.json) to place in the above location as `csharp.json`
 - example for a snippet ( avalonia property ) using underscore prefix for private field
 
 ```csharp
