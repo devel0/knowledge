@@ -1,0 +1,87 @@
+{
+  "propc": {
+    "prefix": "propc",
+    "description": "add PropertyChanged",
+    "body": [
+      "#region property changed",
+      "",
+      "public event PropertyChangedEventHandler? PropertyChanged;",
+      "",
+      "/// <summary>",
+      "/// invoke this method to forward propertchanged event notification.",
+      "/// note: not needed to specify propertyName set by compiler service to called property.",
+      "/// </summary>        ",
+      "protected void OnPropertyChanged([CallerMemberName] string? propertyName = null)",
+      "{",
+      "    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));",
+      "}",
+      "",
+      "#endregion"
+    ]
+  },
+  "propnc": {
+    "prefix": "propnc",
+    "description": "property with notify property changed",
+    "body": [
+      "#region $2",
+      "",
+      "private ${1:int} _${2:varname} = ${3:0};",
+      "/// <summary>",
+      "/// $2",
+      "/// </summary>",
+      "public $1 $2",
+      "{",
+      "    get => _$2;",
+      "    set",
+      "    {",
+      "         var changed = value != _$2;",
+      "         if (changed)",
+      "         {",
+      "             _$2 = value;",
+      "             OnPropertyChanged();",
+      "         }",
+      "    }",
+      "}",
+      "",
+      "#endregion"
+    ]
+  },
+  "avprop": {
+    "prefix": "avprop",
+    "description": "avalonia property",
+    "body": [
+      "#region $2",
+      "",
+      "private ${1:int} _${2:varname} = ${3:0};",
+      "/// <summary>",
+      "/// $2",
+      "/// </summary>",
+      "public $1 $2",
+      "{",
+      "    get => _$2;",
+      "    set => this.RaiseAndSetIfChanged(ref _$2, value);",
+      "}",
+      "",
+      "#endregion"
+    ]
+  },
+  "avprop2": {
+    "prefix": "avprop2",
+    "description": "avalonia property with RegisterDirect",
+    "body": [
+      "#region ${1:propname}",
+      "private ${2:string} _$1;",
+      "",
+      "public static readonly DirectProperty<${3:ctltype}, $2> $1Property =",
+      "    AvaloniaProperty.RegisterDirect<$3, $2>(\"$1\", o => o.$1, (o, v) => o.$1 = v);",
+      "",
+      "public $2 $1",
+      "{",
+      "    get => _$1;",
+      "    set => SetAndRaise($1Property, ref _$1, value);",
+      "}",
+      "#endregion",
+      ""
+    ]
+  }
+}
