@@ -1,17 +1,12 @@
 # git usage
 
 <!-- TOC -->
+* [github fork workflow ( using vscode )](#github-fork-workflow--using-vscode-)
 * [checkout a remote branch](#checkout-a-remote-branch)
 * [graphical diff](#graphical-diff)
 * [graphical diff ( code )](#graphical-diff--code-)
 * [diff from previous commit](#diff-from-previous-commit)
 * [undo last commit](#undo-last-commit)
-* [create project local then import into github](#create-project-local-then-import-into-github)
-* [integrate original to forked](#integrate-original-to-forked)
-* [switch to a new remote committing local](#switch-to-a-new-remote-committing-local)
-  + [committing local](#committing-local)
-  + [discarding local](#discarding-local)
-* [add untracked files](#add-untracked-files)
 * [commit all staged files](#commit-all-staged-files)
 * [clone specific tag](#clone-specific-tag)
 * [show local changes](#show-local-changes)
@@ -34,6 +29,29 @@
 <!-- TOCEND -->
 
 <hr/>
+
+## github fork workflow ( using vscode )
+
+Don't fork a project until you made some effective changes locally to the original cloned repository, instead:
+
+- clone project which you want to contribute
+
+```sh
+git clone REPO_URL
+```
+
+- make changes locally and test them
+- create a branch named ( eg. `fix-some` ) with `Source Control / Branch / Create Branch...` or
+
+```sh
+git checkout -b fix-some
+```
+
+- commit changes to your local branch
+- FORK the project using github btn then copy your forked repository url ( MY_ORIGIN ) to clipboard
+- add your origin from `Source Control / More Actions / Add Remote...` ( paste your fork url then insert a name `my` )
+- push changes to your repo `Source Control / Push` ( this will ask you to choose an origin as upstream of the branch `fix-some`, then choose your fork origin `my` )
+- go to github on your forked repository and click `Compare & pull request` btn
 
 ## checkout a remote branch
 
@@ -120,85 +138,6 @@ git diff HEAD^
 git reset HEAD~
 ```
 
-## create project local then import into github
-
-- **replacements**
-    - choose git ignore ( default Visual Studio ) replacing token `VisualStudio.gitignore`
-    - choose license ( default MIT ) replacing token `license/mit`
-    - set license author name replacing token `myname`
-    - set project git url `https://github.com/xxx/project.git`
-
-```sh
-mkdir myproject
-cd myproject
-git init
-curl -s https://raw.githubusercontent.com/github/gitignore/master/VisualStudio.gitignore -o .gitignore
-curl -s https://api.github.com/licenses/mit | jq -r ".body" | sed "s/\[year\]/$(date +%Y)/g" | sed "s/\[fullname\]/myname/g" > LICENSE
-
-git remote add origin https://github.com/xxx/project.git
-git add --all
-git commit -m "initial commit"
-git push -u origin master
-```
-
-## integrate original to forked
-
-- scenario
-    - forked a project
-    - original project have some commit ahead your fork
-    - want to integrate original project changes into your fork
-
-- **replacements**
-    - `original-repo-url` with original project from where your fork cames from
-
-```sh
-git remote add original original-repo-url
-git fetch original master
-git merge original/master
-git push
-```
-
-## switch to a new remote committing local
-
-- **replacements**
-    - `newremote` an alias for new origin
-    - `new-repo-url` with new repository url
-    - `branch` new remote repository branch to work on
-    
-### committing local
-
-```sh
-git remote add newremote new-repo-url
-git fetch newremote branch
-# optionally switch to new branch
-# git checkout -b newbranch
-git add --all
-git commit -a
-```
-
-and push to newremote
-
-```sh
-git push --set-upstream newremote
-```
-
-### discarding local
-
-```sh
-git remote add newremote new-repo-url
-git fetch newremote branch
-git checkout remotes/newremote/branch
-```
-
-## add untracked files
-
-- **notes**
-    - follow command work well when you use `.gitignore` to avoid inclusion of build artifacts
-
-```sh
-git add --all
-```
-
 ## commit all staged files
 
 ```sh
@@ -228,8 +167,6 @@ git log
 ```sh
 git checkout <commit>
 ```
-
-- **notes** you can make changes but you need to define where to put these ( [commit to a new branch](#commit-to-a-new-branch) )
 
 ## revert a commit
 
@@ -300,12 +237,6 @@ git log --graph --pretty=oneline --abbrev-commit
 git checkout -b newbranch
 git add --all
 git commit -a -m "msg"
-```
-
-and push to remote
-
-```sh
-git push --set-upstream origin newbranch
 ```
 
 ## merge a branch into current
