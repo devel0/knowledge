@@ -61,9 +61,9 @@ done
 ### loop through file lines
 
 ```sh
-while IFS='' read -r line || [[ -n "$line" ]]; do
-    echo "line = [$line]"    
-done < "filename.txt"
+cat filename.txt | while IFS='' read -r line; do
+  echo "line = [$line]"
+done
 ```
 
 ## file age in seconds/months
