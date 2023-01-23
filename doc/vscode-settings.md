@@ -11,7 +11,7 @@
   "workbench.editor.enablePreview": false,
   "explorer.confirmDelete": false,
   "editor.mouseWheelZoom": true,
-  "editor.codeLens": true,
+  "editor.codeLens": false,
   "editor.inlayHints.enabled": "offUnlessPressed",
   "git.confirmSync": false,
   "git.autofetch": true,
@@ -20,10 +20,22 @@
   "editor.formatOnType": true,
   "files.associations": {
     "*.axaml": "xml",
-    "*.xaml": "xml"
+    "*.xaml": "xml",
+    "*.gs": "glsl"
   },
   "[xml]": {
     "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "[glsl]": {
+    "editor.defaultFormatter": "xaver.clang-format"
   },
   
 }
