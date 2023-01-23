@@ -16,3 +16,5 @@ reload w/reboot using follow
 ```
 sysctl -p /etc/sysctl.d/99-custom.conf
 ```
+
+related: filesystem watches
