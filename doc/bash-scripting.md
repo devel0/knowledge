@@ -61,10 +61,14 @@ done
 ### loop through file lines
 
 ```sh
-cat filename.txt | while IFS='' read -r line; do
-  echo "line = [$line]"
-done
+readarray -t myarr < <(cat filename.txt)
+for line in "${myarr[@]}"; do echo "line = [$line]"; done
 ```
+
+notes:
+- `cat filename.txt | readarray -t myarr` would not work because readarray (*builtin cmd*) will be in a subshell and couldn't access given stdin
+- array size is "${#myarr[@]}"
+- "${myarr[i]}" is the zero-based i-th item
 
 ## file age in seconds/months
 
