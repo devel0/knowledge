@@ -187,10 +187,10 @@ follow to disable missing XML comment
 
 ## prebuild copy files
 
-follow task will copy a file placed ( relative to csproj ) `../../src/gui/Assets/Dictionary1.xaml` into the csproj folder base relative `Assets/gui-dictionary.xaml` before each build
+follow task will copy a file placed ( relative to csproj ) `../../src/gui/Assets/Dictionary1.xaml` into the csproj folder base relative `Assets/gui` before each build
 
 ```xml
 <Target Name="CopyGUIAssets" BeforeTargets="Build">
-  <Copy SourceFiles="../../src/gui/Assets/Dictionary1.xaml" DestinationFolder="Assets/gui-dictionary.xaml" />
+  <Copy SourceFiles="../../src/gui/Assets/Dictionary1.xaml" DestinationFolder="Assets/gui" />
 </Target>
 ```
