@@ -183,3 +183,13 @@ follow to disable missing XML comment
   <Compile Include="../iot-gateway-api/IOTGateway.cs"/>
 </ItemGroup>
 ```
+
+## prebuild copy files
+
+follow task will copy a file placed ( relative to csproj ) `../../src/gui/Assets/Dictionary1.xaml` into the csproj folder base relative `Assets/gui-dictionary.xaml` before each build
+
+```xml
+<Target Name="CopyGUIAssets" BeforeTargets="Build">
+  <Copy SourceFiles="../../src/gui/Assets/Dictionary1.xaml" DestinationFolder="Assets/gui-dictionary.xaml" />
+</Target>
+```
