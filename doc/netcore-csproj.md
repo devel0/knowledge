@@ -10,6 +10,7 @@
 * [force bin,obj clean](#force-binobj-clean)
 * [execute cmd before build](#execute-cmd-before-build)
 * [link source from other project](#link-source-from-other-project)
+* [prebuild copy files](#prebuild-copy-files)
 <!-- TOCEND -->
 
 <hr/>
