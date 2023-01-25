@@ -1,11 +1,10 @@
 # storage
 
 <!-- TOC -->
-- [storage](#storage)
-  * [convert qcow2 to vdi](#convert-qcow2-to-vdi)
-  * [create qcow2 disk](#create-qcow2-disk)
-  * [resize disk](#resize-disk)
-  * [remove reserved partition](#remove-reserved-partition)
+* [convert qcow2 to vdi](#convert-qcow2-to-vdi)
+* [create qcow2 disk](#create-qcow2-disk)
+* [resize disk](#resize-disk)
+* [remove reserved partition](#remove-reserved-partition)
 <!-- TOCEND -->
 
 <hr/>

@@ -1,20 +1,19 @@
 # quick and dirty server install notes
 
 <!-- TOC -->
-- [quick and dirty server install notes](#quick-and-dirty-server-install-notes)
-  * [prerequisites](#prerequisites)
-  * [supposed hardware and os](#supposed-hardware-and-os)
-  * [storage arrangement](#storage-arrangement)
-  * [bootstrap and partitioning](#bootstrap-and-partitioning)
-  * [setup kernel parameters](#setup-kernel-parameters)
-  * [ensure grub installed on all raid disks](#ensure-grub-installed-on-all-raid-disks)
-  * [setup network and base system](#setup-network-and-base-system)
-  * [enable ssd cache](#enable-ssd-cache)
-  * [replace damaged disk](#replace-damaged-disk)
-  * [disks layout](#disks-layout)
-  * [software install](#software-install)
-  * [create docker networks](#create-docker-networks)
-  * [firewall](#firewall)
+* [prerequisites](#prerequisites)
+* [supposed hardware and os](#supposed-hardware-and-os)
+* [storage arrangement](#storage-arrangement)
+* [bootstrap and partitioning](#bootstrap-and-partitioning)
+* [setup kernel parameters](#setup-kernel-parameters)
+* [ensure grub installed on all raid disks](#ensure-grub-installed-on-all-raid-disks)
+* [setup network and base system](#setup-network-and-base-system)
+* [enable ssd cache](#enable-ssd-cache)
+* [replace damaged disk](#replace-damaged-disk)
+* [disks layout](#disks-layout)
+* [software install](#software-install)
+* [create docker networks](#create-docker-networks)
+* [firewall](#firewall)
 <!-- TOCEND -->
 
 <hr/>

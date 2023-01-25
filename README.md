@@ -59,7 +59,6 @@ references for linux admin and development
 
 ## shell
 
-- [bash cheat sheet](https://devhints.io/bash)
 - [bash scripting](doc/bash-scripting.md)
 - executing dir `exdir=$(dirname $(readlink -f "$0"))`
 - text screencast

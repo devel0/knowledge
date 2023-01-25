@@ -1,9 +1,8 @@
 # test webapi
 
 <!-- TOC -->
-- [test webapi](#test-webapi)
-  * [send post data](#send-post-data)
-  * [references](#references)
+* [send post data](#send-post-data)
+* [references](#references)
 <!-- TOCEND -->
 
 <hr/>

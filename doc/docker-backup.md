@@ -1,15 +1,14 @@
 # docker backup
 
 <!-- TOC -->
-- [docker backup](#docker-backup)
-  * [through export, import](#through-export-import)
-    + [backup](#backup)
-    + [restore image](#restore-image)
-  * [recreate container](#recreate-container)
-  * [through image commit, save, load](#through-image-commit-save-load)
-    + [create an image of current container ( pausing during commit )](#create-an-image-of-current-container--pausing-during-commit-)
-    + [save image to a file](#save-image-to-a-file)
-    + [restore container image](#restore-container-image)
+* [through export, import](#through-export-import)
+  + [backup](#backup)
+  + [restore image](#restore-image)
+* [recreate container](#recreate-container)
+* [through image commit, save, load](#through-image-commit-save-load)
+  + [create an image of current container ( pausing during commit )](#create-an-image-of-current-container--pausing-during-commit-)
+  + [save image to a file](#save-image-to-a-file)
+  + [restore container image](#restore-container-image)
 <!-- TOCEND -->
 
 <hr/>

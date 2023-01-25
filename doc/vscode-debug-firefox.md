@@ -1,13 +1,12 @@
 # vscode debug firefox
 
 <!-- TOC -->
-- [vscode debug firefox](#vscode-debug-firefox)
-  * [pre](#pre)
-  * [install a webserver to serve your index.htm](#install-a-webserver-to-serve-your-indexhtm)
-  * [run local webserver](#run-local-webserver)
-  * [run firefox in debug mode](#run-firefox-in-debug-mode)
-  * [from vscode](#from-vscode)
-  * [test](#test)
+* [pre](#pre)
+* [install a webserver to serve your index.htm](#install-a-webserver-to-serve-your-indexhtm)
+* [run local webserver](#run-local-webserver)
+* [run firefox in debug mode](#run-firefox-in-debug-mode)
+* [from vscode](#from-vscode)
+* [test](#test)
 <!-- TOCEND -->
 
 <hr/>

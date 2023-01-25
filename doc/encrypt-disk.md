@@ -1,13 +1,12 @@
 # encrypt disk
 
 <!-- TOC -->
-- [encrypt disk](#encrypt-disk)
-  * [initialize partition crypto luks mapping](#initialize-partition-crypto-luks-mapping)
-  * [open disk](#open-disk)
-  * [use keyfile for automount](#use-keyfile-for-automount)
-  * [mount on demand using keyfile and crypttab info](#mount-on-demand-using-keyfile-and-crypttab-info)
-  * [duplicated uuid](#duplicated-uuid)
-  * [change lvm encrypted passphrase](#change-lvm-encrypted-passphrase)
+* [initialize partition crypto luks mapping](#initialize-partition-crypto-luks-mapping)
+* [open disk](#open-disk)
+* [use keyfile for automount](#use-keyfile-for-automount)
+* [mount on demand using keyfile and crypttab info](#mount-on-demand-using-keyfile-and-crypttab-info)
+* [duplicated uuid](#duplicated-uuid)
+* [change lvm encrypted passphrase](#change-lvm-encrypted-passphrase)
 <!-- TOCEND -->
 
 ## initialize partition crypto luks mapping

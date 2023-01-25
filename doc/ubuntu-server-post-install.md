@@ -1,15 +1,14 @@
 # ubuntu server post install
 
 <!-- TOC -->
-- [ubuntu server post install](#ubuntu-server-post-install)
-  * [tune bashrc](#tune-bashrc)
-  * [automatic disk decryption](#automatic-disk-decryption)
-  * [docker](#docker)
-  * [inotify](#inotify)
-  * [dircolors and prompt](#dircolors-and-prompt)
-    + [workstation](#workstation)
-    + [server](#server)
-  * [disable systemd-resolved](#disable-systemd-resolved)
+* [tune bashrc](#tune-bashrc)
+* [automatic disk decryption](#automatic-disk-decryption)
+* [docker](#docker)
+* [inotify](#inotify)
+* [dircolors and prompt](#dircolors-and-prompt)
+  + [workstation](#workstation)
+  + [server](#server)
+* [disable systemd-resolved](#disable-systemd-resolved)
 <!-- TOCEND -->
 
 <hr/>

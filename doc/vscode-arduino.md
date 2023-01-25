@@ -1,13 +1,12 @@
 # vscode-arduino
 
 <!-- TOC -->
-- [vscode-arduino](#vscode-arduino)
-  * [setup](#setup)
-  * [troubleshoot](#troubleshoot)
-  * [usage](#usage)
-  * [verbose loglevel](#verbose-loglevel)
-  * [increase build speed](#increase-build-speed)
-  * [references](#references)
+* [setup](#setup)
+* [troubleshoot](#troubleshoot)
+* [usage](#usage)
+* [verbose loglevel](#verbose-loglevel)
+* [increase build speed](#increase-build-speed)
+* [references](#references)
 <!-- TOCEND -->
 
 <hr/>

@@ -1,15 +1,15 @@
 # video transcoding
 
 <!-- TOC -->
-- [video transcoding](#video-transcoding)
-  * [convert video to images](#convert-video-to-images)
-  * [recompose back image to video](#recompose-back-image-to-video)
-  * [gui tools](#gui-tools)
-  * [fast mp4 edit](#fast-mp4-edit)
-  * [remove audio](#remove-audio)
-  * [video editor](#video-editor)
-  * [rotate video](#rotate-video)
-- [m2t to mpg seekable](#m2t-to-mpg-seekable)
+* [convert video to images](#convert-video-to-images)
+* [recompose back image to video](#recompose-back-image-to-video)
+* [gui tools](#gui-tools)
+* [fast mp4 edit](#fast-mp4-edit)
+* [remove audio](#remove-audio)
+* [video editor](#video-editor)
+* [rotate video](#rotate-video)
+  + [using ffmpeg](#using-ffmpeg)
+  + [using openshot](#using-openshot)
 <!-- TOCEND -->
 
 <hr/>

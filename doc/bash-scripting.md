@@ -4,7 +4,7 @@
 * [string](#string)
   + [extract substring](#extract-substring)
   + [check if string contains another](#check-if-string-contains-another)
-  + [arrays](#arrays)
+  + [references](#references)
 * [files](#files)
   + [loop through files arguments](#loop-through-files-arguments)
   + [loop through file lines](#loop-through-file-lines)
@@ -45,9 +45,10 @@ if [[ "$str" == *"portion"* ]]; then echo "it contains"; fi
 if [[ "$str" =~ .*"portion".* ]]; then echo "it contains"; fi
 ```
 
-### arrays
+### references
 
-- [ref](https://opensource.com/article/18/5/you-dont-know-bash-intro-bash-arrays)
+- [arrays](https://opensource.com/article/18/5/you-dont-know-bash-intro-bash-arrays)
+- [cheat sheet](https://devhints.io/bash)
 
 ## files
 

@@ -1,11 +1,10 @@
 # virtualbox
 
 <!-- TOC -->
-- [virtualbox](#virtualbox)
-  * [enable usb access](#enable-usb-access)
-  * [mouse wheel scroll not work with ubuntu guest](#mouse-wheel-scroll-not-work-with-ubuntu-guest)
-  * [connect physical disk](#connect-physical-disk)
-  * [transfer image to physical disk](#transfer-image-to-physical-disk)
+* [enable usb access](#enable-usb-access)
+* [mouse wheel scroll not work with ubuntu guest](#mouse-wheel-scroll-not-work-with-ubuntu-guest)
+* [connect physical disk](#connect-physical-disk)
+* [transfer image to physical disk](#transfer-image-to-physical-disk)
 <!-- TOCEND -->
 
 <hr/>

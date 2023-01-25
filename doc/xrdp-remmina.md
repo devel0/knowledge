@@ -1,15 +1,14 @@
 # xrdp remmina
 
 <!-- TOC -->
-- [xrdp remmina](#xrdp-remmina)
-  * [prerequisites](#prerequisites)
-  * [gnome session](#gnome-session)
-    + [tune ~/.xsessionrc](#tune-xsessionrc)
-    + [avoid color profile, pkg auth](#avoid-color-profile-pkg-auth)
-  * [lxde session](#lxde-session)
-    + [tune ~/.xsession](#tune-xsession)
-    + [remmina connection](#remmina-connection)
-  * [troubleshoot](#troubleshoot)
+* [prerequisites](#prerequisites)
+* [gnome session](#gnome-session)
+  + [tune ~/.xsessionrc](#tune-xsessionrc)
+  + [avoid color profile, pkg auth](#avoid-color-profile-pkg-auth)
+* [lxde session](#lxde-session)
+  + [tune ~/.xsession](#tune-xsession)
+  + [remmina connection](#remmina-connection)
+* [troubleshoot](#troubleshoot)
 <!-- TOCEND -->
 
 <hr/>
