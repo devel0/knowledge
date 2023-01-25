@@ -61,7 +61,6 @@ references for linux admin and development
 
 - [bash cheat sheet](https://devhints.io/bash)
 - [bash scripting](doc/bash-scripting.md)
-- [bash array](https://opensource.com/article/18/5/you-dont-know-bash-intro-bash-arrays)
 - executing dir `exdir=$(dirname $(readlink -f "$0"))`
 - text screencast
   - [ttyrec ttygif](doc/ttyrec-ttygif.md)

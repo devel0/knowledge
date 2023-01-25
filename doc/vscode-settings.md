@@ -4,7 +4,6 @@
 
 ```json
 {
-  "window.zoomLevel": 1,
   "git.enableSmartCommit": true,
   "redhat.telemetry.enabled": false,
   "debug.onTaskErrors": "showErrors",
@@ -37,6 +36,7 @@
   "[glsl]": {
     "editor.defaultFormatter": "xaver.clang-format"
   },
+  "window.zoomLevel": 1,
   
 }
 ```
@@ -48,6 +48,16 @@
     {
         "key": "ctrl+shift+s",
         "command": "workbench.action.files.saveFiles"
+    },
+    {
+        "key": "ctrl+shift+t",
+        "command": "workbench.action.terminal.new",
+        "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+    },
+    {
+        "key": "ctrl+shift+`",
+        "command": "-workbench.action.terminal.new",
+        "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
     }
 ]
 ```

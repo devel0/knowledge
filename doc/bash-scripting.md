@@ -4,9 +4,11 @@
 * [string](#string)
   + [extract substring](#extract-substring)
   + [check if string contains another](#check-if-string-contains-another)
+  + [arrays](#arrays)
 * [files](#files)
   + [loop through files arguments](#loop-through-files-arguments)
   + [loop through file lines](#loop-through-file-lines)
+  + [loop over find results](#loop-over-find-results)
 * [file age in seconds/months](#file-age-in-secondsmonths)
 * [control](#control)
 * [OR condition](#or-condition)
@@ -43,6 +45,10 @@ if [[ "$str" == *"portion"* ]]; then echo "it contains"; fi
 if [[ "$str" =~ .*"portion".* ]]; then echo "it contains"; fi
 ```
 
+### arrays
+
+- [ref](https://opensource.com/article/18/5/you-dont-know-bash-intro-bash-arrays)
+
 ## files
 
 ### loop through files arguments
@@ -69,6 +75,18 @@ notes:
 - `cat filename.txt | readarray -t myarr` would not work because readarray (*builtin cmd*) will be in a subshell and couldn't access given stdin
 - array size is "${#myarr[@]}"
 - "${myarr[i]}" is the zero-based i-th item
+
+### loop over find results
+
+follow example search folders from current dir limiting depth 1th level and executes a control body foreach result
+
+```sh
+readarray -t myarr < <(find . -maxdepth 1 -type d -exec echo "{}" \;)
+
+for line in "${myarr[@]}"; do
+    echo "do something with [$line]"
+done
+```
 
 ## file age in seconds/months
 
