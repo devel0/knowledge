@@ -90,6 +90,7 @@ references for linux admin and development
 
 ## development tools
 
+- [opensource dev](doc/opensource-dev.md)
 - git
   - [git](doc/git-usage.md)  
   - [github git ssh](doc/github-git-ssh.md)
