@@ -4,7 +4,7 @@
 
 ## example
 
-```sh
+```conf
 [program:myprog]
 command=/scripts/myprog.sh
 directory=/scripts
