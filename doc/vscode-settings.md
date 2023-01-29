@@ -15,8 +15,7 @@
   "git.confirmSync": false,
   "git.autofetch": true,
   "terminal.integrated.allowChords": false,
-  "editor.autoClosingBrackets": "never",
-  "editor.formatOnType": true,
+  "editor.autoClosingBrackets": "never",  
   "files.associations": {
     "*.axaml": "xml",
     "*.xaml": "xml",
@@ -37,6 +36,10 @@
     "editor.defaultFormatter": "xaver.clang-format"
   },
   "window.zoomLevel": 1,
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "xml.format.maxLineWidth": 0,
   
 }
 ```
