@@ -276,6 +276,12 @@ git submodule add -b avalonia-pkg-upgrade https://github.com/SearchAThing-forks/
 ## submobule init
 
 ```sh
+git submodule update --init
+```
+
+or if need to update submodule present in submodule ( use with caution, may not necessary )
+
+```sh
 git submodule update --init --recursive
 ```
 
