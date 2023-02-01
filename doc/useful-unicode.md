@@ -46,7 +46,7 @@
 | ➡ | 27A1 | right arrow |
 | ⬅ | 2B05 | left arrow |
 | ⬆ | 2B06 | up arrow |
-| ⬇ | 2B07 | dow arrow |
+| ⬇ | 2B07 | down arrow |
 
 | char | hex code | descr |
 |---|---|---|
