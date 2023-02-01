@@ -42,6 +42,11 @@
 | 📞 | 1F4DE | phone receiver |
 | 🌐 | 1F310 | global with meridian |
 | ✉ | 2709 | mail envelope |
+| ☛ | 261B | right thumb |
+| ➡ | 27A1 | right arrow |
+| ⬅ | 2B05 | left arrow |
+| ⬆ | 2B06 | up arrow |
+| ⬇ | 2B07 | dow arrow |
 
 | char | hex code | descr |
 |---|---|---|
