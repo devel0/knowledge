@@ -314,7 +314,7 @@ references for linux admin and development
     - [raid management](doc/raid-management.md)
     - [replace raid md damaged disk](doc/replace-raid-md-damaged-disk.md)    
   - [loopback devices](doc/loopback-device.md)
-  - monitor disks activity `iostat -dx 5`
+  - monitor disks activity `iostat -dx 5` or for device (mb/s) `iostat -sm -p /dev/DEVICE 1`
   - [create bootable iso](https://raw.githubusercontent.com/jsamr/bootiso/master/bootiso)  
   - force reread partition : `partprobe <device>`
   - [create uefi usb from iso](doc/create-uefi-usb-from-iso.md)
