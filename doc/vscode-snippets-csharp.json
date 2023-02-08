@@ -83,5 +83,56 @@
       "#endregion",
       ""
     ]
+  },
+  "avaprop": {
+    "prefix": "avaprop",
+    "description": "avalonia attached property",
+    "body": [
+      "#region $2 ( Attached Property )",
+      "",
+      "public static readonly AttachedProperty<${1:int}> $2Property =",
+      "    AvaloniaProperty.RegisterAttached<${4:Owner}, Interactive, $1>(\"$2\", ${3:0}, false, BindingMode.OneTime);",
+      "",
+      "public static void Set$2(AvaloniaObject element, $1 parameter) =>",
+      "    element.SetValue($2Property, parameter);",
+      "",
+      "public static $1 Get$2(AvaloniaObject element) =>",
+      "    element.GetValue($2Property);",
+      "",
+      "#endregion",
+      ""
+    ]
+  },
+  "instance": {
+    "prefix": "instance",
+    "description": "singleton instance",
+    "body": [
+      "#region Instance",
+      "",
+      "static object lckInstance = new Object();",
+      "",
+      "static ${1:TypeName}? _Instance = null;",
+      "",
+      "public static $1 Instance",
+      "{",
+      "    get",
+      "    {",
+      "        if (_Instance is null)",
+      "        {",
+      "            lock (lckInstance)",
+      "            {",
+      "                if (_Instance is null)",
+      "                {",
+      "                    _Instance = new $1();",
+      "                }",
+      "            }",
+      "        }",
+      "        return _Instance;",
+      "    }",
+      "}",
+      "",
+      "#endregion",
+      ""
+    ]
   }
 }
