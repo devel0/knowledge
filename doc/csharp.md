@@ -41,7 +41,7 @@ System.Console.WriteLine(ReadonlySample(v));
 
 compiles to:
 
-```il
+```nasm
 // Vector3 v2 = Vector3.One;
 IL_0001: call valuetype [System.Numerics.Vectors]System.Numerics.Vector3 [System.Numerics.Vectors]System.Numerics.Vector3::get_One()
 IL_0006: stloc.0
@@ -98,7 +98,7 @@ public class Sample
 
 compiles to:
 
-```il
+```nasm
 // float x = _v.X;
 IL_002b: ldloc.0
 IL_002c: ldfld float32 [System.Numerics.Vectors]System.Numerics.Vector3::X
