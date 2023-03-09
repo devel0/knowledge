@@ -3,7 +3,7 @@
 <!-- TOC -->
 * [Struct reference](#struct-reference)
   + [readonly ref argument](#readonly-ref-argument)
-* [readonly ref field](#readonly-ref-field)
+  + [readonly ref field](#readonly-ref-field)
 * [Number conversion](#number-conversion)
   + [convert int to hex](#convert-int-to-hex)
 * [Templates](#templates)
@@ -59,7 +59,7 @@ IL_0017: call float32 test_console.Sample::'<Main>g__ReadonlySample|0_1'(valuety
 IL_001c: call void [System.Console]System.Console::WriteLine(float32)
 ```
 
-## readonly ref field
+### readonly ref field
 
 ```csharp
 using System.Numerics;
