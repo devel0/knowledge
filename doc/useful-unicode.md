@@ -15,6 +15,7 @@
 | π | 03C0 | pi-greco |
 | ° | 00B0 | degree |
 | ∙ | 2219 | dot |
+| • | 2022 | bullet |
 | ⇒ | 21D2 | dbl right arrow |
 | ≃ | 2243 | similar equal |
 | ≈ | 2248 | approximately equal |
