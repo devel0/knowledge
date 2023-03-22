@@ -263,6 +263,7 @@ references for linux admin and development
   - nautilus file manager folder right click -> open in terminal `apt install nautilus-open-terminal`
 - log
   - colourized log `grc --colour=on cat /var/log/syslog | less -r`
+  - grep only in file pattern `grep -r --include="*.EXT" <search-string> <beginpath>`
   - [tail grep continous](doc/tail-grep-continuous.md)
   - [force log rotate](doc/force-log-rotate.md)  
 - [remotely assist linux can't boot](doc/remotely-assist-linux-cant-boot.md)
