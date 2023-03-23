@@ -399,5 +399,6 @@ references for linux admin and development
   - [grab screen to image](doc/grab-screen-to-image.md)
   - ubuntu cast to chromecst `apt install mkchromecast`
   - show opengl limits `glxinfo -l`  
+  - compare two images `compare -metric AE image1.png image2.png diffout.png`
 - misc
   - [stream dvbt to chromecast](doc/stream-dvbt-to-chromecast.md)
