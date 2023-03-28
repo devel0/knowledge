@@ -18,7 +18,7 @@ chown gdm:gdm /var/lib/gdm3/.config/monitors.xml
 ## second monitor stop working with nvidia
 
 - from Ubuntu Software app
-- select nvidia-515 (tested) or use `sudo prime-select nvidia` if already installed
+- select nvidia-515 (tested)
 
 ## primary monitor stop working with nvidia
 
