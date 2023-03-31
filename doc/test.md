@@ -1,3 +1,5 @@
 # test image theme
 
-<img style="filter: invert(48%);" src="../_files/test.svg"/>
+<span style="filter: invert(1);">
+<img src="../_files/test.svg"/>
+</span>
