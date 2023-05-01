@@ -56,6 +56,7 @@ references for linux admin and development
 - [c# coding standards](https://github.com/justinamiller/Coding-Standards)
 - opengl
   - [silk net under virtualbox opengl3.3](https://github.com/dotnet/Silk.NET/issues/246#issuecomment-1296368494)
+- [user secrets](doc/csharp-user-secrets.md)
 
 ## shell
 
@@ -139,6 +140,8 @@ references for linux admin and development
   - [select datetime timezone](doc/select-datetime-timezone.md)
   - [pgadmin](doc/pgadmin.md)
   - [index array](doc/psql-array-index.md)
+- mssql
+  - [docker local mssql server](doc/docker-local-mssql.md)
 - diagramming schema
   - [schema crawler](doc/psql-schema-crawler.md)
   - [automatic generate psql db diagram](https://github.com/cbbrowne/autodoc)
