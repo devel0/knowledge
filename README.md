@@ -265,7 +265,7 @@ references for linux admin and development
   - [udev rules](doc/udev-rules.md)
   - nautilus file manager folder right click -> open in terminal `apt install nautilus-open-terminal`
 - log
-  - colourized log `grc --colour=on cat /var/log/syslog | less -r`
+  - colourized log `grc --colour=on tail -f /var/log/syslog`
   - grep only in file pattern `grep -r --include="*.EXT" <search-string> <beginpath>`
   - [tail grep continous](doc/tail-grep-continuous.md)
   - [force log rotate](doc/force-log-rotate.md)  
