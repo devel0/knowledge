@@ -5,6 +5,14 @@
 dotnet tool install -g dotnet-script
 ```
 
+## simple example
+
+```sh
+dotnet-script eval 'Console.WriteLine("Hello world!");'
+```
+
+## set a bash function
+
 - Set an example function
 
 ```sh
