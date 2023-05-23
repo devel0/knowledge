@@ -110,6 +110,7 @@ references for linux admin and development
   - [settings](doc/vscode-settings.md)
   - [useful extensions](doc/vscode-useful-extensions.md)
   - [troubleshoot](doc/vscode-troubleshoot.md)
+  - [react debug chrome](doc/vscode-react-debug-chrome.md)
   - [debug firefox](doc/vscode-debug-firefox.md)  
   - [show external code](doc/vscode-show-external-code.md)
   - [remote host through docker](doc/vscode-through-docker.md)
