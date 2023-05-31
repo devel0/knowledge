@@ -11,7 +11,7 @@ ERROR: network mode "build" not supported by buildkit - you can define a custom 
 To solve you need to create a builder:
 
 ```sh
-docker buildx create --name mybuilder --driver docker-container --driver-opt network=build --use
+docker buildx create --name mybuilder --driver docker-container --driver-opt network=build
 ```
 
 Then build:
