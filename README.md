@@ -229,6 +229,9 @@ references for linux admin and development
   - [force smtp auth](doc/zimbra-force-smtp-auth.md)
   - [backup/restore mailbox](doc/zimbra-backup.md)
 - [mobile server](doc/mobile-server.md)
+- samba
+  - get ip from netbios name `nmblookup <name>`
+  - scan netbios name in net `nbtscan <netaddr>`
 - monitor interfaces bandwidth `bmon -p eth0,eth1` or `nload -m`
 - quick list interface addresses `ip -br a`
 - [ethernet cabling T568B](http://www.comnen.com/whats-the-difference-between-t568a-and-t568b/)
