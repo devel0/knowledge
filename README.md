@@ -152,6 +152,7 @@ references for linux admin and development
 
 ## webdevel
 
+- [ts hello world](doc/ts-hello-world.md)
 - [javascript/jquery](doc/javascript-jquery.md)
   - [momentjs date](doc/momentjs-date.md)
 - [bootstrap css](doc/bootstrap-css.md)
