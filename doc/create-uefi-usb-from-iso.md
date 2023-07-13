@@ -31,11 +31,9 @@ mkfs.vfat -n MYLBL /dev/sdX1
 
 mount -t vfat /dev/sdX1 ~/tmp/uefi-usb-dst
 mount ~/tmp/image.iso ~/tmp/uefi-iso-mnt -o loop
-rsync -arvx --delete ~/tmp/uefi-iso-mnt/ ~/tmp/uefi-usb-dst/
+rsync -arvx --no-perms--no-owner--no-group--delete ~/tmp/uefi-iso-mnt/ ~/tmp/uefi-usb-dst/
 
 umount ~/tmp/uefi-iso-mnt
 umount ~/tmp/uefi-usb-dst
 sync
 ```
-
-note: ignore chown errors
