@@ -7,6 +7,7 @@
 * [mount on demand using keyfile and crypttab info](#mount-on-demand-using-keyfile-and-crypttab-info)
 * [duplicated uuid](#duplicated-uuid)
 * [change lvm encrypted passphrase](#change-lvm-encrypted-passphrase)
+* [autodecrypt using TPM2](#autodecrypt-using-tpm2)
 <!-- TOCEND -->
 
 ## initialize partition crypto luks mapping
@@ -80,3 +81,16 @@ cryptsetup luksUUID /dev/sdX1 --uuid "xxxxxxxx-yyyy-zzzz-wwww-aaaaaaaaaaaa"
 - install gnome disks `apt-get install gnome-disk-utility`
 - start `gnome-disks`
 - choose luks partition then click on *gear* icon and select *Change passphrase*
+
+## autodecrypt using TPM2
+
+- install distro using lvm-encrypted with a passphrase
+- after first boot using passphrase from keyboard, from terminal:
+
+Note: replace DEVICE with the one within crypto `blkid | grep crypto`
+
+```sh
+apt-get install clevis clevis-tpm2 clevis-luks clevis-initramfs initramfs-tools
+clevis luks bind -d DEVICE tpm2 '{"pcr_bank":"sha256"}'
+update-initramfs -u -k all
+```
