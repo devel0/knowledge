@@ -8,6 +8,7 @@
 * [lxde session](#lxde-session)
   + [tune ~/.xsession](#tune-xsession)
   + [remmina connection](#remmina-connection)
+* [share session](#share-session)
 * [troubleshoot](#troubleshoot)
 <!-- TOCEND -->
 
@@ -88,6 +89,23 @@ chmod +x ~/.xsession
 - User name : xxx
 - User password : xxx
 - Color depth : RemoteFX (32bpp)
+
+## share session
+
+if server xrdp has session opened, connecting to that with rdp client makes programs to display on the xrdp server display
+
+to share session refers edit `/etc/xrdp/startwm.sh`
+
+and place
+
+```
+unset DBUS_SESSION_BUS_ADDRESS
+unset XDG_RUNTIME_DIR
+```
+
+just before `test -x ...`
+
+ref: https://c-nergy.be/blog/?p=16698
 
 ## troubleshoot
 
