@@ -31,3 +31,9 @@ can be solved by changing reset config of `~/.platformio/packages/tool-openocd/s
 reset_config none separate
 #reset_config srst_only
 ```
+
+## can't find python
+
+```sh
+apt install -y python3-venv
+```
