@@ -5,22 +5,23 @@ references for linux admin and development
 <hr/>
 
 <!-- TOC -->
-* [csharp](#csharp)
-* [shell](#shell)
-* [development tools](#development-tools)
-* [c++](#c)
-* [database](#database)
-* [webdevel](#webdevel)
-* [electronics](#electronics)
-* [general development](#general-development)
-* [math](#math)
-* [networking](#networking)
-* [python](#python)
-* [linux](#linux)
-* [security](#security)
-* [mobile native](#mobile-native)
-* [tools](#tools)
-* [media](#media)
+- [knowledge](#knowledge)
+  - [csharp](#csharp)
+  - [shell](#shell)
+  - [development tools](#development-tools)
+  - [c++](#c)
+  - [database](#database)
+  - [webdevel](#webdevel)
+  - [electronics](#electronics)
+  - [general development](#general-development)
+  - [math](#math)
+  - [networking](#networking)
+  - [python](#python)
+  - [linux](#linux)
+  - [security](#security)
+  - [mobile native](#mobile-native)
+  - [tools](#tools)
+  - [media](#media)
 <!-- TOCEND -->
 
 <hr/>
@@ -95,6 +96,7 @@ references for linux admin and development
 - [opensource dev](doc/opensource-dev.md)
 - git
   - [git](doc/git-usage.md)  
+  - [git animate](https://gource.io/)
   - [github git ssh](doc/github-git-ssh.md)
 - [run github action workflows locally](https://github.com/nektos/act)
 - fast gui diff `fldiff file1 file2`
