@@ -40,7 +40,7 @@
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
   "xml.format.maxLineWidth": 0,
-  
+  "markdown.extension.toc.levels": "2..6",
 }
 ```
 

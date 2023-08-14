@@ -55,4 +55,6 @@ code --install-extension slevesque.shader
 code --install-extension trottero.dotnetwatchattach
 code --install-extension twxs.cmake
 code --install-extension xaver.clang-format
+code --install-extension yzhang.markdown-all-in-one
+code --install-extension takumii.markdowntable
 ```
