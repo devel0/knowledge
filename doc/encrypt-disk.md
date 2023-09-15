@@ -1,13 +1,14 @@
 # encrypt disk
 
 <!-- TOC -->
-* [initialize partition crypto luks mapping](#initialize-partition-crypto-luks-mapping)
-* [open disk](#open-disk)
-* [use keyfile for automount](#use-keyfile-for-automount)
-* [mount on demand using keyfile and crypttab info](#mount-on-demand-using-keyfile-and-crypttab-info)
-* [duplicated uuid](#duplicated-uuid)
-* [change lvm encrypted passphrase](#change-lvm-encrypted-passphrase)
-* [autodecrypt using TPM2](#autodecrypt-using-tpm2)
+- [initialize partition crypto luks mapping](#initialize-partition-crypto-luks-mapping)
+- [open disk](#open-disk)
+- [use keyfile for automount](#use-keyfile-for-automount)
+- [mount on demand using keyfile and crypttab info](#mount-on-demand-using-keyfile-and-crypttab-info)
+- [duplicated uuid](#duplicated-uuid)
+- [change lvm encrypted passphrase](#change-lvm-encrypted-passphrase)
+- [autodecrypt using TPM2](#autodecrypt-using-tpm2)
+  - [list luks attached keys](#list-luks-attached-keys)
 <!-- TOCEND -->
 
 ## initialize partition crypto luks mapping
@@ -91,6 +92,14 @@ Note: replace DEVICE with the one within crypto `blkid | grep crypto`
 
 ```sh
 apt-get install clevis clevis-tpm2 clevis-luks clevis-initramfs initramfs-tools
-clevis luks bind -d DEVICE tpm2 '{"pcr_bank":"sha256"}'
+clevis luks bind -d DEVICE tpm2 '{"pcr_bank":"sha256","pcr_ids":"0,7,8"}'
 update-initramfs -u -k all
+```
+
+:warning: use at least pcr bank 8 to prevent init=/bin/sh linux kernel boot override ( see `man systemd-cryptenroll` )
+
+### list luks attached keys
+
+```sh
+clevis luks list -d DEV
 ```
