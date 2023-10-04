@@ -8,7 +8,9 @@
 - [duplicated uuid](#duplicated-uuid)
 - [change lvm encrypted passphrase](#change-lvm-encrypted-passphrase)
 - [autodecrypt using TPM2](#autodecrypt-using-tpm2)
-  - [list luks attached keys](#list-luks-attached-keys)
+  - [prevent kernel update deconfigure clevis luks](#prevent-kernel-update-deconfigure-clevis-luks)
+  - [list clevis tpm2 config](#list-clevis-tpm2-config)
+  - [regen clevis tpm2 config](#regen-clevis-tpm2-config)
 <!-- TOCEND -->
 
 ## initialize partition crypto luks mapping
@@ -92,14 +94,41 @@ Note: replace DEVICE with the one within crypto `blkid | grep crypto`
 
 ```sh
 apt-get install clevis clevis-tpm2 clevis-luks clevis-initramfs initramfs-tools
-clevis luks bind -d DEVICE tpm2 '{"pcr_bank":"sha256","pcr_ids":"0,7,8"}'
+clevis luks bind -d DEVICE tpm2 '{"pcr_bank":"sha256","pcr_ids":"8"}'
 update-initramfs -u -k all
 ```
 
 :warning: use at least pcr bank 8 to prevent init=/bin/sh linux kernel boot override ( see `man systemd-cryptenroll` )
 
-### list luks attached keys
+### prevent kernel update deconfigure clevis luks
+
+In order to prevent auto-decryption stop working after kernel update create the script in `/etc/kernel/postinst.d/zz-zclevis` with follow content
+
+```sh
+#!/bin/env bash
+
+DEVICE=/dev/sda3    # REPLACE DEVICE with your own
+SLOT=2              # REAPLCE SLOT with your (see clevis luks list...)
+
+clevis luks regen -d $DEVICE -s $SLOT -q
+```
+
+then `chmod +x /etc/kernel/postinst.d/zz-zclevis`
+
+To test you can reconfigure actual kernel with `dpkg-reconfigure linux-image-$(uname -r)` ;
+
+You can test that without the above `zz-zclevis` post-kernel-update script the drive autounlock it wouldn't have worked and at the boot the prompt for the password would have remained still.
+
+### list clevis tpm2 config
 
 ```sh
 clevis luks list -d DEV
+```
+
+### regen clevis tpm2 config
+
+( replace SLOT with the one matching from the `clevis luks list -d DEV` cmd )
+
+```sh
+clevis luks regen -d DEV -s SLOT -q
 ```
