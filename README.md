@@ -4,7 +4,6 @@ references for linux admin and development
 
 <hr/>
 
-<!-- TOC -->
 - [csharp](#csharp)
 - [shell](#shell)
 - [development tools](#development-tools)
@@ -21,7 +20,7 @@ references for linux admin and development
 - [mobile native](#mobile-native)
 - [tools](#tools)
 - [media](#media)
-<!-- TOCEND -->
+
 
 <hr/>
 
@@ -259,6 +258,7 @@ references for linux admin and development
   - [ubuntu server post install](doc/ubuntu-server-post-install.md)  
   - [custom boot script](doc/custom-boot-script.md)
   - [disable sleep](https://www.unixtutorial.org/disable-sleep-on-ubuntu-server/)
+  - [systemd services](doc/linux-systemd-services.md)
 - gnome
   - [shell extension with bash](https://github.com/p-e-w/argos)
   - [fix sort icon direction](https://bugs.launchpad.net/ubuntu/+source/gtk+3.0/+bug/1840516/comments/2)
