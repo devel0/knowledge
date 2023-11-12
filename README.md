@@ -130,6 +130,7 @@ references for linux admin and development
 
 ## c++
 
+- [clang format](./_files/.clang-format)
 - [linux vscode debug](https://github.com/devel0/example-vscode-linux-cpp-debug)
 - [dump-file-to-c](doc/dump-file-to-c.md)  
 
