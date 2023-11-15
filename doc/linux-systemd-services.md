@@ -21,6 +21,8 @@ ExecStart=PATHTOPROGRAM
 WantedBy=multi-user.target
 ```
 
+note: if edit further the service file `systemctl daemon-reload` required
+
 ## install service
 
 ```sh
@@ -43,4 +45,10 @@ service SERVICENAME status
 
 ```sh
 journalctl -u SERVICENAME
+```
+
+## clear service log
+
+```sh
+journalctl --vacuum-time=1seconds -u SERVICENAME
 ```
