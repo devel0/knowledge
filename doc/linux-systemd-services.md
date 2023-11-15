@@ -47,8 +47,3 @@ service SERVICENAME status
 journalctl -u SERVICENAME
 ```
 
-## clear service log
-
-```sh
-journalctl --vacuum-time=1seconds -u SERVICENAME
-```
