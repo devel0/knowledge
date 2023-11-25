@@ -270,6 +270,7 @@ references for linux admin and development
   - always on top `apt install compiz-plugins`
   - chrome freeze when attach files ( could try `apt install xdg-desktop-portal-gnome` to change file dialog )
 - devices
+  - [kubuntu enable touchpad tapping](https://askubuntu.com/a/1180254/766220)
   - [udev rules](doc/udev-rules.md)
   - nautilus file manager folder right click -> open in terminal `apt install nautilus-open-terminal`
 - log
