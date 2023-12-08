@@ -1,33 +1,32 @@
 # git usage
 
-<!-- TOC -->
-* [github fork workflow ( using vscode )](#github-fork-workflow--using-vscode-)
-* [checkout a remote branch](#checkout-a-remote-branch)
-* [graphical diff](#graphical-diff)
-* [graphical diff ( code )](#graphical-diff--code-)
-* [diff from previous commit](#diff-from-previous-commit)
-* [undo last commit](#undo-last-commit)
-* [commit all staged files](#commit-all-staged-files)
-* [clone specific tag](#clone-specific-tag)
-* [show local changes](#show-local-changes)
-* [show commit logs](#show-commit-logs)
-* [change to another branch/commit](#change-to-another-branchcommit)
-* [revert a commit](#revert-a-commit)
-* [pick a commit](#pick-a-commit)
-* [pick some file from another commit](#pick-some-file-from-another-commit)
-* [discard all local changes](#discard-all-local-changes)
-* [tag specific commit and push to remote](#tag-specific-commit-and-push-to-remote)
-* [github tips](#github-tips)
-* [show branches tree](#show-branches-tree)
-* [show local branches](#show-local-branches)
-* [commit to a new branch](#commit-to-a-new-branch)
-* [merge a branch into current](#merge-a-branch-into-current)
-* [delete branch local and remote](#delete-branch-local-and-remote)
-* [pull and switch to a branch](#pull-and-switch-to-a-branch)
-* [add submobule](#add-submobule)
-* [submobule init](#submobule-init)
-<!-- TOCEND -->
-
+- [github fork workflow ( using vscode )](#github-fork-workflow--using-vscode-)
+- [rename branch](#rename-branch)
+- [checkout a remote branch](#checkout-a-remote-branch)
+- [graphical diff](#graphical-diff)
+- [graphical diff ( code )](#graphical-diff--code-)
+- [diff from previous commit](#diff-from-previous-commit)
+- [undo last commit](#undo-last-commit)
+- [commit all staged files](#commit-all-staged-files)
+- [clone specific tag](#clone-specific-tag)
+- [show local changes](#show-local-changes)
+- [show commit logs](#show-commit-logs)
+- [change to another branch/commit](#change-to-another-branchcommit)
+- [revert a commit](#revert-a-commit)
+- [pick a commit](#pick-a-commit)
+- [pick some file from another commit](#pick-some-file-from-another-commit)
+- [discard all local changes](#discard-all-local-changes)
+- [tag specific commit and push to remote](#tag-specific-commit-and-push-to-remote)
+- [github tips](#github-tips)
+- [show branches tree](#show-branches-tree)
+- [show local branches](#show-local-branches)
+- [commit to a new branch](#commit-to-a-new-branch)
+- [merge a branch into current](#merge-a-branch-into-current)
+- [delete branch local and remote](#delete-branch-local-and-remote)
+- [pull and switch to a branch](#pull-and-switch-to-a-branch)
+- [add submobule](#add-submobule)
+- [submobule init](#submobule-init)
+ 
 <hr/>
 
 ## github fork workflow ( using vscode )
@@ -52,6 +51,14 @@ git checkout -b fix-some
 - add your origin from `Source Control / More Actions / Add Remote...` ( paste your fork url then insert a name `my` )
 - push changes to your repo `Source Control / Push` ( this will ask you to choose an origin as upstream of the branch `fix-some`, then choose your fork origin `my` )
 - go to github on your forked repository and click `Compare & pull request` btn
+
+## rename branch
+
+sometime you need to import a local git repo to a remote where the default branch differs in the name, ie. local is `master` while in remote is `main`; to overcome this issue rename the branch before push
+
+```sh
+git branch -M main
+```
 
 ## checkout a remote branch
 
