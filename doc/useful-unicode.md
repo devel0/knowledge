@@ -7,35 +7,36 @@
 
 ## unicodes
 
-| char | hex code | descr |
-|---|---|---|
-| Ω | 2126 | ohm |
-| μ | 03BC | micro |
-| Δ | 0394 | delta |
-| π | 03C0 | pi-greco |
-| ° | 00B0 | degree |
-| ∙ | 2219 | dot |
-| • | 2022 | bullet |
-| ⇒ | 21D2 | dbl right arrow |
-| ≃ | 2243 | similar equal |
-| ≈ | 2248 | approximately equal |
-| ≠ | 2260 | not equal |
-| ≤ | 2264 | less than or equal |
-| ≥ | 2265 | grat than or equal |
-| ∩ | 2229 | set intersect |
-| ∪ | 222A | set union |
-| ∈ | 2208 | element of |
-| ∉ | 2209 | not element of |
-| ∠ | 2220 | angle |
-| ∧ | 2227 | logical AND |
-| ∨ | 2228 | logical OR |
-| ∞ | 221E | infinity |
-| ∅ | 2205 | empty set |
-| ⊂ | 2282 | subset of |
-| ⊄ | 2284 | not subset of |
-| ⊆ | 2286 | subset or equals |
-| ⊈ | 2288 | not subset or equals |
-| ‰ | 2030 | per thousand sign |
+| char | hex code | descr                |
+| ---- | -------- | -------------------- |
+| Ω    | 2126     | ohm                  |
+| μ    | 03BC     | micro                |
+| Δ    | 0394     | delta                |
+| π    | 03C0     | pi-greco             |
+| ✓   | 2713     | sign check           |
+| °    | 00B0     | degree               |
+| ∙    | 2219     | dot                  |
+| •    | 2022     | bullet               |
+| ⇒    | 21D2     | dbl right arrow      |
+| ≃    | 2243     | similar equal        |
+| ≈    | 2248     | approximately equal  |
+| ≠    | 2260     | not equal            |
+| ≤    | 2264     | less than or equal   |
+| ≥    | 2265     | grat than or equal   |
+| ∩    | 2229     | set intersect        |
+| ∪    | 222A     | set union            |
+| ∈    | 2208     | element of           |
+| ∉    | 2209     | not element of       |
+| ∠    | 2220     | angle                |
+| ∧    | 2227     | logical AND          |
+| ∨    | 2228     | logical OR           |
+| ∞    | 221E     | infinity             |
+| ∅    | 2205     | empty set            |
+| ⊂    | 2282     | subset of            |
+| ⊄    | 2284     | not subset of        |
+| ⊆    | 2286     | subset or equals     |
+| ⊈    | 2288     | not subset or equals |
+| ‰    | 2030     | per thousand sign    |
 
 | char | hex code | descr |
 |---|---|---|
