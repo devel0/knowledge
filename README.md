@@ -30,6 +30,7 @@ references for linux admin and development
 - [send email 465](doc/send-email-465.md)
 - [psql ef codefirst](doc/psql-ef-codefirst.md)
 - [dotnet scripts](doc/dotnet-scripts.md)
+- [task programming](doc/task-programming.md)
 - dotnet core
   - [dotnet3 and 5 on ubuntu20.04](doc/dotnet-5-ubuntu20.04.md)
   - [netcore csproj](doc/netcore-csproj.md) ( generate doc, copy to output, define macro, exclude files from compile, disable warnings )
