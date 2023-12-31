@@ -2,6 +2,7 @@
 
 - [send post data](#send-post-data)
 - [send encoded OData query](#send-encoded-odata-query)
+- [send curl request through proxy](#send-curl-request-through-proxy)
 - [references](#references)
 
 <hr/>
@@ -37,6 +38,14 @@ curl -d '{"a":1, "b":"strval"}' -H "Content-Type: application/json" -X POST http
 
 ```sh
 curl --get --data-urlencode "\$top=1" http://some/odata/Dataset
+```
+
+## send curl request through proxy
+
+using [HTTP toolkit](https://httptoolkit.com/) can analyze localhost traffic
+
+```sh
+curl -x "http://localhost:8000" http://some/odata/Dataset
 ```
 
 ## references
