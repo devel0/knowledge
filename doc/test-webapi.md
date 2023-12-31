@@ -1,10 +1,8 @@
 # test webapi
 
-<!-- TOC -->
 - [send post data](#send-post-data)
 - [send encoded OData query](#send-encoded-odata-query)
 - [references](#references)
-<!-- TOCEND -->
 
 <hr/>
 
