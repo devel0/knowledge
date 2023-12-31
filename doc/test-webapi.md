@@ -42,10 +42,10 @@ curl --get --data-urlencode "\$top=1" http://some/odata/Dataset
 
 ## send curl request through proxy
 
-using [HTTP toolkit](https://httptoolkit.com/) can analyze localhost traffic
+using [mitmweb](https://github.com/mitmproxy/mitmproxy) can analyze localhost traffic
 
 ```sh
-curl -x "http://localhost:8000" http://some/odata/Dataset
+curl -x "http://localhost:8080" http://some/odata/Dataset
 ```
 
 ## references
