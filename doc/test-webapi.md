@@ -1,8 +1,9 @@
 # test webapi
 
 <!-- TOC -->
-* [send post data](#send-post-data)
-* [references](#references)
+- [send post data](#send-post-data)
+- [send encoded OData query](#send-encoded-odata-query)
+- [references](#references)
 <!-- TOCEND -->
 
 <hr/>
@@ -26,12 +27,18 @@ echo $res
 
 ## send post data
 
-```
+```sh
 curl -d "a=1&b=strval" -X POST http://localhost:5000
 ```
 
-```
+```sh
 curl -d '{"a":1, "b":"strval"}' -H "Content-Type: application/json" -X POST http://localhost:5000
+```
+
+## send encoded OData query
+
+```sh
+curl --get --data-urlencode "\$top=1" http://some/odata/Dataset
 ```
 
 ## references
