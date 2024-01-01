@@ -154,6 +154,7 @@ references for linux admin and development
 
 ## webdevel
 
+- [odata](https://www.odata.org/documentation/)
 - [ts hello world](doc/ts-hello-world.md)
 - [javascript/jquery](doc/javascript-jquery.md)
   - [momentjs date](doc/momentjs-date.md)
