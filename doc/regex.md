@@ -1,15 +1,16 @@
 # regex
 
 <!-- TOC -->
-* [reference](#reference)
-* [negative match](#negative-match)
-* [replace](#replace)
-* [replace all characters that not match allowed](#replace-all-characters-that-not-match-allowed)
-* [group matches](#group-matches)
-* [group replace](#group-replace)
-* [optional character](#optional-character)
-* [auto-escaping](#auto-escaping)
-* [optional group](#optional-group)
+- [reference](#reference)
+- [negative match](#negative-match)
+- [replace](#replace)
+- [replace all characters that not match allowed](#replace-all-characters-that-not-match-allowed)
+- [group matches](#group-matches)
+- [group matches sequence](#group-matches-sequence)
+- [group replace](#group-replace)
+- [optional character](#optional-character)
+- [auto-escaping](#auto-escaping)
+- [optional group](#optional-group)
 <!-- TOCEND -->
 
 <hr/>
@@ -60,6 +61,33 @@ var filename = "some_12.txt";
 
 var match = new Regex(@".*_(\d+)\.txt").Match(filename);
 if (match.Success) Console.WriteLine($"number is : {match.Groups[1].Value}");
+```
+
+## group matches sequence
+
+```csharp
+using System.Text.RegularExpressions;
+
+var ODataRegexGet = new Regex(@"odata/([^/]+)$"); // note: ending $ requires no more text
+var ODataRegexCount = new Regex(@"odata/([^/]+)/\$count$");
+
+var test1 = "/odata/Some";
+var test2 = "/odata/Some/$count";
+
+Console.WriteLine($"{test1,-20} match get base  = [{ODataRegexGet.Match(test1).Success}]");
+Console.WriteLine($"{test1,-20} match get count = [{ODataRegexCount.Match(test1).Success}]");
+
+Console.WriteLine($"{test2,-20} match get base  = [{ODataRegexGet.Match(test2).Success}]");
+Console.WriteLine($"{test2,-20} match get count = [{ODataRegexCount.Match(test2).Success}]");
+```
+
+results:
+
+```
+/odata/Some          match get base  = [True]
+/odata/Some          match get count = [False]
+/odata/Some/$count   match get base  = [False]
+/odata/Some/$count   match get count = [True]
 ```
 
 ## group replace
