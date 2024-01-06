@@ -144,6 +144,7 @@ references for linux admin and development
   - [select datetime timezone](doc/select-datetime-timezone.md)
   - [pgadmin](doc/pgadmin.md)
   - [index array](doc/psql-array-index.md)
+  - [sequence schema](doc/psql-sequences.md)
 - mssql
   - [docker local mssql server](doc/docker-local-mssql.md)
 - diagramming schema
