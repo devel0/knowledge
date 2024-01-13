@@ -145,6 +145,7 @@ references for linux admin and development
   - [pgadmin](doc/pgadmin.md)
   - [index array](doc/psql-array-index.md)
   - [sequence schema](doc/psql-sequences.md)
+  - [create db and assign user](doc/psql-create-db-user.md)
 - mssql
   - [docker local mssql server](doc/docker-local-mssql.md)
 - diagramming schema
