@@ -212,6 +212,10 @@ references for linux admin and development
 
 - [references](https://devhints.io/)
 
+## gis
+
+- [geojson](https://www.geoapify.com/geojson-javascript-developer-guide)
+
 ## math
 
 - [c# AngouriMath symbolic](https://github.com/devel0/scurve-speed-eval/blob/0bff63605a3f7fae49d6f56aab4b813efa755242/Program.cs#L54)
