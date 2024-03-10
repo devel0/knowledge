@@ -42,6 +42,12 @@ zfs -t zfs NAME@TAG MOUNTPOINT
 zfs destroy NAME@TAG
 ```
 
+## rollback to a snapshot
+
+```sh
+zfs rollback NAME@TAG
+```
+
 ## get compression
 
 ```sh
