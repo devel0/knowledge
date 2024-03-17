@@ -270,6 +270,7 @@ references for linux admin and development
   - [disable sleep](https://www.unixtutorial.org/disable-sleep-on-ubuntu-server/)
   - [systemd services](doc/linux-systemd-services.md)
   - [zfs](doc/zfs.md)
+  - [how much is wear ssd](doc/ssd-wear.md)
 - gnome
   - [shell extension with bash](https://github.com/p-e-w/argos)
   - [fix sort icon direction](https://bugs.launchpad.net/ubuntu/+source/gtk+3.0/+bug/1840516/comments/2)
