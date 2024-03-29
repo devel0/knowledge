@@ -199,6 +199,25 @@ echo "dm_bufio" >> /etc/initramfs-tools/modules
 
 - now system can rebooted and boot from raid autoenabling data+backup cache from /boot partition kernel modules
 
+## replace cache disk
+
+replace of cache disk is suggested when TBw exceed certified max TBw of the ssd disk ( see [here](https://github.com/devel0/knowledge/blob/c09e48fea493d7092b8146ae0f7a88586f53aed0/doc/ssd-wear.md#L29) to guess actual value ).
+
+in order to replace cache disk, current cache has to be removed:
+
+```sh
+lvconvert --uncache vg1/data
+vgreduce vg1 /dev/sda1
+pvs remove /dev/sda1
+
+lvconvert --uncache vg1/backup
+vgreduce vg1 /dev/sda2
+pvs remove /dev/sda2
+```
+
+- now turn off system and replace disk
+- after boot up redo [enable ssd cache](#enable-ssd-cache)
+
 ## replace damaged disk
 
 - [see this](replace-raid-md-damaged-disk.md)
