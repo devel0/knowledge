@@ -4,23 +4,24 @@ references for linux admin and development
 
 <hr/>
 
-- [csharp](#csharp)
-- [shell](#shell)
-- [development tools](#development-tools)
-- [c++](#c)
-- [database](#database)
-- [webdevel](#webdevel)
-- [electronics](#electronics)
-- [general development](#general-development)
-- [gis](#gis)
-- [math](#math)
-- [networking](#networking)
-- [python](#python)
-- [linux](#linux)
-- [security](#security)
-- [mobile native](#mobile-native)
-- [tools](#tools)
-- [media](#media)
+- [knowledge](#knowledge)
+  - [csharp](#csharp)
+  - [shell](#shell)
+  - [development tools](#development-tools)
+  - [c++](#c)
+  - [database](#database)
+  - [webdevel](#webdevel)
+  - [electronics](#electronics)
+  - [general development](#general-development)
+  - [gis](#gis)
+  - [math](#math)
+  - [networking](#networking)
+  - [python](#python)
+  - [linux](#linux)
+  - [security](#security)
+  - [mobile native](#mobile-native)
+  - [tools](#tools)
+  - [media](#media)
 
 
 <hr/>
@@ -248,7 +249,9 @@ references for linux admin and development
 - [ethernet cabling T568B](http://www.comnen.com/whats-the-difference-between-t568a-and-t568b/)
 - scan hostnames `nmap -sn addr/mask`
 - [bluetooth](doc/bluetooth.md)
-- [tcpdump examples](https://danielmiessler.com/study/tcpdump/)
+- tcpdump  
+  - [cheat sheet](https://cdn.comparitech.com/wp-content/uploads/2019/06/tcpdump-cheat-sheet-2.pdf)
+  - [examples](https://danielmiessler.com/study/tcpdump/)
 - [cert fingerprint](doc/cert-fingerprint.md)
 - retrieve bandwidth utilization continously for given interface with `ifstat -i devname`
 - download remote http folder `wget -r --no-parent URL`
