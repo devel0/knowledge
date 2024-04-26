@@ -267,7 +267,8 @@ references for linux admin and development
 ## linux
 
 - server
-  - [quick and dirty os install notes](doc/quick-and-dirty-server-install-notes.md)
+  - [quick and dirty virtualized vlan os install notes](doc/quick-and-dirty-virtualized-vlan-server-install.md)
+  - [quick and dirty os install notes](doc/quick-and-dirty-server-install-notes.md)  
   - [resize lvm cache in favor of swap partition](doc/resize-lvm-cache.md)
   - [ubuntu server post install](doc/ubuntu-server-post-install.md)  
   - [custom boot script](doc/custom-boot-script.md)
@@ -275,6 +276,8 @@ references for linux admin and development
   - [systemd services](doc/linux-systemd-services.md)
   - [zfs](doc/zfs.md)
   - [how much is wear ssd](doc/ssd-wear.md)
+  - [netfilter](https://en.wikipedia.org/wiki/Netfilter#)
+  - [self signed cert](doc/self-signed-cert.md)
 - gnome
   - [shell extension with bash](https://github.com/p-e-w/argos)
   - [fix sort icon direction](https://bugs.launchpad.net/ubuntu/+source/gtk+3.0/+bug/1840516/comments/2)
