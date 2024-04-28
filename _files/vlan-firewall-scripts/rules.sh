@@ -73,10 +73,9 @@ setup_rules() {
 
     #endregion
 
-    #region ----- BARE METAL SERVER    
+    #region ----- BARE METAL SERVER        
 
-    comment="allow bare go to inet"
-    accept FORWARD-2 -s $ip_bare -o $if_inet
+    allow_basic bare $ip_bare
 
     #endregion     
 
@@ -113,27 +112,17 @@ setup_rules() {
     #region ----- NGINX
     
     comment="redirect internet http(s) to nginx"
-    pre_add -d $ip_fw_vlan10 -p tcp -m multiport --dports $svc_http,$svc_https -j DNAT --to $ip_nginx
+    pre_add -d $ip_fw_vlan10 -p tcp -m multiport --dports $svc_http,$svc_https -j DNAT --to $ip_nginx    
 
     comment="allow forward to nginx http(s)"
     accept FORWARD-2 -d $ip_nginx -p tcp -m multiport --dports $svc_http,$svc_https
 
-    comment="allow nginx go to http(s)"
-    accept FORWARD-2 -s $ip_nginx -p tcp -m multiport --dports $svc_http,$svc_https
-        
-    comment="allow nginx go to dns (udp)"
-    accept FORWARD-2 -s $ip_nginx -d $ip_dns_dhcp -p udp --dport $svc_dns
+    allow_basic nginx $ip_nginx        
 
-    comment="allow nginx go to dns (tcp)"
-    accept FORWARD-2 -s $ip_nginx -d $ip_dns_dhcp -p tcp --dport $svc_dns
-
-    comment="allow nginx go to ntp (udp)"
-    accept FORWARD-2 -s $ip_nginx -p udp --dport $svc_ntp    
+    #---
 
     comment="allow nginx go to wifi-home"
     accept FORWARD-2 -s $ip_nginx -d $ip_wifi_home -p tcp --dport $svc_http    
-
-    #---
 
     comment="allow nginx go to dns-dhcp (dnsweb)"
     accept FORWARD-2 -s $ip_nginx -d $ip_dns_dhcp -p tcp --dport $svc_dnsweb

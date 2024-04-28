@@ -201,3 +201,25 @@ enable_ip_forward() {
 	# enable ip forward
 	$cmd_sysctl net.ipv4.ip_forward="1" >&/dev/null
 }
+
+
+#-------------------------
+# args: servername serverip
+#-------------------------
+allow_basic() {
+	comment="allow $1 go to inet http(s)"
+    accept FORWARD-2 -s $2 -o $if_inet -p tcp -m multiport --dports $svc_http,$svc_https
+
+    comment="allow $1 go to dns (udp)"
+    accept FORWARD-2 -s $2 -d $ip_dns_dhcp -p udp --dport $svc_dns
+
+    comment="allow $1 go to dns (tcp)"
+    accept FORWARD-2 -s $2 -d $ip_dns_dhcp -p tcp --dport $svc_dns
+
+    comment="allow $1 go to ntp (udp)"
+    accept FORWARD-2 -s $2 -p udp --dport $svc_ntp
+
+	comment="allow ping"
+    accept FORWARD-2 -p ICMP --icmp-type 8
+    accept FORWARD-2 -p ICMP --icmp-type 11	
+}
