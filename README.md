@@ -277,6 +277,7 @@ references for linux admin and development
   - [how much is wear ssd](doc/ssd-wear.md)
   - [netfilter](https://en.wikipedia.org/wiki/Netfilter#)
   - [self signed cert](doc/self-signed-cert.md)
+  - log errors paged `journalctl -xe --pager`
 - gnome
   - [shell extension with bash](https://github.com/p-e-w/argos)
   - [fix sort icon direction](https://bugs.launchpad.net/ubuntu/+source/gtk+3.0/+bug/1840516/comments/2)
