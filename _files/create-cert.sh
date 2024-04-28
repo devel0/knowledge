@@ -14,8 +14,9 @@ if [ "$1" == "" ]; then
     exit
 fi
 
-rootcadir=$exdir/sscerts
+rootcadir=~/sscerts
 mkdir -p $rootcadir
+chmod 600 $rootcadir
 
 ROOT_CA_KEY=$rootcadir/${DOMAIN}_CA.key
 ROOT_CA_CRT=$rootcadir/${DOMAIN}_CA.crt

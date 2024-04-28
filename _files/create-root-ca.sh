@@ -6,9 +6,10 @@ exdir=$(dirname $(readlink -f "$0"))
 
 source $exdir/cert-parameters
 
-rootcadir=$exdir/sscerts
+rootcadir=~/sscerts
 
 mkdir -p $rootcadir
+chmod 700 $rootcadir
 
 ROOT_CA_KEY=$rootcadir/${DOMAIN}_CA.key
 ROOT_CA_CRT=$rootcadir/${DOMAIN}_CA.crt

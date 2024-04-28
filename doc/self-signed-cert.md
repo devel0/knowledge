@@ -26,12 +26,12 @@ DURATION_DAYS=365
 
 - run [create-root-ca.sh](../_files/create-root-ca.sh)
 - this generates
-  - `sscerts/DOMAIN_CA.crt`
-  - `sscerts/DOMAIN_CA.key`
+  - `~/sscerts/DOMAIN_CA.crt`
+  - `~/sscerts/DOMAIN_CA.key`
 
 notes:
-- keep `sscerts/DOMAIN_CA.key` securely; this file IS NOT NEEDED for nginx
-- `sscerts/DOMAIN_CA.crt` is the root ca certificate that can be "shared" across devices ( see [install root CA](#install-root-ca) ) to trust websites served from nginx using self signed certificates ( see [create multisubject certificate](#create-multisubject-certificate) )
+- keep `~/sscerts/DOMAIN_CA.key` securely; this file IS NOT NEEDED for nginx
+- `~/sscerts/DOMAIN_CA.crt` is the root ca certificate that can be "shared" across devices ( see [install root CA](#install-root-ca) ) to trust websites served from nginx using self signed certificates ( see [create multisubject certificate](#create-multisubject-certificate) )
 
 ## install root CA
 
