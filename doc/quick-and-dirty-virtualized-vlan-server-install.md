@@ -8,6 +8,7 @@
 - [Bare metal](#bare-metal)
 - [Firewall/VPN install](#firewallvpn-install)
 - [Dns/Dhcp server](#dnsdhcp-server)
+- [Setup stable network connection on server](#setup-stable-network-connection-on-server)
 - [Setup workstation after basic vms install](#setup-workstation-after-basic-vms-install)
 - [Nginx server](#nginx-server)
 - [Modem DMZ](#modem-dmz)
@@ -523,6 +524,48 @@ curl -sSL https://download.technitium.com/dns/install.sh | sudo bash
   - router address: `10.10.4.1`
 
 - additions: after installed nginx, you could deny access 5380 through iptables for address different than nginx server translating the ip address restriction to ip allowed to access dns to the nginx conf
+
+## Setup stable network connection on server
+
+Now that firewall and dns-dhcp are enabled
+
+- rename `/etc/netplan/network-tmp-install.yaml` to `/etc/netplan/network-tmp-install.yaml.old`
+- create `/etc/netplan/network.yaml`
+
+```yaml
+network:
+  version: 2
+  renderer: networkd
+
+  ethernets:
+    enp2s0:
+      dhcp4: false
+      dhcp6: false
+      optional: true
+
+  bridges:
+    br0:
+      interfaces: [enp2s0]
+      mtu: 1500
+      parameters:
+        stp: true
+        forward-delay: 4
+      dhcp4: false
+      dhcp6: false
+
+  vlans:
+    vlan10:
+      id: 20
+      link: br0
+      addresses: [10.10.1.10/24]
+      routes:
+        - to: default
+          via: 10.10.1.1
+      nameservers:
+        addresses: [10.10.4.11]
+```
+
+reboot bare metal server
 
 ## Setup workstation after basic vms install
 
