@@ -4,23 +4,24 @@ references for linux admin and development
 
 <hr/>
 
-- [csharp](#csharp)
-- [shell](#shell)
-- [development tools](#development-tools)
-- [c++](#c)
-- [database](#database)
-- [webdevel](#webdevel)
-- [electronics](#electronics)
-- [general development](#general-development)
-- [gis](#gis)
-- [math](#math)
-- [networking](#networking)
-- [python](#python)
-- [linux](#linux)
-- [security](#security)
-- [mobile native](#mobile-native)
-- [tools](#tools)
-- [media](#media)
+- [knowledge](#knowledge)
+  - [csharp](#csharp)
+  - [shell](#shell)
+  - [development tools](#development-tools)
+  - [c++](#c)
+  - [database](#database)
+  - [webdevel](#webdevel)
+  - [electronics](#electronics)
+  - [general development](#general-development)
+  - [gis](#gis)
+  - [math](#math)
+  - [networking](#networking)
+  - [python](#python)
+  - [linux](#linux)
+  - [security](#security)
+  - [mobile native](#mobile-native)
+  - [tools](#tools)
+  - [media](#media)
 
 
 <hr/>
@@ -224,6 +225,7 @@ references for linux admin and development
 
 ## networking
 
+- [netplan yaml ref](https://netplan.readthedocs.io/en/latest/netplan-yaml/)
 - [ubuntu desktop disable network manager](doc/ubuntu-desktop-disable-network-manager.md)
 - [ssh port forward](doc/ssh-port-forward.md)
 - send a tcp packet `echo sample | nc 10.10.2.10 1000`
