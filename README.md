@@ -377,6 +377,7 @@ references for linux admin and development
 
 ## security
 
+- [gpg](doc/gpg.md)
 - [iptables firewall](https://github.com/devel0/linux-scripts-utils/blob/ba388ae1e5a0b158cdf83f7d067318b9caccf203/fw.sh)
 - [generate htpasswd](doc/generate-htpasswd.md)
 - [cert management](doc/cert-management.md)
