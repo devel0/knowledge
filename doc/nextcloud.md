@@ -23,3 +23,29 @@ sometimes occurs some internal lock that not autorelease ; for example you canno
 - put in maintenance cloud by settings `'maintenance' => true,` in config/config.php
 - issue a `delete from oc_file_locks` from the cloud db
 - revert maintenance mode
+
+
+## troubleshoot
+
+### 413 Request Entity Too Large
+
+edit nginx under http or in specific ( ie. `/etc/nginx/conf.d/cloud.conf` )
+
+```
+client_max_body_size 20000M; # 20gb or 0 to disable the check
+
+server {
+  root /var/www/html;
+
+  server_name cloud.DOMAIN;
+
+  location / {
+    include /etc/nginx/mime.types;
+
+    proxy_set_header Host $host;
+    proxy_pass http://xx.yy.zz.ww;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+  }
+}
+```
