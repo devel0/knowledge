@@ -1,5 +1,11 @@
 # nextcloud
 
+- [ignore folders](#ignore-folders)
+- [server side rescan](#server-side-rescan)
+- [delete locks](#delete-locks)
+- [troubleshoot](#troubleshoot)
+  - [413 Request Entity Too Large](#413-request-entity-too-large)
+
 ## ignore folders
 
 on the client 3dots menu -> edit ignored files ( [pattern details](https://docs.nextcloud.com/desktop/2.5/architecture.html#ignored-files) )
