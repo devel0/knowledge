@@ -1,12 +1,21 @@
 # self signed cert
 
+- [scripts](#scripts)
 - [create root CA](#create-root-ca)
 - [install root CA](#install-root-ca)
   - [system wide (apps)](#system-wide-apps)
   - [system wide (firefox)](#system-wide-firefox)
   - [user (chrome)](#user-chrome)
 - [create multisubject certificate](#create-multisubject-certificate)
+- [localhost development certificate](#localhost-development-certificate)
+  - [asp net](#asp-net)
+  - [vite.config.ts](#viteconfigts)
 - [config nginx](#config-nginx)
+
+## scripts
+
+- [create-root-ca.sh](../_files/create-root-ca.sh)
+- [create-cert.sh](../_files/create-cert.sh)
 
 ## create root CA
 
@@ -21,10 +30,10 @@ CITY="Trento"
 ORGNAME="SearchAThing"
 ORGUNIT="Development"
 DOMAIN=searchathing.com
-DURATION_DAYS=365
+DURATION_DAYS=36500 # 100 years
 ```
 
-- run [create-root-ca.sh](../_files/create-root-ca.sh)
+- run `create-root-ca.sh`
 - this generates
   - `~/sscerts/DOMAIN_CA.crt`
   - `~/sscerts/DOMAIN_CA.key`
@@ -75,13 +84,145 @@ To allow curl, etc to trust your self signed cert:
 ## create multisubject certificate
 
 - file `root-ca-parameters` from previous step is needed
-- run `create-cert.sh NAME1 NAME2 ...` to create a self signed cert with subject alternative names NAME1.DOMAIN, NAME2.DOMAIN
+- run `create-cert.sh NAME1 NAME2 ...` to create a self signed cert with subject alternative names NAME1.DOMAIN, NAME2.DOMAIN  
 - this generates follow files in `sscerts/NAME1.DOMAIN`
   - `NAME1.DOMAIN.key` ( certificate private key to be used in nginx `ssl_certificate_key` parameter )
   - `NAME1.DOMAIN.crt` ( certificate to be used in nginx `ssl_certificate` parameter )
   - `NAME1.DOMAIN.crt.conf` ( certificate config )
   - `NAME1.DOMAIN.csr` ( certificate signing request )
   - `NAME1.DOMAIN.csr.conf` ( certificate signing request config )
+
+## localhost development certificate
+
+- create `cert-parameters` for localhost dev
+
+```sh
+#!/usr/bin/env bash
+
+COUNTRY="IT"
+STATE="Italy"
+CITY="Trento"
+ORGNAME="SearchAThing"
+ORGUNIT="Development"
+DOMAIN=localhost
+DURATION_DAYS=36500 # 100 years
+```
+
+and issue
+
+`create-cert --add-empty`
+
+- trust w/browser and/or system ca-certificates
+  - root ca will be `~/sscerts/localhost_CA.crt`
+- use in aspnet and/or vite
+  - cert crt will be `~/sscerts/localhost/localhost.crt`
+  - cert key will be `~/sscerts/localhost/localhost.key`
+
+### asp net
+
+
+```csharp
+public static partial class Toolkit
+{
+
+    public static string DevelopmentCertificateCrtPathfilename
+    {
+        get
+        {
+            return Path.Combine(
+                Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),
+                "sscerts",
+                "localhost",
+                "localhost.crt");
+        }
+    }
+
+    public static string DevelopmentCertificateKeyPathfilename
+    {
+        get
+        {
+            return Path.Combine(
+                Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),
+                "sscerts",
+                "localhost",
+                "localhost.key");
+        }
+    }
+
+}
+
+public static partial class Ext
+{
+
+    /// <summary>
+    /// configure kestrel to use development certificates ~/sscerts/localhost
+    /// </summary>
+    public static void ConfigureDevCerts(this WebApplicationBuilder builder)
+    {
+        if (builder.Environment.IsDevelopment())
+        {
+
+            builder.WebHost.ConfigureKestrel((context, serverOptions) =>
+            {
+                var kestrelSection = context.Configuration.GetSection("Kestrel");
+
+                serverOptions.ConfigureHttpsDefaults(configureOptions =>
+                {
+                    configureOptions.ServerCertificateSelector = (connectionContext, name) =>
+                    {
+                        var crt = X509Certificate2.CreateFromPemFile(
+                            DevelopmentCertificateCrtPathfilename,
+                            DevelopmentCertificateKeyPathfilename);
+
+                        return crt;
+                    };
+                });
+            });
+
+        }
+    }
+
+}
+```
+
+then from `Program.cs`
+
+
+```csharp
+var builder = WebApplication.CreateBuilder(args);
+
+builder.ConfigureDevCerts();
+```
+
+### vite.config.ts
+
+```ts
+import * as path from "path";
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import fs from 'fs';
+import * as os from 'os'
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  server: {
+    https: {
+      key: fs.readFileSync(path.join(os.homedir(), 'sscerts', 'localhost', 'localhost.key')),
+      cert: fs.readFileSync(path.join(os.homedir(), 'sscerts', 'localhost', 'localhost.crt'))
+    },
+    port: 5012,
+    strictPort: true,
+    proxy: {
+      '/api': {
+        target: 'https://localhost:5011/',
+        changeOrigin: true,
+        secure: true
+      }
+    }
+  }  
+})
+```
 
 ## config nginx
 

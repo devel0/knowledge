@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
 
+ADDEMPTY=false
+
+if [ "$1" == "--add-empty" ]; then
+    ADDEMPTY=true
+    shift
+fi
+
 set -e # exit if errors
 # set -x
 
@@ -9,19 +16,23 @@ source $exdir/cert-parameters
 
 DURATION_DAYS=36500 # 100 years
 
-if [ "$1" == "" ]; then
+if [ "$1" == "" ] && ! $ADDEMPTY; then
+    echo "$0 [--add-empty] [NAME]*"
     echo "specify name of domains ( ie. "some some2" will generate some.$DOMAIN, some2.$DOMAIN )"
     exit
 fi
 
 rootcadir=~/sscerts
 mkdir -p $rootcadir
-chmod 600 $rootcadir
+chmod 700 $rootcadir
 
 ROOT_CA_KEY=$rootcadir/${DOMAIN}_CA.key
 ROOT_CA_CRT=$rootcadir/${DOMAIN}_CA.crt
 
 FQDN=$1.$DOMAIN
+if [ "$1" == "" ] && $ADDEMPTY; then
+    FQDN=$DOMAIN
+fi
 outdir=$rootcadir/$FQDN
 mkdir -p $outdir
 
@@ -40,9 +51,14 @@ openssl genrsa \
 # args: appendfile dns1 dns2 ...
 function append_dns_vars() {
 
-    set +e
+    set +e    
     
-    let k=1
+    let k=1    
+
+    if $ADDEMPTY; then 
+        echo "DNS.$k = $DOMAIN" >> $1
+        let k=$k+1
+    fi
 
     for i in ${@:2}; do        
         echo "DNS.$k = $i.$DOMAIN" >> $1
