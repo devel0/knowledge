@@ -1,5 +1,12 @@
 # stm32 tips
 
+- [build and debug flags](#build-and-debug-flags)
+- [different behavior on debugging versus upload](#different-behavior-on-debugging-versus-upload)
+- [`Error erasing flash with vFlashErase packet` error](#error-erasing-flash-with-vflasherase-packet-error)
+- [stm32f446re : Serial3 and Serial4 conflicts](#stm32f446re--serial3-and-serial4-conflicts)
+- [troubleshoot](#troubleshoot)
+	- [libusb\_open() failed with LIBUSB\_ERROR\_ACCESS](#libusb_open-failed-with-libusb_error_access)
+
 ## build and debug flags
 
 - to avoid forgetting to return value on function declaring a return type; this will block the process ( it may be for a disaligned heap )
@@ -46,3 +53,14 @@ to use all serials in f446re, supply `platformio.ini` with follow config ( Seria
 	-DENABLE_HWSERIAL5 -DPIN_SERIAL5_RX=PD2 -DPIN_SERIAL5_TX=PC12	
 	-DENABLE_HWSERIAL6 -DPIN_SERIAL6_RX=PC7 -DPIN_SERIAL6_TX=PC6
 ```
+
+## troubleshoot
+
+### libusb_open() failed with LIBUSB_ERROR_ACCESS
+
+```sh
+apt install stlink-tools
+systemctl restart udev
+```
+
+then reconnect device
