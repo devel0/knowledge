@@ -4,24 +4,23 @@ references for linux admin and development
 
 <hr/>
 
-- [knowledge](#knowledge)
-  - [csharp](#csharp)
-  - [shell](#shell)
-  - [development tools](#development-tools)
-  - [c++](#c)
-  - [database](#database)
-  - [webdevel](#webdevel)
-  - [electronics](#electronics)
-  - [general development](#general-development)
-  - [gis](#gis)
-  - [math](#math)
-  - [networking](#networking)
-  - [python](#python)
-  - [linux](#linux)
-  - [security](#security)
-  - [mobile native](#mobile-native)
-  - [tools](#tools)
-  - [media](#media)
+- [csharp](#csharp)
+- [shell](#shell)
+- [development tools](#development-tools)
+- [c++](#c)
+- [database](#database)
+- [webdevel](#webdevel)
+- [electronics](#electronics)
+- [general development](#general-development)
+- [gis](#gis)
+- [math](#math)
+- [networking](#networking)
+- [python](#python)
+- [linux](#linux)
+- [security](#security)
+- [mobile native](#mobile-native)
+- [tools](#tools)
+- [media](#media)
 
 
 <hr/>
@@ -331,6 +330,7 @@ references for linux admin and development
   - [ubuntu 18.04](doc/ubuntu-18.04-tune.md)  
 - virtualization
   - [virsh storage](doc/virsh-storage.md)
+  - [virsh tips](doc/virsh.md)
   - [virtualbox](doc/virtualbox.md)
   - [set virtualbox guest motherboard-cpu-id](doc/virtualbox-motherboard-cpu-id.md)
   - copy qcow2 over network `rsync -Szv --progress src.qcow2 dst:folder`
