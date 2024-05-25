@@ -14,24 +14,14 @@
 
 ## scripts
 
-- [create-root-ca.sh](../_files/create-root-ca.sh)
-- [create-cert.sh](../_files/create-cert.sh)
+```sh
+mkdir ~/opensource
+cd ~/opensource
+git clone https://github.com/devel0/linux-scripts-utils.git
+export PATH=$PATH:~/opensource/linux-scripts-utils
+```
 
 ## create root CA
-
-- create `cert-parameters` changing as needed
-
-```sh
-#!/usr/bin/env bash
-
-COUNTRY="IT"
-STATE="Italy"
-CITY="Trento"
-ORGNAME="SearchAThing"
-ORGUNIT="Development"
-DOMAIN=searchathing.com
-DURATION_DAYS=36500 # 100 years
-```
 
 - run `create-root-ca.sh`
 - this generates
