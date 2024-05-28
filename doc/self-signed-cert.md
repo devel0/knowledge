@@ -42,6 +42,12 @@ To allow curl, etc to trust your self signed cert:
 
 - run `update-ca-certificates`
 
+To inform nodejs to use openssl ca certs
+
+```sh
+NODE_OPTIONS=--use-openssl-ca PROGRAM
+```
+
 ### system wide (firefox)
 
 - create `/usr/lib/firefox/distribution/policies.json` changing:
