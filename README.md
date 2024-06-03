@@ -374,6 +374,8 @@ references for linux admin and development
 - show battery level `cat /sys/class/power_supply/BAT0/capacity`
 - [nextcloud tips](doc/nextcloud.md)
 - [fonts](doc/fonts.md)
+- general
+  - [firefox](doc/firefox.md)
 
 ## security
 
