@@ -52,6 +52,7 @@ NODE_OPTIONS=--use-openssl-ca PROGRAM
 
 - create `/usr/lib/firefox/distribution/policies.json` changing:
   - `searchathing.com_CA.crt` with your root ca cert file
+- if using firefox through snap edit `/etc/firefox/policies/policies.json` instead
 
 ```json
 {

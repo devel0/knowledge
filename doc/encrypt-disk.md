@@ -11,6 +11,7 @@
   - [prevent kernel update deconfigure clevis luks](#prevent-kernel-update-deconfigure-clevis-luks)
   - [list clevis tpm2 config](#list-clevis-tpm2-config)
   - [regen clevis tpm2 config](#regen-clevis-tpm2-config)
+  - [cheatsheet](#cheatsheet)
 <!-- TOCEND -->
 
 ## initialize partition crypto luks mapping
@@ -132,3 +133,15 @@ clevis luks list -d DEV
 ```sh
 clevis luks regen -d DEV -s SLOT -q
 ```
+
+### cheatsheet
+
+| cmd                                               | description                               |
+| ------------------------------------------------- | ----------------------------------------- |
+| `cryptsetup --verbose open --test-passphrase DEV` | test device for unlock w/given passphrase |
+| `cryptsetup luksDump DEV`                         | list slots                                |
+| `cryptsetup luksChangeKey DEV -S SLOTNR`          | change slot password                      |
+| `cryptsetup luksAddKey DEV`                       | add password to slot                      |
+| `cryptsetup -v luksKillSlot DEV SLOTNR`           | remove slot                               |
+| `cryptsetup token remove --token-id TOKENID DEV`  | remove token                              |
+| `tpm2_pcrread`                                    | read tpm2 pcr banks                       |
