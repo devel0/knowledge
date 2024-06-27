@@ -63,7 +63,7 @@ references for linux admin and development
 ## shell
 
 - [bash scripting](doc/bash-scripting.md)
-- executing dir `exdir=$(dirname $(readlink -f "$0"))`
+- executing dir `exdir="$(dirname "$(readlink -f "$0")")"`
 - text screencast
   - [ttyrec ttygif](doc/ttyrec-ttygif.md)
   - [asciinema](https://asciinema.org/)
