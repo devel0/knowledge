@@ -33,7 +33,7 @@ zfs list -t snapshot
 ## mount snapshot
 
 ```sh
-zfs -t zfs NAME@TAG MOUNTPOINT
+mount -t zfs NAME@TAG MOUNTPOINT
 ```
 
 ## destroy snapshot
