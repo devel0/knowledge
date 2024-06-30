@@ -224,6 +224,7 @@ references for linux admin and development
 
 ## networking
 
+- get current public ip address `curl -s ifconfig.me`
 - [netplan yaml ref](https://netplan.readthedocs.io/en/latest/netplan-yaml/)
 - [ubuntu desktop disable network manager](doc/ubuntu-desktop-disable-network-manager.md)
 - [ssh port forward](doc/ssh-port-forward.md)
