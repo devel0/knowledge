@@ -270,6 +270,7 @@ references for linux admin and development
 - server
   - [quick and dirty virtualized vlan os install notes](doc/quick-and-dirty-virtualized-vlan-server-install.md)
   - [quick and dirty os install notes](doc/quick-and-dirty-server-install-notes.md)  
+  - [prevent unattended upgrades](doc/prevent-unattended-upgrades.md)
   - [resize lvm cache in favor of swap partition](doc/resize-lvm-cache.md)
   - [ubuntu server post install](doc/ubuntu-server-post-install.md)  
   - [custom boot script](doc/custom-boot-script.md)
