@@ -1,5 +1,21 @@
 # dotnet-trace
 
+## global tools
+
+- [overview](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/tools-overview)
+- [dotnet-gcdump](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/dotnet-gcdump)
+
+```sh
+dotnet tool install --global dotnet-gcdump
+```
+
+view `gcdump` file
+
+```sh
+dotnet tool install -g dotnet-heapview
+```
+
+
 ## install
 
 ```sh
