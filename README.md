@@ -375,7 +375,9 @@ references for linux admin and development
   - tail log continously `docker logs -f CONTAINER | grep --line-buffered -ia WORD`
   - [run gitlab ci from terminal](https://stackoverflow.com/a/65920577/5521766)
 - show battery level `cat /sys/class/power_supply/BAT0/capacity`
-- [nextcloud tips](doc/nextcloud.md)
+- nextcloud
+  - [tips](doc/nextcloud.md)
+  - [rclone](doc/rclone.md)
 - [fonts](doc/fonts.md)
 - general
   - [firefox](doc/firefox.md)
