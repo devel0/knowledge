@@ -41,6 +41,9 @@
   },
   "xml.format.maxLineWidth": 0,
   "markdown.extension.toc.levels": "2..6",
+  "editor.stickyScroll.scrollWithEditor": false,
+  "workbench.tree.enableStickyScroll": false,
+  "editor.hover.sticky": false  
 }
 ```
 
