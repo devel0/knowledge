@@ -295,6 +295,7 @@ references for linux admin and development
   - [kubuntu enable touchpad tapping](https://askubuntu.com/a/1180254/766220)
   - [udev rules](doc/udev-rules.md)
   - nautilus file manager folder right click -> open in terminal `apt install nautilus-open-terminal`
+  - hardware inventory `inxi`
 - log
   - colourized log `grc --colour=on tail -f /var/log/syslog`
   - grep only in file pattern `grep -r --include="*.EXT" <search-string> <beginpath>`
