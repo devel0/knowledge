@@ -1,7 +1,13 @@
 # prompt colors
 
-- copy [themeprompt](https://raw.githubusercontent.com/devel0/linux-scripts-utils/master/themeprompt) script into `~/.themeprompt`
-- read script with `source ~/.themeprompt`
+- copy the script
+
+```sh
+curl -o ~/.themeprompt https://raw.githubusercontent.com/devel0/linux-scripts-utils/master/themeprompt
+```
+
+- source the script with `source ~/.themeprompt`
+
 - function syntax
 
 ```
