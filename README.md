@@ -62,7 +62,9 @@ references for linux admin and development
 
 ## shell
 
-- [bash scripting](doc/bash-scripting.md)
+- bash
+  - [bash scripting](doc/bash-scripting.md)
+  - [prompt colors](doc/prompt-colors.md)
 - executing dir `exdir="$(dirname "$(readlink -f "$0")")"`
 - text screencast
   - [ttyrec ttygif](doc/ttyrec-ttygif.md)
