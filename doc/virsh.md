@@ -2,6 +2,26 @@
 
 - [ss](#ss)
 
+## save and restore domain with snapshots
+
+- pre: clone [linux-scripts-utils](https://github.com/devel0/linux-scripts-utils/tree/master) adding a path to
+
+- from source machine
+  - copy qcow2 files
+  - save domain and snaps
+
+```sh
+virsh-save-xml VMNAME PATH_TO_SAVEFOLDER
+```
+
+- from other machine
+  - copy qcow in the same path ( ie `/var/lib/libvirt/images` )
+  - restore domain and snaps
+
+```sh
+virsh-restore-xml PATH_TO_SAVEFOLDER/VMNAME
+```
+
 ## remove attached usb devuce from snapshot
 
 to allow start a snapshot with not available attached usb

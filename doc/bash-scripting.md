@@ -1,23 +1,36 @@
 # bash scripting
 
-<!-- TOC -->
-* [string](#string)
-  + [extract substring](#extract-substring)
-  + [check if string contains another](#check-if-string-contains-another)
-  + [references](#references)
-* [files](#files)
-  + [loop through files arguments](#loop-through-files-arguments)
-  + [loop through file lines](#loop-through-file-lines)
-  + [loop over find results](#loop-over-find-results)
-* [file age in seconds/months](#file-age-in-secondsmonths)
-* [control](#control)
-* [OR condition](#or-condition)
-  + [function with arguments](#function-with-arguments)
-* [math](#math)
-  + [decimal numeric test using bc](#decimal-numeric-test-using-bc)
-<!-- TOCEND -->
+- [string](#string)
+  - [delete empty files](#delete-empty-files)
+  - [skip first N lines](#skip-first-n-lines)
+  - [extract substring](#extract-substring)
+  - [check if string contains another](#check-if-string-contains-another)
+  - [references](#references)
+- [files](#files)
+  - [loop through files arguments](#loop-through-files-arguments)
+  - [loop through file lines](#loop-through-file-lines)
+  - [loop over find results](#loop-over-find-results)
+- [file age in seconds/months](#file-age-in-secondsmonths)
+- [control](#control)
+- [OR condition](#or-condition)
+  - [function with arguments](#function-with-arguments)
+- [math](#math)
+  - [decimal numeric test using bc](#decimal-numeric-test-using-bc)
+
 
 ## string
+
+### delete empty files
+
+```sh
+awk 'NF'
+```
+
+### skip first N lines
+
+```sh
+tail -n +<N+1>
+```
 
 ### extract substring
 
