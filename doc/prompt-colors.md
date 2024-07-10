@@ -1,12 +1,8 @@
 # prompt colors
 
-- clone [linux-script-utils](https://github.com/devel0/linux-scripts-utils)
-
-```sh
-source linux-scripts-utils/themeprompt
-```
-
-- usage
+- copy [themeprompt](https://raw.githubusercontent.com/devel0/linux-scripts-utils/master/themeprompt) script into `~/.themeprompt`
+- read script with `source ~/.themeprompt`
+- function syntax
 
 ```
 themeprompt [prod|prod-user|dev|dev-user|test|test-user]
@@ -18,6 +14,8 @@ or custom
 themeprompt [fg] [bg]
 ```
 
+- examples
+
 | cmd                     | sample                                      |
 | ----------------------- | ------------------------------------------- |
 | `themeprompt prod`      | ![](../_files/themeprompt-prod.png)         |
@@ -28,6 +26,13 @@ themeprompt [fg] [bg]
 | `themeprompt test-user` | ![](../_files/themeprompt-test-user.png)    |
 | `themeprompt 15 53`     | ![](../_files/themeprompt-custom-fg-bg.png) |
 | `themeprompt 53`        | ![](../_files/themeprompt-custom-fg.png)    |
+
+- example usage in `~/.bashrc`
+
+```sh
+source ~/.themeprompt
+themeprompt prod
+```
 
 - full color table follows
 
