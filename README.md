@@ -229,7 +229,9 @@ references for linux admin and development
 - get current public ip address `curl -s ifconfig.me`
 - [netplan yaml ref](https://netplan.readthedocs.io/en/latest/netplan-yaml/)
 - [ubuntu desktop disable network manager](doc/ubuntu-desktop-disable-network-manager.md)
-- [ssh port forward](doc/ssh-port-forward.md)
+- ssh
+  - [ssh port forward](doc/ssh-port-forward.md)
+  - mount remote folder `sshfs host:FOLDER MOUNTPOINT`
 - send a tcp packet `echo sample | nc 10.10.2.10 1000`
 - test tcp port `echo "test" | netcat -w 5 -W 1 host port ; if [ "$?" == "0" ]; then echo "OK"; else echo "UNREACHABLE"; fi`
 - [test webapi](doc/test-webapi.md)
