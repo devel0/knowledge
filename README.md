@@ -231,7 +231,7 @@ references for linux admin and development
 - [ubuntu desktop disable network manager](doc/ubuntu-desktop-disable-network-manager.md)
 - ssh
   - [ssh port forward](doc/ssh-port-forward.md)
-  - mount remote folder `sshfs host:FOLDER MOUNTPOINT`
+  - [ssh mount dir](doc/ssh-mount-dir.md)
 - send a tcp packet `echo sample | nc 10.10.2.10 1000`
 - test tcp port `echo "test" | netcat -w 5 -W 1 host port ; if [ "$?" == "0" ]; then echo "OK"; else echo "UNREACHABLE"; fi`
 - [test webapi](doc/test-webapi.md)
