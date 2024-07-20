@@ -8,8 +8,8 @@
 APT::Periodic::Unattended-Upgrade "0";
 ```
 
-- hold linux kernel ( search latest of `dpkg -l | grep linux-image` )
+- hold linux kernel
 
 ```sh
-apt-mark hold linux-image-6.8.0-35-generic linux-image-generic
+apt-mark hold linux-image-generic linux-headers-generic linux-image-$(uname -r) linux-headers-$(uname -r)
 ```
