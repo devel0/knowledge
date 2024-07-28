@@ -1,5 +1,19 @@
 # ssh port forward
 
+## cheatsheet
+
+- export to a remote server port the local port
+
+```sh
+ssh -R remote_port:localhost:local_port ssh_name
+```
+
+- export to local port a remote server port
+
+```sh
+ssh -L local_port:remote_server_ip:remote_port ssh_name
+```
+
 ## replicate a remote ip:port to local network
 
 - given a remotehost:port that is accessible from a remote ssh host
