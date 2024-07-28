@@ -279,7 +279,7 @@ references for linux admin and development
   - [ubuntu server post install](doc/ubuntu-server-post-install.md)  
   - [custom boot script](doc/custom-boot-script.md)
   - [disable sleep](https://www.unixtutorial.org/disable-sleep-on-ubuntu-server/)
-  - [systemd services](doc/linux-systemd-services.md)
+  - [systemd services](doc/systemd-service.md)
   - [zfs](doc/zfs.md)
   - [how much is wear ssd](doc/ssd-wear.md)
   - [netfilter](https://en.wikipedia.org/wiki/Netfilter#)

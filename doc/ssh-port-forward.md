@@ -14,6 +14,43 @@ ssh -R remote_port:localhost:local_port ssh_name
 ssh -L local_port:remote_server_ip:remote_port ssh_name
 ```
 
+## keepalive ssh by service
+
+- create `/root/scripts/test-support`
+
+```sh
+#!/usr/bin/env bash
+
+# export to user1@SERVERNAME port 2000 the local ssh port 22
+# using given identity file to connect SERVERNAME
+ssh -nN \
+    -o ServerAliveInterval=180 \
+    -o ServerAliveCountMax=2 \
+    -R 2000:localhost:22 \
+    -i ~/.ssh/SOMEIDENTITY.id_rsa \
+    -p 55000 \
+    user1@SERVERNAME
+```
+
+- create `/etc/systemd/system/some.service`
+
+```sh
+[Unit]
+Description=support test
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=10
+User=root
+ExecStart=/root/scripts/test-support
+
+[Install]
+WantedBy=multi-user.target
+```
+
 ## replicate a remote ip:port to local network
 
 - given a remotehost:port that is accessible from a remote ssh host
