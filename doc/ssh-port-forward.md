@@ -22,13 +22,13 @@ ssh -L local_port:remote_server_ip:remote_port ssh_name
 #!/usr/bin/env bash
 
 # export to user1@SERVERNAME port 2000 the local ssh port 22
-# using given identity file to connect SERVERNAME
+# using given identity file to connect SERVERNAME:SERVERPORT
 ssh -nN \
     -o ServerAliveInterval=180 \
     -o ServerAliveCountMax=2 \
     -R 2000:localhost:22 \
     -i ~/.ssh/SOMEIDENTITY.id_rsa \
-    -p 55000 \
+    -p SERVERPORT \
     user1@SERVERNAME
 ```
 
