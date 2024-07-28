@@ -51,6 +51,8 @@ ExecStart=/root/scripts/test-support
 WantedBy=multi-user.target
 ```
 
+- start svc `service some start`
+
 ## replicate a remote ip:port to local network
 
 - given a remotehost:port that is accessible from a remote ssh host
