@@ -1,11 +1,11 @@
 # battery nfo
 
-| file                                      | description       | mu                     |
-| ----------------------------------------- | ----------------- | ---------------------- |
-| `/sys/class/power_supply/BAT0/capacity`   | residual capacity | %                      |
-| `/sys/class/power_supply/BAT0/energy_now` | residual capacity | μWh                    |
-| `/sys/class/power_supply/BAT0/status`     | battery activity  | `Charging|Discharging` |
-| `/sys/class/power_supply/BAT0/power_now`  | current           | μW                     |
+| file                                      | description       | mu                   |
+| ----------------------------------------- | ----------------- | -------------------- |
+| `/sys/class/power_supply/BAT0/capacity`   | residual capacity | %                    |
+| `/sys/class/power_supply/BAT0/energy_now` | residual capacity | μWh                  |
+| `/sys/class/power_supply/BAT0/status`     | battery activity  | Charging,Discharging |
+| `/sys/class/power_supply/BAT0/power_now`  | current           | μW                   |
 
 - example 1
 
