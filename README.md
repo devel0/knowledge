@@ -380,7 +380,7 @@ references for linux admin and development
   - [btrfs tools](doc/btrfs-tools.md)
   - tail log continously `docker logs -f CONTAINER | grep --line-buffered -ia WORD`
   - [run gitlab ci from terminal](https://stackoverflow.com/a/65920577/5521766)
-- show battery level `cat /sys/class/power_supply/BAT0/capacity`
+- [battery nfo](doc/battery-nfo.md)
 - nextcloud
   - [tips](doc/nextcloud.md)
   - [rclone](doc/rclone.md)
