@@ -286,6 +286,7 @@ references for linux admin and development
   - [self signed cert](doc/self-signed-cert.md)
   - log errors paged `journalctl -xe --pager`
   - [crontab](doc/crontab.md)
+  - [wake-on-lan](doc/wake-on-lan.md)
 - gnome
   - [shell extension with bash](https://github.com/p-e-w/argos)
   - [fix sort icon direction](https://bugs.launchpad.net/ubuntu/+source/gtk+3.0/+bug/1840516/comments/2)
