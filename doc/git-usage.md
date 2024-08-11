@@ -26,6 +26,7 @@
 - [pull and switch to a branch](#pull-and-switch-to-a-branch)
 - [add submobule](#add-submobule)
 - [submobule init](#submobule-init)
+- [reset head on remote](#reset-head-on-remote)
  
 <hr/>
 
@@ -292,3 +293,11 @@ or if need to update submodule present in submodule ( use with caution, may not 
 git submodule update --init --recursive
 ```
 
+## reset head on remote
+
+```sh
+git reset --hard SHA
+git push origin BRANCH --force
+```
+
+- refs: https://www.abrahamberg.com/blog/git-remove-commits-from-branch-after-push-reset-revert-or-rebase/
