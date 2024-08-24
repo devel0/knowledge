@@ -1,28 +1,29 @@
 # vscode tips
 
 <!-- TOC -->
-* [keys](#keys)
-* [debug with chrome and extensions](#debug-with-chrome-and-extensions)
-* [watch string unescaped](#watch-string-unescaped)
-* [develop and debugging with root privileges](#develop-and-debugging-with-root-privileges)
-* [set git copy remote url](#set-git-copy-remote-url)
-* [add languageid override](#add-languageid-override)
-* [snippets](#snippets)
+- [keys](#keys)
+- [debug with chrome and extensions](#debug-with-chrome-and-extensions)
+- [watch string unescaped](#watch-string-unescaped)
+- [develop and debugging with root privileges](#develop-and-debugging-with-root-privileges)
+- [set git copy remote url](#set-git-copy-remote-url)
+- [add languageid override](#add-languageid-override)
+- [snippets](#snippets)
 <!-- TOCEND -->
 
 <hr/>
 
 ## keys
 
-| key | descr |
-|---|---|
-| `shift + cmd + ~` | switch between vscode windows |
-| `ctrl + t` | show all symbols |
-| `ctrl + shift + o` | goto symbol |
-| `ctrl + shift + y` | goto Debugging window |
-| `ctrl + shift + [` | fold region |
-| `ctrl + shift + ]` | unfold region |
-| `alt + z` | toggle word wrap per file |
+| key                | descr                         |
+| ------------------ | ----------------------------- |
+| `ctrl + t`         | search symbols                |
+| `ctrl + p`         | search file                   |
+| `ctrl + shift + o` | search method                 |
+| `ctrl + shift + y` | goto Debugging window         |
+| `ctrl + shift + [` | fold region                   |
+| `ctrl + shift + ]` | unfold region                 |
+| `alt + z`          | toggle word wrap per file     |
+| `shift + cmd + ~`  | switch between vscode windows |
 
 ## debug with chrome and extensions
 
