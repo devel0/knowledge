@@ -13,7 +13,7 @@ chmod +x /opt/schemacrawler/_schemacrawler/schemacrawler.sh
 ```sh
 #!/bin/bash
 
-exdir=$(dirname `readlink -f "$0"`)
+exdir=$(dirname $(readlink -f "$BASH_SOURCE"))
 
 DST="$exdir"/doc/db
 DBHOST=somedb.local

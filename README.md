@@ -66,7 +66,7 @@ references for linux admin and development
 - bash
   - [bash scripting](doc/bash-scripting.md)
   - [prompt colors](doc/prompt-colors.md)
-- executing dir `exdir="$(dirname "$(readlink -f "$0")")"`
+- executing dir in bash script `exdir=$(dirname $(readlink -f "$BASH_SOURCE"))`
 - text screencast
   - [ttyrec ttygif](doc/ttyrec-ttygif.md)
   - [asciinema](https://asciinema.org/)

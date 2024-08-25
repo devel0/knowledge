@@ -7,7 +7,7 @@
 
 source /etc/environment
 
-exdir=$(dirname $(readlink -f "$0"))
+exdir=$(dirname $(readlink -f "$BASH_SOURCE"))
 
 #=====================================================================
 # CONSTANTS
