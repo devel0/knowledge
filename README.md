@@ -146,7 +146,7 @@ references for linux admin and development
   - [backup restore](doc/psql-backup-restore.md)
   - [password in file](doc/psql-password-in-file.md)
   - [select datetime timezone](doc/select-datetime-timezone.md)
-  - [pgadmin](doc/pgadmin.md)
+  - pgadmin install `docker run --restart=unless-stopped --name=pgadmin -p 8080:80     -e 'PGADMIN_DEFAULT_EMAIL=email'     -e 'PGADMIN_DEFAULT_PASSWORD=pass'     -d dpage/pgadmin4`
   - [index array](doc/psql-array-index.md)
   - [sequence schema](doc/psql-sequences.md)
   - [create db and assign user](doc/psql-create-db-user.md)
