@@ -338,6 +338,7 @@ references for linux admin and development
   - [disable tracker miner](https://www.linuxuprising.com/2019/07/how-to-completely-disable-tracker.html)
   - [ubuntu 19.04](doc/ubuntu-19.04-tune.md)
   - [ubuntu 18.04](doc/ubuntu-18.04-tune.md)  
+  - directory color on dark theme, set `/etc/bash.bashrc` with `LS_COLORS=$LS_COLORS:'di=0;34:' ; export LS_COLORS`
 - virtualization
   - [virsh storage](doc/virsh-storage.md)
   - [virsh tips](doc/virsh.md)
