@@ -132,6 +132,8 @@ references for linux admin and development
 - graphics
   - [gnuplot](doc/gnuplot.md)
   - debug opengl programs `apt install renderdoc`  
+- get PID from window `xprop | awk '/PID/ {print $3}'`
+- limit cpu `apt install cpulimit ; cpulimit -p PID -l 5` ( limit process PID to 5% )
 
 ## c++
 
