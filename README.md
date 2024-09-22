@@ -33,6 +33,7 @@ references for linux admin and development
 - [dotnet scripts](doc/dotnet-scripts.md)
 - [task programming](doc/task-programming.md)
 - dotnet core
+  - publish self contained `dotnet publish -c Release --runtime linux-x64 --sc`
   - [dotnet3 and 5 on ubuntu20.04](doc/dotnet-5-ubuntu20.04.md)
   - [dotnet6 and 7 on ubuntu24.04](doc/dotnet-6-7-ubuntu24.04.md)
   - [netcore csproj](doc/netcore-csproj.md) ( generate doc, copy to output, define macro, exclude files from compile, disable warnings )
