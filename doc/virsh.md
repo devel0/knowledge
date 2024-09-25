@@ -22,7 +22,7 @@ virsh-save-xml VMNAME PATH_TO_SAVEFOLDER
 virsh-restore-xml PATH_TO_SAVEFOLDER/VMNAME
 ```
 
-## remove attached usb devuce from snapshot
+## remove attached usb device from snapshot
 
 to allow start a snapshot with not available attached usb
 

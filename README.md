@@ -347,7 +347,7 @@ references for linux admin and development
   - directory color on dark theme, set `/etc/bash.bashrc` with `export LS_COLORS='di=0;34:ow=1;34'`
 - virtualization
   - [virsh storage](doc/virsh-storage.md)
-  - [virsh tips](doc/virsh.md)
+  - [virsh tips and backup](doc/virsh.md)
   - [virtualbox](doc/virtualbox.md)
   - [set virtualbox guest motherboard-cpu-id](doc/virtualbox-motherboard-cpu-id.md)
   - copy qcow2 over network `rsync -Szv --progress src.qcow2 dst:folder`
