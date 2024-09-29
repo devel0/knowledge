@@ -3,6 +3,8 @@
 - [ignore folders](#ignore-folders)
 - [server side rescan](#server-side-rescan)
 - [delete locks](#delete-locks)
+- [use of redis locking](#use-of-redis-locking)
+- [get nextcloud config](#get-nextcloud-config)
 - [troubleshoot](#troubleshoot)
   - [413 Request Entity Too Large](#413-request-entity-too-large)
 
@@ -30,6 +32,23 @@ sometimes occurs some internal lock that not autorelease ; for example you canno
 - issue a `delete from oc_file_locks` from the cloud db
 - revert maintenance mode
 
+## use of redis locking
+
+- create a container named `redis` in the same net of nextcloud `docker run -d --name "redis" --restart=unless-stopped --network SOMENET redis`
+- add environment "-e REDIS_HOST=redis"
+- verify config `https://]CLOUD-HOST]/ocs/v2.php/apps/serverinfo/api/v1/info` should retrieve follows:
+
+```xml
+<memcache.distributed>\OC\Memcache\Redis</memcache.distributed>
+<filelocking.enabled>yes</filelocking.enabled>
+<memcache.locking>\OC\Memcache\Redis</memcache.locking>
+```
+
+## get nextcloud config
+
+```
+https://]CLOUD-HOST]/ocs/v2.php/apps/serverinfo/api/v1/info
+```
 
 ## troubleshoot
 
