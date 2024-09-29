@@ -31,6 +31,7 @@ references for linux admin and development
 - [send email 465](doc/send-email-465.md)
 - [psql ef codefirst](doc/psql-ef-codefirst.md)
 - [dotnet scripts](doc/dotnet-scripts.md)
+- [member not null](doc/csharp-member-not-null.md)
 - [task programming](doc/task-programming.md)
 - dotnet core
   - publish self contained `dotnet publish -c Release --runtime linux-x64 --sc`
