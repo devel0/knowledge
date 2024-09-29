@@ -4,6 +4,7 @@
 - [server side rescan](#server-side-rescan)
 - [delete locks](#delete-locks)
 - [use of redis locking](#use-of-redis-locking)
+- [setup maintenance window](#setup-maintenance-window)
 - [get nextcloud config](#get-nextcloud-config)
 - [troubleshoot](#troubleshoot)
   - [413 Request Entity Too Large](#413-request-entity-too-large)
@@ -42,6 +43,14 @@ sometimes occurs some internal lock that not autorelease ; for example you canno
 <memcache.distributed>\OC\Memcache\Redis</memcache.distributed>
 <filelocking.enabled>yes</filelocking.enabled>
 <memcache.locking>\OC\Memcache\Redis</memcache.locking>
+```
+
+## setup maintenance window
+
+- edit `config/config.php` and set and hour when start maintenance ( in the example '2' clock hour )
+
+```php
+  'maintenance_window_start' => '2',
 ```
 
 ## get nextcloud config
