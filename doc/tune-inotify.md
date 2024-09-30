@@ -15,8 +15,8 @@ Error: EMFILE: too many open files
 edit `/etc/sysctl.d/99-custom.conf` as follow to expand inotify watched to 1million ( each consume 1kb )
 
 ```sh
-fs.inotify.max_user_watches = 1048576
-fs.inotify.max_user_instances = 524288
+fs.inotify.max_user_watches = 1048576 # default: 30003
+fs.inotify.max_user_instances = 524288 # default: 128
 ```
 
 reload using follow
