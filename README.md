@@ -243,7 +243,9 @@ references for linux admin and development
 - [test webapi](doc/test-webapi.md)
 - [send simple message over udp](doc/send-simple-message-over-udp.md)
 - [send email](doc/send-email-wrapper.md)
-- [tune nginx for webapi](doc/nginx-webapi-conf.md)  
+- nginx
+  - [tune nginx for webapi](doc/nginx-webapi-conf.md)  
+  - [exec shell script with fastcgi](doc/nginx-fastcgi.md)
 - wireshark
   - [run wireshark as nonroot](doc/run-wireshark-as-nonroot.md)      
   - [wireshark chrome decrypt ssl](doc/wireshark-chrome-decrypt-ssl.md)
@@ -293,6 +295,7 @@ references for linux admin and development
   - log errors paged `journalctl -xe --pager`
   - [crontab](doc/crontab.md)
   - [wake-on-lan](doc/wake-on-lan.md)
+  - test cpu speed `apt install sysbench ; sysbench cpu run` then see events per seconds ( higher better )
 - kde
   - [disable input method completion](doc/kde-disable-input-method-completion.md)
 - gnome
