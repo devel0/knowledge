@@ -209,8 +209,10 @@ references for linux admin and development
   - [tips](doc/stm32tips.md)
   - [multiple devices](doc/stm32-multiple.md)
 - [schematics and pcb editor](doc/easyeda.md)
-- [qucs circuit simulator](doc/qucs.md)
-- [simulator](http://everycircuit.com)
+- circuit simulator
+  - [circuitjs](http://lushprojects.com/circuitjs/circuitjs.html?)
+  - [qucs](doc/qucs.md)
+  - [everycircuit](http://everycircuit.com)
 - [pcb etching](doc/pcb-etching.md)
 - [transistor biasing](_files/transistor-biasing.xlsx)  
 - [measure usb cable resistance](doc/measure-usb-cable-resistance.md)
