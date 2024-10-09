@@ -1,10 +1,11 @@
 # storage
 
 <!-- TOC -->
-* [convert qcow2 to vdi](#convert-qcow2-to-vdi)
-* [create qcow2 disk](#create-qcow2-disk)
-* [resize disk](#resize-disk)
-* [remove reserved partition](#remove-reserved-partition)
+- [convert qcow2 to vdi](#convert-qcow2-to-vdi)
+- [create qcow2 disk](#create-qcow2-disk)
+- [resize disk](#resize-disk)
+- [remove reserved partition](#remove-reserved-partition)
+- [rsync qemu img](#rsync-qemu-img)
 <!-- TOCEND -->
 
 <hr/>
@@ -47,3 +48,7 @@ list partition
 select partition 3 <--- check your own
 delete partition override
 ```
+
+## rsync qemu img
+
+- use `--sparse --inplace -z` options to save bandwidth when transferring qemu virtual images that have smaller effective disk image size ( see `qemu-img info file.qcow2` to show virtual and disk size of the image )

@@ -297,7 +297,7 @@ references for linux admin and development
   - log errors paged `journalctl -xe --pager`
   - [crontab](doc/crontab.md)
   - [wake-on-lan](doc/wake-on-lan.md)
-  - test cpu speed `apt install sysbench ; sysbench cpu run` then see events per seconds ( higher better )
+  - test cpu speed `apt install sysbench ; sysbench cpu run` then see events per seconds ( higher better )  
 - kde
   - [disable input method completion](doc/kde-disable-input-method-completion.md)
 - gnome
@@ -352,7 +352,7 @@ references for linux admin and development
   - [ubuntu 18.04](doc/ubuntu-18.04-tune.md)  
   - directory color on dark theme, set `/etc/bash.bashrc` with `export LS_COLORS='di=0;34:ow=1;34'`
 - virtualization
-  - [virsh storage](doc/virsh-storage.md)
+  - [virsh storage](doc/virsh-storage.md)  
   - [virsh tips and backup](doc/virsh.md)
   - [virtualbox](doc/virtualbox.md)
   - [set virtualbox guest motherboard-cpu-id](doc/virtualbox-motherboard-cpu-id.md)
