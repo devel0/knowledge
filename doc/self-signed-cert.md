@@ -5,6 +5,7 @@
 - [install root CA](#install-root-ca)
   - [system wide (apps)](#system-wide-apps)
   - [system wide (firefox)](#system-wide-firefox)
+  - [mobile (firefox)](#mobile-firefox)
   - [user (chrome)](#user-chrome)
 - [create multisubject certificate](#create-multisubject-certificate)
 - [localhost development certificate](#localhost-development-certificate)
@@ -66,6 +67,14 @@ NODE_OPTIONS=--use-openssl-ca PROGRAM
     }
 }
 ```
+
+### mobile (firefox)
+
+- install cert on android / settings / certificate management app / user certificates
+- from firefox
+  - settings/about ( tap on firefox logo until debug mode activated )
+  - go to settings/secrets settings -> enable "use thirdy party ca certificates"
+- restart phone
 
 ### user (chrome)
 
