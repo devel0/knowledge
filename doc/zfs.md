@@ -6,6 +6,12 @@
 zpool create NAME DEVICE
 ```
 
+## create zfs slot
+
+```sh
+zfs create NAME/path1/path2
+```
+
 ## set acl
 
 ```sh
