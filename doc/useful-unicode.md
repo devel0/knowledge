@@ -9,11 +9,11 @@
 
 | char | hex code | descr                |
 | ---- | -------- | -------------------- |
-| Ω    | 2126     | ohm                  |
+| Ω    | 2126     | ohm                  |
 | μ    | 03BC     | micro                |
 | Δ    | 0394     | delta                |
 | π    | 03C0     | pi-greco             |
-| ✓   | 2713     | sign check           |
+| ✓    | 2713     | sign check           |
 | °    | 00B0     | degree               |
 | ∙    | 2219     | dot                  |
 | •    | 2022     | bullet               |
@@ -41,15 +41,19 @@
 | char | hex code | descr                |
 | ---- | -------- | -------------------- |
 | ■    | 25A0     | black square         |
-| ⚠   | 26A0     | alert symbol         |
-| 📞  | 1F4DE    | phone receiver       |
-| 🌐  | 1F310    | global with meridian |
-| ✉   | 2709     | mail envelope        |
-| ☛   | 261B     | right thumb          |
-| ➡   | 27A1     | right arrow          |
-| ⬅   | 2B05     | left arrow           |
-| ⬆   | 2B06     | up arrow             |
-| ⬇   | 2B07     | down arrow           |
+| ⚠    | 26A0     | alert symbol         |
+| 📞    | 1F4DE    | phone receiver       |
+| 🌐    | 1F310    | global with meridian |
+| ✉    | 2709     | mail envelope        |
+| ☛    | 261B     | right thumb          |
+| ➡    | 27A1     | right arrow          |
+| ⬅    | 2B05     | left arrow           |
+| ⬆    | 2B06     | up arrow             |
+| ⬇    | 2B07     | down arrow           |
+| ▲    | 25B2     | triangle up          |
+| ▼    | 25BC     | triangle down        |
+| ▶    | 25B6     | triangle right       |
+| ◀    | 25C0     | triangle left        |
 
 | char | hex code | descr   |
 | ---- | -------- | ------- |
