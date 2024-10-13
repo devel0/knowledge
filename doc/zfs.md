@@ -12,6 +12,7 @@
 - [get compression](#get-compression)
 - [set compression](#set-compression)
   - [get compression ratio](#get-compression-ratio)
+- [send snapshots to other device](#send-snapshots-to-other-device)
 
 
 ## create filesystem
@@ -84,4 +85,51 @@ zfs set compression=on NAME
 
 ```sh
 zfs get compressratio
+```
+
+## send snapshots to other device
+
+given follow example
+
+```sh
+NAME                                       USED  AVAIL  REFER  MOUNTPOINT
+bk/test/current@one                         64K      -    96K  -
+bk/test/current@two                         56K      -    96K  -
+bk/test/current@three                        0B      -   104K  -
+```
+
+given a bk2 pool exists
+
+- send initial snapshot
+
+```sh
+zfs send bk/test/current@one | zfs recv bk2/test/current
+```
+
+- this gives
+
+```sh
+NAME                                       USED  AVAIL  REFER  MOUNTPOINT
+bk/test/current@one                         64K      -    96K  -
+bk/test/current@two                         56K      -    96K  -
+bk/test/current@three                        0B      -   104K  -
+bk2/test/current@one                        64K      -    96K  -
+```
+
+- update bk2 with other bk snapshots ( two, three ) by specifying from latest existing also in bk2 @one toward the latest to send @three
+
+```sh
+zfs send -I bk/test/current@one bk/test/current@three | zfs recv bk2/test/current
+```
+
+- this gives
+
+```sh
+NAME                                       USED  AVAIL  REFER  MOUNTPOINT
+bk/test/current@one                         64K      -    96K  -
+bk/test/current@two                         56K      -    96K  -
+bk/test/current@three                        0B      -   104K  -
+bk2/test/current@one                        64K      -    96K  -
+bk2/test/current@two                        56K      -    96K  -
+bk2/test/current@three                       0B      -   104K  -
 ```
