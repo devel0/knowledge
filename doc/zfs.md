@@ -1,5 +1,19 @@
 # zfs
 
+- [create filesystem](#create-filesystem)
+- [create zfs slot](#create-zfs-slot)
+- [set acl](#set-acl)
+- [set mountpoint](#set-mountpoint)
+- [take snapshot](#take-snapshot)
+- [list snapshots](#list-snapshots)
+- [mount snapshot](#mount-snapshot)
+- [destroy snapshot](#destroy-snapshot)
+- [rollback to a snapshot](#rollback-to-a-snapshot)
+- [get compression](#get-compression)
+- [set compression](#set-compression)
+  - [get compression ratio](#get-compression-ratio)
+
+
 ## create filesystem
 
 ```sh
