@@ -178,7 +178,7 @@ references for linux admin and development
   - [tips](doc/npm-tips.md)
   - [proxy cache](doc/npm-proxy-cache.md)  
 - typescript
-  - [create console app](./doc/typescript-console-app.md)
+  - [create console app](https://github.com/sezRR/nodejs-typescript-template/tree/7739711b5cb735632878279a55ffb6de02ebe07f)
   - support for optional chaining conditional `?` operator (upgrade `react-scripts` to `3.3.0`)
   - [troubleshoot](doc/react-typescript-troubleshoot.md)
 - react / material.ui ( typescript )
