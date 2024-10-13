@@ -178,6 +178,7 @@ references for linux admin and development
   - [tips](doc/npm-tips.md)
   - [proxy cache](doc/npm-proxy-cache.md)  
 - typescript
+  - create console app `npx simple-ts-app my-app`
   - support for optional chaining conditional `?` operator (upgrade `react-scripts` to `3.3.0`)
   - [troubleshoot](doc/react-typescript-troubleshoot.md)
 - react / material.ui ( typescript )
