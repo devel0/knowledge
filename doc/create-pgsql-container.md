@@ -26,3 +26,9 @@ and test
 ```sh
 psql -h localhost -U postgres
 ```
+
+## create user granting createdb
+
+```sh
+echo "CREATE USER dbuser WITH PASSWORD '$(cat ~/security/psql-user)' CREATEDB" | psql -h localhost -U postgres
+```
