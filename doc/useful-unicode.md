@@ -13,10 +13,12 @@
 | μ    | 03BC     | micro                |
 | Δ    | 0394     | delta                |
 | π    | 03C0     | pi-greco             |
-| ✓    | 2713     | sign check           |
+| ✓   | 2713     | sign check           |
 | °    | 00B0     | degree               |
 | ∙    | 2219     | dot                  |
 | •    | 2022     | bullet               |
+| ▣    | 25A3     | square filled        |
+| ▢    | 25A2     | square empty         |
 | ⇒    | 21D2     | dbl right arrow      |
 | ≃    | 2243     | similar equal        |
 | ≈    | 2248     | approximately equal  |
