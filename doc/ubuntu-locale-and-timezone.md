@@ -7,7 +7,7 @@ assume for example:
 - install required packages
 
 ```sh
-apt install locale
+apt install locales
 ```
 
 - generate locales for en, it
@@ -46,3 +46,14 @@ this will change `/etc/timezone` as follows
 ```
 Europe/Rome
 ```
+
+- all at once
+
+```sh
+apt install locales
+locale-gen en_US.UTF-8 it_IT.UTF-8
+update-locale LC_TIME=it_IT.UTF-8
+timedatectl set-timezone Europe/Rome
+```
+
+- for desktop environment you might need to comment out settings in `~/.pam_environment`
