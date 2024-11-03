@@ -344,6 +344,7 @@ references for linux admin and development
   - [autorespawn process using supervisor](doc/supervisor.md)
   - show memoy usage `smem --pie name -s rss`
 - ubuntu tune
+  - [locale and timezone](doc/ubuntu-locale-and-timezone.md)
   - [kubuntu 22.04](doc/kubuntu-22.04.md)
   - [ubuntu 22.04 tune](doc/ubuntu-22.04-tune.md)
   - [ubuntu 20.04 tuf gx505](doc/ubuntu20.04-tuf-gx505.md)
