@@ -1,5 +1,10 @@
 # chrome
 
+- [useful shortcuts](#useful-shortcuts)
+- [disable cors](#disable-cors)
+- [remote debug through usb](#remote-debug-through-usb)
+- [troubleshoot debug from vscode](#troubleshoot-debug-from-vscode)
+
 ## useful shortcuts
 
 - `CTRL numpad+` zoom in dev window
@@ -21,3 +26,7 @@ useful to access console, breakpoint etc for chrome running on an android
   - go back to Settings and enable **USB debugging** in Developer options
 - start chrome from pc, **F12**, Menu->More tools->Remote Devices
   - choose phone / confirm access from the phone and open android window on pc through "Inspect" button
+
+## troubleshoot debug from vscode
+
+in some ( unknown ) situation chrome starts with a blank page and not respond to reload, to solve the issue from Run / "Disable All Breakpoints" then after restarted chrome session you can re-enable Run / "Enable All Breakpoints"
