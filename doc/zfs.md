@@ -13,6 +13,8 @@
 - [set compression](#set-compression)
   - [get compression ratio](#get-compression-ratio)
 - [send snapshots to other device](#send-snapshots-to-other-device)
+- [build zfs raid with ssd cache](#build-zfs-raid-with-ssd-cache)
+- [create zfs encrypted](#create-zfs-encrypted)
 
 
 ## create filesystem
@@ -132,4 +134,56 @@ bk/test/current@three                        0B      -   104K  -
 bk2/test/current@one                        64K      -    96K  -
 bk2/test/current@two                        56K      -    96K  -
 bk2/test/current@three                       0B      -   104K  -
+```
+
+## build zfs raid with ssd cache
+
+- suppose follow layout
+  - `/dev/sdc3` is a 200GB ssd cache disk
+  - `/dev/sda`, `/dev/sdb`, `/dev/sdd`, `/dev/sde`, `/dev/sdf` are 4tb disks
+
+```sh
+zpool create tank raidz1 sda sdb sdd sde sdf -f
+```
+
+- add `/dev/sdc3` as cache
+
+```sh
+zpool add tank cache /dev/sdc3  -f
+```
+
+- get status
+
+```sh
+$ zpool status -v tank
+  pool: tank
+ state: ONLINE
+config:
+
+        NAME        STATE     READ WRITE CKSUM
+        tank        ONLINE       0     0     0
+          raidz1-0  ONLINE       0     0     0
+            sda     ONLINE       0     0     0
+            sdb     ONLINE       0     0     0
+            sdd     ONLINE       0     0     0
+            sde     ONLINE       0     0     0
+            sdf     ONLINE       0     0     0
+        cache
+          sdc3      ONLINE       0     0     0
+
+errors: No known data errors
+```
+
+## create zfs encrypted
+
+- given `tank` an existing pool
+
+```sh
+zfs create -o encryption=on -o keylocation=prompt -o keyformat=passphrase tank/encrypted
+```
+
+- to open the encrypted pool after reboot
+
+```sh
+zfs load-key -r tank/encrypted
 ```
