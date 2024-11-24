@@ -299,6 +299,7 @@ references for linux admin and development
   - [crontab](doc/crontab.md)
   - [wake-on-lan](doc/wake-on-lan.md)
   - test cpu speed `apt install sysbench ; sysbench cpu run` then see events per seconds ( higher better )  
+  - [detached screen](doc/detached-screen.md)
 - kde
   - [disable input method completion](doc/kde-disable-input-method-completion.md)
 - gnome
