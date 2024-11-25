@@ -187,3 +187,9 @@ zfs create -o encryption=on -o keylocation=prompt -o keyformat=passphrase tank/e
 ```sh
 zfs load-key -r tank/encrypted
 ```
+
+- to mount all datasets
+  
+```sh
+zfs mount -a
+```
