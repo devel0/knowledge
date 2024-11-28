@@ -263,7 +263,7 @@ references for linux admin and development
   - scan netbios name in net `nbtscan <netaddr>`
 - monitor interfaces bandwidth `bmon -p eth0,eth1` or `nload -m`
 - quick list interface addresses `ip -br a`
-- [ethernet cabling T568B](http://www.comnen.com/whats-the-difference-between-t568a-and-t568b/)
+- [ethernet cabling T568A T568B](https://www.flukenetworks.com/sites/default/files/default/net-240450-en-global-t568a-t568b-comparison-diagram-1500x1000_0.jpg)
 - scan hostnames `nmap -sn addr/mask`
 - [bluetooth](doc/bluetooth.md)
 - tcpdump  
