@@ -146,6 +146,7 @@ references for linux admin and development
 
 ## database
 
+- [create db server using docker](doc/docker-db-server.md)
 - postgres
   - [create psql container](doc/create-pgsql-container.md)
   - [backup restore](doc/psql-backup-restore.md)
