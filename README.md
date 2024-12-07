@@ -319,6 +319,7 @@ references for linux admin and development
   - nautilus file manager folder right click -> open in terminal `apt install nautilus-open-terminal`
   - hardware inventory `inxi`
 - log
+  - [tail generic color](https://github.com/devel0/cf)
   - colourized log `grc --colour=on tail -f /var/log/syslog`
   - grep only in file pattern `grep -r --include="*.EXT" <search-string> <beginpath>`
   - [tail grep continous](doc/tail-grep-continuous.md)
