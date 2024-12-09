@@ -23,6 +23,7 @@
 - [commit to a new branch](#commit-to-a-new-branch)
 - [merge a branch into current](#merge-a-branch-into-current)
 - [delete branch local and remote](#delete-branch-local-and-remote)
+- [rename branch local and remote](#rename-branch-local-and-remote)
 - [pull and switch to a branch](#pull-and-switch-to-a-branch)
 - [add submobule](#add-submobule)
 - [submobule init](#submobule-init)
@@ -263,6 +264,14 @@ to delete branch on remote:
 
 ```sh
 git push originname --delete branchname
+```
+
+## rename branch local and remote
+
+```sh
+git branch -m old-name new-name
+git push --set-upstream origin new-name
+git push origin --delete old-name
 ```
 
 ## pull and switch to a branch
