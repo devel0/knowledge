@@ -44,6 +44,7 @@ references for linux admin and development
   - [dotnet cmdline](doc/dotnet-cmdline.md)
   - [dotnet core unix interop](doc/dotnet-core-unix-interop.md)
   - [dotnet gui](doc/dotnet-avalonia.md)
+    - [uno](doc/uno.md)
     - avalonia
       - [notes](doc/avalonia-notes.md)
       - [app icon](doc/avalonia-icon.md)
