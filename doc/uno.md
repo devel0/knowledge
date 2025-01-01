@@ -27,10 +27,28 @@ uno-check
 ## quickstart
 
 ```sh
-dotnet new uno -n testuno
+dotnet new unoapp -n testuno
 cd testuno
 sudo dotnet workload restore
 dotnet run --framework=net8.0-desktop
+```
+
+## options
+
+more options available ( see `dotnet new unoapp --help` )
+
+```sh
+dotnet new unoapp \
+  -preset recommended \
+  -id com.mycompany.myapp \
+  -tfm net9.0 \
+  -presentation mvux \
+  -toolkit \
+  -di \
+  -log serilog \
+  -auth Web \
+  -theme-service \
+  -svg
 ```
 
 # development
