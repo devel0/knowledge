@@ -33,12 +33,19 @@ sudo dotnet workload restore
 dotnet run --framework=net8.0-desktop
 ```
 
+## simple desktop app
+
+```sh
+dotnet new unoapp -n testuno -tfm net9.0 -platforms desktop -toolkit -di -config -svg
+```
+
 ## options
 
 more options available ( see `dotnet new unoapp --help` )
 
 ```sh
 dotnet new unoapp \
+  -n testuno \
   -preset recommended \
   -id com.mycompany.myapp \
   -tfm net9.0 \

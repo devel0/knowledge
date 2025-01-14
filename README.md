@@ -373,6 +373,7 @@ references for linux admin and development
   - [wacom inkscape pressure](doc/wacom-inkscape-pressure.md)
   - [epson scanner gt-s50](doc/driver-epson-gt-s50.md)
   - view usb devices hierarchy `lsbusb -tv`
+  - [reset usb device](https://askubuntu.com/a/1036410)
 - disks
   - raid
     - [autotune raid reconstruction speed](https://github.com/devel0/linux-scripts-utils/blob/18997d280d0bcd435c263d914ea7c1bcffc3a4fd/raid-auto-speed)
