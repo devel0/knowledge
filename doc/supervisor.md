@@ -21,7 +21,7 @@ killasgroup=true
 where `/scripts/myprog.sh` could be
 
 ```sh
-#!/usr/bin/bash
+#!/bin/bash
 
 PATH=$PATH:/opt/dotnet
 

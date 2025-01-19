@@ -19,7 +19,7 @@ ssh -L local_port:remote_server_ip:remote_port ssh_name
 - create `/root/scripts/test-support`
 
 ```sh
-#!/usr/bin/bash
+#!/bin/bash
 
 # export to user1@SERVERNAME port 2000 the local ssh port 22
 # using given identity file to connect SERVERNAME:SERVERPORT
