@@ -29,7 +29,7 @@ location /scripts
 
 
 ```sh
-#!/usr/bin/env bash
+#!/usr/bin/bash
 
 echo 'Content-Type: text/plain'
 echo ''

@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/bin/bash
 
 for file in *.md; do
 	echo "processing [$file]"

@@ -106,7 +106,7 @@ update-initramfs -u -k all
 In order to prevent auto-decryption stop working after kernel update create the script in `/etc/kernel/postinst.d/zz-zclevis` with follow content
 
 ```sh
-#!/bin/env bash
+#!/bin/bash
 
 DEVICE=/dev/sda3    # REPLACE DEVICE with your own
 SLOT=2              # REAPLCE SLOT with your (see clevis luks list...)

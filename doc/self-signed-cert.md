@@ -103,7 +103,7 @@ NODE_OPTIONS=--use-openssl-ca PROGRAM
 - create `cert-parameters` for localhost dev
 
 ```sh
-#!/usr/bin/env bash
+#!/usr/bin/bash
 
 COUNTRY="IT"
 STATE="Italy"
