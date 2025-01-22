@@ -74,6 +74,7 @@ references for linux admin and development
 - text screencast
   - [ttyrec ttygif](doc/ttyrec-ttygif.md)
   - [asciinema](https://asciinema.org/)
+- find files sorted by size `find -type f -name "*.pdf" -printf '%s\t%p\n' | sort -nr | less`
 - [linux scripts](https://github.com/devel0/linux-scripts-utils)
 - [trap control+c](doc/trap-ctrlc.md)
 - [function arguments expansion](doc/function-args-expansion.md)
