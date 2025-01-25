@@ -420,6 +420,7 @@ references for linux admin and development
 - [id_rsa](doc/id_rsa.md)  
 - [ssh client alive](doc/ssh-keep-alive.md)
 - upgrade letsencrypt `apt upgrade certbot python3-acme`
+- [fail2ban](doc/fail2ban.md)
 
 ## mobile native
 
