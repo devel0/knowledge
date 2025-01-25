@@ -1,5 +1,15 @@
 # fail2ban
 
+- [quickstart](#quickstart)
+- [get status](#get-status)
+- [get status by service](#get-status-by-service)
+- [get list of banned ips](#get-list-of-banned-ips)
+- [enable a service jail](#enable-a-service-jail)
+- [verify maxretry unit](#verify-maxretry-unit)
+- [verify regex](#verify-regex)
+- [whitelist](#whitelist)
+- [ban ssh through iptables](#ban-ssh-through-iptables)
+
 ## quickstart
 
 ```sh
