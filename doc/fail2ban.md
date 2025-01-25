@@ -32,3 +32,17 @@ fail2ban-client get SERVICE banned
 [apache-auth]
 enabled = true
 ```
+
+## verify maxretry unit
+
+```sh
+fail2ban-client --str2sec 1m
+```
+
+gives 60 ( sec ) for the input `1m`
+
+## verify regex
+
+```sh
+fail2ban-regex /var/log/auth.log sshd
+```
