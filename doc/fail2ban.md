@@ -46,3 +46,22 @@ gives 60 ( sec ) for the input `1m`
 ```sh
 fail2ban-regex /var/log/auth.log sshd
 ```
+
+## whitelist
+
+in the following example the ip `10.10.1.33` is whitelisted
+
+```conf
+[DEFAULT]
+ignoreip = 127.0.0.1/8 ::1 10.10.1.33/32
+```
+
+## ban ssh through iptables
+
+in the file in the `jail.d` folder
+
+```conf
+[sshd]
+enabled = true
+action = iptables[name=SSH, port=ssh, protocol=tcp]
+```
