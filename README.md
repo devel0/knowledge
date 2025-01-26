@@ -90,6 +90,7 @@ references for linux admin and development
 - [jq json tool](doc/jq-json-tool.md)
 - [ensure kill process](doc/ensure-kill-process.md)
 - ls in mb `ls -la --block-size=MB`
+- monitor progress of pipe `cat /dev/random  | pv > /dev/null`
 - sed
   - [replace newline](http://www.benjiegillam.com/2011/09/using-sed-to-replace-newlines/)
   - skip first line `cat file | sed -n '1d;p'`

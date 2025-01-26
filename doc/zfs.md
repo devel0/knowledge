@@ -14,6 +14,7 @@
   - [get compression ratio](#get-compression-ratio)
 - [send snapshots to other device](#send-snapshots-to-other-device)
 - [build zfs raid with ssd cache](#build-zfs-raid-with-ssd-cache)
+- [send snapshot through ssh](#send-snapshot-through-ssh)
 - [create zfs encrypted](#create-zfs-encrypted)
 
 
@@ -172,6 +173,14 @@ config:
           sdc3      ONLINE       0     0     0
 
 errors: No known data errors
+```
+
+## send snapshot through ssh
+
+- note: `i` instead of `I` parameter ( need to configure `~/.ssh/config` to allow access DESTHOST )
+
+```sh
+zfs send -i bk/test/current@one bk/test/current@three | pv | ssh DESTHOST zfs recv bk2/test/current
 ```
 
 ## create zfs encrypted
