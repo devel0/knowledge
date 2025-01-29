@@ -10,6 +10,7 @@
   - [loop through files arguments](#loop-through-files-arguments)
   - [loop through file lines](#loop-through-file-lines)
   - [loop over find results](#loop-over-find-results)
+  - [loo over find result with a bash function](#loo-over-find-result-with-a-bash-function)
 - [file age in seconds/months](#file-age-in-secondsmonths)
 - [control](#control)
 - [OR condition](#or-condition)
@@ -100,6 +101,15 @@ readarray -t myarr < <(find . -maxdepth 1 -type d -exec echo "{}" \;)
 for line in "${myarr[@]}"; do
     echo "do something with [$line]"
 done
+```
+
+### loo over find result with a bash function
+
+```sh
+fn() { echo "do somthing with [$1]"; }
+export -f fn
+
+find . -type f -iname "*.pdf" -exec bash -c "fn \"{}\"" \;
 ```
 
 ## file age in seconds/months
