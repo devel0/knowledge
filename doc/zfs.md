@@ -14,6 +14,8 @@
   - [get compression ratio](#get-compression-ratio)
 - [send snapshots to other device](#send-snapshots-to-other-device)
 - [build zfs raid with ssd cache](#build-zfs-raid-with-ssd-cache)
+  - [save disk identifiers mapping](#save-disk-identifiers-mapping)
+  - [zfs test redundancy](#zfs-test-redundancy)
 - [send snapshot through ssh](#send-snapshot-through-ssh)
 - [create zfs encrypted](#create-zfs-encrypted)
 
@@ -171,6 +173,84 @@ config:
             sdf     ONLINE       0     0     0
         cache
           sdc3      ONLINE       0     0     0
+
+errors: No known data errors
+```
+
+### save disk identifiers mapping
+
+know the serial belonging a device allow you to know which of the disk is to remove and replace when degraded
+
+```sh
+lsblk -o PATH,SERIAL
+```
+
+### zfs test redundancy
+
+- physical disk removing 1 disk ( or without physical detach can be offlined with `zpool offline POOL DEVICE` )
+
+```sh
+$ zpool status
+  pool: tank
+ state: DEGRADED
+status: One or more devices has been removed by the administrator.
+        Sufficient replicas exist for the pool to continue functioning in a
+        degraded state.
+action: Online the device using zpool online' or replace the device with
+        'zpool replace'.
+config:
+
+        NAME        STATE     READ WRITE CKSUM
+        tank        DEGRADED     0     0     0
+          raidz1-0  DEGRADED     0     0     0
+            sde     ONLINE       0     0     0
+            sdf     ONLINE       0     0     0
+            sdb     ONLINE       0     0     0
+            sdc     ONLINE       0     0     0
+            sdd     REMOVED      0     0     0
+        cache
+          sda3      ONLINE       0     0     0
+
+errors: No known data errors
+```
+
+- wipe 1GB of the disk `wipefs -af /dev/DEVICE` ( carefully check which DEVICE is the one to destroy )
+
+- reattach 1 disk ( or without physical action can be onlined with `zpool online POOL DEVICE` )
+
+```sh
+zpool replace POOL DEVICEPOOL
+```
+
+or if device changed /dev identifier
+
+```sh
+zpool replace POOL DEVICEPOOL NEWDEVICEPOOL
+```
+
+- now `zpool status`
+
+```sh
+  pool: tank
+ state: ONLINE
+status: One or more devices is currently being resilvered.  The pool will
+        continue to function, possibly in a degraded state.
+action: Wait for the resilver to complete.
+  scan: resilver in progress since Sat Feb  1 13:37:15 2025
+        25.4G / 926G scanned, 453M / 926G issued at 64.7M/s
+        96.3M resilvered, 0.05% done, 04:04:10 to go
+config:
+
+        NAME        STATE     READ WRITE CKSUM
+        tank        ONLINE       0     0     0
+          raidz1-0  ONLINE       0     0     0
+            sde     ONLINE       0     0     0
+            sdf     ONLINE       0     0     0
+            sdb     ONLINE       0     0     0
+            sdc     ONLINE       0     0     0
+            sdd     ONLINE       0     0     0  (resilvering)
+        cache
+          sda3      ONLINE       0     0     0
 
 errors: No known data errors
 ```
