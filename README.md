@@ -186,7 +186,7 @@ references for linux admin and development
   - support for optional chaining conditional `?` operator (upgrade `react-scripts` to `3.3.0`)
   - [troubleshoot](doc/react-typescript-troubleshoot.md)
 - react / material.ui ( typescript )
-  - create react typescript `yarn create react-app my-app --template typescript`
+  - create react typescript `npm create vite@latest test-app -- --template react-ts`
   - [app skeleton and global states](https://github.com/devel0/example-react-global-state)
   - [create react library useHook error](https://github.com/transitive-bullshit/create-react-library/issues/99#issuecomment-463177704)
   - [resposive drawer with styles and theme](doc/material-ui-responsive-drawer-styles-theme-typescript.md)
