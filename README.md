@@ -96,7 +96,9 @@ references for linux admin and development
   - skip first line `cat file | sed -n '1d;p'`
   - skip line range `sed A,Bd file` ( skip lines with index range [A,B] )
   - delete empty lines `cat file | sed -r '/^\s*$/d'`
-- time GMT `TZ=GMT date +@GMT-%Y.%m.%d-%H.%M.%S`
+- time
+  - GMT `TZ=GMT date +@GMT-%Y.%m.%d-%H.%M.%S`
+  - time from unixtime `date -d @VALUE`
 - show dialog notification `notify-send title msg`
 - [short uuid](https://codesandbox.io/s/flamboyant-jasper-eby0cz?file=/src/App.js)
 
