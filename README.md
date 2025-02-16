@@ -422,7 +422,7 @@ references for linux admin and development
 - [cert management](doc/cert-management.md)
 - [id_rsa](doc/id_rsa.md)  
 - [ssh client alive](doc/ssh-keep-alive.md)
-- upgrade letsencrypt `apt upgrade certbot python3-acme`
+- [letsencrypt acme dns](doc/letsencrypt-acme-dns.md)
 - [fail2ban](doc/fail2ban.md)
 
 ## mobile native
