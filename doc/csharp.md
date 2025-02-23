@@ -1,18 +1,34 @@
 # csharp
 
-<!-- TOC -->
-* [Struct reference](#struct-reference)
-  + [readonly ref argument](#readonly-ref-argument)
-  + [readonly ref field](#readonly-ref-field)
-* [Number conversion](#number-conversion)
-  + [convert int to hex](#convert-int-to-hex)
-* [Templates](#templates)
-  + [implicit type inference](#implicit-type-inference)
-* [Troubleshoot](#troubleshoot)
-  + [The expression being assigned to 'SomeConstVarName' must be constant csharp(CS0133)](#the-expression-being-assigned-to-someconstvarname-must-be-constant-csharpcs0133)
-* [macro](#macro)
-  + [disable warning](#disable-warning)
-<!-- TOCEND -->
+- [try catches and finally](#try-catches-and-finally)
+- [Struct reference](#struct-reference)
+  - [readonly ref argument](#readonly-ref-argument)
+  - [readonly ref field](#readonly-ref-field)
+- [Number conversion](#number-conversion)
+  - [convert int to hex](#convert-int-to-hex)
+- [Templates](#templates)
+  - [implicit type inference](#implicit-type-inference)
+- [Troubleshoot](#troubleshoot)
+  - [The expression being assigned to 'SomeConstVarName' must be constant csharp(CS0133)](#the-expression-being-assigned-to-someconstvarname-must-be-constant-csharpcs0133)
+- [macro](#macro)
+  - [disable warning](#disable-warning)
+
+## try catches and finally
+
+```csharp
+try
+{
+    // NOTE: the finally will executed after return
+    return;
+}
+
+finally
+{
+    System.Console.WriteLine("FINALLY");    
+}
+
+System.Console.WriteLine("NEVER REACHED CODE");
+```
 
 ## Struct reference
 
