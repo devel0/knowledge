@@ -278,6 +278,7 @@ references for linux admin and development
 - [cert fingerprint](doc/cert-fingerprint.md)
 - retrieve bandwidth utilization continously for given interface with `ifstat -i devname`
 - download remote http folder `wget -r --no-parent URL`
+- [x11vnc headless](./doc/x11vnc-headless.md)
 
 ## python
 
