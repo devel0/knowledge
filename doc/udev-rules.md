@@ -27,3 +27,9 @@ KERNEL=="ttyUSB[0-9]*", SUBSYSTEM=="tty", ATTRS{idVendor}=="067b", ATTRS{idProdu
 ```sh
 udevadm control --reload-rules ; udevadm trigger
 ```
+
+## print rules from device
+
+```sh
+udevadm info -a /dev/DEVICE
+```
