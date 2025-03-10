@@ -9,6 +9,10 @@
 KERNEL=="ttyACM[0-9]*", SUBSYSTEM=="tty", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="374b", ATTRS{serial}=="serialnr", SYMLINK="ttyACM-MY"
 ```
 
+## detect event dev from 
+
+search in `/proc/bus/input/devices` and event device is in `H: eventX`
+
 ## create symlink for serial device
 
 ```udev
