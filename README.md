@@ -241,6 +241,7 @@ references for linux admin and development
 
 ## networking
 
+- [wired hotspot](https://github.com/devel0/linux-scripts-utils/blob/master/enable-wiredhotspot)
 - get current public ip address `curl -s ifconfig.me`
 - [netplan yaml ref](https://netplan.readthedocs.io/en/latest/netplan-yaml/)
 - [ubuntu desktop disable network manager](doc/ubuntu-desktop-disable-network-manager.md)
