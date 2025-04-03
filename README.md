@@ -188,6 +188,7 @@ references for linux admin and development
   - support for optional chaining conditional `?` operator (upgrade `react-scripts` to `3.3.0`)
   - [troubleshoot](doc/react-typescript-troubleshoot.md)
 - react / material.ui ( typescript )
+  - [snippets](doc/react-snippets.md)
   - create react typescript `npm create vite@latest test-app -- --template react-ts`
   - [app skeleton and global states](https://github.com/devel0/example-react-global-state)
   - [create react library useHook error](https://github.com/transitive-bullshit/create-react-library/issues/99#issuecomment-463177704)
