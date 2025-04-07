@@ -1,5 +1,8 @@
 # react typescript troubleshoot
 
+- [JSX.Intrinsict](#jsxintrinsict)
+- [createTheme\_default is not a function](#createtheme_default-is-not-a-function)
+
 ## JSX.Intrinsict
 
 - **error**: `Property 'numInput' does not exist on type 'JSX.IntrinsicElements'.`
