@@ -16,13 +16,14 @@
 
 ## interpolated string
 
-| code                                        | result             | notes                                   |
-| ------------------------------------------- | ------------------ | --------------------------------------- |
-| `${12:D5}`                                  | `00012`            | left pad with zero                      |
-| `${12.109:F2}`                              | `12.11`            | decimal places w/rounding               |
-| `[${12,5}]`                                 | `[   12]`          | width with space padding                |
-| `[${12,-5}]`                                | `[12   ]`          | width with space padding (left align)   |
-| `${DateTimeOffset.UtcNow:yyyyMMddTHHmmssZ}` | `20250417T211031Z` | year month day hour minutes seconds gmt |
+| code                                        | result               | notes                                                   |
+| ------------------------------------------- | -------------------- | ------------------------------------------------------- |
+| `${12:D5}`                                  | `00012`              | left pad with zero                                      |
+| `${12.109:F2}`                              | `12.11`              | decimal places w/rounding                               |
+| `[${12,5}]`                                 | `[   12]`            | width with space padding                                |
+| `[${12,-5}]`                                | `[12   ]`            | width with space padding (left align)                   |
+| `${DateTimeOffset.UtcNow:yyyyMMddTHHmmssZ}` | `20250417T211031Z`   | year month day hour minutes seconds gmt                 |
+| `${DateTimeOffset.Now:yyyyMMddTHHmmsszz}`   | `20250417T231031+02` | year month day hour minutes seconds zone (hours offset) |
 
 ## try catches and finally
 
