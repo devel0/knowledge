@@ -1,5 +1,6 @@
 # csharp
 
+- [interpolated string](#interpolated-string)
 - [try catches and finally](#try-catches-and-finally)
 - [Struct reference](#struct-reference)
   - [readonly ref argument](#readonly-ref-argument)
@@ -12,6 +13,16 @@
   - [The expression being assigned to 'SomeConstVarName' must be constant csharp(CS0133)](#the-expression-being-assigned-to-someconstvarname-must-be-constant-csharpcs0133)
 - [macro](#macro)
   - [disable warning](#disable-warning)
+
+## interpolated string
+
+| code                                        | result             | notes                                   |
+| ------------------------------------------- | ------------------ | --------------------------------------- |
+| `${12:D5}`                                  | `00012`            | left pad with zero                      |
+| `${12.109:F2}`                              | `12.11`            | decimal places w/rounding               |
+| `[${12,5}]`                                 | `[   12]`          | width with space padding                |
+| `[${12,-5}]`                                | `[12   ]`          | width with space padding (left align)   |
+| `${DateTimeOffset.UtcNow:yyyyMMddTHHmmssZ}` | `20250417T211031Z` | year month day hour minutes seconds gmt |
 
 ## try catches and finally
 
