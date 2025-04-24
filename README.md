@@ -304,7 +304,7 @@ references for linux admin and development
   - [how much is wear ssd](doc/ssd-wear.md)
   - [netfilter](https://en.wikipedia.org/wiki/Netfilter#)
   - [self signed cert](doc/self-signed-cert.md)
-  - log errors paged `journalctl -xe --pager`
+  - [journalctl](doc/journalctl.md)
   - [crontab](doc/crontab.md)
   - [wake-on-lan](doc/wake-on-lan.md)
   - test cpu speed `apt install sysbench ; sysbench cpu run` then see events per seconds ( higher better )  
