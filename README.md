@@ -38,6 +38,7 @@ references for linux admin and development
   - [dotnet3 and 5 on ubuntu20.04](doc/dotnet-5-ubuntu20.04.md)
   - [dotnet6 and 7 on ubuntu24.04](doc/dotnet-6-7-ubuntu24.04.md)
   - [netcore csproj](doc/netcore-csproj.md) ( generate doc, copy to output, define macro, exclude files from compile, disable warnings )
+  - [test coverage](https://github.com/devel0/netcore-sci/tree/8595fb5475df6f008b4c2a478683990b34e09b03?tab=readme-ov-file#unit-tests)
   - [netcore platform environment](doc/netcore-platform-environment.md) ( os type, debug macro )
   - [asp net core](doc/asp-net-core.md)
   - [dotnet sdks](https://github.com/dotnet/core-sdk) - [installers](https://dotnet.microsoft.com/download/dotnet-core)
