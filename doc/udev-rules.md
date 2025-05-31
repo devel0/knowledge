@@ -1,5 +1,11 @@
 # udev-rules
 
+## file names
+
+- rules are processed in alphabetical order
+- custom rules can be placed into `/etc/udev/rules.d`
+- to be considered file must ends with `.rules`
+
 ## force an stm32 device to a specific ttyACM
 
 - follow create `/dev/ttyACM-MY` symlink to ACM0, ACM1, ... depending on match serialnr
