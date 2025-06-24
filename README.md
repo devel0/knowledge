@@ -396,6 +396,8 @@ references for linux admin and development
   - [selfcheck disk health](doc/selfcheck-disk-health.md)
   - disk space analyzer `apt install baobab`
   - compare two directories `diff -rq DIR1 DIR2`
+- files
+  - search duplicate files `find . ! -empty -type f -exec md5sum {} + | sort | uniq -w32 -dD > dupfiles.txt`
 - docker containers
   - [docker xwindows](doc/docker-xwindows.md)
   - [modify created docker env](doc/docker-created-modify-env.md)
