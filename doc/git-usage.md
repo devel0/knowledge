@@ -28,6 +28,8 @@
 - [add submobule](#add-submobule)
 - [submobule init](#submobule-init)
 - [reset head on remote](#reset-head-on-remote)
+- [skip changes from already added file](#skip-changes-from-already-added-file)
+- [restart track changes for already added file](#restart-track-changes-for-already-added-file)
  
 <hr/>
 
@@ -310,3 +312,15 @@ git push origin BRANCH --force
 ```
 
 - refs: https://www.abrahamberg.com/blog/git-remove-commits-from-branch-after-push-reset-revert-or-rebase/
+
+## skip changes from already added file
+
+```sh
+git update-index --assume-unchanged FILE
+```
+
+## restart track changes for already added file
+
+```sh
+git update-index --no-assume-unchanged FILE
+```
