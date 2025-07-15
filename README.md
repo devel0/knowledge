@@ -153,6 +153,7 @@ references for linux admin and development
 
 ## database
 
+- [System.Linq.Dynamic.Core](doc/system-linq-dynamic-core.md)
 - [create db server using docker](doc/docker-db-server.md)
 - postgres
   - [create psql container](doc/create-pgsql-container.md)
