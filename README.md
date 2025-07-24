@@ -14,6 +14,7 @@ references for linux admin and development
 - [general development](#general-development)
 - [gis](#gis)
 - [math](#math)
+- [sysadm](#sysadm)
 - [networking](#networking)
 - [python](#python)
 - [linux](#linux)
@@ -242,6 +243,10 @@ references for linux admin and development
 
 - [c# AngouriMath symbolic](https://github.com/devel0/scurve-speed-eval/blob/0bff63605a3f7fae49d6f56aab4b813efa755242/Program.cs#L54)
 - [octave symbolic](doc/octave-symbolic.md)
+
+## sysadm
+
+- [backup imap](https://github.com/joeyates/imap-backup)
 
 ## networking
 
