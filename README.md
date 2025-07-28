@@ -63,6 +63,8 @@ references for linux admin and development
 - [read from special serial ttyACM cdc type](https://www.vgies.com/a-reliable-serial-port-in-c/)
 - [trap ctrl+c](doc/csharp-trap-ctrl-c.md)
 - [c# coding standards](https://github.com/justinamiller/Coding-Standards)
+- ef core
+  - disable validation for some prop `[ValidateNever]` attribute
 - opengl
   - [silk net under virtualbox opengl3.3](https://github.com/dotnet/Silk.NET/issues/246#issuecomment-1296368494)
 - [user secrets](doc/csharp-user-secrets.md)
