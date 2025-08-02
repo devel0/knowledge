@@ -1,10 +1,13 @@
 # loopback device
 
-## create
+## mount
 
 ```sh
 losetup -fP myfile
 ```
+
+- option `-f` : find first avail loop device
+- option `-P` : auto scan for parts
 
 ## show all loop devices
 
