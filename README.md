@@ -250,6 +250,7 @@ references for linux admin and development
 ## sysadm
 
 - [backup imap](https://github.com/joeyates/imap-backup)
+- [passbolt](./doc/passbolt-docker-recover-user.md)
 
 ## networking
 
