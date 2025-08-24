@@ -7,5 +7,5 @@
 ```sh
 docker exec -u www-data -ti sec-app /bin/bash
 
-www-data@705cfac12003:/usr/share/php/passbolt$ /usr/share/php/passbolt/bin/cake passbolt recover_user -c -u MAIL@SOME.COM
+www-data$ /usr/share/php/passbolt/bin/cake passbolt recover_user -c -u MAIL@SOME.COM
 ```

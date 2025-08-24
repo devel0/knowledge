@@ -250,7 +250,6 @@ references for linux admin and development
 ## sysadm
 
 - [backup imap](https://github.com/joeyates/imap-backup)
-- [passbolt](./doc/passbolt-docker-recover-user.md)
 
 ## networking
 
@@ -441,6 +440,7 @@ references for linux admin and development
 - [ssh client alive](doc/ssh-keep-alive.md)
 - [letsencrypt acme dns](doc/letsencrypt-acme-dns.md)
 - [fail2ban](doc/fail2ban.md)
+- [passbolt](./doc/passbolt-docker-recover-user.md)
 
 ## mobile native
 
