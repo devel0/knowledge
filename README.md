@@ -385,7 +385,7 @@ references for linux admin and development
   - copy qcow2 over network `rsync -Szv --progress src.qcow2 dst:folder`
 - remove desktop
   - fix `Authentication Required to Create Managed Color Device` [ref](https://c-nergy.be/blog/?p=12073)
-- [rsyslog strip](doc/rsyslog-strip.md)
+- [strip log](doc/strip-log.md)
 - devices
   - [card reader](doc/card-reader.md)
   - [bit4id minilector evo driver 64bit](doc/bit4id-minilector-evo.md)
