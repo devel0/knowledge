@@ -75,7 +75,7 @@ references for linux admin and development
   - [bash scripting](doc/bash-scripting.md)
   - [bash locale](doc/bash-locale.md)
   - [prompt colors](doc/prompt-colors.md)
-- executing dir in bash script `exdir=$(dirname $(readlink -f "$BASH_SOURCE"))`
+- executing dir in bash script `exdir=$(dirname "$(readlink -f "$BASH_SOURCE")")`
 - text screencast
   - [ttyrec ttygif](doc/ttyrec-ttygif.md)
   - [asciinema](https://asciinema.org/)
