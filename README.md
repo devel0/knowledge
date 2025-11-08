@@ -250,6 +250,7 @@ references for linux admin and development
 ## sysadm
 
 - [backup imap](https://github.com/joeyates/imap-backup)
+- [boot win phydisk](./doc/virt-manager-boot-win-phydisk.md)
 
 ## networking
 
