@@ -30,7 +30,6 @@ references for linux admin and development
 
 - [language notes](doc/csharp.md)
 - [send email 465](doc/send-email-465.md)
-- [psql ef codefirst](doc/psql-ef-codefirst.md)
 - [dotnet scripts](doc/dotnet-scripts.md)
 - [member not null](doc/csharp-member-not-null.md)
 - [task programming](doc/task-programming.md)
@@ -65,6 +64,8 @@ references for linux admin and development
 - [c# coding standards](https://github.com/justinamiller/Coding-Standards)
 - ef core
   - disable validation for some prop `[ValidateNever]` attribute
+  - [psql ef codefirst](doc/psql-ef-codefirst.md)
+  - [transaction](doc/ef-core-transaction.md)
 - opengl
   - [silk net under virtualbox opengl3.3](https://github.com/dotnet/Silk.NET/issues/246#issuecomment-1296368494)
 - [user secrets](doc/csharp-user-secrets.md)
