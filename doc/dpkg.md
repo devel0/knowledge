@@ -1,4 +1,38 @@
-# dpkg deb modify
+# dpkg
+
+- [retrieve just dpkg package](#retrieve-just-dpkg-package)
+- [build source package](#build-source-package)
+  - [prerequisites](#prerequisites)
+  - [retrieve source of a package and compile](#retrieve-source-of-a-package-and-compile)
+- [remove dependency](#remove-dependency)
+- [create a deb from a folder](#create-a-deb-from-a-folder)
+
+## retrieve just dpkg package
+
+```sh
+apt download packagename
+```
+
+## build source package
+
+### prerequisites
+
+- uncomment one of more deb-src repository from `/etc/apt/sources.list`
+
+```sh
+sudo apt install build-essential fakeroot dpkg-dev
+```
+
+### retrieve source of a package and compile
+
+```sh
+mkdir build
+cd build
+sudo apt-get source foo
+sudo apt-get build-dep foo
+dpkg-buildpackage -rfakeroot -b
+```
+
 
 ## remove dependency
 
