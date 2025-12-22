@@ -10,6 +10,7 @@
 - [autodecrypt using TPM2](#autodecrypt-using-tpm2)
   - [prevent kernel update deconfigure clevis luks](#prevent-kernel-update-deconfigure-clevis-luks)
   - [list clevis tpm2 config](#list-clevis-tpm2-config)
+  - [unbind clevis tpm2](#unbind-clevis-tpm2)
   - [regen clevis tpm2 config](#regen-clevis-tpm2-config)
   - [cheatsheet](#cheatsheet)
 - [decrypt using pendrive](#decrypt-using-pendrive)
@@ -128,6 +129,12 @@ You can test that without the above `zz-zclevis` post-kernel-update script the d
 clevis luks list -d DEV
 ```
 
+### unbind clevis tpm2
+
+```sh
+clevis luks unbind -d DEV -s SLOT tpm2
+```
+
 ### regen clevis tpm2 config
 
 ( replace SLOT with the one matching from the `clevis luks list -d DEV` cmd )
@@ -148,6 +155,9 @@ clevis luks regen -d DEV -s SLOT -q
 | `cryptsetup -v luksKillSlot DEV SLOTNR`           | remove slot                               |
 | `cryptsetup token remove --token-id TOKENID DEV`  | remove token                              |
 | `tpm2_pcrread`                                    | read tpm2 pcr banks                       |
+| `tpm2_getcap -l`                                  | get list of capabilities keywords         |
+| `tpm2_getcap pcrs`                                | list pcr types avail                      |
+
 
 ## decrypt using pendrive
 
