@@ -17,6 +17,7 @@
   - [function with arguments](#function-with-arguments)
 - [math](#math)
   - [decimal numeric test using bc](#decimal-numeric-test-using-bc)
+- [trap CTRL+C in functions](#trap-ctrlc-in-functions)
 
 
 ## string
@@ -172,4 +173,22 @@ fi
 if (( ! $(echo "$a > 12.1876" | bc -l) )); then
 	echo "[$a] is not great than 12.1876"
 fi
+```
+
+## trap CTRL+C in functions
+
+```sh
+function some()
+{
+  # save curren trap
+  local old_trap
+  old_trap=$(trap -p SIGINT)
+  # set trap to exit the script entirely
+	trap 'echo "interrupted..."; exit 99' SIGINT
+
+  echo "some fn"
+
+  # restore old trap
+  eval "$old_trap"
+}
 ```

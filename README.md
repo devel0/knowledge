@@ -384,7 +384,7 @@ references for linux admin and development
   - [virsh tips and backup](doc/virsh.md)
   - [virtualbox](doc/virtualbox.md)
   - [set virtualbox guest motherboard-cpu-id](doc/virtualbox-motherboard-cpu-id.md)
-  - copy qcow2 over network `rsync -Szv --progress src.qcow2 dst:folder`
+  - copy qcow2 over network `rsync --sparse --inplace -zv --progress src.qcow2 dst:folder`
 - remove desktop
   - fix `Authentication Required to Create Managed Color Device` [ref](https://c-nergy.be/blog/?p=12073)
 - [strip log](doc/strip-log.md)
