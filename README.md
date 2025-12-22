@@ -324,6 +324,7 @@ references for linux admin and development
   - [detached screen](doc/detached-screen.md)
   - [nfs4 acl](doc/nfs4-acl.md)
   - [chroot env](doc/chroot-env.md)
+  - [rescue notes](doc/rescue.md)
 - kde
   - [disable input method completion](doc/kde-disable-input-method-completion.md)
 - gnome
