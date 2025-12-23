@@ -4,6 +4,7 @@ references for linux admin and development
 
 <hr/>
 
+- [ai misc](#ai-misc)
 - [csharp](#csharp)
 - [shell](#shell)
 - [development tools](#development-tools)
@@ -25,6 +26,11 @@ references for linux admin and development
 
 
 <hr/>
+
+## ai misc
+
+- angular
+  - [angular rxjs best practice change field of an object directly on the behaviorsubject then call next or work on a clone then next](./ai-doc/angular_rxjs_best_practice_change_field_of_an_obje_1766506347476.pdf)
 
 ## csharp
 
