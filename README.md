@@ -342,6 +342,7 @@ references for linux admin and development
   - [udev rules](doc/udev-rules.md)
   - nautilus file manager folder right click -> open in terminal `apt install nautilus-open-terminal`
   - hardware inventory `inxi`
+  - minisforum UM773 LITE - F7BFD [graphics drivers](https://rocm.docs.amd.com/projects/radeon-ryzen/en/latest/docs/install/installryz/native_linux/install-ryzen.html)
 - log
   - [tail generic color](https://github.com/devel0/cf)
   - colourized log `grc --colour=on tail -f /var/log/syslog`
