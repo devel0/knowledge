@@ -32,6 +32,8 @@ references for linux admin and development
 - angular
   - [angular rxjs best practice change field of an object directly on the behaviorsubject then call next or work on a clone then next](./ai-doc/angular_rxjs_best_practice_change_field_of_an_obje_1766506347476.pdf)
   - [angular set multiple behaviorsubject at once](./ai-doc/angular_set_multiple_behaviorsubject_at_once_1766509354111.pdf)
+- typescript
+  - [typescript full qualify Map type name](./ai-doc/typescript_full_qualify_map_type_name_1766659794237.pdf)
 
 ## csharp
 
