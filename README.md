@@ -198,6 +198,12 @@ references for linux admin and development
 - [chrome](doc/chrome.md)
 - imagemap ( just use gimp Filters/Web/Imagemap )
 - [grunt troubleshoot](doc/grunt-troubleshoot.md)
+- css
+  - padding 1-4 values
+    - 1 value ( all sides equal )
+    - 2 value ( top/bottom left/right )
+    - 3 value ( top left/right bottom )
+    - 4 value ( top, right, bottom, left )
 - npm
   - [tips](doc/npm-tips.md)
   - [proxy cache](doc/npm-proxy-cache.md)  
