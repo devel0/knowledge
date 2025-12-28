@@ -34,6 +34,7 @@ references for linux admin and development
   - [angular set multiple behaviorsubject at once](./ai-doc/angular_set_multiple_behaviorsubject_at_once_1766509354111.pdf)
   - [angular pipe recompute on rxjs event](./ai-doc/angular_pipe_recompute_on_rxjs_event_1766759874216.pdf)
   - [angular prevent dialog from close clock outside](./ai-doc/angular_prevent_dialog_from_close_click_outside_1766778919699.pdf)
+  - [angular directive to track size and position of an element included begin values and margins](./ai-doc/angular_directive_to_track_size_and_position_of_an_1766848276692.pdf)
 - typescript
   - [typescript full qualify Map type name](./ai-doc/typescript_full_qualify_map_type_name_1766659794237.pdf)  
 
