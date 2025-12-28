@@ -35,8 +35,11 @@ references for linux admin and development
   - [angular pipe recompute on rxjs event](./ai-doc/angular_pipe_recompute_on_rxjs_event_1766759874216.pdf)
   - [angular prevent dialog from close clock outside](./ai-doc/angular_prevent_dialog_from_close_click_outside_1766778919699.pdf)
   - [angular directive to track size and position of an element included begin values and margins](./ai-doc/angular_directive_to_track_size_and_position_of_an_1766848276692.pdf)
+  - [angular combineLatest skip when next equals previous](./ai-doc/angular_combinelatest_skip_when_next_equals_previo_1766917825071.pdf)
+  - [angular htmldivelement create a canvas at runtime](./ai-doc/angular_htmldivelement_create_a_canvas_at_runtime_1766922010447.pdf)
 - typescript
   - [typescript full qualify Map type name](./ai-doc/typescript_full_qualify_map_type_name_1766659794237.pdf)  
+  - [typescript print difference between two json](./ai-doc/typescript_print_difference_between_two_json_1766917762586.pdf)
 
 ## csharp
 
