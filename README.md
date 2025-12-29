@@ -477,6 +477,8 @@ references for linux admin and development
 
 ## tools
 
+- development
+  - [convert json to csharp](./doc/convert-json-to-csharp.md)
 - [cygwin install](doc/cygwin-install.md)    
 - [win10 quick assist](doc/win10-quick-assist.md)
 - drawings
