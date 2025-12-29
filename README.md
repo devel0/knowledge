@@ -43,6 +43,9 @@ references for linux admin and development
   - [typescript full qualify Map type name](./ai-doc/typescript_full_qualify_map_type_name_1766659794237.pdf)  
   - [typescript print difference between two json](./ai-doc/typescript_print_difference_between_two_json_1766917762586.pdf)
 
+- csharp
+  - [c# parse month name with italian locale](./ai-doc/c_parse_month_name_with_italian_locale_1767025821113.pdf)
+
 ## csharp
 
 - [language notes](doc/csharp.md)
