@@ -1,17 +1,37 @@
 # ssh port forward
 
-## cheatsheet
+- [cheatsheet port export](#cheatsheet-port-export)
+- [keepalive config](#keepalive-config)
+- [keepalive ssh by service](#keepalive-ssh-by-service)
+- [replicate a remote ip:port to local network](#replicate-a-remote-ipport-to-local-network)
 
-- export to a remote server port the local port
+## cheatsheet port export
+
+- export local port to Remote
 
 ```sh
 ssh -R remote_port:localhost:local_port ssh_name
 ```
 
-- export to local port a remote server port
+- export remote port to Local
 
 ```sh
 ssh -L local_port:remote_server_ip:remote_port ssh_name
+```
+
+## keepalive config
+
+in order to ensure the ssh ping each 300 sec with 3 max failure before closing conn:
+
+- with ssh command line `-o ServerAliveInterval=300 -o ServerAliveCountMax=3`
+
+- with `~/.ssh/config` file
+
+```sh
+# for all hosts
+Host *
+   ServerAliveInterval 300
+   ServerAliveCountMax 3
 ```
 
 ## keepalive ssh by service

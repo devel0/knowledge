@@ -286,8 +286,8 @@ references for linux admin and development
 - [netplan yaml ref](https://netplan.readthedocs.io/en/latest/netplan-yaml/)
 - [ubuntu desktop disable network manager](doc/ubuntu-desktop-disable-network-manager.md)
 - ssh
-  - [ssh port forward](doc/ssh-port-forward.md)
-  - [ssh alive](https://gist.github.com/netsensei/834aad8e9b8d503748f2400ce23c50e3)
+  - [ssh misc](doc/ssh-port-forward.md)
+  - [ssh ctrl channel](https://gist.github.com/netsensei/834aad8e9b8d503748f2400ce23c50e3)
   - [ssh mount dir](doc/ssh-mount-dir.md)
 - send a tcp packet `echo sample | nc 10.10.2.10 1000`
 - test tcp port `echo "test" | netcat -w 5 -W 1 host port ; if [ "$?" == "0" ]; then echo "OK"; else echo "UNREACHABLE"; fi`
@@ -469,7 +469,6 @@ references for linux admin and development
 - [generate htpasswd](doc/generate-htpasswd.md)
 - [cert management](doc/cert-management.md)
 - [id_rsa](doc/id_rsa.md)  
-- [ssh client alive](doc/ssh-keep-alive.md)
 - [letsencrypt acme dns](doc/letsencrypt-acme-dns.md)
 - [fail2ban](doc/fail2ban.md)
 - [passbolt](./doc/passbolt-docker-recover-user.md)
