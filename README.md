@@ -49,8 +49,6 @@ references for linux admin and development
 - [typescript print difference between two json](./ai-doc/typescript_print_difference_between_two_json_1766917762586.pdf)
 - [typescript Date to locale string with dayname abbrev day number and month abbrev with custom timezone](./ai-doc/typescript_date_to_locale_string_with_dayname_abbr_1767267254817.pdf)
 
-<hr/>
-
 ### csharp
   
 - [c# parse month name with italian locale](./ai-doc/c_parse_month_name_with_italian_locale_1767025821113.pdf)
@@ -58,6 +56,8 @@ references for linux admin and development
 ### css
 
 - [css div shadow blur](./ai-doc/css_div_shadow_blur_1767347183752.pdf)
+
+<hr/>
 
 ## csharp
 
