@@ -5,7 +5,11 @@ references for linux admin and development
 <hr/>
 
 - [ai misc](#ai-misc)
-- [csharp](#csharp)
+  - [angular](#angular)
+  - [typescript](#typescript)
+  - [csharp](#csharp)
+  - [css](#css)
+- [csharp](#csharp-1)
 - [shell](#shell)
 - [development tools](#development-tools)
 - [c++](#c)
@@ -29,23 +33,30 @@ references for linux admin and development
 
 ## ai misc
 
-- angular
-  - [angular rxjs best practice change field of an object directly on the behaviorsubject then call next or work on a clone then next](./ai-doc/angular_rxjs_best_practice_change_field_of_an_obje_1766506347476.pdf)
-  - [angular set multiple behaviorsubject at once](./ai-doc/angular_set_multiple_behaviorsubject_at_once_1766509354111.pdf)
-  - [angular pipe recompute on rxjs event](./ai-doc/angular_pipe_recompute_on_rxjs_event_1766759874216.pdf)
-  - [angular prevent dialog from close clock outside](./ai-doc/angular_prevent_dialog_from_close_click_outside_1766778919699.pdf)
-  - [angular directive to track size and position of an element included begin values and margins](./ai-doc/angular_directive_to_track_size_and_position_of_an_1766848276692.pdf)
-  - [angular combineLatest skip when next equals previous](./ai-doc/angular_combinelatest_skip_when_next_equals_previo_1766917825071.pdf)
-  - [angular htmldivelement create a canvas at runtime](./ai-doc/angular_htmldivelement_create_a_canvas_at_runtime_1766922010447.pdf)
-  - [angular two way binding property](./ai-doc/angular_two_way_binding_property_1766925993898.pdf)
+### angular
 
-- typescript
-  - [typescript full qualify Map type name](./ai-doc/typescript_full_qualify_map_type_name_1766659794237.pdf)  
-  - [typescript print difference between two json](./ai-doc/typescript_print_difference_between_two_json_1766917762586.pdf)
-  - [typescript Date to locale string with dayname abbrev day number and month abbrev with custom timezone](./ai-doc/typescript_date_to_locale_string_with_dayname_abbr_1767267254817.pdf)
+- [angular rxjs best practice change field of an object directly on the behaviorsubject then call next or work on a clone then next](./ai-doc/angular_rxjs_best_practice_change_field_of_an_obje_1766506347476.pdf)
+- [angular set multiple behaviorsubject at once](./ai-doc/angular_set_multiple_behaviorsubject_at_once_1766509354111.pdf)
+- [angular pipe recompute on rxjs event](./ai-doc/angular_pipe_recompute_on_rxjs_event_1766759874216.pdf)
+- [angular prevent dialog from close clock outside](./ai-doc/angular_prevent_dialog_from_close_click_outside_1766778919699.pdf)
+- [angular directive to track size and position of an element included begin values and margins](./ai-doc/angular_directive_to_track_size_and_position_of_an_1766848276692.pdf)
+- [angular combineLatest skip when next equals previous](./ai-doc/angular_combinelatest_skip_when_next_equals_previo_1766917825071.pdf)
+- [angular htmldivelement create a canvas at runtime](./ai-doc/angular_htmldivelement_create_a_canvas_at_runtime_1766922010447.pdf)
+- [angular two way binding property](./ai-doc/angular_two_way_binding_property_1766925993898.pdf)
 
-- csharp
-  - [c# parse month name with italian locale](./ai-doc/c_parse_month_name_with_italian_locale_1767025821113.pdf)
+### typescript
+
+- [typescript full qualify Map type name](./ai-doc/typescript_full_qualify_map_type_name_1766659794237.pdf)  
+- [typescript print difference between two json](./ai-doc/typescript_print_difference_between_two_json_1766917762586.pdf)
+- [typescript Date to locale string with dayname abbrev day number and month abbrev with custom timezone](./ai-doc/typescript_date_to_locale_string_with_dayname_abbr_1767267254817.pdf)
+
+### csharp
+  
+- [c# parse month name with italian locale](./ai-doc/c_parse_month_name_with_italian_locale_1767025821113.pdf)
+
+### css
+
+- [css div shadow blur](./ai-doc/css_div_shadow_blur_1767347183752.pdf)
 
 ## csharp
 
