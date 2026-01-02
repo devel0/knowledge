@@ -28,7 +28,6 @@ references for linux admin and development
 - [tools](#tools)
 - [media](#media)
 
-
 <hr/>
 
 ## ai misc
@@ -49,6 +48,8 @@ references for linux admin and development
 - [typescript full qualify Map type name](./ai-doc/typescript_full_qualify_map_type_name_1766659794237.pdf)  
 - [typescript print difference between two json](./ai-doc/typescript_print_difference_between_two_json_1766917762586.pdf)
 - [typescript Date to locale string with dayname abbrev day number and month abbrev with custom timezone](./ai-doc/typescript_date_to_locale_string_with_dayname_abbr_1767267254817.pdf)
+
+<hr/>
 
 ### csharp
   
