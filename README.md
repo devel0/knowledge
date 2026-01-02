@@ -38,6 +38,7 @@ references for linux admin and development
 - [angular combineLatest skip when next equals previous](./ai-doc/angular_combinelatest_skip_when_next_equals_previo_1766917825071.pdf)
 - [angular htmldivelement create a canvas at runtime](./ai-doc/angular_htmldivelement_create_a_canvas_at_runtime_1766922010447.pdf)
 - [angular two way binding property](./ai-doc/angular_two_way_binding_property_1766925993898.pdf)
+- [angular get only innertext from a string containing html tags](./ai-doc/angular_get_only_innertext_from_a_string_containin_1767353239967.pdf)
 
 **typescript**
 
