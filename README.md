@@ -47,6 +47,7 @@ references for linux admin and development
 - [typescript Date to locale string with dayname abbrev day number and month abbrev with custom timezone](./ai-doc/typescript_date_to_locale_string_with_dayname_abbr_1767267254817.pdf)
 - [typescript invoke static method using this](./ai-doc/typescript_invoke_static_method_using_this_1767539566288.pdf)
 - [typescript parse json date only string YYYY-MM-DD to date object assuming italy timezone with time 00:00](./ai-doc/typescript_parse_json_date_only_string_yyyy-mm-dd__1767544074477.pdf)
+- [typescript create ICAL event with location latitude and longitude](./ai-doc/typescript_create_ical_event_with_location_latitud_1767696589711.pdf)
 
 **csharp**
   
