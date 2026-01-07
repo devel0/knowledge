@@ -41,6 +41,7 @@ references for linux admin and development
 - [angular get only innertext from a string containing html tags](./ai-doc/angular_get_only_innertext_from_a_string_containin_1767353239967.pdf)
 - [angular ngx-leaflet map add custom control](./ai-doc/angular_ngx-leaflet_map_add_custom_control_1767727795665.pdf)
 - [angular gsap circle that follow mouse and drop circle where click happens](./ai-doc/angular_gsap_circle_that_follow_mouse_and_drop_cir_1767820103752.pdf)
+- [angular directive elementRef become undefined under mouse click event handler](./ai-doc/angular_directive_elementref_become_undefined_unde_1767821739363.pdf)
 
 **typescript**
 
