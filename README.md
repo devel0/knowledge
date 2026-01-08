@@ -63,6 +63,7 @@ references for linux admin and development
 **csharp**
 
 - [c# ensure an async Task started and reached a region before to proceeed with other instructions](./ai-doc/c_ensure_an_async_task_started_and_reached_a_regi_1767909357594.pdf)
+- [csharp difference between != and is not null](./ai-doc/csharp_difference_between_and_is_not_null_1767915424492.pdf)
 
 <hr/>
 
