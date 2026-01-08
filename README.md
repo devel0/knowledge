@@ -60,6 +60,10 @@ references for linux admin and development
 
 - [css div shadow blur](./ai-doc/css_div_shadow_blur_1767347183752.pdf)
 
+**csharp**
+
+- [c# ensure an async Task started and reached a region before to proceeed with other instructions](./ai-doc/c_ensure_an_async_task_started_and_reached_a_regi_1767909357594.pdf)
+
 <hr/>
 
 ## csharp
