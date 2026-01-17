@@ -57,6 +57,7 @@ references for linux admin and development
 **csharp**
   
 - [c# parse month name with italian locale](./ai-doc/c_parse_month_name_with_italian_locale_1767025821113.pdf)
+- [dotnet build pass a variabile to use in csproj Condition](./ai-doc/dotnet_build_pass_a_variabile_to_use_in_csproj_con_1768642618009.pdf)
 
 **css**
 
