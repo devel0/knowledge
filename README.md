@@ -59,6 +59,7 @@ references for linux admin and development
 - [csharp language features from 9 to 14 with code example](./ai-doc/csharp_language_features_from_9_to_14_with_code_ex_1768737987362.pdf)
 - [c# parse month name with italian locale](./ai-doc/c_parse_month_name_with_italian_locale_1767025821113.pdf)
 - [dotnet build pass a variabile to use in csproj Condition](./ai-doc/dotnet_build_pass_a_variabile_to_use_in_csproj_con_1768642618009.pdf)
+- [csharp openapi-generator-cli use api generated passing baseurl considering the constructor parameters are logger, loggerFactory, httpclient, jsonserializeroptions, apievents](./ai-doc/csharp_openapi-generator-cli_use_api_generated_pas_1769193468630.pdf)
 
 **css**
 
