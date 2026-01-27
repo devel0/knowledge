@@ -62,6 +62,7 @@ references for linux admin and development
 - [csharp openapi-generator-cli use api generated passing baseurl considering the constructor parameters are logger, loggerFactory, httpclient, jsonserializeroptions, apievents](./ai-doc/csharp_openapi-generator-cli_use_api_generated_pas_1769193468630.pdf)
 - [csharp postgres linq to sql given a queryable with (x, y) points compute integral area](./ai-doc/csharp_postgres_linq_to_sql_given_a_queryable_with_1769344192462.pdf)
 - [csharp ef core disable cascade delete](./ai-doc/csharp_ef_core_disable_cascade_delete_1769368614668.pdf)
+- [csharp struct vs record](./ai-doc/csharp_struct_vs_record_1769542707954.pdf)
 
 **css**
 
