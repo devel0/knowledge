@@ -63,15 +63,12 @@ references for linux admin and development
 - [csharp postgres linq to sql given a queryable with (x, y) points compute integral area](./ai-doc/csharp_postgres_linq_to_sql_given_a_queryable_with_1769344192462.pdf)
 - [csharp ef core disable cascade delete](./ai-doc/csharp_ef_core_disable_cascade_delete_1769368614668.pdf)
 - [csharp struct vs record](./ai-doc/csharp_struct_vs_record_1769542707954.pdf)
+- [c# ensure an async Task started and reached a region before to proceeed with other instructions](./ai-doc/c_ensure_an_async_task_started_and_reached_a_regi_1767909357594.pdf)
+- [csharp difference between != and is not null](./ai-doc/csharp_difference_between_and_is_not_null_1767915424492.pdf)
 
 **css**
 
 - [css div shadow blur](./ai-doc/css_div_shadow_blur_1767347183752.pdf)
-
-**csharp**
-
-- [c# ensure an async Task started and reached a region before to proceeed with other instructions](./ai-doc/c_ensure_an_async_task_started_and_reached_a_regi_1767909357594.pdf)
-- [csharp difference between != and is not null](./ai-doc/csharp_difference_between_and_is_not_null_1767915424492.pdf)
 
 <hr/>
 
@@ -81,7 +78,7 @@ references for linux admin and development
 - [send email 465](doc/send-email-465.md)
 - [dotnet scripts](doc/dotnet-scripts.md)
 - [member not null](doc/csharp-member-not-null.md)
-- [task programming](doc/task-programming.md)
+- [task programming](doc/task-programming.md)  
 - dotnet core
   - publish self contained `dotnet publish -c Release --runtime linux-x64 --sc`
   - [dotnet3 and 5 on ubuntu20.04](doc/dotnet-5-ubuntu20.04.md)
