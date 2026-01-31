@@ -66,6 +66,8 @@ references for linux admin and development
 - [c# ensure an async Task started and reached a region before to proceeed with other instructions](./ai-doc/c_ensure_an_async_task_started_and_reached_a_regi_1767909357594.pdf)
 - [csharp difference between != and is not null](./ai-doc/csharp_difference_between_and_is_not_null_1767915424492.pdf)
 - [csharp efcore bulk delete](./ai-doc/csharp_efcore_bulk_delete_1769873333607.pdf)
+- [csharp efcore sweep records one at time without loading into memory](./ai-doc/csharp_efcore_sweep_records_one_at_time_without_lo_1769874283041.pdf)
+- [csharp efcore add record to database without retain into memory](./ai-doc/csharp_efcore_add_record_to_database_without_retai_1769874325224.pdf)
 
 **css**
 
