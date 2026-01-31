@@ -65,6 +65,7 @@ references for linux admin and development
 - [csharp struct vs record](./ai-doc/csharp_struct_vs_record_1769542707954.pdf)
 - [c# ensure an async Task started and reached a region before to proceeed with other instructions](./ai-doc/c_ensure_an_async_task_started_and_reached_a_regi_1767909357594.pdf)
 - [csharp difference between != and is not null](./ai-doc/csharp_difference_between_and_is_not_null_1767915424492.pdf)
+- [csharp efcore bulk delete](./ai-doc/csharp_efcore_bulk_delete_1769873333607.pdf)
 
 **css**
 
