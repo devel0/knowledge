@@ -44,6 +44,7 @@ references for linux admin and development
 - [angular directive elementRef become undefined under mouse click event handler](./ai-doc/angular_directive_elementref_become_undefined_unde_1767821739363.pdf)
 - [angular gsap animate from a color to another and then back to original one](./ai-doc/angular_gsap_animate_from_a_color_to_another_and_t_1768057190537.pdf)
 - [angular lib-ng-swiper generate items at runtime when next slide occurs](./ai-doc/angular_lib-ng-swiper_generate_items_at_runtime_wh_1768343928293.pdf)
+- [angular dialog intercept click outside to execute action before close](./ai-doc/angular_dialog_intercept_click_outside_to_execute__1770154949040.pdf)
 
 **typescript**
 
