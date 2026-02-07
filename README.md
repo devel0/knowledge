@@ -60,6 +60,7 @@ references for linux admin and development
 **css**
 
 - [css div shadow blur](./ai-doc/css_div_shadow_blur_1767347183752.pdf)
+- [css get color with alpha from a color given a var()](./ai-doc/css_get_color_with_alpha_from_a_color_given_a_var_1770473095074.pdf)
 
 **csharp**
   
