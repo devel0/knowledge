@@ -47,7 +47,7 @@ references for linux admin and development
 - [angular dialog intercept click outside to execute action before close](./ai-doc/angular_dialog_intercept_click_outside_to_execute__1770154949040.pdf)
 - [angular mat-toggle-button set initial value from a variable without using mat-button-toggle-group](./ai-doc/angular_mat-toggle-button_set_initial_value_from_a_1770155826906.pdf)
 
-**typescript**
+**typescript** / **javascript**
 
 - [typescript full qualify Map type name](./ai-doc/typescript_full_qualify_map_type_name_1766659794237.pdf)  
 - [typescript print difference between two json](./ai-doc/typescript_print_difference_between_two_json_1766917762586.pdf)
@@ -55,6 +55,11 @@ references for linux admin and development
 - [typescript invoke static method using this](./ai-doc/typescript_invoke_static_method_using_this_1767539566288.pdf)
 - [typescript parse json date only string YYYY-MM-DD to date object assuming italy timezone with time 00:00](./ai-doc/typescript_parse_json_date_only_string_yyyy-mm-dd__1767544074477.pdf)
 - [typescript create ICAL event with location latitude and longitude](./ai-doc/typescript_create_ical_event_with_location_latitud_1767696589711.pdf)
+- [javascript mousemove get coordinates relative to a div](./ai-doc/javascript_mousemove_get_coordinates_relative_to_a_1770470561529.pdf)
+
+**css**
+
+- [css div shadow blur](./ai-doc/css_div_shadow_blur_1767347183752.pdf)
 
 **csharp**
   
@@ -70,10 +75,6 @@ references for linux admin and development
 - [csharp efcore bulk delete](./ai-doc/csharp_efcore_bulk_delete_1769873333607.pdf)
 - [csharp efcore sweep records one at time without loading into memory](./ai-doc/csharp_efcore_sweep_records_one_at_time_without_lo_1769874283041.pdf)
 - [csharp efcore add record to database without retain into memory](./ai-doc/csharp_efcore_add_record_to_database_without_retai_1769874325224.pdf)
-
-**css**
-
-- [css div shadow blur](./ai-doc/css_div_shadow_blur_1767347183752.pdf)
 
 <hr/>
 
