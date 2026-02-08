@@ -46,6 +46,7 @@ references for linux admin and development
 - [angular lib-ng-swiper generate items at runtime when next slide occurs](./ai-doc/angular_lib-ng-swiper_generate_items_at_runtime_wh_1768343928293.pdf)
 - [angular dialog intercept click outside to execute action before close](./ai-doc/angular_dialog_intercept_click_outside_to_execute__1770154949040.pdf)
 - [angular mat-toggle-button set initial value from a variable without using mat-button-toggle-group](./ai-doc/angular_mat-toggle-button_set_initial_value_from_a_1770155826906.pdf)
+- [angular input matInput on value change](./ai-doc/angular_input_matinput_on_value_change_1770554151075.pdf)
 
 **typescript** / **javascript**
 
