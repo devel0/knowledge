@@ -16,4 +16,10 @@ Debug.Assert(expr.Substitute("x", -1).EvalBoolean() == true);
 Debug.Assert(expr.Substitute("x", 0).EvalBoolean() == true);
 Debug.Assert(expr.Substitute("x", 1).EvalBoolean() == true);
 Debug.Assert(expr.Substitute("x", 5).EvalBoolean() == false);
+
+expr = "(x > 10 and x < 20) or (x = 21)";            
+Debug.Assert(expr.Substitute("x", 10).EvalBoolean() == false);
+Debug.Assert(expr.Substitute("x", 15).EvalBoolean() == true);
+Debug.Assert(expr.Substitute("x", 20).EvalBoolean() == false);
+Debug.Assert(expr.Substitute("x", 21).EvalBoolean() == true);
 ```
