@@ -449,6 +449,7 @@ references for linux admin and development
   - [virsh storage](doc/virsh-storage.md)  
   - [virsh tips and backup](doc/virsh.md)
   - [virtualbox](doc/virtualbox.md)
+  - [virsh qemu connect physical disk](doc/virsh-qemu-connect-physical-disk.md)
   - [set virtualbox guest motherboard-cpu-id](doc/virtualbox-motherboard-cpu-id.md)
   - copy qcow2 over network `rsync --sparse --inplace -zv --progress src.qcow2 dst:folder`
 - remove desktop
