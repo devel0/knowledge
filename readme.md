@@ -5,7 +5,12 @@ references for linux admin and development
 <hr/>
 
 - [ai misc](#ai-misc)
-- [csharp](#csharp)
+  - [angular](#angular)
+  - [typescript / javascript](#typescript--javascript)
+  - [css](#css)
+  - [csharp](#csharp)
+  - [networking](#networking)
+- [csharp](#csharp-1)
 - [shell](#shell)
 - [development tools](#development-tools)
 - [c++](#c)
@@ -16,7 +21,7 @@ references for linux admin and development
 - [gis](#gis)
 - [math](#math)
 - [sysadm](#sysadm)
-- [networking](#networking)
+- [networking](#networking-1)
 - [python](#python)
 - [linux](#linux)
 - [security](#security)
@@ -28,7 +33,7 @@ references for linux admin and development
 
 ## ai misc
 
-**angular**
+### angular
 
 - [angular rxjs best practice change field of an object directly on the behaviorsubject then call next or work on a clone then next](./ai-doc/angular_rxjs_best_practice_change_field_of_an_obje_1766506347476.pdf)
 - [angular set multiple behaviorsubject at once](./ai-doc/angular_set_multiple_behaviorsubject_at_once_1766509354111.pdf)
@@ -48,8 +53,10 @@ references for linux admin and development
 - [angular mat-toggle-button set initial value from a variable without using mat-button-toggle-group](./ai-doc/angular_mat-toggle-button_set_initial_value_from_a_1770155826906.pdf)
 - [angular input matInput on value change](./ai-doc/angular_input_matinput_on_value_change_1770554151075.pdf)
 - [angular rxjs interval with emission of first](./ai-doc/angular_rxjs_interval_with_emission_of_first_1770569056902.pdf)
+- [build android app using angular and capacitor](./ai-doc/build_android_app_using_angular_and_capacitor_1771506733745.pdf)
+- [angular capacitor with ios output ipa](./ai-doc/angular_capacitor_with_ios_output_ipa_1771516563647.pdf)
 
-**typescript** / **javascript**
+### typescript / javascript
 
 - [typescript full qualify Map type name](./ai-doc/typescript_full_qualify_map_type_name_1766659794237.pdf)  
 - [typescript print difference between two json](./ai-doc/typescript_print_difference_between_two_json_1766917762586.pdf)
@@ -59,12 +66,12 @@ references for linux admin and development
 - [typescript create ICAL event with location latitude and longitude](./ai-doc/typescript_create_ical_event_with_location_latitud_1767696589711.pdf)
 - [javascript mousemove get coordinates relative to a div](./ai-doc/javascript_mousemove_get_coordinates_relative_to_a_1770470561529.pdf)
 
-**css**
+### css
 
 - [css div shadow blur](./ai-doc/css_div_shadow_blur_1767347183752.pdf)
 - [css get color with alpha from a color given a var()](./ai-doc/css_get_color_with_alpha_from_a_color_given_a_var_1770473095074.pdf)
 
-**csharp**
+### csharp
   
 - [csharp language features from 9 to 14 with code example](./ai-doc/csharp_language_features_from_9_to_14_with_code_ex_1768737987362.pdf)
 - [c# parse month name with italian locale](./ai-doc/c_parse_month_name_with_italian_locale_1767025821113.pdf)
@@ -78,6 +85,11 @@ references for linux admin and development
 - [csharp efcore bulk delete](./ai-doc/csharp_efcore_bulk_delete_1769873333607.pdf)
 - [csharp efcore sweep records one at time without loading into memory](./ai-doc/csharp_efcore_sweep_records_one_at_time_without_lo_1769874283041.pdf)
 - [csharp efcore add record to database without retain into memory](./ai-doc/csharp_efcore_add_record_to_database_without_retai_1769874325224.pdf)
+- [csharp compute md5sum from given stream](./ai-doc/csharp_compute_md5sum_from_given_stream_1770368706871.pdf)
+
+### networking
+
+- [make curl with cors](./ai-doc/make_curl_with_cors_1771683747275.pdf)
 
 <hr/>
 
