@@ -56,6 +56,13 @@ references for linux admin and development
 - [angular rxjs interval with emission of first](./ai-doc/angular_rxjs_interval_with_emission_of_first_1770569056902.pdf)
 - [build android app using angular and capacitor](./ai-doc/build_android_app_using_angular_and_capacitor_1771506733745.pdf)
 - [angular capacitor with ios output ipa](./ai-doc/angular_capacitor_with_ios_output_ipa_1771516563647.pdf)
+- [angular component that accept other components as children and render these with a separator charater between](./ai-doc/angular_component_that_accept_other_components_as__1771928528967.pdf)
+- [angular require a service programmatically from code out of constructor](./ai-doc/angular_require_a_service_programmatically_from_co_1772031128319.pdf)
+- [angular rxjs subscribe get current and previous value](./ai-doc/angular_rxjs_subscribe_get_current_and_previous_va_1772614398298.pdf)
+- [angular @let with async inside @for makes infinite loop](./ai-doc/angular_let_with_async_inside_for_makes_infinite_1773391442261.pdf)
+- [angular what does it do ngModel underneath](./ai-doc/angular_what_does_it_do_ngmodel_underneath_1775555382319.pdf)
+- [angular difference between #name of a element and id](./ai-doc/angular_difference_between_name_of_a_element_and__1776166353953.pdf)
+- [angular add layer to leaflet map without using external libraries but leaflet one](./ai-doc/angular_add_layer_to_leaflet_map_without_using_ext_1776166441014.pdf)
 
 ### typescript / javascript
 
@@ -66,6 +73,7 @@ references for linux admin and development
 - [typescript parse json date only string YYYY-MM-DD to date object assuming italy timezone with time 00:00](./ai-doc/typescript_parse_json_date_only_string_yyyy-mm-dd__1767544074477.pdf)
 - [typescript create ICAL event with location latitude and longitude](./ai-doc/typescript_create_ical_event_with_location_latitud_1767696589711.pdf)
 - [javascript mousemove get coordinates relative to a div](./ai-doc/javascript_mousemove_get_coordinates_relative_to_a_1770470561529.pdf)
+- [javascript intercept all console error](./ai-doc/javascript_intercept_all_console_error_1772013997365.pdf)
 
 ### css
 
@@ -87,10 +95,13 @@ references for linux admin and development
 - [csharp efcore sweep records one at time without loading into memory](./ai-doc/csharp_efcore_sweep_records_one_at_time_without_lo_1769874283041.pdf)
 - [csharp efcore add record to database without retain into memory](./ai-doc/csharp_efcore_add_record_to_database_without_retai_1769874325224.pdf)
 - [csharp compute md5sum from given stream](./ai-doc/csharp_compute_md5sum_from_given_stream_1770368706871.pdf)
+- [csharp asp net core specify different cors for controller](./ai-doc/csharp_asp_net_core_specify_different_cors_for_con_1772030784159.pdf)
+- [asp net core controller return File from memoryStream](./ai-doc/asp_net_core_controller_return_file_from_memorystr_1772704313004.pdf)
 
 ### networking
 
 - [make curl with cors](./ai-doc/make_curl_with_cors_1771683747275.pdf)
+- [curl check if a url request cors](./ai-doc/curl_check_if_a_url_request_cors_1772443932948.pdf)
 
 <hr/>
 
