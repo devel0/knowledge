@@ -7,6 +7,7 @@
 - [mount on demand using keyfile and crypttab info](#mount-on-demand-using-keyfile-and-crypttab-info)
 - [duplicated uuid](#duplicated-uuid)
 - [change lvm encrypted passphrase](#change-lvm-encrypted-passphrase)
+- [autodecrypt using TPM2 NEW](#autodecrypt-using-tpm2-new)
 - [autodecrypt using TPM2](#autodecrypt-using-tpm2)
   - [prevent kernel update deconfigure clevis luks](#prevent-kernel-update-deconfigure-clevis-luks)
   - [list clevis tpm2 config](#list-clevis-tpm2-config)
@@ -88,6 +89,84 @@ cryptsetup luksUUID /dev/sdX1 --uuid "xxxxxxxx-yyyy-zzzz-wwww-aaaaaaaaaaaa"
 - install gnome disks `apt-get install gnome-disk-utility`
 - start `gnome-disks`
 - choose luks partition then click on *gear* icon and select *Change passphrase*
+
+
+## autodecrypt using TPM2 NEW
+
+- test with kubuntu desktop 26.04
+- install the system and choose disk encryption inserting a passphrase
+- after install boot entering passphrase
+- 
+- get some security info
+
+```sh
+fwupdmgr security
+```
+
+- install some tools
+
+```sh
+sudo apt install dracut tpm2-tools --autoremove --purge
+```
+
+- locate the encrypted disk
+
+```sh
+blkid | grep -i "crypto_LUKS"
+```
+
+- enroll
+
+```sh
+sudo systemd-cryptenroll --tpm2-device=auto --tpm2-pcrs=7,8 /dev/DISK
+```
+
+if want to see some slot already used for enrollment just use
+
+```sh
+root@pc:~# systemd-cryptenroll 
+No device specified, defaulting to '/dev/DISK'.
+SLOT TYPE    
+   0 password
+   1 tpm2
+```
+
+if want to delete an enrolled slot
+
+```sh
+systemd-cryptenroll --wipe-slot=1 /dev/DISK
+```
+
+- edit crypttab
+
+```sh
+nano /etc/crypttab
+```
+
+adding `luks,tpm2-device=auto`
+
+```
+cryptroot UUID=YOUR-DRIVE-UUID none luks,tpm2-device=auto
+```
+
+- edit dracut
+
+```sh
+nano /etc/dracut.conf.d/tpm2.conf
+```
+
+and paste
+
+```
+hostonly="yes"
+add_dracutmodules+=" tpm2-tss "
+```
+
+- finally gen dracut
+
+```sh
+sudo dracut -f --regenerate-all
+```
 
 ## autodecrypt using TPM2
 

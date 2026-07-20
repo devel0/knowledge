@@ -9,6 +9,7 @@ references for linux admin and development
   - [typescript / javascript](#typescript--javascript)
   - [css](#css)
   - [csharp](#csharp)
+  - [cpp](#cpp)
   - [networking](#networking)
 - [csharp](#csharp-1)
 - [shell](#shell)
@@ -63,6 +64,10 @@ references for linux admin and development
 - [angular what does it do ngModel underneath](./ai-doc/angular_what_does_it_do_ngmodel_underneath_1775555382319.pdf)
 - [angular difference between #name of a element and id](./ai-doc/angular_difference_between_name_of_a_element_and__1776166353953.pdf)
 - [angular add layer to leaflet map without using external libraries but leaflet one](./ai-doc/angular_add_layer_to_leaflet_map_without_using_ext_1776166441014.pdf)
+- [angular semaphore slim](./ai-doc/angular_semaphore_slim_1776248993234.pdf)
+- [angular production include sourcode map](./ai-doc/angular_production_include_sourcecode_map_1777884395781.pdf)
+- [angular define local component scss variables at runtime](./ai-doc/angular_define_local_component_scss_variables_at_r_1782390396587.pdf)
+- [angular set a scss variable of a class applied to an element using ViewChild](./ai-doc/angular_set_a_scss_variable_of_a_class_applied_to__1782395646196.pdf)
 
 ### typescript / javascript
 
@@ -72,6 +77,7 @@ references for linux admin and development
 - [typescript invoke static method using this](./ai-doc/typescript_invoke_static_method_using_this_1767539566288.pdf)
 - [typescript parse json date only string YYYY-MM-DD to date object assuming italy timezone with time 00:00](./ai-doc/typescript_parse_json_date_only_string_yyyy-mm-dd__1767544074477.pdf)
 - [typescript create ICAL event with location latitude and longitude](./ai-doc/typescript_create_ical_event_with_location_latitud_1767696589711.pdf)
+- [typescript convert day month year to full iso date and time given a timezone](./ai-doc/typescript_convert_day_month_year_to_full_iso_date_1777013828762.pdf)
 - [javascript mousemove get coordinates relative to a div](./ai-doc/javascript_mousemove_get_coordinates_relative_to_a_1770470561529.pdf)
 - [javascript intercept all console error](./ai-doc/javascript_intercept_all_console_error_1772013997365.pdf)
 
@@ -97,11 +103,18 @@ references for linux admin and development
 - [csharp compute md5sum from given stream](./ai-doc/csharp_compute_md5sum_from_given_stream_1770368706871.pdf)
 - [csharp asp net core specify different cors for controller](./ai-doc/csharp_asp_net_core_specify_different_cors_for_con_1772030784159.pdf)
 - [asp net core controller return File from memoryStream](./ai-doc/asp_net_core_controller_return_file_from_memorystr_1772704313004.pdf)
+- [csharp DllImport with function that returns an array of struct objects counted with a returned number by pointer](./ai-doc/csharp_dllimport_with_function_that_returns_an_arr_1778240167360.pdf)
+- [csharp struct of 6 bytes size where each bit is named for some status purpose](./ai-doc/csharp_struct_of_6_bytes_size_where_each_bit_is_na_1784288297227.pdf)
+- [csharp system.text.json parse json with an array of objects as a property but allowing also an empty string to be equivalent as an empty array](./ai-doc/csharp_systemtextjson_parse_json_with_an_array_o_1777538394618.pdf)
+
+### cpp
+- [cplusplus simple linux Makefile to build main.cpp using existing so library](./ai-doc/cplusplus_simple_linux_makefile_to_build_maincpp__1778224235592.pdf)
 
 ### networking
 
 - [make curl with cors](./ai-doc/make_curl_with_cors_1771683747275.pdf)
 - [curl check if a url request cors](./ai-doc/curl_check_if_a_url_request_cors_1772443932948.pdf)
+- [linux send email from commandline using smtp 587](./ai-doc/linux_send_email_from_commandline_using_smtp_587_1780914279046.pdf)
 
 <hr/>
 
@@ -157,6 +170,7 @@ references for linux admin and development
   - [bash scripting](doc/bash-scripting.md)
   - [bash locale](doc/bash-locale.md)
   - [prompt colors](doc/prompt-colors.md)
+  - [ls colors](doc/ls-colors.md)
 - executing dir in bash script `exdir=$(dirname "$(readlink -f "$BASH_SOURCE")")`
 - text screencast
   - [ttyrec ttygif](doc/ttyrec-ttygif.md)
@@ -392,6 +406,7 @@ references for linux admin and development
 
 ## linux
 
+- [cpu bench](./doc/cpu-bench.md)
 - server
   - [quick and dirty virtualized vlan os install notes](doc/quick-and-dirty-virtualized-vlan-server-install.md)
   - [quick and dirty os install notes](doc/quick-and-dirty-server-install-notes.md)  
@@ -413,6 +428,8 @@ references for linux admin and development
   - [nfs4 acl](doc/nfs4-acl.md)
   - [chroot env](doc/chroot-env.md)
   - [rescue notes](doc/rescue.md)
+- desktop
+  - [kubuntu 26.04 post install](./doc/kubuntu-desktop-26.04-post-install.md)
 - kde
   - [disable input method completion](doc/kde-disable-input-method-completion.md)
 - gnome
