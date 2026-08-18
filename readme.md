@@ -428,6 +428,7 @@ references for linux admin and development
   - [nfs4 acl](doc/nfs4-acl.md)
   - [chroot env](doc/chroot-env.md)
   - [rescue notes](doc/rescue.md)
+  - free up buff/cache `echo 3 > /proc/sys/vm/drop_caches`
 - desktop
   - [kubuntu 26.04 post install](./doc/kubuntu-desktop-26.04-post-install.md)
 - kde
