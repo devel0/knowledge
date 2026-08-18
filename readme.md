@@ -471,9 +471,9 @@ references for linux admin and development
   - retrieve list of upgradable packages `apt list --upgradable`
   - retrieve version current and older `apt-cache policy package`
   - install old version `apt-get install package=version`
-- processes  
+- processes    
   - show process memory graph `smem --pie=name`
-  - [process management](doc/process-management.md) 
+  - [process management](doc/process-management.md) ( process swap memory usage )
   - [autorespawn process using supervisor](doc/supervisor.md)
   - show memoy usage `smem --pie name -s rss`
 - ubuntu tune
