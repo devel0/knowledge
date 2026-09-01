@@ -429,6 +429,7 @@ references for linux admin and development
   - [chroot env](doc/chroot-env.md)
   - [rescue notes](doc/rescue.md)
   - free up buff/cache `echo 3 > /proc/sys/vm/drop_caches`
+  - [purge old kernels](https://askubuntu.com/a/1450263)
 - desktop
   - [kubuntu 26.04 post install](./doc/kubuntu-desktop-26.04-post-install.md)
 - kde
