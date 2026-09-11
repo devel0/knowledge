@@ -352,7 +352,6 @@ references for linux admin and development
 ## sysadm
 
 - [backup imap](https://github.com/joeyates/imap-backup)
-- [boot win phydisk](./doc/virt-manager-boot-win-phydisk.md)
 
 ## networking
 
@@ -493,6 +492,7 @@ references for linux admin and development
   - [virsh tips and backup](doc/virsh.md)
   - [virtualbox](doc/virtualbox.md)
   - [virsh qemu connect physical disk](doc/virsh-qemu-connect-physical-disk.md)
+  - [boot win phydisk](./doc/virt-manager-boot-win-phydisk.md)
   - [set virtualbox guest motherboard-cpu-id](doc/virtualbox-motherboard-cpu-id.md)
   - copy qcow2 over network `rsync --sparse --inplace -zv --progress src.qcow2 dst:folder`
 - remove desktop
