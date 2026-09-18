@@ -36,6 +36,7 @@ references for linux admin and development
 
 ### angular
 
+- [angular wait rxjs var until a value matches](./ai-doc/angular_wait_rxjs_var_until_a_value_matches_1784796274403.pdf)
 - [angular copy to clipboard](./ai-doc/angular_copy_to_clipboard_1771766020295.pdf)
 - [angular rxjs best practice change field of an object directly on the behaviorsubject then call next or work on a clone then next](./ai-doc/angular_rxjs_best_practice_change_field_of_an_obje_1766506347476.pdf)
 - [angular set multiple behaviorsubject at once](./ai-doc/angular_set_multiple_behaviorsubject_at_once_1766509354111.pdf)
@@ -88,6 +89,9 @@ references for linux admin and development
 
 ### csharp
   
+- [csharp add to a cancellable async call a cancellation token with timeout to existing cancellation token using linked token but catch only if operation timeout cames from the addictional cancellation token](./ai-doc/csharp_add_to_a_cancellable_async_call_a_cancellat_1785409125149.pdf)
+- [csharp ef core when create an entity that refer another entity how to pass the referred entity by id if the object model doesn't refer the id but only the related object because the id field in database implicitly created as relationship](./ai-doc/csharp_ef_core_when_create_an_entity_that_refer_an_1789111172781.pdf)
+- [csharp difference between CreateScope and CreateScopeAsync](./ai-doc/csharp_difference_between_createscope_and_createsc_1789480485990.pdf)
 - [csharp language features from 9 to 14 with code example](./ai-doc/csharp_language_features_from_9_to_14_with_code_ex_1768737987362.pdf)
 - [c# parse month name with italian locale](./ai-doc/c_parse_month_name_with_italian_locale_1767025821113.pdf)
 - [dotnet build pass a variabile to use in csproj Condition](./ai-doc/dotnet_build_pass_a_variabile_to_use_in_csproj_con_1768642618009.pdf)
