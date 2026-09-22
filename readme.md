@@ -471,7 +471,7 @@ references for linux admin and development
 - [draftsight open dxf](doc/draftsight-open-with-dxf.md)
 - packages
   - [packages build dep](doc/build-dep.md)  
-  - [dpkg](doc/dpkg.md)  
+  - [dpkg and package source](doc/dpkg.md)  
   - upgrade single package `apt-get install --only-upgrade package`  
   - retrieve list of upgradable packages `apt list --upgradable`
   - retrieve version current and older `apt-cache policy package`
