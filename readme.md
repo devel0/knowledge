@@ -433,6 +433,7 @@ references for linux admin and development
   - [rescue notes](doc/rescue.md)
   - free up buff/cache `echo 3 > /proc/sys/vm/drop_caches`
   - [purge old kernels](https://askubuntu.com/a/1450263)
+  - [disable kde graphical ask pass](./doc/kde-disable-ask-pass.md)
 - desktop
   - [kubuntu 26.04 post install](./doc/kubuntu-desktop-26.04-post-install.md)
 - kde
