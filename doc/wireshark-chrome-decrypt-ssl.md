@@ -15,4 +15,20 @@ close instances of chrome and restart from same terminal, or restablish session 
 
 ## setup wireshark ssl premaster key
 
-- edit / preferences / protocols / ssl / (Pre)-Master-Secret log filename to `~/security/sslkeylog.log`
+- edit / preferences / protocols / ssl or tls / (Pre)-Master-Secret log filename to `~/security/sslkeylog.log`
+
+## record key for a dotnet app
+
+edit the `someapp.runtimeconfig.json` setting
+
+```json
+{
+    "runtimeOptions": {
+        "configProperties": {
+            "System.Net.EnableSslKeyLogging": true
+        }
+    }
+}
+```
+
+- reference : https://devblogs.microsoft.com/dotnet/dotnet-9-networking-improvements/
