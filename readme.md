@@ -11,6 +11,7 @@ references for linux admin and development
   - [csharp](#csharp)
   - [cpp](#cpp)
   - [networking](#networking)
+  - [linux](#linux)
 - [csharp](#csharp-1)
 - [shell](#shell)
 - [development tools](#development-tools)
@@ -24,7 +25,7 @@ references for linux admin and development
 - [sysadm](#sysadm)
 - [networking](#networking-1)
 - [python](#python)
-- [linux](#linux)
+- [linux](#linux-1)
 - [security](#security)
 - [mobile native](#mobile-native)
 - [tools](#tools)
@@ -119,6 +120,10 @@ references for linux admin and development
 - [make curl with cors](./ai-doc/make_curl_with_cors_1771683747275.pdf)
 - [curl check if a url request cors](./ai-doc/curl_check_if_a_url_request_cors_1772443932948.pdf)
 - [linux send email from commandline using smtp 587](./ai-doc/linux_send_email_from_commandline_using_smtp_587_1780914279046.pdf)
+
+### linux
+
+- [linux btrfs report size progressive of each snapshot](https://docs.google.com/document/d/1Ypt6VcIzpDvup-f0Eo87Qu6b6-Fupon1wxgBCJm9M5c/edit?usp=drive_link)
 
 <hr/>
 
